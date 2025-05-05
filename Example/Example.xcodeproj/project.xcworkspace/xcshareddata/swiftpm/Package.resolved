@@ -1,0 +1,15 @@
+{
+  "originHash" : "33855d8e803b063bbab51dadc735f071fce36b99b8be0b7a4883c4ef4d2f5fd0",
+  "pins" : [
+    {
+      "identity" : "symbol-extension",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ootake/symbol-extension",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "5d6e1a8e1cee42537722ff227dd4599f4fa5bcd5"
+      }
+    }
+  ],
+  "version" : 3
+}
