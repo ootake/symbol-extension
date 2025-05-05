@@ -22,7 +22,6 @@ public struct SymbolExtension: RawRepresentable, Equatable {
 public extension Image {
     init(symbol: SymbolExtension) {
         self = Image(systemName: symbol.rawValue)
-        
     }
 }
 

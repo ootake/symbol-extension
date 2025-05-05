@@ -1516,4 +1516,5 @@ public extension SymbolExtension {
     static let z_circle_fill: SymbolExtension = SymbolExtension(rawValue: "z.circle.fill")
     static let z_square: SymbolExtension = SymbolExtension(rawValue: "z.square")
     static let z_square_fill: SymbolExtension = SymbolExtension(rawValue: "z.square.fill")
-    static let zzz: SymbolExtension = SymbolExtension(rawValue: "zzz")}
+    static let zzz: SymbolExtension = SymbolExtension(rawValue: "zzz")
+}
