@@ -9,6 +9,32 @@ import Foundation
 
 @available(iOS 17.4, macOS 14.4, *)
 public extension SymbolExtension {
+    static let iOS17_4: [SymbolExtension] = [
+        apple_meditate,
+        apple_meditate_square_stack,
+        apple_meditate_square_stack_fill,
+        apple_terminal_circle,
+        apple_terminal_circle_fill,
+        arrow_down_app_dashed,
+        arrow_down_app_dashed_trianglebadge_exclamationmark,
+        audio_jack_mono,
+        audio_jack_stereo,
+        ipad_badge_exclamationmark,
+        ipad_gen1_badge_exclamationmark,
+        ipad_gen1_landscape_badge_exclamationmark,
+        ipad_gen2_badge_exclamationmark,
+        ipad_gen2_landscape_badge_exclamationmark,
+        ipad_landscape_badge_exclamationmark,
+        iphone_badge_exclamationmark,
+        iphone_gen1_badge_exclamationmark,
+        iphone_gen2_badge_exclamationmark,
+        iphone_gen3_badge_exclamationmark,
+        medal_star,
+        medal_star_fill,
+        plus_circle_dashed,
+        translate
+    ]
+
     static let apple_meditate: SymbolExtension = SymbolExtension(rawValue: "apple.meditate")
     static let apple_meditate_square_stack: SymbolExtension = SymbolExtension(rawValue: "apple.meditate.square.stack")
     static let apple_meditate_square_stack_fill: SymbolExtension = SymbolExtension(rawValue: "apple.meditate.square.stack.fill")

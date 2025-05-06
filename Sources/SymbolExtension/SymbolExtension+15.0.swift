@@ -9,22 +9,672 @@ import Foundation
 
 @available(iOS 15.0, macOS 12.0, *)
 public extension SymbolExtension {
-    static let _123_rectangle: SymbolExtension = SymbolExtension(rawValue: "123.rectangle")
-    static let _123_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "123.rectangle.fill")
+    static let iOS15_0: [SymbolExtension] = [
+        airplane_arrival,
+        airplane_departure,
+        airpods_chargingcase,
+        airpods_chargingcase_fill,
+        airpods_chargingcase_wireless,
+        airpods_chargingcase_wireless_fill,
+        airtag,
+        airtag_fill,
+        airtag_radiowaves_forward,
+        airtag_radiowaves_forward_fill,
+        align_horizontal_center,
+        align_horizontal_center_fill,
+        align_horizontal_left,
+        align_horizontal_left_fill,
+        align_horizontal_right,
+        align_horizontal_right_fill,
+        align_vertical_bottom,
+        align_vertical_bottom_fill,
+        align_vertical_center,
+        align_vertical_center_fill,
+        align_vertical_top,
+        align_vertical_top_fill,
+        allergens,
+        alternatingcurrent,
+        antenna_radiowaves_left_and_right_circle,
+        antenna_radiowaves_left_and_right_circle_fill,
+        antenna_radiowaves_left_and_right_slash,
+        app_badge_checkmark,
+        app_badge_checkmark_fill,
+        app_connected_to_app_below_fill,
+        app_dashed,
+        applepencil,
+        appletvremote_gen1,
+        appletvremote_gen1_fill,
+        appletvremote_gen2,
+        appletvremote_gen2_fill,
+        appletvremote_gen3,
+        appletvremote_gen3_fill,
+        appletvremote_gen4,
+        appletvremote_gen4_fill,
+        arkit_badge_xmark,
+        arrow_backward_to_line,
+        arrow_backward_to_line_circle,
+        arrow_backward_to_line_circle_fill,
+        arrow_down_to_line_circle,
+        arrow_down_to_line_circle_fill,
+        arrow_down_to_line_compact,
+        arrow_forward_to_line,
+        arrow_forward_to_line_circle,
+        arrow_forward_to_line_circle_fill,
+        arrow_left_to_line_circle,
+        arrow_left_to_line_circle_fill,
+        arrow_left_to_line_compact,
+        arrow_right_to_line_circle,
+        arrow_right_to_line_circle_fill,
+        arrow_right_to_line_compact,
+        arrow_up_to_line_circle,
+        arrow_up_to_line_circle_fill,
+        arrow_up_to_line_compact,
+        arrowtriangle_left_and_line_vertical_and_arrowtriangle_right_fill,
+        arrowtriangle_right_and_line_vertical_and_arrowtriangle_left_fill,
+        asterisk,
+        backward_circle,
+        backward_circle_fill,
+        beats_earphones,
+        beats_headphones,
+        beats_powerbeats,
+        beats_powerbeats3,
+        beats_studiobuds,
+        beats_studiobuds_chargingcase,
+        beats_studiobuds_chargingcase_fill,
+        bed_double_circle,
+        bed_double_circle_fill,
+        bell_badge_circle,
+        bell_badge_circle_fill,
+        bell_square,
+        bell_square_fill,
+        bolt_batteryblock,
+        bolt_batteryblock_fill,
+        bolt_car_circle,
+        bolt_car_circle_fill,
+        bolt_shield,
+        bolt_shield_fill,
+        bolt_square,
+        bolt_square_fill,
+        book_closed_circle,
+        book_closed_circle_fill,
+        bookmark_square,
+        bookmark_square_fill,
+        books_vertical_circle,
+        books_vertical_circle_fill,
+        brain,
+        brain_head_profile,
+        briefcase_circle,
+        briefcase_circle_fill,
+        bubble_left_and_exclamationmark_bubble_right,
+        bubble_left_and_exclamationmark_bubble_right_fill,
+        bubble_left_circle,
+        bubble_left_circle_fill,
+        bubble_right_circle,
+        bubble_right_circle_fill,
+        building_columns_circle,
+        building_columns_circle_fill,
+        cable_connector,
+        cable_connector_horizontal,
+        cablecar,
+        cablecar_fill,
+        calendar_day_timeline_leading,
+        calendar_day_timeline_left,
+        calendar_day_timeline_right,
+        calendar_day_timeline_trailing,
+        camera_shutter_button,
+        camera_shutter_button_fill,
+        capsule_bottomhalf_filled,
+        capsule_lefthalf_filled,
+        capsule_portrait_bottomhalf_filled,
+        capsule_portrait_lefthalf_filled,
+        capsule_portrait_righthalf_filled,
+        capsule_portrait_tophalf_filled,
+        capsule_righthalf_filled,
+        capsule_tophalf_filled,
+        car_ferry,
+        car_ferry_fill,
+        chart_line_uptrend_xyaxis,
+        chart_line_uptrend_xyaxis_circle,
+        chart_line_uptrend_xyaxis_circle_fill,
+        chart_xyaxis_line,
+        checklist,
+        checkmark_bubble,
+        checkmark_bubble_fill,
+        checkmark_circle_trianglebadge_exclamationmark,
+        checkmark_diamond,
+        checkmark_diamond_fill,
+        chevron_left_forwardslash_chevron_right,
+        circle_and_line_horizontal,
+        circle_and_line_horizontal_fill,
+        circle_bottomhalf_filled,
+        circle_dotted,
+        circle_grid_2x1,
+        circle_grid_2x1_fill,
+        circle_grid_2x1_left_filled,
+        circle_grid_2x1_right_filled,
+        circle_grid_3x3_circle,
+        circle_grid_3x3_circle_fill,
+        circle_grid_cross_down_filled,
+        circle_grid_cross_left_filled,
+        circle_grid_cross_right_filled,
+        circle_grid_cross_up_filled,
+        circle_hexagongrid,
+        circle_hexagongrid_circle,
+        circle_hexagongrid_circle_fill,
+        circle_hexagongrid_fill,
+        circle_hexagonpath,
+        circle_hexagonpath_fill,
+        circle_lefthalf_filled,
+        circle_righthalf_filled,
+        circle_slash,
+        circle_slash_fill,
+        circle_square_fill,
+        circle_tophalf_filled,
+        clock_badge_checkmark,
+        clock_badge_checkmark_fill,
+        clock_badge_exclamationmark,
+        clock_badge_exclamationmark_fill,
+        clock_circle,
+        clock_circle_fill,
+        computermouse,
+        computermouse_fill,
+        cpu_fill,
+        creditcard_and_123,
+        creditcard_trianglebadge_exclamationmark,
+        cross_vial,
+        cross_vial_fill,
+        cup_and_saucer,
+        cup_and_saucer_fill,
+        delete_backward,
+        delete_backward_fill,
+        delete_forward,
+        delete_forward_fill,
+        desktopcomputer_and_arrow_down,
+        desktopcomputer_trianglebadge_exclamationmark,
+        diamond_bottomhalf_filled,
+        diamond_circle,
+        diamond_circle_fill,
+        diamond_lefthalf_filled,
+        diamond_righthalf_filled,
+        diamond_tophalf_filled,
+        dice,
+        dice_fill,
+        digitalcrown_arrow_clockwise,
+        digitalcrown_arrow_clockwise_fill,
+        digitalcrown_arrow_counterclockwise,
+        digitalcrown_arrow_counterclockwise_fill,
+        digitalcrown_horizontal_arrow_clockwise,
+        digitalcrown_horizontal_arrow_clockwise_fill,
+        digitalcrown_horizontal_arrow_counterclockwise,
+        digitalcrown_horizontal_arrow_counterclockwise_fill,
+        digitalcrown_horizontal_press,
+        digitalcrown_horizontal_press_fill,
+        digitalcrown_press,
+        digitalcrown_press_fill,
+        display_and_arrow_down,
+        dot_circle_and_hand_point_up_left_fill,
+        dot_circle_viewfinder,
+        dot_radiowaves_up_forward,
+        dot_viewfinder,
+        dpad_down_filled,
+        dpad_left_filled,
+        dpad_right_filled,
+        dpad_up_filled,
+        drop_circle,
+        drop_circle_fill,
+        earbuds,
+        earbuds_case,
+        earbuds_case_fill,
+        ellipsis_curlybraces,
+        ellipsis_vertical_bubble,
+        ellipsis_vertical_bubble_fill,
+        envelope_badge_shield_half_filled,
+        envelope_badge_shield_half_filled_fill,
+        exclamationmark_bubble_circle,
+        exclamationmark_bubble_circle_fill,
+        eye_slash_circle,
+        eye_slash_circle_fill,
+        eye_square,
+        eye_square_fill,
+        eye_trianglebadge_exclamationmark,
+        eye_trianglebadge_exclamationmark_fill,
+        facemask,
+        facemask_fill,
+        ferry,
+        ferry_fill,
+        fibrechannel,
+        figure_roll,
+        film_circle,
+        film_circle_fill,
+        flag_2_crossed,
+        flag_2_crossed_fill,
+        flag_and_flag_filled_crossed,
+        flag_filled_and_flag_crossed,
+        flag_square,
+        flag_square_fill,
+        flame_circle,
+        flame_circle_fill,
+        folder_badge_gearshape,
+        folder_fill_badge_gearshape,
+        fork_knife,
+        fork_knife_circle,
+        fork_knife_circle_fill,
+        forward_circle,
+        forward_circle_fill,
+        fuelpump,
+        fuelpump_circle,
+        fuelpump_circle_fill,
+        fuelpump_fill,
+        gear_badge_checkmark,
+        gear_badge_questionmark,
+        gear_badge_xmark,
+        gear_circle,
+        gear_circle_fill,
+        gearshape_circle,
+        gearshape_circle_fill,
+        globe_americas,
+        globe_americas_fill,
+        globe_asia_australia,
+        globe_asia_australia_fill,
+        globe_badge_chevron_backward,
+        globe_europe_africa,
+        globe_europe_africa_fill,
+        graduationcap_circle,
+        graduationcap_circle_fill,
+        h_square_on_square_fill,
+        hammer_circle,
+        hammer_circle_fill,
+        hand_raised_circle,
+        hand_raised_circle_fill,
+        hand_raised_square,
+        hand_raised_square_fill,
+        hand_raised_square_on_square,
+        hand_raised_square_on_square_fill,
+        hand_thumbsdown_circle,
+        hand_thumbsdown_circle_fill,
+        hand_thumbsup_circle,
+        hand_thumbsup_circle_fill,
+        hearingdevice_ear,
+        heart_rectangle,
+        heart_rectangle_fill,
+        heart_square,
+        heart_square_fill,
+        hexagon_bottomhalf_filled,
+        hexagon_lefthalf_filled,
+        hexagon_righthalf_filled,
+        hexagon_tophalf_filled,
+        hifispeaker_and_appletv,
+        hifispeaker_and_appletv_fill,
+        homepod_and_appletv,
+        homepod_and_appletv_fill,
+        homepodmini_and_appletv,
+        homepodmini_and_appletv_fill,
+        hourglass_bottomhalf_filled,
+        hourglass_circle,
+        hourglass_circle_fill,
+        hourglass_tophalf_filled,
+        humidity,
+        humidity_fill,
+        icloud_square,
+        icloud_square_fill,
+        ipad_and_arrow_forward,
+        ipad_rear_camera,
+        iphone_circle,
+        iphone_circle_fill,
+        iphone_radiowaves_left_and_right_circle,
+        iphone_radiowaves_left_and_right_circle_fill,
+        iphone_rear_camera,
+        iphone_slash_circle,
+        iphone_slash_circle_fill,
+        iphone_smartbatterycase_gen1,
+        iphone_smartbatterycase_gen2,
+        ivfluid_bag,
+        ivfluid_bag_fill,
+        j_square_on_square_fill,
+        keyboard_fill,
+        l_joystick_press_down,
+        l_joystick_press_down_fill,
+        l_joystick_tilt_down,
+        l_joystick_tilt_down_fill,
+        l_joystick_tilt_left,
+        l_joystick_tilt_left_fill,
+        l_joystick_tilt_right,
+        l_joystick_tilt_right_fill,
+        l_joystick_tilt_up,
+        l_joystick_tilt_up_fill,
+        lanyardcard,
+        lanyardcard_fill,
+        laptopcomputer_and_arrow_down,
+        laptopcomputer_trianglebadge_exclamationmark,
+        leaf_circle,
+        leaf_circle_fill,
+        lightbulb_circle,
+        lightbulb_circle_fill,
+        line_2_horizontal_decrease_circle,
+        line_2_horizontal_decrease_circle_fill,
+        line_3_horizontal,
+        line_3_horizontal_circle,
+        line_3_horizontal_circle_fill,
+        line_3_horizontal_decrease,
+        line_3_horizontal_decrease_circle,
+        line_3_horizontal_decrease_circle_fill,
+        lines_measurement_horizontal,
+        list_bullet_circle,
+        list_bullet_circle_fill,
+        list_bullet_rectangle_fill,
+        list_bullet_rectangle_portrait,
+        list_bullet_rectangle_portrait_fill,
+        list_dash_header_rectangle,
+        location_magnifyingglass,
+        location_north_circle,
+        location_north_circle_fill,
+        location_square,
+        location_square_fill,
+        lock_desktopcomputer,
+        lock_display,
+        lock_ipad,
+        lock_iphone,
+        lock_laptopcomputer,
+        lock_open_applewatch,
+        lock_open_desktopcomputer,
+        lock_open_display,
+        lock_open_ipad,
+        lock_open_iphone,
+        lock_open_laptopcomputer,
+        macpro_gen1_fill,
+        macpro_gen3_fill,
+        magazine,
+        magazine_fill,
+        magicmouse,
+        magicmouse_fill,
+        magsafe_batterypack,
+        magsafe_batterypack_fill,
+        map_circle,
+        map_circle_fill,
+        mappin_slash_circle,
+        mappin_slash_circle_fill,
+        mappin_square,
+        mappin_square_fill,
+        mediastick,
+        memorychip_fill,
+        menucard,
+        menucard_fill,
+        minus_forwardslash_plus,
+        music_note_tv,
+        music_note_tv_fill,
+        network_badge_shield_half_filled,
+        newspaper_circle,
+        newspaper_circle_fill,
+        octagon_bottomhalf_filled,
+        octagon_lefthalf_filled,
+        octagon_righthalf_filled,
+        octagon_tophalf_filled,
+        oval_bottomhalf_filled,
+        oval_lefthalf_filled,
+        oval_portrait_bottomhalf_filled,
+        oval_portrait_lefthalf_filled,
+        oval_portrait_righthalf_filled,
+        oval_portrait_tophalf_filled,
+        oval_righthalf_filled,
+        oval_tophalf_filled,
+        parentheses,
+        parkingsign,
+        parkingsign_circle,
+        parkingsign_circle_fill,
+        pawprint,
+        pawprint_circle,
+        pawprint_circle_fill,
+        pawprint_fill,
+        peacesign,
+        pentagon,
+        pentagon_bottomhalf_filled,
+        pentagon_fill,
+        pentagon_lefthalf_filled,
+        pentagon_righthalf_filled,
+        pentagon_tophalf_filled,
+        person_2_crop_square_stack,
+        person_2_crop_square_stack_fill,
+        person_2_wave_2,
+        person_2_wave_2_fill,
+        person_3_sequence,
+        person_3_sequence_fill,
+        person_badge_clock,
+        person_badge_clock_fill,
+        person_crop_artframe,
+        person_crop_circle_badge,
+        person_crop_circle_badge_clock,
+        person_crop_circle_badge_clock_fill,
+        person_crop_circle_badge_exclamationmark_fill,
+        person_crop_circle_badge_fill,
+        person_crop_circle_badge_moon,
+        person_crop_circle_badge_moon_fill,
+        person_crop_circle_badge_questionmark_fill,
+        person_crop_rectangle_stack,
+        person_crop_rectangle_stack_fill,
+        person_crop_square_filled_and_at_rectangle,
+        person_crop_square_filled_and_at_rectangle_fill,
+        person_text_rectangle,
+        person_text_rectangle_fill,
+        person_wave_2,
+        person_wave_2_fill,
+        personalhotspot_circle,
+        personalhotspot_circle_fill,
+        photo_artframe,
+        photo_circle,
+        photo_circle_fill,
+        pills_circle,
+        pills_circle_fill,
+        pin_square,
+        pin_square_fill,
+        platter_2_filled_ipad,
+        platter_2_filled_ipad_landscape,
+        platter_2_filled_iphone,
+        platter_2_filled_iphone_landscape,
+        platter_bottom_applewatch_case,
+        platter_filled_bottom_applewatch_case,
+        platter_filled_top_applewatch_case,
+        platter_top_applewatch_case,
+        play_rectangle_on_rectangle,
+        play_rectangle_on_rectangle_circle,
+        play_rectangle_on_rectangle_circle_fill,
+        play_rectangle_on_rectangle_fill,
+        play_square,
+        play_square_fill,
+        plus_forwardslash_minus,
+        plus_rectangle_on_folder_fill,
+        plus_square_dashed,
+        point_3_connected_trianglepath_dotted,
+        point_3_filled_connected_trianglepath_dotted,
+        power_circle,
+        power_circle_fill,
+        power_dotted,
+        powerplug,
+        powerplug_fill,
+        printer_dotmatrix_filled_and_paper,
+        printer_filled_and_paper,
+        puzzlepiece_extension,
+        puzzlepiece_extension_fill,
+        questionmark_app,
+        questionmark_app_dashed,
+        questionmark_app_fill,
+        quote_closing,
+        quote_opening,
+        r_joystick_press_down,
+        r_joystick_press_down_fill,
+        r_joystick_tilt_down,
+        r_joystick_tilt_down_fill,
+        r_joystick_tilt_left,
+        r_joystick_tilt_left_fill,
+        r_joystick_tilt_right,
+        r_joystick_tilt_right_fill,
+        r_joystick_tilt_up,
+        r_joystick_tilt_up_fill,
+        r_square_on_square_fill,
+        rectangle_2_swap,
+        rectangle_3_group,
+        rectangle_3_group_fill,
+        rectangle_and_hand_point_up_left,
+        rectangle_and_hand_point_up_left_fill,
+        rectangle_and_hand_point_up_left_filled,
+        rectangle_bottomhalf_filled,
+        rectangle_filled_and_hand_point_up_left,
+        rectangle_lefthalf_filled,
+        rectangle_on_rectangle_circle,
+        rectangle_on_rectangle_circle_fill,
+        rectangle_on_rectangle_slash_circle,
+        rectangle_on_rectangle_slash_circle_fill,
+        rectangle_on_rectangle_slash_fill,
+        rectangle_on_rectangle_square,
+        rectangle_on_rectangle_square_fill,
+        rectangle_portrait_and_arrow_right,
+        rectangle_portrait_and_arrow_right_fill,
+        rectangle_portrait_bottomhalf_filled,
+        rectangle_portrait_lefthalf_filled,
+        rectangle_portrait_on_rectangle_portrait,
+        rectangle_portrait_on_rectangle_portrait_fill,
+        rectangle_portrait_on_rectangle_portrait_slash,
+        rectangle_portrait_on_rectangle_portrait_slash_fill,
+        rectangle_portrait_righthalf_filled,
+        rectangle_portrait_slash,
+        rectangle_portrait_slash_fill,
+        rectangle_portrait_split_2x1,
+        rectangle_portrait_split_2x1_fill,
+        rectangle_portrait_split_2x1_slash,
+        rectangle_portrait_split_2x1_slash_fill,
+        rectangle_portrait_tophalf_filled,
+        rectangle_righthalf_filled,
+        rectangle_split_2x1_slash,
+        rectangle_split_2x1_slash_fill,
+        rectangle_stack_badge_person_crop_fill,
+        rectangle_stack_badge_play,
+        rectangle_stack_badge_play_fill,
+        rectangle_tophalf_filled,
+        restart_circle_fill,
+        return_left,
+        return_right,
+        scissors_circle,
+        scissors_circle_fill,
+        scooter,
+        screwdriver,
+        screwdriver_fill,
+        sensor_tag_radiowaves_forward,
+        sensor_tag_radiowaves_forward_fill,
+        shareplay,
+        shareplay_slash,
+        shield_lefthalf_filled,
+        shield_lefthalf_filled_slash,
+        shield_righthalf_filled,
+        shippingbox_circle,
+        shippingbox_circle_fill,
+        sleep_circle,
+        sleep_circle_fill,
+        slider_horizontal_below_square_filled_and_square,
+        smallcircle_filled_circle,
+        smallcircle_filled_circle_fill,
+        snowflake,
+        snowflake_circle,
+        snowflake_circle_fill,
+        sparkle_magnifyingglass,
+        sparkles_square_filled_on_square,
+        sparkles_tv,
+        sparkles_tv_fill,
+        speaker_badge_exclamationmark,
+        speaker_badge_exclamationmark_fill,
+        speaker_circle,
+        speaker_circle_fill,
+        square_and_arrow_up_circle,
+        square_and_arrow_up_circle_fill,
+        square_and_arrow_up_trianglebadge_exclamationmark,
+        square_and_at_rectangle_fill,
+        square_and_line_vertical_and_square_filled,
+        square_bottomhalf_filled,
+        square_fill_and_line_vertical_and_square_fill,
+        square_filled_and_line_vertical_and_square,
+        square_filled_on_square,
+        square_grid_3x1_below_line_grid_1x2_fill,
+        square_grid_3x3_bottomleft_filled,
+        square_grid_3x3_bottommiddle_filled,
+        square_grid_3x3_bottomright_filled,
+        square_grid_3x3_middle_filled,
+        square_grid_3x3_middleleft_filled,
+        square_grid_3x3_middleright_filled,
+        square_grid_3x3_square,
+        square_grid_3x3_topleft_filled,
+        square_grid_3x3_topmiddle_filled,
+        square_grid_3x3_topright_filled,
+        square_lefthalf_filled,
+        square_righthalf_filled,
+        square_text_square,
+        square_text_square_fill,
+        square_tophalf_filled,
+        star_bubble,
+        star_bubble_fill,
+        star_leadinghalf_filled,
+        stethoscope_circle,
+        stethoscope_circle_fill,
+        suitcase,
+        suitcase_cart,
+        suitcase_cart_fill,
+        suitcase_fill,
+        sun_max_circle,
+        sun_max_circle_fill,
+        tablecells_fill_badge_ellipsis,
+        tag_square,
+        tag_square_fill,
+        takeoutbag_and_cup_and_straw,
+        takeoutbag_and_cup_and_straw_fill,
+        teletype_answer_circle,
+        teletype_answer_circle_fill,
+        testtube_2,
+        text_viewfinder,
+        theatermasks,
+        theatermasks_circle,
+        theatermasks_circle_fill,
+        theatermasks_fill,
+        train_side_front_car,
+        train_side_middle_car,
+        train_side_rear_car,
+        tram_fill_tunnel,
+        trapezoid_and_line_horizontal,
+        trapezoid_and_line_horizontal_fill,
+        trapezoid_and_line_vertical,
+        trapezoid_and_line_vertical_fill,
+        trash_slash_circle,
+        trash_slash_circle_fill,
+        trash_slash_square,
+        trash_slash_square_fill,
+        trash_square,
+        trash_square_fill,
+        triangle_bottomhalf_filled,
+        triangle_lefthalf_filled,
+        triangle_righthalf_filled,
+        triangle_tophalf_filled,
+        tshirt,
+        tshirt_fill,
+        video_badge_ellipsis,
+        video_fill_badge_ellipsis,
+        video_square,
+        video_square_fill,
+        wake_circle,
+        wake_circle_fill,
+        watchface_applewatch_case,
+        waveform_badge_exclamationmark,
+        waveform_badge_minus,
+        waveform_badge_plus,
+        wifi_circle,
+        wifi_circle_fill,
+        wifi_square,
+        wifi_square_fill,
+        xmark_app,
+        xmark_app_fill
+    ]
+
     static let airplane_arrival: SymbolExtension = SymbolExtension(rawValue: "airplane.arrival")
     static let airplane_departure: SymbolExtension = SymbolExtension(rawValue: "airplane.departure")
-    static let airplayaudio_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "airplayaudio.badge.exclamationmark")
-    static let airplayaudio_circle: SymbolExtension = SymbolExtension(rawValue: "airplayaudio.circle")
-    static let airplayaudio_circle_fill: SymbolExtension = SymbolExtension(rawValue: "airplayaudio.circle.fill")
-    static let airplayvideo_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "airplayvideo.badge.exclamationmark")
-    static let airplayvideo_circle: SymbolExtension = SymbolExtension(rawValue: "airplayvideo.circle")
-    static let airplayvideo_circle_fill: SymbolExtension = SymbolExtension(rawValue: "airplayvideo.circle.fill")
     static let airpods_chargingcase: SymbolExtension = SymbolExtension(rawValue: "airpods.chargingcase")
     static let airpods_chargingcase_fill: SymbolExtension = SymbolExtension(rawValue: "airpods.chargingcase.fill")
     static let airpods_chargingcase_wireless: SymbolExtension = SymbolExtension(rawValue: "airpods.chargingcase.wireless")
     static let airpods_chargingcase_wireless_fill: SymbolExtension = SymbolExtension(rawValue: "airpods.chargingcase.wireless.fill")
-    static let airpodspro_chargingcase_wireless: SymbolExtension = SymbolExtension(rawValue: "airpodspro.chargingcase.wireless")
-    static let airpodspro_chargingcase_wireless_fill: SymbolExtension = SymbolExtension(rawValue: "airpodspro.chargingcase.wireless.fill")
     static let airtag: SymbolExtension = SymbolExtension(rawValue: "airtag")
     static let airtag_fill: SymbolExtension = SymbolExtension(rawValue: "airtag.fill")
     static let airtag_radiowaves_forward: SymbolExtension = SymbolExtension(rawValue: "airtag.radiowaves.forward")
@@ -59,7 +709,6 @@ public extension SymbolExtension {
     static let appletvremote_gen3_fill: SymbolExtension = SymbolExtension(rawValue: "appletvremote.gen3.fill")
     static let appletvremote_gen4: SymbolExtension = SymbolExtension(rawValue: "appletvremote.gen4")
     static let appletvremote_gen4_fill: SymbolExtension = SymbolExtension(rawValue: "appletvremote.gen4.fill")
-    static let applewatch_case_inset_filled: SymbolExtension = SymbolExtension(rawValue: "applewatch.case.inset.filled")
     static let arkit_badge_xmark: SymbolExtension = SymbolExtension(rawValue: "arkit.badge.xmark")
     static let arrow_backward_to_line: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.to.line")
     static let arrow_backward_to_line_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.to.line.circle")
@@ -76,7 +725,6 @@ public extension SymbolExtension {
     static let arrow_right_to_line_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.right.to.line.circle")
     static let arrow_right_to_line_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.right.to.line.circle.fill")
     static let arrow_right_to_line_compact: SymbolExtension = SymbolExtension(rawValue: "arrow.right.to.line.compact")
-    static let arrow_up_and_down_righttriangle_up_righttriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.and.down.righttriangle.up.righttriangle.down.fill")
     static let arrow_up_to_line_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.to.line.circle")
     static let arrow_up_to_line_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.to.line.circle.fill")
     static let arrow_up_to_line_compact: SymbolExtension = SymbolExtension(rawValue: "arrow.up.to.line.compact")
@@ -89,13 +737,6 @@ public extension SymbolExtension {
     static let beats_headphones: SymbolExtension = SymbolExtension(rawValue: "beats.headphones")
     static let beats_powerbeats: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats")
     static let beats_powerbeats3: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats3")
-    static let beats_powerbeatspro: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeatspro")
-    static let beats_powerbeatspro_chargingcase: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeatspro.chargingcase")
-    static let beats_powerbeatspro_chargingcase_fill: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeatspro.chargingcase.fill")
-    static let beats_powerbeatspro_left: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeatspro.left")
-    static let beats_powerbeatspro_right: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeatspro.right")
-    static let beats_studiobud_left: SymbolExtension = SymbolExtension(rawValue: "beats.studiobud.left")
-    static let beats_studiobud_right: SymbolExtension = SymbolExtension(rawValue: "beats.studiobud.right")
     static let beats_studiobuds: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds")
     static let beats_studiobuds_chargingcase: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.chargingcase")
     static let beats_studiobuds_chargingcase_fill: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.chargingcase.fill")
@@ -142,10 +783,8 @@ public extension SymbolExtension {
     static let camera_shutter_button: SymbolExtension = SymbolExtension(rawValue: "camera.shutter.button")
     static let camera_shutter_button_fill: SymbolExtension = SymbolExtension(rawValue: "camera.shutter.button.fill")
     static let capsule_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.bottomhalf.filled")
-    static let capsule_inset_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.inset.filled")
     static let capsule_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.lefthalf.filled")
     static let capsule_portrait_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait.bottomhalf.filled")
-    static let capsule_portrait_inset_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait.inset.filled")
     static let capsule_portrait_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait.lefthalf.filled")
     static let capsule_portrait_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait.righthalf.filled")
     static let capsule_portrait_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait.tophalf.filled")
@@ -167,7 +806,6 @@ public extension SymbolExtension {
     static let circle_and_line_horizontal: SymbolExtension = SymbolExtension(rawValue: "circle.and.line.horizontal")
     static let circle_and_line_horizontal_fill: SymbolExtension = SymbolExtension(rawValue: "circle.and.line.horizontal.fill")
     static let circle_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "circle.bottomhalf.filled")
-    static let circle_dashed_inset_filled: SymbolExtension = SymbolExtension(rawValue: "circle.dashed.inset.filled")
     static let circle_dotted: SymbolExtension = SymbolExtension(rawValue: "circle.dotted")
     static let circle_grid_2x1: SymbolExtension = SymbolExtension(rawValue: "circle.grid.2x1")
     static let circle_grid_2x1_fill: SymbolExtension = SymbolExtension(rawValue: "circle.grid.2x1.fill")
@@ -185,7 +823,6 @@ public extension SymbolExtension {
     static let circle_hexagongrid_fill: SymbolExtension = SymbolExtension(rawValue: "circle.hexagongrid.fill")
     static let circle_hexagonpath: SymbolExtension = SymbolExtension(rawValue: "circle.hexagonpath")
     static let circle_hexagonpath_fill: SymbolExtension = SymbolExtension(rawValue: "circle.hexagonpath.fill")
-    static let circle_inset_filled: SymbolExtension = SymbolExtension(rawValue: "circle.inset.filled")
     static let circle_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "circle.lefthalf.filled")
     static let circle_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "circle.righthalf.filled")
     static let circle_slash: SymbolExtension = SymbolExtension(rawValue: "circle.slash")
@@ -216,7 +853,6 @@ public extension SymbolExtension {
     static let diamond_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "diamond.bottomhalf.filled")
     static let diamond_circle: SymbolExtension = SymbolExtension(rawValue: "diamond.circle")
     static let diamond_circle_fill: SymbolExtension = SymbolExtension(rawValue: "diamond.circle.fill")
-    static let diamond_inset_filled: SymbolExtension = SymbolExtension(rawValue: "diamond.inset.filled")
     static let diamond_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "diamond.lefthalf.filled")
     static let diamond_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "diamond.righthalf.filled")
     static let diamond_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "diamond.tophalf.filled")
@@ -235,10 +871,6 @@ public extension SymbolExtension {
     static let digitalcrown_press: SymbolExtension = SymbolExtension(rawValue: "digitalcrown.press")
     static let digitalcrown_press_fill: SymbolExtension = SymbolExtension(rawValue: "digitalcrown.press.fill")
     static let display_and_arrow_down: SymbolExtension = SymbolExtension(rawValue: "display.and.arrow.down")
-    static let doc_text_image: SymbolExtension = SymbolExtension(rawValue: "doc.text.image")
-    static let doc_text_image_fill: SymbolExtension = SymbolExtension(rawValue: "doc.text.image.fill")
-    static let doc_viewfinder: SymbolExtension = SymbolExtension(rawValue: "doc.viewfinder")
-    static let doc_viewfinder_fill: SymbolExtension = SymbolExtension(rawValue: "doc.viewfinder.fill")
     static let dot_circle_and_hand_point_up_left_fill: SymbolExtension = SymbolExtension(rawValue: "dot.circle.and.hand.point.up.left.fill")
     static let dot_circle_viewfinder: SymbolExtension = SymbolExtension(rawValue: "dot.circle.viewfinder")
     static let dot_radiowaves_up_forward: SymbolExtension = SymbolExtension(rawValue: "dot.radiowaves.up.forward")
@@ -306,8 +938,6 @@ public extension SymbolExtension {
     static let globe_badge_chevron_backward: SymbolExtension = SymbolExtension(rawValue: "globe.badge.chevron.backward")
     static let globe_europe_africa: SymbolExtension = SymbolExtension(rawValue: "globe.europe.africa")
     static let globe_europe_africa_fill: SymbolExtension = SymbolExtension(rawValue: "globe.europe.africa.fill")
-    static let gobackward_5: SymbolExtension = SymbolExtension(rawValue: "gobackward.5")
-    static let goforward_5: SymbolExtension = SymbolExtension(rawValue: "goforward.5")
     static let graduationcap_circle: SymbolExtension = SymbolExtension(rawValue: "graduationcap.circle")
     static let graduationcap_circle_fill: SymbolExtension = SymbolExtension(rawValue: "graduationcap.circle.fill")
     static let h_square_on_square_fill: SymbolExtension = SymbolExtension(rawValue: "h.square.on.square.fill")
@@ -347,9 +977,7 @@ public extension SymbolExtension {
     static let icloud_square: SymbolExtension = SymbolExtension(rawValue: "icloud.square")
     static let icloud_square_fill: SymbolExtension = SymbolExtension(rawValue: "icloud.square.fill")
     static let ipad_and_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "ipad.and.arrow.forward")
-    static let ipad_and_iphone: SymbolExtension = SymbolExtension(rawValue: "ipad.and.iphone")
     static let ipad_rear_camera: SymbolExtension = SymbolExtension(rawValue: "ipad.rear.camera")
-    static let iphone_and_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "iphone.and.arrow.forward")
     static let iphone_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.circle")
     static let iphone_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.circle.fill")
     static let iphone_radiowaves_left_and_right_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.radiowaves.left.and.right.circle")
@@ -359,7 +987,6 @@ public extension SymbolExtension {
     static let iphone_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.slash.circle.fill")
     static let iphone_smartbatterycase_gen1: SymbolExtension = SymbolExtension(rawValue: "iphone.smartbatterycase.gen1")
     static let iphone_smartbatterycase_gen2: SymbolExtension = SymbolExtension(rawValue: "iphone.smartbatterycase.gen2")
-    static let ipodtouch_slash: SymbolExtension = SymbolExtension(rawValue: "ipodtouch.slash")
     static let ivfluid_bag: SymbolExtension = SymbolExtension(rawValue: "ivfluid.bag")
     static let ivfluid_bag_fill: SymbolExtension = SymbolExtension(rawValue: "ivfluid.bag.fill")
     static let j_square_on_square_fill: SymbolExtension = SymbolExtension(rawValue: "j.square.on.square.fill")
@@ -431,15 +1058,7 @@ public extension SymbolExtension {
     static let memorychip_fill: SymbolExtension = SymbolExtension(rawValue: "memorychip.fill")
     static let menucard: SymbolExtension = SymbolExtension(rawValue: "menucard")
     static let menucard_fill: SymbolExtension = SymbolExtension(rawValue: "menucard.fill")
-    static let mic_badge_plus: SymbolExtension = SymbolExtension(rawValue: "mic.badge.plus")
-    static let mic_fill_badge_plus: SymbolExtension = SymbolExtension(rawValue: "mic.fill.badge.plus")
-    static let mic_slash_circle: SymbolExtension = SymbolExtension(rawValue: "mic.slash.circle")
-    static let mic_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "mic.slash.circle.fill")
-    static let mic_square: SymbolExtension = SymbolExtension(rawValue: "mic.square")
-    static let mic_square_fill: SymbolExtension = SymbolExtension(rawValue: "mic.square.fill")
     static let minus_forwardslash_plus: SymbolExtension = SymbolExtension(rawValue: "minus.forwardslash.plus")
-    static let music_mic_circle: SymbolExtension = SymbolExtension(rawValue: "music.mic.circle")
-    static let music_mic_circle_fill: SymbolExtension = SymbolExtension(rawValue: "music.mic.circle.fill")
     static let music_note_tv: SymbolExtension = SymbolExtension(rawValue: "music.note.tv")
     static let music_note_tv_fill: SymbolExtension = SymbolExtension(rawValue: "music.note.tv.fill")
     static let network_badge_shield_half_filled: SymbolExtension = SymbolExtension(rawValue: "network.badge.shield.half.filled")
@@ -450,10 +1069,8 @@ public extension SymbolExtension {
     static let octagon_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "octagon.righthalf.filled")
     static let octagon_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "octagon.tophalf.filled")
     static let oval_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "oval.bottomhalf.filled")
-    static let oval_inset_filled: SymbolExtension = SymbolExtension(rawValue: "oval.inset.filled")
     static let oval_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "oval.lefthalf.filled")
     static let oval_portrait_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "oval.portrait.bottomhalf.filled")
-    static let oval_portrait_inset_filled: SymbolExtension = SymbolExtension(rawValue: "oval.portrait.inset.filled")
     static let oval_portrait_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "oval.portrait.lefthalf.filled")
     static let oval_portrait_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "oval.portrait.righthalf.filled")
     static let oval_portrait_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "oval.portrait.tophalf.filled")
@@ -559,29 +1176,8 @@ public extension SymbolExtension {
     static let rectangle_and_hand_point_up_left_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.and.hand.point.up.left.fill")
     static let rectangle_and_hand_point_up_left_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.and.hand.point.up.left.filled")
     static let rectangle_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.bottomhalf.filled")
-    static let rectangle_bottomhalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.bottomhalf.inset.filled")
-    static let rectangle_bottomthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.bottomthird.inset.filled")
-    static let rectangle_center_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.center.inset.filled")
-    static let rectangle_center_inset_filled_badge_plus: SymbolExtension = SymbolExtension(rawValue: "rectangle.center.inset.filled.badge.plus")
     static let rectangle_filled_and_hand_point_up_left: SymbolExtension = SymbolExtension(rawValue: "rectangle.filled.and.hand.point.up.left")
-    static let rectangle_inset_bottomleading_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.bottomleading.filled")
-    static let rectangle_inset_bottomleft_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.bottomleft.filled")
-    static let rectangle_inset_bottomright_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.bottomright.filled")
-    static let rectangle_inset_bottomtrailing_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.bottomtrailing.filled")
-    static let rectangle_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.filled")
-    static let rectangle_inset_filled_and_person_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.filled.and.person.filled")
-    static let rectangle_inset_filled_on_rectangle: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.filled.on.rectangle")
-    static let rectangle_inset_topleading_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.topleading.filled")
-    static let rectangle_inset_topleft_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.topleft.filled")
-    static let rectangle_inset_topright_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.topright.filled")
-    static let rectangle_inset_toptrailing_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.inset.toptrailing.filled")
-    static let rectangle_leadinghalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.leadinghalf.inset.filled")
-    static let rectangle_leadinghalf_inset_filled_arrow_leading: SymbolExtension = SymbolExtension(rawValue: "rectangle.leadinghalf.inset.filled.arrow.leading")
-    static let rectangle_leadingthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.leadingthird.inset.filled")
     static let rectangle_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.lefthalf.filled")
-    static let rectangle_lefthalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.lefthalf.inset.filled")
-    static let rectangle_lefthalf_inset_filled_arrow_left: SymbolExtension = SymbolExtension(rawValue: "rectangle.lefthalf.inset.filled.arrow.left")
-    static let rectangle_leftthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.leftthird.inset.filled")
     static let rectangle_on_rectangle_circle: SymbolExtension = SymbolExtension(rawValue: "rectangle.on.rectangle.circle")
     static let rectangle_on_rectangle_circle_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.on.rectangle.circle.fill")
     static let rectangle_on_rectangle_slash_circle: SymbolExtension = SymbolExtension(rawValue: "rectangle.on.rectangle.slash.circle")
@@ -592,26 +1188,12 @@ public extension SymbolExtension {
     static let rectangle_portrait_and_arrow_right: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.and.arrow.right")
     static let rectangle_portrait_and_arrow_right_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.and.arrow.right.fill")
     static let rectangle_portrait_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomhalf.filled")
-    static let rectangle_portrait_bottomhalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomhalf.inset.filled")
-    static let rectangle_portrait_bottomleading_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomleading.inset.filled")
-    static let rectangle_portrait_bottomleft_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomleft.inset.filled")
-    static let rectangle_portrait_bottomright_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomright.inset.filled")
-    static let rectangle_portrait_bottomthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomthird.inset.filled")
-    static let rectangle_portrait_bottomtrailing_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.bottomtrailing.inset.filled")
-    static let rectangle_portrait_center_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.center.inset.filled")
-    static let rectangle_portrait_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.inset.filled")
-    static let rectangle_portrait_leadinghalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.leadinghalf.inset.filled")
-    static let rectangle_portrait_leadingthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.leadingthird.inset.filled")
     static let rectangle_portrait_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.lefthalf.filled")
-    static let rectangle_portrait_lefthalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.lefthalf.inset.filled")
-    static let rectangle_portrait_leftthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.leftthird.inset.filled")
     static let rectangle_portrait_on_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.on.rectangle.portrait")
     static let rectangle_portrait_on_rectangle_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.on.rectangle.portrait.fill")
     static let rectangle_portrait_on_rectangle_portrait_slash: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.on.rectangle.portrait.slash")
     static let rectangle_portrait_on_rectangle_portrait_slash_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.on.rectangle.portrait.slash.fill")
     static let rectangle_portrait_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.righthalf.filled")
-    static let rectangle_portrait_righthalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.righthalf.inset.filled")
-    static let rectangle_portrait_rightthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.rightthird.inset.filled")
     static let rectangle_portrait_slash: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.slash")
     static let rectangle_portrait_slash_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.slash.fill")
     static let rectangle_portrait_split_2x1: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.split.2x1")
@@ -619,29 +1201,13 @@ public extension SymbolExtension {
     static let rectangle_portrait_split_2x1_slash: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.split.2x1.slash")
     static let rectangle_portrait_split_2x1_slash_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.split.2x1.slash.fill")
     static let rectangle_portrait_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.tophalf.filled")
-    static let rectangle_portrait_tophalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.tophalf.inset.filled")
-    static let rectangle_portrait_topleading_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.topleading.inset.filled")
-    static let rectangle_portrait_topleft_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.topleft.inset.filled")
-    static let rectangle_portrait_topright_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.topright.inset.filled")
-    static let rectangle_portrait_topthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.topthird.inset.filled")
-    static let rectangle_portrait_toptrailing_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.toptrailing.inset.filled")
-    static let rectangle_portrait_trailinghalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.trailinghalf.inset.filled")
-    static let rectangle_portrait_trailingthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.trailingthird.inset.filled")
     static let rectangle_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.righthalf.filled")
-    static let rectangle_righthalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.righthalf.inset.filled")
-    static let rectangle_righthalf_inset_filled_arrow_right: SymbolExtension = SymbolExtension(rawValue: "rectangle.righthalf.inset.filled.arrow.right")
-    static let rectangle_rightthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.rightthird.inset.filled")
     static let rectangle_split_2x1_slash: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.2x1.slash")
     static let rectangle_split_2x1_slash_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.2x1.slash.fill")
     static let rectangle_stack_badge_person_crop_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.stack.badge.person.crop.fill")
     static let rectangle_stack_badge_play: SymbolExtension = SymbolExtension(rawValue: "rectangle.stack.badge.play")
     static let rectangle_stack_badge_play_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.stack.badge.play.fill")
     static let rectangle_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.tophalf.filled")
-    static let rectangle_tophalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.tophalf.inset.filled")
-    static let rectangle_topthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.topthird.inset.filled")
-    static let rectangle_trailinghalf_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.trailinghalf.inset.filled")
-    static let rectangle_trailinghalf_inset_filled_arrow_trailing: SymbolExtension = SymbolExtension(rawValue: "rectangle.trailinghalf.inset.filled.arrow.trailing")
-    static let rectangle_trailingthird_inset_filled: SymbolExtension = SymbolExtension(rawValue: "rectangle.trailingthird.inset.filled")
     static let restart_circle_fill: SymbolExtension = SymbolExtension(rawValue: "restart.circle.fill")
     static let return_left: SymbolExtension = SymbolExtension(rawValue: "return.left")
     static let return_right: SymbolExtension = SymbolExtension(rawValue: "return.right")
@@ -661,7 +1227,6 @@ public extension SymbolExtension {
     static let shippingbox_circle_fill: SymbolExtension = SymbolExtension(rawValue: "shippingbox.circle.fill")
     static let sleep_circle: SymbolExtension = SymbolExtension(rawValue: "sleep.circle")
     static let sleep_circle_fill: SymbolExtension = SymbolExtension(rawValue: "sleep.circle.fill")
-    static let slider_horizontal_2_rectangle_and_arrow_triangle_2_circlepath: SymbolExtension = SymbolExtension(rawValue: "slider.horizontal.2.rectangle.and.arrow.triangle.2.circlepath")
     static let slider_horizontal_below_square_filled_and_square: SymbolExtension = SymbolExtension(rawValue: "slider.horizontal.below.square.filled.and.square")
     static let smallcircle_filled_circle: SymbolExtension = SymbolExtension(rawValue: "smallcircle.filled.circle")
     static let smallcircle_filled_circle_fill: SymbolExtension = SymbolExtension(rawValue: "smallcircle.filled.circle.fill")
@@ -682,7 +1247,6 @@ public extension SymbolExtension {
     static let square_and_at_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "square.and.at.rectangle.fill")
     static let square_and_line_vertical_and_square_filled: SymbolExtension = SymbolExtension(rawValue: "square.and.line.vertical.and.square.filled")
     static let square_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "square.bottomhalf.filled")
-    static let square_dashed_inset_filled: SymbolExtension = SymbolExtension(rawValue: "square.dashed.inset.filled")
     static let square_fill_and_line_vertical_and_square_fill: SymbolExtension = SymbolExtension(rawValue: "square.fill.and.line.vertical.and.square.fill")
     static let square_filled_and_line_vertical_and_square: SymbolExtension = SymbolExtension(rawValue: "square.filled.and.line.vertical.and.square")
     static let square_filled_on_square: SymbolExtension = SymbolExtension(rawValue: "square.filled.on.square")
@@ -697,7 +1261,6 @@ public extension SymbolExtension {
     static let square_grid_3x3_topleft_filled: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x3.topleft.filled")
     static let square_grid_3x3_topmiddle_filled: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x3.topmiddle.filled")
     static let square_grid_3x3_topright_filled: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x3.topright.filled")
-    static let square_inset_filled: SymbolExtension = SymbolExtension(rawValue: "square.inset.filled")
     static let square_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "square.lefthalf.filled")
     static let square_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "square.righthalf.filled")
     static let square_text_square: SymbolExtension = SymbolExtension(rawValue: "square.text.square")
@@ -742,13 +1305,11 @@ public extension SymbolExtension {
     static let trash_square: SymbolExtension = SymbolExtension(rawValue: "trash.square")
     static let trash_square_fill: SymbolExtension = SymbolExtension(rawValue: "trash.square.fill")
     static let triangle_bottomhalf_filled: SymbolExtension = SymbolExtension(rawValue: "triangle.bottomhalf.filled")
-    static let triangle_inset_filled: SymbolExtension = SymbolExtension(rawValue: "triangle.inset.filled")
     static let triangle_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "triangle.lefthalf.filled")
     static let triangle_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "triangle.righthalf.filled")
     static let triangle_tophalf_filled: SymbolExtension = SymbolExtension(rawValue: "triangle.tophalf.filled")
     static let tshirt: SymbolExtension = SymbolExtension(rawValue: "tshirt")
     static let tshirt_fill: SymbolExtension = SymbolExtension(rawValue: "tshirt.fill")
-    static let tv_inset_filled: SymbolExtension = SymbolExtension(rawValue: "tv.inset.filled")
     static let video_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "video.badge.ellipsis")
     static let video_fill_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "video.fill.badge.ellipsis")
     static let video_square: SymbolExtension = SymbolExtension(rawValue: "video.square")

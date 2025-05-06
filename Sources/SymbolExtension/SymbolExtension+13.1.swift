@@ -9,6 +9,25 @@ import Foundation
 
 @available(iOS 13.1, macOS 11.0, *)
 public extension SymbolExtension {
+    static let iOS13_1: [SymbolExtension] = [
+        arrow_uturn_left_circle_badge_ellipsis,
+        aspectratio,
+        aspectratio_fill,
+        car,
+        circle_grid_2x2,
+        circle_grid_2x2_fill,
+        flashlight_off_fill,
+        flashlight_on_fill,
+        mappin_circle,
+        mappin_circle_fill,
+        paperclip_circle,
+        paperclip_circle_fill,
+        pin_circle,
+        pin_circle_fill,
+        scissors_badge_ellipsis,
+        studentdesk
+    ]
+
     static let arrow_uturn_left_circle_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
     static let aspectratio: SymbolExtension = SymbolExtension(rawValue: "aspectratio")
     static let aspectratio_fill: SymbolExtension = SymbolExtension(rawValue: "aspectratio.fill")

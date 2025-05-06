@@ -9,6 +9,16 @@ import Foundation
 
 @available(iOS 15.4, macOS 12.3, *)
 public extension SymbolExtension {
+    static let iOS15_4: [SymbolExtension] = [
+        camera_macro,
+        camera_macro_circle,
+        camera_macro_circle_fill,
+        dots_and_line_vertical_and_cursorarrow_rectangle,
+        key_viewfinder,
+        person_badge_key,
+        person_badge_key_fill
+    ]
+
     static let camera_macro: SymbolExtension = SymbolExtension(rawValue: "camera.macro")
     static let camera_macro_circle: SymbolExtension = SymbolExtension(rawValue: "camera.macro.circle")
     static let camera_macro_circle_fill: SymbolExtension = SymbolExtension(rawValue: "camera.macro.circle.fill")

@@ -9,6 +9,18 @@ import Foundation
 
 @available(iOS 15.2, macOS 12.1, *)
 public extension SymbolExtension {
+    static let iOS15_2: [SymbolExtension] = [
+        airpod_gen3_left,
+        airpod_gen3_right,
+        airpods_gen3,
+        airpods_gen3_chargingcase_wireless,
+        airpods_gen3_chargingcase_wireless_fill,
+        rectangle_leadinghalf_filled,
+        rectangle_trailinghalf_filled,
+        square_3_layers_3d_down_left_slash,
+        square_3_layers_3d_down_right_slash
+    ]
+
     static let airpod_gen3_left: SymbolExtension = SymbolExtension(rawValue: "airpod.gen3.left")
     static let airpod_gen3_right: SymbolExtension = SymbolExtension(rawValue: "airpod.gen3.right")
     static let airpods_gen3: SymbolExtension = SymbolExtension(rawValue: "airpods.gen3")

@@ -9,6 +9,16 @@ import Foundation
 
 @available(iOS 17.6, macOS 14.6, *)
 public extension SymbolExtension {
+    static let iOS17_6: [SymbolExtension] = [
+        beats_pill,
+        beats_pill_fill,
+        beats_solobuds,
+        beats_solobuds_chargingcase,
+        beats_solobuds_chargingcase_fill,
+        beats_solobuds_left,
+        beats_solobuds_right
+    ]
+
     static let beats_pill: SymbolExtension = SymbolExtension(rawValue: "beats.pill")
     static let beats_pill_fill: SymbolExtension = SymbolExtension(rawValue: "beats.pill.fill")
     static let beats_solobuds: SymbolExtension = SymbolExtension(rawValue: "beats.solobuds")

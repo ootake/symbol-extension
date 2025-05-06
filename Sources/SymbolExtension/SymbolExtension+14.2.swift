@@ -9,6 +9,45 @@ import Foundation
 
 @available(iOS 14.2, macOS 11.0, *)
 public extension SymbolExtension {
+    static let iOS14_2: [SymbolExtension] = [
+        aqi_high,
+        aqi_low,
+        aqi_medium,
+        brazilianrealsign_circle,
+        brazilianrealsign_circle_fill,
+        brazilianrealsign_square,
+        brazilianrealsign_square_fill,
+        cart_circle,
+        cart_circle_fill,
+        character,
+        character_book_closed,
+        character_book_closed_fill,
+        directcurrent,
+        exclamationmark_applewatch,
+        infinity_circle,
+        infinity_circle_fill,
+        ipad_badge_play,
+        ipad_landscape_badge_play,
+        iphone_badge_play,
+        iphone_landscape,
+        lock_applewatch,
+        photo_tv,
+        play_tv,
+        play_tv_fill,
+        rectangle_badge_person_crop,
+        rectangle_fill_badge_person_crop,
+        repeat_1_circle,
+        repeat_1_circle_fill,
+        repeat_circle,
+        repeat_circle_fill,
+        shuffle_circle,
+        shuffle_circle_fill,
+        textformat_size_larger,
+        textformat_size_smaller,
+        torus,
+        tv_and_mediabox
+    ]
+        
     static let aqi_high: SymbolExtension = SymbolExtension(rawValue: "aqi.high")
     static let aqi_low: SymbolExtension = SymbolExtension(rawValue: "aqi.low")
     static let aqi_medium: SymbolExtension = SymbolExtension(rawValue: "aqi.medium")
@@ -21,7 +60,6 @@ public extension SymbolExtension {
     static let character: SymbolExtension = SymbolExtension(rawValue: "character")
     static let character_book_closed: SymbolExtension = SymbolExtension(rawValue: "character.book.closed")
     static let character_book_closed_fill: SymbolExtension = SymbolExtension(rawValue: "character.book.closed.fill")
-    static let clock_arrow_2_circlepath: SymbolExtension = SymbolExtension(rawValue: "clock.arrow.2.circlepath")
     static let directcurrent: SymbolExtension = SymbolExtension(rawValue: "directcurrent")
     static let exclamationmark_applewatch: SymbolExtension = SymbolExtension(rawValue: "exclamationmark.applewatch")
     static let infinity_circle: SymbolExtension = SymbolExtension(rawValue: "infinity.circle")
@@ -30,7 +68,6 @@ public extension SymbolExtension {
     static let ipad_landscape_badge_play: SymbolExtension = SymbolExtension(rawValue: "ipad.landscape.badge.play")
     static let iphone_badge_play: SymbolExtension = SymbolExtension(rawValue: "iphone.badge.play")
     static let iphone_landscape: SymbolExtension = SymbolExtension(rawValue: "iphone.landscape")
-    static let ipodtouch_landscape: SymbolExtension = SymbolExtension(rawValue: "ipodtouch.landscape")
     static let lock_applewatch: SymbolExtension = SymbolExtension(rawValue: "lock.applewatch")
     static let photo_tv: SymbolExtension = SymbolExtension(rawValue: "photo.tv")
     static let play_tv: SymbolExtension = SymbolExtension(rawValue: "play.tv")
