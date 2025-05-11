@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Example
 //
-//  Created by otake on 2025/05/05.
+//  Created by otake on 2025/05/11.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SymbolExtension
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(R.globe)
+            Image(systemName: S.globe)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")

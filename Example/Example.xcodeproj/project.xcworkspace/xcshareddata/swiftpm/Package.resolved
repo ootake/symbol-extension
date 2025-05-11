@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ootake/symbol-extension",
       "state" : {
-        "branch" : "develop",
-        "revision" : "5d6e1a8e1cee42537722ff227dd4599f4fa5bcd5"
+        "branch" : "main",
+        "revision" : "82c9acc3dea858e364cb6fcddf5734bc82e949cd"
       }
     }
   ],
