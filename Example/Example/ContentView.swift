@@ -11,7 +11,7 @@ import SymbolExtension
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(symbol: .globe)
+            Image(R.globe)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")

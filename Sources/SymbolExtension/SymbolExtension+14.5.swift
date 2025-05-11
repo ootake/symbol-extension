@@ -8,18 +8,10 @@
 import Foundation
 
 @available(iOS 14.5, macOS 11.3, *)
-public extension SymbolExtension {
-    static let iOS14_5: [SymbolExtension] = [
-        applewatch_side_right,
-        character_bubble,
-        character_bubble_fill,
-        character_cursor_ibeam,
-        character_textbox
-    ]
-        
-    static let applewatch_side_right: SymbolExtension = SymbolExtension(rawValue: "applewatch.side.right")
-    static let character_bubble: SymbolExtension = SymbolExtension(rawValue: "character.bubble")
-    static let character_bubble_fill: SymbolExtension = SymbolExtension(rawValue: "character.bubble.fill")
-    static let character_cursor_ibeam: SymbolExtension = SymbolExtension(rawValue: "character.cursor.ibeam")
-    static let character_textbox: SymbolExtension = SymbolExtension(rawValue: "character.textbox")
+public extension S {
+    static let applewatch_side_right = "applewatch.side.right"
+    static let character_bubble = "character.bubble"
+    static let character_bubble_fill = "character.bubble.fill"
+    static let character_cursor_ibeam = "character.cursor.ibeam"
+    static let character_textbox = "character.textbox"
 }

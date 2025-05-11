@@ -8,40 +8,21 @@
 import Foundation
 
 @available(iOS 13.1, macOS 11.0, *)
-public extension SymbolExtension {
-    static let iOS13_1: [SymbolExtension] = [
-        arrow_uturn_left_circle_badge_ellipsis,
-        aspectratio,
-        aspectratio_fill,
-        car,
-        circle_grid_2x2,
-        circle_grid_2x2_fill,
-        flashlight_off_fill,
-        flashlight_on_fill,
-        mappin_circle,
-        mappin_circle_fill,
-        paperclip_circle,
-        paperclip_circle_fill,
-        pin_circle,
-        pin_circle_fill,
-        scissors_badge_ellipsis,
-        studentdesk
-    ]
-
-    static let arrow_uturn_left_circle_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
-    static let aspectratio: SymbolExtension = SymbolExtension(rawValue: "aspectratio")
-    static let aspectratio_fill: SymbolExtension = SymbolExtension(rawValue: "aspectratio.fill")
-    static let car: SymbolExtension = SymbolExtension(rawValue: "car")
-    static let circle_grid_2x2: SymbolExtension = SymbolExtension(rawValue: "circle.grid.2x2")
-    static let circle_grid_2x2_fill: SymbolExtension = SymbolExtension(rawValue: "circle.grid.2x2.fill")
-    static let flashlight_off_fill: SymbolExtension = SymbolExtension(rawValue: "flashlight.off.fill")
-    static let flashlight_on_fill: SymbolExtension = SymbolExtension(rawValue: "flashlight.on.fill")
-    static let mappin_circle: SymbolExtension = SymbolExtension(rawValue: "mappin.circle")
-    static let mappin_circle_fill: SymbolExtension = SymbolExtension(rawValue: "mappin.circle.fill")
-    static let paperclip_circle: SymbolExtension = SymbolExtension(rawValue: "paperclip.circle")
-    static let paperclip_circle_fill: SymbolExtension = SymbolExtension(rawValue: "paperclip.circle.fill")
-    static let pin_circle: SymbolExtension = SymbolExtension(rawValue: "pin.circle")
-    static let pin_circle_fill: SymbolExtension = SymbolExtension(rawValue: "pin.circle.fill")
-    static let scissors_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "scissors.badge.ellipsis")
-    static let studentdesk: SymbolExtension = SymbolExtension(rawValue: "studentdesk")
+public extension S {
+    static let arrow_uturn_left_circle_badge_ellipsis = "arrow.uturn.left.circle.badge.ellipsis"
+    static let aspectratio = "aspectratio"
+    static let aspectratio_fill = "aspectratio.fill"
+    static let car = "car"
+    static let circle_grid_2x2 = "circle.grid.2x2"
+    static let circle_grid_2x2_fill = "circle.grid.2x2.fill"
+    static let flashlight_off_fill = "flashlight.off.fill"
+    static let flashlight_on_fill = "flashlight.on.fill"
+    static let mappin_circle = "mappin.circle"
+    static let mappin_circle_fill = "mappin.circle.fill"
+    static let paperclip_circle = "paperclip.circle"
+    static let paperclip_circle_fill = "paperclip.circle.fill"
+    static let pin_circle = "pin.circle"
+    static let pin_circle_fill = "pin.circle.fill"
+    static let scissors_badge_ellipsis = "scissors.badge.ellipsis"
+    static let studentdesk = "studentdesk"
 }

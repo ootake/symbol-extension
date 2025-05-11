@@ -8,632 +8,317 @@
 import Foundation
 
 @available(iOS 16.1, macOS 13.0, *)
-public extension SymbolExtension {
-    static let iOS16_1: [SymbolExtension] = [
-        _1_brakesignal,
-        _1_lane,
-        _2_brakesignal,
-        _2_lane,
-        _3_lane,
-        _4_lane,
-        _5_lane,
-        _6_lane,
-        _7_lane,
-        _8_lane,
-        _9_lane,
-        _10_lane,
-        _11_lane,
-        _12_lane,
-        abs,
-        abs_brakesignal_slash,
-        abs_circle,
-        abs_circle_fill,
-        autostartstop,
-        autostartstop_slash,
-        autostartstop_trianglebadge_exclamationmark,
-        backpack_circle,
-        backpack_circle_fill,
-        batteryblock,
-        batteryblock_fill,
-        batteryblock_slash,
-        batteryblock_slash_fill,
-        bolt_trianglebadge_exclamationmark,
-        bolt_trianglebadge_exclamationmark_fill,
-        car_front_waves_up,
-        car_front_waves_up_fill,
-        car_rear,
-        car_rear_and_tire_marks,
-        car_rear_and_tire_marks_slash,
-        car_rear_fill,
-        car_rear_road_lane,
-        car_rear_road_lane_dashed,
-        car_rear_waves_up,
-        car_rear_waves_up_fill,
-        car_side,
-        car_side_air_circulate,
-        car_side_air_circulate_fill,
-        car_side_air_fresh,
-        car_side_air_fresh_fill,
-        car_side_and_exclamationmark,
-        car_side_and_exclamationmark_fill,
-        car_side_arrowtriangle_down,
-        car_side_arrowtriangle_down_fill,
-        car_side_arrowtriangle_up,
-        car_side_arrowtriangle_up_arrowtriangle_down,
-        car_side_arrowtriangle_up_arrowtriangle_down_fill,
-        car_side_arrowtriangle_up_fill,
-        car_side_fill,
-        car_side_front_open,
-        car_side_front_open_fill,
-        car_side_rear_open,
-        car_side_rear_open_fill,
-        car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open,
-        car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open_fill,
-        car_top_door_front_left_and_front_right_and_rear_left_open,
-        car_top_door_front_left_and_front_right_and_rear_left_open_fill,
-        car_top_door_front_left_and_front_right_and_rear_right_open,
-        car_top_door_front_left_and_front_right_and_rear_right_open_fill,
-        car_top_door_front_left_and_front_right_open,
-        car_top_door_front_left_and_front_right_open_fill,
-        car_top_door_front_left_and_rear_left_and_rear_right_open,
-        car_top_door_front_left_and_rear_left_and_rear_right_open_fill,
-        car_top_door_front_left_and_rear_left_open,
-        car_top_door_front_left_and_rear_left_open_fill,
-        car_top_door_front_left_and_rear_right_open,
-        car_top_door_front_left_and_rear_right_open_fill,
-        car_top_door_front_left_open,
-        car_top_door_front_left_open_fill,
-        car_top_door_front_right_and_rear_left_and_rear_right_open,
-        car_top_door_front_right_and_rear_left_and_rear_right_open_fill,
-        car_top_door_front_right_and_rear_left_open,
-        car_top_door_front_right_and_rear_left_open_fill,
-        car_top_door_front_right_and_rear_right_open,
-        car_top_door_front_right_and_rear_right_open_fill,
-        car_top_door_front_right_open,
-        car_top_door_front_right_open_fill,
-        car_top_door_rear_left_and_rear_right_open,
-        car_top_door_rear_left_and_rear_right_open_fill,
-        car_top_door_rear_left_open,
-        car_top_door_rear_left_open_fill,
-        car_top_door_rear_right_open,
-        car_top_door_rear_right_open_fill,
-        car_top_lane_dashed_arrowtriangle_inward,
-        car_top_lane_dashed_arrowtriangle_inward_fill,
-        car_top_lane_dashed_badge_steeringwheel,
-        car_top_lane_dashed_badge_steeringwheel_fill,
-        car_top_lane_dashed_departure_left,
-        car_top_lane_dashed_departure_left_fill,
-        car_top_lane_dashed_departure_right,
-        car_top_lane_dashed_departure_right_fill,
-        car_top_radiowaves_front,
-        car_top_radiowaves_front_fill,
-        car_top_radiowaves_rear,
-        car_top_radiowaves_rear_fill,
-        car_top_radiowaves_rear_left,
-        car_top_radiowaves_rear_left_and_rear_right,
-        car_top_radiowaves_rear_left_and_rear_right_fill,
-        car_top_radiowaves_rear_left_fill,
-        car_top_radiowaves_rear_right,
-        car_top_radiowaves_rear_right_fill,
-        chart_dots_scatter,
-        cross_case_circle,
-        cross_case_circle_fill,
-        ellipsis_viewfinder,
-        engine_combustion,
-        engine_combustion_fill,
-        exclamationmark_transmission,
-        figure_run_square_stack,
-        figure_run_square_stack_fill,
-        figure_seated_seatbelt,
-        figure_seated_seatbelt_and_airbag_off,
-        figure_seated_seatbelt_and_airbag_on,
-        fish_circle,
-        fish_circle_fill,
-        fluid_transmission,
-        glowplug,
-        hand_raised_app,
-        hand_raised_app_fill,
-        hand_raised_brakesignal,
-        hand_raised_brakesignal_slash,
-        handbag,
-        handbag_fill,
-        hazardsign,
-        hazardsign_fill,
-        headlight_daytime,
-        headlight_daytime_fill,
-        headlight_fog,
-        headlight_fog_fill,
-        heat_element_windshield,
-        house_and_flag,
-        house_and_flag_circle,
-        house_and_flag_circle_fill,
-        house_and_flag_fill,
-        house_lodge,
-        house_lodge_circle,
-        house_lodge_circle_fill,
-        house_lodge_fill,
-        info_windshield,
-        ipad_gen1,
-        ipad_gen1_badge_play,
-        ipad_gen1_landscape,
-        ipad_gen1_landscape_badge_play,
-        ipad_gen2,
-        ipad_gen2_badge_play,
-        ipad_gen2_landscape,
-        ipad_gen2_landscape_badge_play,
-        iphone_gen1,
-        iphone_gen1_badge_play,
-        iphone_gen1_circle,
-        iphone_gen1_circle_fill,
-        iphone_gen1_landscape,
-        iphone_gen1_radiowaves_left_and_right,
-        iphone_gen1_radiowaves_left_and_right_circle,
-        iphone_gen1_radiowaves_left_and_right_circle_fill,
-        iphone_gen1_slash,
-        iphone_gen1_slash_circle,
-        iphone_gen1_slash_circle_fill,
-        iphone_gen2,
-        iphone_gen2_badge_play,
-        iphone_gen2_circle,
-        iphone_gen2_circle_fill,
-        iphone_gen2_landscape,
-        iphone_gen2_radiowaves_left_and_right,
-        iphone_gen2_radiowaves_left_and_right_circle,
-        iphone_gen2_radiowaves_left_and_right_circle_fill,
-        iphone_gen2_slash,
-        iphone_gen2_slash_circle,
-        iphone_gen2_slash_circle_fill,
-        iphone_gen3,
-        iphone_gen3_badge_play,
-        iphone_gen3_circle,
-        iphone_gen3_circle_fill,
-        iphone_gen3_landscape,
-        iphone_gen3_radiowaves_left_and_right,
-        iphone_gen3_radiowaves_left_and_right_circle,
-        iphone_gen3_radiowaves_left_and_right_circle_fill,
-        iphone_gen3_slash,
-        iphone_gen3_slash_circle,
-        iphone_gen3_slash_circle_fill,
-        key_horizontal,
-        key_horizontal_fill,
-        key_radiowaves_forward,
-        key_radiowaves_forward_fill,
-        kph,
-        kph_circle,
-        kph_circle_fill,
-        lane,
-        laptopcomputer_slash,
-        light_overhead_left,
-        light_overhead_left_fill,
-        light_overhead_right,
-        light_overhead_right_fill,
-        lock_open_rotation,
-        macbook_and_ipad,
-        macbook_and_iphone,
-        minus_plus_and_fluid_batteryblock,
-        minus_plus_batteryblock_exclamationmark,
-        minus_plus_batteryblock_exclamationmark_fill,
-        minus_plus_batteryblock_slash,
-        minus_plus_batteryblock_slash_fill,
-        minus_plus_batteryblock_stack,
-        minus_plus_batteryblock_stack_exclamationmark,
-        minus_plus_batteryblock_stack_exclamationmark_fill,
-        minus_plus_batteryblock_stack_fill,
-        mirror_side_left_and_arrow_turn_down_right,
-        mirror_side_left_and_heat_waves,
-        mirror_side_right_and_arrow_turn_down_left,
-        mirror_side_right_and_heat_waves,
-        mountain_2,
-        mountain_2_circle,
-        mountain_2_circle_fill,
-        mountain_2_fill,
-        mph,
-        mph_circle,
-        mph_circle_fill,
-        mug,
-        mug_fill,
-        oilcan,
-        oilcan_fill,
-        person_crop_circle_dashed,
-        play_square_stack,
-        play_square_stack_fill,
-        questionmark_key_filled,
-        retarder_brakesignal,
-        road_lane_arrowtriangle_2_inward,
-        sailboat_circle,
-        sailboat_circle_fill,
-        signpost_and_arrowtriangle_up,
-        signpost_and_arrowtriangle_up_circle,
-        signpost_and_arrowtriangle_up_circle_fill,
-        signpost_and_arrowtriangle_up_fill,
-        signpost_left_circle,
-        signpost_left_circle_fill,
-        signpost_right_and_left,
-        signpost_right_and_left_circle,
-        signpost_right_and_left_circle_fill,
-        signpost_right_and_left_fill,
-        signpost_right_circle,
-        signpost_right_circle_fill,
-        snowflake_road_lane,
-        snowflake_road_lane_dashed,
-        snowflake_slash,
-        sos,
-        sos_circle,
-        sos_circle_fill,
-        steeringwheel,
-        steeringwheel_and_heat_waves,
-        steeringwheel_and_key,
-        steeringwheel_and_lock,
-        steeringwheel_exclamationmark,
-        steeringwheel_road_lane,
-        steeringwheel_road_lane_dashed,
-        steeringwheel_slash,
-        stroller,
-        stroller_fill,
-        suitcase_rolling,
-        suitcase_rolling_fill,
-        suv_side,
-        suv_side_air_circulate,
-        suv_side_air_circulate_fill,
-        suv_side_air_fresh,
-        suv_side_air_fresh_fill,
-        suv_side_and_exclamationmark,
-        suv_side_and_exclamationmark_fill,
-        suv_side_arrowtriangle_down,
-        suv_side_arrowtriangle_down_fill,
-        suv_side_arrowtriangle_up,
-        suv_side_arrowtriangle_up_arrowtriangle_down,
-        suv_side_arrowtriangle_up_arrowtriangle_down_fill,
-        suv_side_arrowtriangle_up_fill,
-        suv_side_fill,
-        suv_side_front_open,
-        suv_side_front_open_fill,
-        suv_side_rear_open,
-        suv_side_rear_open_fill,
-        taillight_fog,
-        taillight_fog_fill,
-        tent_2,
-        tent_2_circle,
-        tent_2_circle_fill,
-        tent_2_fill,
-        tent_circle,
-        tent_circle_fill,
-        thermometer_and_liquid_waves,
-        thermometer_transmission,
-        toilet_circle,
-        toilet_circle_fill,
-        transmission,
-        tree,
-        tree_circle,
-        tree_circle_fill,
-        tree_fill,
-        windshield_front_and_fluid_and_spray,
-        windshield_front_and_heat_waves,
-        windshield_front_and_spray,
-        windshield_front_and_wiper_and_spray,
-        windshield_front_and_wiper_exclamationmark,
-        windshield_front_and_wiper_intermittent,
-        windshield_rear_and_fluid_and_spray,
-        windshield_rear_and_heat_waves,
-        windshield_rear_and_spray,
-        windshield_rear_and_wiper_and_drop,
-        windshield_rear_and_wiper_and_spray,
-        windshield_rear_and_wiper_exclamationmark,
-        windshield_rear_and_wiper_intermittent,
-        wrongwaysign,
-        wrongwaysign_fill
-    ]
-
-    static let _1_brakesignal: SymbolExtension = SymbolExtension(rawValue: "1.brakesignal")
-    static let _1_lane: SymbolExtension = SymbolExtension(rawValue: "1.lane")
-    static let _2_brakesignal: SymbolExtension = SymbolExtension(rawValue: "2.brakesignal")
-    static let _2_lane: SymbolExtension = SymbolExtension(rawValue: "2.lane")
-    static let _3_lane: SymbolExtension = SymbolExtension(rawValue: "3.lane")
-    static let _4_lane: SymbolExtension = SymbolExtension(rawValue: "4.lane")
-    static let _5_lane: SymbolExtension = SymbolExtension(rawValue: "5.lane")
-    static let _6_lane: SymbolExtension = SymbolExtension(rawValue: "6.lane")
-    static let _7_lane: SymbolExtension = SymbolExtension(rawValue: "7.lane")
-    static let _8_lane: SymbolExtension = SymbolExtension(rawValue: "8.lane")
-    static let _9_lane: SymbolExtension = SymbolExtension(rawValue: "9.lane")
-    static let _10_lane: SymbolExtension = SymbolExtension(rawValue: "10.lane")
-    static let _11_lane: SymbolExtension = SymbolExtension(rawValue: "11.lane")
-    static let _12_lane: SymbolExtension = SymbolExtension(rawValue: "12.lane")
-    static let abs: SymbolExtension = SymbolExtension(rawValue: "abs")
-    static let abs_brakesignal_slash: SymbolExtension = SymbolExtension(rawValue: "abs.brakesignal.slash")
-    static let abs_circle: SymbolExtension = SymbolExtension(rawValue: "abs.circle")
-    static let abs_circle_fill: SymbolExtension = SymbolExtension(rawValue: "abs.circle.fill")
-    static let autostartstop: SymbolExtension = SymbolExtension(rawValue: "autostartstop")
-    static let autostartstop_slash: SymbolExtension = SymbolExtension(rawValue: "autostartstop.slash")
-    static let autostartstop_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "autostartstop.trianglebadge.exclamationmark")
-    static let backpack_circle: SymbolExtension = SymbolExtension(rawValue: "backpack.circle")
-    static let backpack_circle_fill: SymbolExtension = SymbolExtension(rawValue: "backpack.circle.fill")
-    static let batteryblock: SymbolExtension = SymbolExtension(rawValue: "batteryblock")
-    static let batteryblock_fill: SymbolExtension = SymbolExtension(rawValue: "batteryblock.fill")
-    static let batteryblock_slash: SymbolExtension = SymbolExtension(rawValue: "batteryblock.slash")
-    static let batteryblock_slash_fill: SymbolExtension = SymbolExtension(rawValue: "batteryblock.slash.fill")
-    static let bolt_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "bolt.trianglebadge.exclamationmark")
-    static let bolt_trianglebadge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "bolt.trianglebadge.exclamationmark.fill")
-    static let car_front_waves_up: SymbolExtension = SymbolExtension(rawValue: "car.front.waves.up")
-    static let car_front_waves_up_fill: SymbolExtension = SymbolExtension(rawValue: "car.front.waves.up.fill")
-    static let car_rear: SymbolExtension = SymbolExtension(rawValue: "car.rear")
-    static let car_rear_and_tire_marks: SymbolExtension = SymbolExtension(rawValue: "car.rear.and.tire.marks")
-    static let car_rear_and_tire_marks_slash: SymbolExtension = SymbolExtension(rawValue: "car.rear.and.tire.marks.slash")
-    static let car_rear_fill: SymbolExtension = SymbolExtension(rawValue: "car.rear.fill")
-    static let car_rear_road_lane: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane")
-    static let car_rear_road_lane_dashed: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.dashed")
-    static let car_rear_waves_up: SymbolExtension = SymbolExtension(rawValue: "car.rear.waves.up")
-    static let car_rear_waves_up_fill: SymbolExtension = SymbolExtension(rawValue: "car.rear.waves.up.fill")
-    static let car_side: SymbolExtension = SymbolExtension(rawValue: "car.side")
-    static let car_side_air_circulate: SymbolExtension = SymbolExtension(rawValue: "car.side.air.circulate")
-    static let car_side_air_circulate_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.air.circulate.fill")
-    static let car_side_air_fresh: SymbolExtension = SymbolExtension(rawValue: "car.side.air.fresh")
-    static let car_side_air_fresh_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.air.fresh.fill")
-    static let car_side_and_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "car.side.and.exclamationmark")
-    static let car_side_and_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.and.exclamationmark.fill")
-    static let car_side_arrowtriangle_down: SymbolExtension = SymbolExtension(rawValue: "car.side.arrowtriangle.down")
-    static let car_side_arrowtriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.arrowtriangle.down.fill")
-    static let car_side_arrowtriangle_up: SymbolExtension = SymbolExtension(rawValue: "car.side.arrowtriangle.up")
-    static let car_side_arrowtriangle_up_arrowtriangle_down: SymbolExtension = SymbolExtension(rawValue: "car.side.arrowtriangle.up.arrowtriangle.down")
-    static let car_side_arrowtriangle_up_arrowtriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.arrowtriangle.up.arrowtriangle.down.fill")
-    static let car_side_arrowtriangle_up_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.arrowtriangle.up.fill")
-    static let car_side_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.fill")
-    static let car_side_front_open: SymbolExtension = SymbolExtension(rawValue: "car.side.front.open")
-    static let car_side_front_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.front.open.fill")
-    static let car_side_rear_open: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.open")
-    static let car_side_rear_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.open.fill")
-    static let car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.and.rear.left.and.rear.right.open")
-    static let car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.and.rear.left.and.rear.right.open.fill")
-    static let car_top_door_front_left_and_front_right_and_rear_left_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.and.rear.left.open")
-    static let car_top_door_front_left_and_front_right_and_rear_left_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.and.rear.left.open.fill")
-    static let car_top_door_front_left_and_front_right_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.and.rear.right.open")
-    static let car_top_door_front_left_and_front_right_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.and.rear.right.open.fill")
-    static let car_top_door_front_left_and_front_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.open")
-    static let car_top_door_front_left_and_front_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.front.right.open.fill")
-    static let car_top_door_front_left_and_rear_left_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.rear.left.and.rear.right.open")
-    static let car_top_door_front_left_and_rear_left_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.rear.left.and.rear.right.open.fill")
-    static let car_top_door_front_left_and_rear_left_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.rear.left.open")
-    static let car_top_door_front_left_and_rear_left_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.rear.left.open.fill")
-    static let car_top_door_front_left_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.rear.right.open")
-    static let car_top_door_front_left_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.and.rear.right.open.fill")
-    static let car_top_door_front_left_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.open")
-    static let car_top_door_front_left_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.left.open.fill")
-    static let car_top_door_front_right_and_rear_left_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.and.rear.left.and.rear.right.open")
-    static let car_top_door_front_right_and_rear_left_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.and.rear.left.and.rear.right.open.fill")
-    static let car_top_door_front_right_and_rear_left_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.and.rear.left.open")
-    static let car_top_door_front_right_and_rear_left_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.and.rear.left.open.fill")
-    static let car_top_door_front_right_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.and.rear.right.open")
-    static let car_top_door_front_right_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.and.rear.right.open.fill")
-    static let car_top_door_front_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.open")
-    static let car_top_door_front_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.front.right.open.fill")
-    static let car_top_door_rear_left_and_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.rear.left.and.rear.right.open")
-    static let car_top_door_rear_left_and_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.rear.left.and.rear.right.open.fill")
-    static let car_top_door_rear_left_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.rear.left.open")
-    static let car_top_door_rear_left_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.rear.left.open.fill")
-    static let car_top_door_rear_right_open: SymbolExtension = SymbolExtension(rawValue: "car.top.door.rear.right.open")
-    static let car_top_door_rear_right_open_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.door.rear.right.open.fill")
-    static let car_top_lane_dashed_arrowtriangle_inward: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.arrowtriangle.inward")
-    static let car_top_lane_dashed_arrowtriangle_inward_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.arrowtriangle.inward.fill")
-    static let car_top_lane_dashed_badge_steeringwheel: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.badge.steeringwheel")
-    static let car_top_lane_dashed_badge_steeringwheel_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.badge.steeringwheel.fill")
-    static let car_top_lane_dashed_departure_left: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.departure.left")
-    static let car_top_lane_dashed_departure_left_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.departure.left.fill")
-    static let car_top_lane_dashed_departure_right: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.departure.right")
-    static let car_top_lane_dashed_departure_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.lane.dashed.departure.right.fill")
-    static let car_top_radiowaves_front: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.front")
-    static let car_top_radiowaves_front_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.front.fill")
-    static let car_top_radiowaves_rear: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear")
-    static let car_top_radiowaves_rear_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.fill")
-    static let car_top_radiowaves_rear_left: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.left")
-    static let car_top_radiowaves_rear_left_and_rear_right: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.left.and.rear.right")
-    static let car_top_radiowaves_rear_left_and_rear_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.left.and.rear.right.fill")
-    static let car_top_radiowaves_rear_left_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.left.fill")
-    static let car_top_radiowaves_rear_right: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.right")
-    static let car_top_radiowaves_rear_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.right.fill")
-    static let chart_dots_scatter: SymbolExtension = SymbolExtension(rawValue: "chart.dots.scatter")
-    static let cross_case_circle: SymbolExtension = SymbolExtension(rawValue: "cross.case.circle")
-    static let cross_case_circle_fill: SymbolExtension = SymbolExtension(rawValue: "cross.case.circle.fill")
-    static let ellipsis_viewfinder: SymbolExtension = SymbolExtension(rawValue: "ellipsis.viewfinder")
-    static let engine_combustion: SymbolExtension = SymbolExtension(rawValue: "engine.combustion")
-    static let engine_combustion_fill: SymbolExtension = SymbolExtension(rawValue: "engine.combustion.fill")
-    static let exclamationmark_transmission: SymbolExtension = SymbolExtension(rawValue: "exclamationmark.transmission")
-    static let figure_run_square_stack: SymbolExtension = SymbolExtension(rawValue: "figure.run.square.stack")
-    static let figure_run_square_stack_fill: SymbolExtension = SymbolExtension(rawValue: "figure.run.square.stack.fill")
-    static let figure_seated_seatbelt: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt")
-    static let figure_seated_seatbelt_and_airbag_off: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.and.airbag.off")
-    static let figure_seated_seatbelt_and_airbag_on: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.and.airbag.on")
-    static let fish_circle: SymbolExtension = SymbolExtension(rawValue: "fish.circle")
-    static let fish_circle_fill: SymbolExtension = SymbolExtension(rawValue: "fish.circle.fill")
-    static let fluid_transmission: SymbolExtension = SymbolExtension(rawValue: "fluid.transmission")
-    static let glowplug: SymbolExtension = SymbolExtension(rawValue: "glowplug")
-    static let hand_raised_app: SymbolExtension = SymbolExtension(rawValue: "hand.raised.app")
-    static let hand_raised_app_fill: SymbolExtension = SymbolExtension(rawValue: "hand.raised.app.fill")
-    static let hand_raised_brakesignal: SymbolExtension = SymbolExtension(rawValue: "hand.raised.brakesignal")
-    static let hand_raised_brakesignal_slash: SymbolExtension = SymbolExtension(rawValue: "hand.raised.brakesignal.slash")
-    static let handbag: SymbolExtension = SymbolExtension(rawValue: "handbag")
-    static let handbag_fill: SymbolExtension = SymbolExtension(rawValue: "handbag.fill")
-    static let hazardsign: SymbolExtension = SymbolExtension(rawValue: "hazardsign")
-    static let hazardsign_fill: SymbolExtension = SymbolExtension(rawValue: "hazardsign.fill")
-    static let headlight_daytime: SymbolExtension = SymbolExtension(rawValue: "headlight.daytime")
-    static let headlight_daytime_fill: SymbolExtension = SymbolExtension(rawValue: "headlight.daytime.fill")
-    static let headlight_fog: SymbolExtension = SymbolExtension(rawValue: "headlight.fog")
-    static let headlight_fog_fill: SymbolExtension = SymbolExtension(rawValue: "headlight.fog.fill")
-    static let heat_element_windshield: SymbolExtension = SymbolExtension(rawValue: "heat.element.windshield")
-    static let house_and_flag: SymbolExtension = SymbolExtension(rawValue: "house.and.flag")
-    static let house_and_flag_circle: SymbolExtension = SymbolExtension(rawValue: "house.and.flag.circle")
-    static let house_and_flag_circle_fill: SymbolExtension = SymbolExtension(rawValue: "house.and.flag.circle.fill")
-    static let house_and_flag_fill: SymbolExtension = SymbolExtension(rawValue: "house.and.flag.fill")
-    static let house_lodge: SymbolExtension = SymbolExtension(rawValue: "house.lodge")
-    static let house_lodge_circle: SymbolExtension = SymbolExtension(rawValue: "house.lodge.circle")
-    static let house_lodge_circle_fill: SymbolExtension = SymbolExtension(rawValue: "house.lodge.circle.fill")
-    static let house_lodge_fill: SymbolExtension = SymbolExtension(rawValue: "house.lodge.fill")
-    static let info_windshield: SymbolExtension = SymbolExtension(rawValue: "info.windshield")
-    static let ipad_gen1: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1")
-    static let ipad_gen1_badge_play: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.badge.play")
-    static let ipad_gen1_landscape: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.landscape")
-    static let ipad_gen1_landscape_badge_play: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.landscape.badge.play")
-    static let ipad_gen2: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2")
-    static let ipad_gen2_badge_play: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.badge.play")
-    static let ipad_gen2_landscape: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.landscape")
-    static let ipad_gen2_landscape_badge_play: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.landscape.badge.play")
-    static let iphone_gen1: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1")
-    static let iphone_gen1_badge_play: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.badge.play")
-    static let iphone_gen1_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.circle")
-    static let iphone_gen1_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.circle.fill")
-    static let iphone_gen1_landscape: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.landscape")
-    static let iphone_gen1_radiowaves_left_and_right: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.radiowaves.left.and.right")
-    static let iphone_gen1_radiowaves_left_and_right_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.radiowaves.left.and.right.circle")
-    static let iphone_gen1_radiowaves_left_and_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.radiowaves.left.and.right.circle.fill")
-    static let iphone_gen1_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.slash")
-    static let iphone_gen1_slash_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.slash.circle")
-    static let iphone_gen1_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.slash.circle.fill")
-    static let iphone_gen2: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2")
-    static let iphone_gen2_badge_play: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.badge.play")
-    static let iphone_gen2_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.circle")
-    static let iphone_gen2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.circle.fill")
-    static let iphone_gen2_landscape: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.landscape")
-    static let iphone_gen2_radiowaves_left_and_right: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.radiowaves.left.and.right")
-    static let iphone_gen2_radiowaves_left_and_right_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.radiowaves.left.and.right.circle")
-    static let iphone_gen2_radiowaves_left_and_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.radiowaves.left.and.right.circle.fill")
-    static let iphone_gen2_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.slash")
-    static let iphone_gen2_slash_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.slash.circle")
-    static let iphone_gen2_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.slash.circle.fill")
-    static let iphone_gen3: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3")
-    static let iphone_gen3_badge_play: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.badge.play")
-    static let iphone_gen3_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.circle")
-    static let iphone_gen3_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.circle.fill")
-    static let iphone_gen3_landscape: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.landscape")
-    static let iphone_gen3_radiowaves_left_and_right: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.radiowaves.left.and.right")
-    static let iphone_gen3_radiowaves_left_and_right_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.radiowaves.left.and.right.circle")
-    static let iphone_gen3_radiowaves_left_and_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.radiowaves.left.and.right.circle.fill")
-    static let iphone_gen3_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.slash")
-    static let iphone_gen3_slash_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.slash.circle")
-    static let iphone_gen3_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.slash.circle.fill")
-    static let key_horizontal: SymbolExtension = SymbolExtension(rawValue: "key.horizontal")
-    static let key_horizontal_fill: SymbolExtension = SymbolExtension(rawValue: "key.horizontal.fill")
-    static let key_radiowaves_forward: SymbolExtension = SymbolExtension(rawValue: "key.radiowaves.forward")
-    static let key_radiowaves_forward_fill: SymbolExtension = SymbolExtension(rawValue: "key.radiowaves.forward.fill")
-    static let kph: SymbolExtension = SymbolExtension(rawValue: "kph")
-    static let kph_circle: SymbolExtension = SymbolExtension(rawValue: "kph.circle")
-    static let kph_circle_fill: SymbolExtension = SymbolExtension(rawValue: "kph.circle.fill")
-    static let lane: SymbolExtension = SymbolExtension(rawValue: "lane")
-    static let laptopcomputer_slash: SymbolExtension = SymbolExtension(rawValue: "laptopcomputer.slash")
-    static let light_overhead_left: SymbolExtension = SymbolExtension(rawValue: "light.overhead.left")
-    static let light_overhead_left_fill: SymbolExtension = SymbolExtension(rawValue: "light.overhead.left.fill")
-    static let light_overhead_right: SymbolExtension = SymbolExtension(rawValue: "light.overhead.right")
-    static let light_overhead_right_fill: SymbolExtension = SymbolExtension(rawValue: "light.overhead.right.fill")
-    static let lock_open_rotation: SymbolExtension = SymbolExtension(rawValue: "lock.open.rotation")
-    static let macbook_and_ipad: SymbolExtension = SymbolExtension(rawValue: "macbook.and.ipad")
-    static let macbook_and_iphone: SymbolExtension = SymbolExtension(rawValue: "macbook.and.iphone")
-    static let minus_plus_and_fluid_batteryblock: SymbolExtension = SymbolExtension(rawValue: "minus.plus.and.fluid.batteryblock")
-    static let minus_plus_batteryblock_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.exclamationmark")
-    static let minus_plus_batteryblock_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.exclamationmark.fill")
-    static let minus_plus_batteryblock_slash: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.slash")
-    static let minus_plus_batteryblock_slash_fill: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.slash.fill")
-    static let minus_plus_batteryblock_stack: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.stack")
-    static let minus_plus_batteryblock_stack_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.stack.exclamationmark")
-    static let minus_plus_batteryblock_stack_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.stack.exclamationmark.fill")
-    static let minus_plus_batteryblock_stack_fill: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.stack.fill")
-    static let mirror_side_left_and_arrow_turn_down_right: SymbolExtension = SymbolExtension(rawValue: "mirror.side.left.and.arrow.turn.down.right")
-    static let mirror_side_left_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "mirror.side.left.and.heat.waves")
-    static let mirror_side_right_and_arrow_turn_down_left: SymbolExtension = SymbolExtension(rawValue: "mirror.side.right.and.arrow.turn.down.left")
-    static let mirror_side_right_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "mirror.side.right.and.heat.waves")
-    static let mountain_2: SymbolExtension = SymbolExtension(rawValue: "mountain.2")
-    static let mountain_2_circle: SymbolExtension = SymbolExtension(rawValue: "mountain.2.circle")
-    static let mountain_2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "mountain.2.circle.fill")
-    static let mountain_2_fill: SymbolExtension = SymbolExtension(rawValue: "mountain.2.fill")
-    static let mph: SymbolExtension = SymbolExtension(rawValue: "mph")
-    static let mph_circle: SymbolExtension = SymbolExtension(rawValue: "mph.circle")
-    static let mph_circle_fill: SymbolExtension = SymbolExtension(rawValue: "mph.circle.fill")
-    static let mug: SymbolExtension = SymbolExtension(rawValue: "mug")
-    static let mug_fill: SymbolExtension = SymbolExtension(rawValue: "mug.fill")
-    static let oilcan: SymbolExtension = SymbolExtension(rawValue: "oilcan")
-    static let oilcan_fill: SymbolExtension = SymbolExtension(rawValue: "oilcan.fill")
-    static let person_crop_circle_dashed: SymbolExtension = SymbolExtension(rawValue: "person.crop.circle.dashed")
-    static let play_square_stack: SymbolExtension = SymbolExtension(rawValue: "play.square.stack")
-    static let play_square_stack_fill: SymbolExtension = SymbolExtension(rawValue: "play.square.stack.fill")
-    static let questionmark_key_filled: SymbolExtension = SymbolExtension(rawValue: "questionmark.key.filled")
-    static let retarder_brakesignal: SymbolExtension = SymbolExtension(rawValue: "retarder.brakesignal")
-    static let road_lane_arrowtriangle_2_inward: SymbolExtension = SymbolExtension(rawValue: "road.lane.arrowtriangle.2.inward")
-    static let sailboat_circle: SymbolExtension = SymbolExtension(rawValue: "sailboat.circle")
-    static let sailboat_circle_fill: SymbolExtension = SymbolExtension(rawValue: "sailboat.circle.fill")
-    static let signpost_and_arrowtriangle_up: SymbolExtension = SymbolExtension(rawValue: "signpost.and.arrowtriangle.up")
-    static let signpost_and_arrowtriangle_up_circle: SymbolExtension = SymbolExtension(rawValue: "signpost.and.arrowtriangle.up.circle")
-    static let signpost_and_arrowtriangle_up_circle_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.and.arrowtriangle.up.circle.fill")
-    static let signpost_and_arrowtriangle_up_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.and.arrowtriangle.up.fill")
-    static let signpost_left_circle: SymbolExtension = SymbolExtension(rawValue: "signpost.left.circle")
-    static let signpost_left_circle_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.left.circle.fill")
-    static let signpost_right_and_left: SymbolExtension = SymbolExtension(rawValue: "signpost.right.and.left")
-    static let signpost_right_and_left_circle: SymbolExtension = SymbolExtension(rawValue: "signpost.right.and.left.circle")
-    static let signpost_right_and_left_circle_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.right.and.left.circle.fill")
-    static let signpost_right_and_left_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.right.and.left.fill")
-    static let signpost_right_circle: SymbolExtension = SymbolExtension(rawValue: "signpost.right.circle")
-    static let signpost_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.right.circle.fill")
-    static let snowflake_road_lane: SymbolExtension = SymbolExtension(rawValue: "snowflake.road.lane")
-    static let snowflake_road_lane_dashed: SymbolExtension = SymbolExtension(rawValue: "snowflake.road.lane.dashed")
-    static let snowflake_slash: SymbolExtension = SymbolExtension(rawValue: "snowflake.slash")
-    static let sos: SymbolExtension = SymbolExtension(rawValue: "sos")
-    static let sos_circle: SymbolExtension = SymbolExtension(rawValue: "sos.circle")
-    static let sos_circle_fill: SymbolExtension = SymbolExtension(rawValue: "sos.circle.fill")
-    static let steeringwheel: SymbolExtension = SymbolExtension(rawValue: "steeringwheel")
-    static let steeringwheel_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.and.heat.waves")
-    static let steeringwheel_and_key: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.and.key")
-    static let steeringwheel_and_lock: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.and.lock")
-    static let steeringwheel_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.exclamationmark")
-    static let steeringwheel_road_lane: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.road.lane")
-    static let steeringwheel_road_lane_dashed: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.road.lane.dashed")
-    static let steeringwheel_slash: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.slash")
-    static let stroller: SymbolExtension = SymbolExtension(rawValue: "stroller")
-    static let stroller_fill: SymbolExtension = SymbolExtension(rawValue: "stroller.fill")
-    static let suitcase_rolling: SymbolExtension = SymbolExtension(rawValue: "suitcase.rolling")
-    static let suitcase_rolling_fill: SymbolExtension = SymbolExtension(rawValue: "suitcase.rolling.fill")
-    static let suv_side: SymbolExtension = SymbolExtension(rawValue: "suv.side")
-    static let suv_side_air_circulate: SymbolExtension = SymbolExtension(rawValue: "suv.side.air.circulate")
-    static let suv_side_air_circulate_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.air.circulate.fill")
-    static let suv_side_air_fresh: SymbolExtension = SymbolExtension(rawValue: "suv.side.air.fresh")
-    static let suv_side_air_fresh_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.air.fresh.fill")
-    static let suv_side_and_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "suv.side.and.exclamationmark")
-    static let suv_side_and_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.and.exclamationmark.fill")
-    static let suv_side_arrowtriangle_down: SymbolExtension = SymbolExtension(rawValue: "suv.side.arrowtriangle.down")
-    static let suv_side_arrowtriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.arrowtriangle.down.fill")
-    static let suv_side_arrowtriangle_up: SymbolExtension = SymbolExtension(rawValue: "suv.side.arrowtriangle.up")
-    static let suv_side_arrowtriangle_up_arrowtriangle_down: SymbolExtension = SymbolExtension(rawValue: "suv.side.arrowtriangle.up.arrowtriangle.down")
-    static let suv_side_arrowtriangle_up_arrowtriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.arrowtriangle.up.arrowtriangle.down.fill")
-    static let suv_side_arrowtriangle_up_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.arrowtriangle.up.fill")
-    static let suv_side_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.fill")
-    static let suv_side_front_open: SymbolExtension = SymbolExtension(rawValue: "suv.side.front.open")
-    static let suv_side_front_open_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.front.open.fill")
-    static let suv_side_rear_open: SymbolExtension = SymbolExtension(rawValue: "suv.side.rear.open")
-    static let suv_side_rear_open_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.rear.open.fill")
-    static let taillight_fog: SymbolExtension = SymbolExtension(rawValue: "taillight.fog")
-    static let taillight_fog_fill: SymbolExtension = SymbolExtension(rawValue: "taillight.fog.fill")
-    static let tent_2: SymbolExtension = SymbolExtension(rawValue: "tent.2")
-    static let tent_2_circle: SymbolExtension = SymbolExtension(rawValue: "tent.2.circle")
-    static let tent_2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "tent.2.circle.fill")
-    static let tent_2_fill: SymbolExtension = SymbolExtension(rawValue: "tent.2.fill")
-    static let tent_circle: SymbolExtension = SymbolExtension(rawValue: "tent.circle")
-    static let tent_circle_fill: SymbolExtension = SymbolExtension(rawValue: "tent.circle.fill")
-    static let thermometer_and_liquid_waves: SymbolExtension = SymbolExtension(rawValue: "thermometer.and.liquid.waves")
-    static let thermometer_transmission: SymbolExtension = SymbolExtension(rawValue: "thermometer.transmission")
-    static let toilet_circle: SymbolExtension = SymbolExtension(rawValue: "toilet.circle")
-    static let toilet_circle_fill: SymbolExtension = SymbolExtension(rawValue: "toilet.circle.fill")
-    static let transmission: SymbolExtension = SymbolExtension(rawValue: "transmission")
-    static let tree: SymbolExtension = SymbolExtension(rawValue: "tree")
-    static let tree_circle: SymbolExtension = SymbolExtension(rawValue: "tree.circle")
-    static let tree_circle_fill: SymbolExtension = SymbolExtension(rawValue: "tree.circle.fill")
-    static let tree_fill: SymbolExtension = SymbolExtension(rawValue: "tree.fill")
-    static let windshield_front_and_fluid_and_spray: SymbolExtension = SymbolExtension(rawValue: "windshield.front.and.fluid.and.spray")
-    static let windshield_front_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "windshield.front.and.heat.waves")
-    static let windshield_front_and_spray: SymbolExtension = SymbolExtension(rawValue: "windshield.front.and.spray")
-    static let windshield_front_and_wiper_and_spray: SymbolExtension = SymbolExtension(rawValue: "windshield.front.and.wiper.and.spray")
-    static let windshield_front_and_wiper_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "windshield.front.and.wiper.exclamationmark")
-    static let windshield_front_and_wiper_intermittent: SymbolExtension = SymbolExtension(rawValue: "windshield.front.and.wiper.intermittent")
-    static let windshield_rear_and_fluid_and_spray: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.fluid.and.spray")
-    static let windshield_rear_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.heat.waves")
-    static let windshield_rear_and_spray: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.spray")
-    static let windshield_rear_and_wiper_and_drop: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.wiper.and.drop")
-    static let windshield_rear_and_wiper_and_spray: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.wiper.and.spray")
-    static let windshield_rear_and_wiper_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.wiper.exclamationmark")
-    static let windshield_rear_and_wiper_intermittent: SymbolExtension = SymbolExtension(rawValue: "windshield.rear.and.wiper.intermittent")
-    static let wrongwaysign: SymbolExtension = SymbolExtension(rawValue: "wrongwaysign")
-    static let wrongwaysign_fill: SymbolExtension = SymbolExtension(rawValue: "wrongwaysign.fill")
+public extension S {
+    static let _1_brakesignal = "1.brakesignal"
+    static let _1_lane = "1.lane"
+    static let _2_brakesignal = "2.brakesignal"
+    static let _2_lane = "2.lane"
+    static let _3_lane = "3.lane"
+    static let _4_lane = "4.lane"
+    static let _5_lane = "5.lane"
+    static let _6_lane = "6.lane"
+    static let _7_lane = "7.lane"
+    static let _8_lane = "8.lane"
+    static let _9_lane = "9.lane"
+    static let _10_lane = "10.lane"
+    static let _11_lane = "11.lane"
+    static let _12_lane = "12.lane"
+    static let abs = "abs"
+    static let abs_brakesignal_slash = "abs.brakesignal.slash"
+    static let abs_circle = "abs.circle"
+    static let abs_circle_fill = "abs.circle.fill"
+    static let autostartstop = "autostartstop"
+    static let autostartstop_slash = "autostartstop.slash"
+    static let autostartstop_trianglebadge_exclamationmark = "autostartstop.trianglebadge.exclamationmark"
+    static let backpack_circle = "backpack.circle"
+    static let backpack_circle_fill = "backpack.circle.fill"
+    static let batteryblock = "batteryblock"
+    static let batteryblock_fill = "batteryblock.fill"
+    static let batteryblock_slash = "batteryblock.slash"
+    static let batteryblock_slash_fill = "batteryblock.slash.fill"
+    static let bolt_trianglebadge_exclamationmark = "bolt.trianglebadge.exclamationmark"
+    static let bolt_trianglebadge_exclamationmark_fill = "bolt.trianglebadge.exclamationmark.fill"
+    static let car_front_waves_up = "car.front.waves.up"
+    static let car_front_waves_up_fill = "car.front.waves.up.fill"
+    static let car_rear = "car.rear"
+    static let car_rear_and_tire_marks = "car.rear.and.tire.marks"
+    static let car_rear_and_tire_marks_slash = "car.rear.and.tire.marks.slash"
+    static let car_rear_fill = "car.rear.fill"
+    static let car_rear_road_lane = "car.rear.road.lane"
+    static let car_rear_road_lane_dashed = "car.rear.road.lane.dashed"
+    static let car_rear_waves_up = "car.rear.waves.up"
+    static let car_rear_waves_up_fill = "car.rear.waves.up.fill"
+    static let car_side = "car.side"
+    static let car_side_air_circulate = "car.side.air.circulate"
+    static let car_side_air_circulate_fill = "car.side.air.circulate.fill"
+    static let car_side_air_fresh = "car.side.air.fresh"
+    static let car_side_air_fresh_fill = "car.side.air.fresh.fill"
+    static let car_side_and_exclamationmark = "car.side.and.exclamationmark"
+    static let car_side_and_exclamationmark_fill = "car.side.and.exclamationmark.fill"
+    static let car_side_arrowtriangle_down = "car.side.arrowtriangle.down"
+    static let car_side_arrowtriangle_down_fill = "car.side.arrowtriangle.down.fill"
+    static let car_side_arrowtriangle_up = "car.side.arrowtriangle.up"
+    static let car_side_arrowtriangle_up_arrowtriangle_down = "car.side.arrowtriangle.up.arrowtriangle.down"
+    static let car_side_arrowtriangle_up_arrowtriangle_down_fill = "car.side.arrowtriangle.up.arrowtriangle.down.fill"
+    static let car_side_arrowtriangle_up_fill = "car.side.arrowtriangle.up.fill"
+    static let car_side_fill = "car.side.fill"
+    static let car_side_front_open = "car.side.front.open"
+    static let car_side_front_open_fill = "car.side.front.open.fill"
+    static let car_side_rear_open = "car.side.rear.open"
+    static let car_side_rear_open_fill = "car.side.rear.open.fill"
+    static let car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open = "car.top.door.front.left.and.front.right.and.rear.left.and.rear.right.open"
+    static let car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open_fill = "car.top.door.front.left.and.front.right.and.rear.left.and.rear.right.open.fill"
+    static let car_top_door_front_left_and_front_right_and_rear_left_open = "car.top.door.front.left.and.front.right.and.rear.left.open"
+    static let car_top_door_front_left_and_front_right_and_rear_left_open_fill = "car.top.door.front.left.and.front.right.and.rear.left.open.fill"
+    static let car_top_door_front_left_and_front_right_and_rear_right_open = "car.top.door.front.left.and.front.right.and.rear.right.open"
+    static let car_top_door_front_left_and_front_right_and_rear_right_open_fill = "car.top.door.front.left.and.front.right.and.rear.right.open.fill"
+    static let car_top_door_front_left_and_front_right_open = "car.top.door.front.left.and.front.right.open"
+    static let car_top_door_front_left_and_front_right_open_fill = "car.top.door.front.left.and.front.right.open.fill"
+    static let car_top_door_front_left_and_rear_left_and_rear_right_open = "car.top.door.front.left.and.rear.left.and.rear.right.open"
+    static let car_top_door_front_left_and_rear_left_and_rear_right_open_fill = "car.top.door.front.left.and.rear.left.and.rear.right.open.fill"
+    static let car_top_door_front_left_and_rear_left_open = "car.top.door.front.left.and.rear.left.open"
+    static let car_top_door_front_left_and_rear_left_open_fill = "car.top.door.front.left.and.rear.left.open.fill"
+    static let car_top_door_front_left_and_rear_right_open = "car.top.door.front.left.and.rear.right.open"
+    static let car_top_door_front_left_and_rear_right_open_fill = "car.top.door.front.left.and.rear.right.open.fill"
+    static let car_top_door_front_left_open = "car.top.door.front.left.open"
+    static let car_top_door_front_left_open_fill = "car.top.door.front.left.open.fill"
+    static let car_top_door_front_right_and_rear_left_and_rear_right_open = "car.top.door.front.right.and.rear.left.and.rear.right.open"
+    static let car_top_door_front_right_and_rear_left_and_rear_right_open_fill = "car.top.door.front.right.and.rear.left.and.rear.right.open.fill"
+    static let car_top_door_front_right_and_rear_left_open = "car.top.door.front.right.and.rear.left.open"
+    static let car_top_door_front_right_and_rear_left_open_fill = "car.top.door.front.right.and.rear.left.open.fill"
+    static let car_top_door_front_right_and_rear_right_open = "car.top.door.front.right.and.rear.right.open"
+    static let car_top_door_front_right_and_rear_right_open_fill = "car.top.door.front.right.and.rear.right.open.fill"
+    static let car_top_door_front_right_open = "car.top.door.front.right.open"
+    static let car_top_door_front_right_open_fill = "car.top.door.front.right.open.fill"
+    static let car_top_door_rear_left_and_rear_right_open = "car.top.door.rear.left.and.rear.right.open"
+    static let car_top_door_rear_left_and_rear_right_open_fill = "car.top.door.rear.left.and.rear.right.open.fill"
+    static let car_top_door_rear_left_open = "car.top.door.rear.left.open"
+    static let car_top_door_rear_left_open_fill = "car.top.door.rear.left.open.fill"
+    static let car_top_door_rear_right_open = "car.top.door.rear.right.open"
+    static let car_top_door_rear_right_open_fill = "car.top.door.rear.right.open.fill"
+    static let car_top_lane_dashed_arrowtriangle_inward = "car.top.lane.dashed.arrowtriangle.inward"
+    static let car_top_lane_dashed_arrowtriangle_inward_fill = "car.top.lane.dashed.arrowtriangle.inward.fill"
+    static let car_top_lane_dashed_badge_steeringwheel = "car.top.lane.dashed.badge.steeringwheel"
+    static let car_top_lane_dashed_badge_steeringwheel_fill = "car.top.lane.dashed.badge.steeringwheel.fill"
+    static let car_top_lane_dashed_departure_left = "car.top.lane.dashed.departure.left"
+    static let car_top_lane_dashed_departure_left_fill = "car.top.lane.dashed.departure.left.fill"
+    static let car_top_lane_dashed_departure_right = "car.top.lane.dashed.departure.right"
+    static let car_top_lane_dashed_departure_right_fill = "car.top.lane.dashed.departure.right.fill"
+    static let car_top_radiowaves_front = "car.top.radiowaves.front"
+    static let car_top_radiowaves_front_fill = "car.top.radiowaves.front.fill"
+    static let car_top_radiowaves_rear = "car.top.radiowaves.rear"
+    static let car_top_radiowaves_rear_fill = "car.top.radiowaves.rear.fill"
+    static let car_top_radiowaves_rear_left = "car.top.radiowaves.rear.left"
+    static let car_top_radiowaves_rear_left_and_rear_right = "car.top.radiowaves.rear.left.and.rear.right"
+    static let car_top_radiowaves_rear_left_and_rear_right_fill = "car.top.radiowaves.rear.left.and.rear.right.fill"
+    static let car_top_radiowaves_rear_left_fill = "car.top.radiowaves.rear.left.fill"
+    static let car_top_radiowaves_rear_right = "car.top.radiowaves.rear.right"
+    static let car_top_radiowaves_rear_right_fill = "car.top.radiowaves.rear.right.fill"
+    static let chart_dots_scatter = "chart.dots.scatter"
+    static let cross_case_circle = "cross.case.circle"
+    static let cross_case_circle_fill = "cross.case.circle.fill"
+    static let ellipsis_viewfinder = "ellipsis.viewfinder"
+    static let engine_combustion = "engine.combustion"
+    static let engine_combustion_fill = "engine.combustion.fill"
+    static let exclamationmark_transmission = "exclamationmark.transmission"
+    static let figure_run_square_stack = "figure.run.square.stack"
+    static let figure_run_square_stack_fill = "figure.run.square.stack.fill"
+    static let figure_seated_seatbelt = "figure.seated.seatbelt"
+    static let figure_seated_seatbelt_and_airbag_off = "figure.seated.seatbelt.and.airbag.off"
+    static let figure_seated_seatbelt_and_airbag_on = "figure.seated.seatbelt.and.airbag.on"
+    static let fish_circle = "fish.circle"
+    static let fish_circle_fill = "fish.circle.fill"
+    static let fluid_transmission = "fluid.transmission"
+    static let glowplug = "glowplug"
+    static let hand_raised_app = "hand.raised.app"
+    static let hand_raised_app_fill = "hand.raised.app.fill"
+    static let hand_raised_brakesignal = "hand.raised.brakesignal"
+    static let hand_raised_brakesignal_slash = "hand.raised.brakesignal.slash"
+    static let handbag = "handbag"
+    static let handbag_fill = "handbag.fill"
+    static let hazardsign = "hazardsign"
+    static let hazardsign_fill = "hazardsign.fill"
+    static let headlight_daytime = "headlight.daytime"
+    static let headlight_daytime_fill = "headlight.daytime.fill"
+    static let headlight_fog = "headlight.fog"
+    static let headlight_fog_fill = "headlight.fog.fill"
+    static let heat_element_windshield = "heat.element.windshield"
+    static let house_and_flag = "house.and.flag"
+    static let house_and_flag_circle = "house.and.flag.circle"
+    static let house_and_flag_circle_fill = "house.and.flag.circle.fill"
+    static let house_and_flag_fill = "house.and.flag.fill"
+    static let house_lodge = "house.lodge"
+    static let house_lodge_circle = "house.lodge.circle"
+    static let house_lodge_circle_fill = "house.lodge.circle.fill"
+    static let house_lodge_fill = "house.lodge.fill"
+    static let info_windshield = "info.windshield"
+    static let ipad_gen1 = "ipad.gen1"
+    static let ipad_gen1_badge_play = "ipad.gen1.badge.play"
+    static let ipad_gen1_landscape = "ipad.gen1.landscape"
+    static let ipad_gen1_landscape_badge_play = "ipad.gen1.landscape.badge.play"
+    static let ipad_gen2 = "ipad.gen2"
+    static let ipad_gen2_badge_play = "ipad.gen2.badge.play"
+    static let ipad_gen2_landscape = "ipad.gen2.landscape"
+    static let ipad_gen2_landscape_badge_play = "ipad.gen2.landscape.badge.play"
+    static let iphone_gen1 = "iphone.gen1"
+    static let iphone_gen1_badge_play = "iphone.gen1.badge.play"
+    static let iphone_gen1_circle = "iphone.gen1.circle"
+    static let iphone_gen1_circle_fill = "iphone.gen1.circle.fill"
+    static let iphone_gen1_landscape = "iphone.gen1.landscape"
+    static let iphone_gen1_radiowaves_left_and_right = "iphone.gen1.radiowaves.left.and.right"
+    static let iphone_gen1_radiowaves_left_and_right_circle = "iphone.gen1.radiowaves.left.and.right.circle"
+    static let iphone_gen1_radiowaves_left_and_right_circle_fill = "iphone.gen1.radiowaves.left.and.right.circle.fill"
+    static let iphone_gen1_slash = "iphone.gen1.slash"
+    static let iphone_gen1_slash_circle = "iphone.gen1.slash.circle"
+    static let iphone_gen1_slash_circle_fill = "iphone.gen1.slash.circle.fill"
+    static let iphone_gen2 = "iphone.gen2"
+    static let iphone_gen2_badge_play = "iphone.gen2.badge.play"
+    static let iphone_gen2_circle = "iphone.gen2.circle"
+    static let iphone_gen2_circle_fill = "iphone.gen2.circle.fill"
+    static let iphone_gen2_landscape = "iphone.gen2.landscape"
+    static let iphone_gen2_radiowaves_left_and_right = "iphone.gen2.radiowaves.left.and.right"
+    static let iphone_gen2_radiowaves_left_and_right_circle = "iphone.gen2.radiowaves.left.and.right.circle"
+    static let iphone_gen2_radiowaves_left_and_right_circle_fill = "iphone.gen2.radiowaves.left.and.right.circle.fill"
+    static let iphone_gen2_slash = "iphone.gen2.slash"
+    static let iphone_gen2_slash_circle = "iphone.gen2.slash.circle"
+    static let iphone_gen2_slash_circle_fill = "iphone.gen2.slash.circle.fill"
+    static let iphone_gen3 = "iphone.gen3"
+    static let iphone_gen3_badge_play = "iphone.gen3.badge.play"
+    static let iphone_gen3_circle = "iphone.gen3.circle"
+    static let iphone_gen3_circle_fill = "iphone.gen3.circle.fill"
+    static let iphone_gen3_landscape = "iphone.gen3.landscape"
+    static let iphone_gen3_radiowaves_left_and_right = "iphone.gen3.radiowaves.left.and.right"
+    static let iphone_gen3_radiowaves_left_and_right_circle = "iphone.gen3.radiowaves.left.and.right.circle"
+    static let iphone_gen3_radiowaves_left_and_right_circle_fill = "iphone.gen3.radiowaves.left.and.right.circle.fill"
+    static let iphone_gen3_slash = "iphone.gen3.slash"
+    static let iphone_gen3_slash_circle = "iphone.gen3.slash.circle"
+    static let iphone_gen3_slash_circle_fill = "iphone.gen3.slash.circle.fill"
+    static let key_horizontal = "key.horizontal"
+    static let key_horizontal_fill = "key.horizontal.fill"
+    static let key_radiowaves_forward = "key.radiowaves.forward"
+    static let key_radiowaves_forward_fill = "key.radiowaves.forward.fill"
+    static let kph = "kph"
+    static let kph_circle = "kph.circle"
+    static let kph_circle_fill = "kph.circle.fill"
+    static let lane = "lane"
+    static let laptopcomputer_slash = "laptopcomputer.slash"
+    static let light_overhead_left = "light.overhead.left"
+    static let light_overhead_left_fill = "light.overhead.left.fill"
+    static let light_overhead_right = "light.overhead.right"
+    static let light_overhead_right_fill = "light.overhead.right.fill"
+    static let lock_open_rotation = "lock.open.rotation"
+    static let macbook_and_ipad = "macbook.and.ipad"
+    static let macbook_and_iphone = "macbook.and.iphone"
+    static let minus_plus_and_fluid_batteryblock = "minus.plus.and.fluid.batteryblock"
+    static let minus_plus_batteryblock_exclamationmark = "minus.plus.batteryblock.exclamationmark"
+    static let minus_plus_batteryblock_exclamationmark_fill = "minus.plus.batteryblock.exclamationmark.fill"
+    static let minus_plus_batteryblock_slash = "minus.plus.batteryblock.slash"
+    static let minus_plus_batteryblock_slash_fill = "minus.plus.batteryblock.slash.fill"
+    static let minus_plus_batteryblock_stack = "minus.plus.batteryblock.stack"
+    static let minus_plus_batteryblock_stack_exclamationmark = "minus.plus.batteryblock.stack.exclamationmark"
+    static let minus_plus_batteryblock_stack_exclamationmark_fill = "minus.plus.batteryblock.stack.exclamationmark.fill"
+    static let minus_plus_batteryblock_stack_fill = "minus.plus.batteryblock.stack.fill"
+    static let mirror_side_left_and_arrow_turn_down_right = "mirror.side.left.and.arrow.turn.down.right"
+    static let mirror_side_left_and_heat_waves = "mirror.side.left.and.heat.waves"
+    static let mirror_side_right_and_arrow_turn_down_left = "mirror.side.right.and.arrow.turn.down.left"
+    static let mirror_side_right_and_heat_waves = "mirror.side.right.and.heat.waves"
+    static let mountain_2 = "mountain.2"
+    static let mountain_2_circle = "mountain.2.circle"
+    static let mountain_2_circle_fill = "mountain.2.circle.fill"
+    static let mountain_2_fill = "mountain.2.fill"
+    static let mph = "mph"
+    static let mph_circle = "mph.circle"
+    static let mph_circle_fill = "mph.circle.fill"
+    static let mug = "mug"
+    static let mug_fill = "mug.fill"
+    static let oilcan = "oilcan"
+    static let oilcan_fill = "oilcan.fill"
+    static let person_crop_circle_dashed = "person.crop.circle.dashed"
+    static let play_square_stack = "play.square.stack"
+    static let play_square_stack_fill = "play.square.stack.fill"
+    static let questionmark_key_filled = "questionmark.key.filled"
+    static let retarder_brakesignal = "retarder.brakesignal"
+    static let road_lane_arrowtriangle_2_inward = "road.lane.arrowtriangle.2.inward"
+    static let sailboat_circle = "sailboat.circle"
+    static let sailboat_circle_fill = "sailboat.circle.fill"
+    static let signpost_and_arrowtriangle_up = "signpost.and.arrowtriangle.up"
+    static let signpost_and_arrowtriangle_up_circle = "signpost.and.arrowtriangle.up.circle"
+    static let signpost_and_arrowtriangle_up_circle_fill = "signpost.and.arrowtriangle.up.circle.fill"
+    static let signpost_and_arrowtriangle_up_fill = "signpost.and.arrowtriangle.up.fill"
+    static let signpost_left_circle = "signpost.left.circle"
+    static let signpost_left_circle_fill = "signpost.left.circle.fill"
+    static let signpost_right_and_left = "signpost.right.and.left"
+    static let signpost_right_and_left_circle = "signpost.right.and.left.circle"
+    static let signpost_right_and_left_circle_fill = "signpost.right.and.left.circle.fill"
+    static let signpost_right_and_left_fill = "signpost.right.and.left.fill"
+    static let signpost_right_circle = "signpost.right.circle"
+    static let signpost_right_circle_fill = "signpost.right.circle.fill"
+    static let snowflake_road_lane = "snowflake.road.lane"
+    static let snowflake_road_lane_dashed = "snowflake.road.lane.dashed"
+    static let snowflake_slash = "snowflake.slash"
+    static let sos = "sos"
+    static let sos_circle = "sos.circle"
+    static let sos_circle_fill = "sos.circle.fill"
+    static let steeringwheel = "steeringwheel"
+    static let steeringwheel_and_heat_waves = "steeringwheel.and.heat.waves"
+    static let steeringwheel_and_key = "steeringwheel.and.key"
+    static let steeringwheel_and_lock = "steeringwheel.and.lock"
+    static let steeringwheel_exclamationmark = "steeringwheel.exclamationmark"
+    static let steeringwheel_road_lane = "steeringwheel.road.lane"
+    static let steeringwheel_road_lane_dashed = "steeringwheel.road.lane.dashed"
+    static let steeringwheel_slash = "steeringwheel.slash"
+    static let stroller = "stroller"
+    static let stroller_fill = "stroller.fill"
+    static let suitcase_rolling = "suitcase.rolling"
+    static let suitcase_rolling_fill = "suitcase.rolling.fill"
+    static let suv_side = "suv.side"
+    static let suv_side_air_circulate = "suv.side.air.circulate"
+    static let suv_side_air_circulate_fill = "suv.side.air.circulate.fill"
+    static let suv_side_air_fresh = "suv.side.air.fresh"
+    static let suv_side_air_fresh_fill = "suv.side.air.fresh.fill"
+    static let suv_side_and_exclamationmark = "suv.side.and.exclamationmark"
+    static let suv_side_and_exclamationmark_fill = "suv.side.and.exclamationmark.fill"
+    static let suv_side_arrowtriangle_down = "suv.side.arrowtriangle.down"
+    static let suv_side_arrowtriangle_down_fill = "suv.side.arrowtriangle.down.fill"
+    static let suv_side_arrowtriangle_up = "suv.side.arrowtriangle.up"
+    static let suv_side_arrowtriangle_up_arrowtriangle_down = "suv.side.arrowtriangle.up.arrowtriangle.down"
+    static let suv_side_arrowtriangle_up_arrowtriangle_down_fill = "suv.side.arrowtriangle.up.arrowtriangle.down.fill"
+    static let suv_side_arrowtriangle_up_fill = "suv.side.arrowtriangle.up.fill"
+    static let suv_side_fill = "suv.side.fill"
+    static let suv_side_front_open = "suv.side.front.open"
+    static let suv_side_front_open_fill = "suv.side.front.open.fill"
+    static let suv_side_rear_open = "suv.side.rear.open"
+    static let suv_side_rear_open_fill = "suv.side.rear.open.fill"
+    static let taillight_fog = "taillight.fog"
+    static let taillight_fog_fill = "taillight.fog.fill"
+    static let tent_2 = "tent.2"
+    static let tent_2_circle = "tent.2.circle"
+    static let tent_2_circle_fill = "tent.2.circle.fill"
+    static let tent_2_fill = "tent.2.fill"
+    static let tent_circle = "tent.circle"
+    static let tent_circle_fill = "tent.circle.fill"
+    static let thermometer_and_liquid_waves = "thermometer.and.liquid.waves"
+    static let thermometer_transmission = "thermometer.transmission"
+    static let toilet_circle = "toilet.circle"
+    static let toilet_circle_fill = "toilet.circle.fill"
+    static let transmission = "transmission"
+    static let tree = "tree"
+    static let tree_circle = "tree.circle"
+    static let tree_circle_fill = "tree.circle.fill"
+    static let tree_fill = "tree.fill"
+    static let windshield_front_and_fluid_and_spray = "windshield.front.and.fluid.and.spray"
+    static let windshield_front_and_heat_waves = "windshield.front.and.heat.waves"
+    static let windshield_front_and_spray = "windshield.front.and.spray"
+    static let windshield_front_and_wiper_and_spray = "windshield.front.and.wiper.and.spray"
+    static let windshield_front_and_wiper_exclamationmark = "windshield.front.and.wiper.exclamationmark"
+    static let windshield_front_and_wiper_intermittent = "windshield.front.and.wiper.intermittent"
+    static let windshield_rear_and_fluid_and_spray = "windshield.rear.and.fluid.and.spray"
+    static let windshield_rear_and_heat_waves = "windshield.rear.and.heat.waves"
+    static let windshield_rear_and_spray = "windshield.rear.and.spray"
+    static let windshield_rear_and_wiper_and_drop = "windshield.rear.and.wiper.and.drop"
+    static let windshield_rear_and_wiper_and_spray = "windshield.rear.and.wiper.and.spray"
+    static let windshield_rear_and_wiper_exclamationmark = "windshield.rear.and.wiper.exclamationmark"
+    static let windshield_rear_and_wiper_intermittent = "windshield.rear.and.wiper.intermittent"
+    static let wrongwaysign = "wrongwaysign"
+    static let wrongwaysign_fill = "wrongwaysign.fill"
 }

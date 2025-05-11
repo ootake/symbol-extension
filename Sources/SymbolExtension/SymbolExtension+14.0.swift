@@ -8,1559 +8,780 @@
 import Foundation
 
 @available(iOS 14.0, macOS 11.0, *)
-public extension SymbolExtension {
-    static let iOS14_0: [SymbolExtension] = [
-        _4k_tv,
-        _4k_tv_fill,
-        airplane_circle,
-        airplane_circle_fill,
-        airpod_left,
-        airpod_right,
-        airpods,
-        airport_express,
-        airport_extreme,
-        airport_extreme_tower,
-        amplifier,
-        appclip,
-        applescript,
-        applescript_fill,
-        appletv,
-        appletv_fill,
-        applewatch,
-        applewatch_radiowaves_left_and_right,
-        applewatch_slash,
-        applewatch_watchface,
-        apps_ipad,
-        apps_ipad_landscape,
-        apps_iphone,
-        apps_iphone_badge_plus,
-        apps_iphone_landscape,
-        archivebox_circle,
-        archivebox_circle_fill,
-        arrow_backward,
-        arrow_backward_circle,
-        arrow_backward_circle_fill,
-        arrow_backward_square,
-        arrow_backward_square_fill,
-        arrow_down_app,
-        arrow_down_app_fill,
-        arrow_down_backward,
-        arrow_down_backward_circle,
-        arrow_down_backward_circle_fill,
-        arrow_down_backward_square,
-        arrow_down_backward_square_fill,
-        arrow_down_forward,
-        arrow_down_forward_and_arrow_up_backward,
-        arrow_down_forward_and_arrow_up_backward_circle,
-        arrow_down_forward_and_arrow_up_backward_circle_fill,
-        arrow_down_forward_circle,
-        arrow_down_forward_circle_fill,
-        arrow_down_forward_square,
-        arrow_down_forward_square_fill,
-        arrow_down_heart,
-        arrow_down_heart_fill,
-        arrow_down_right_and_arrow_up_left_circle,
-        arrow_down_right_and_arrow_up_left_circle_fill,
-        arrow_forward,
-        arrow_forward_circle,
-        arrow_forward_circle_fill,
-        arrow_forward_square,
-        arrow_forward_square_fill,
-        arrow_left_arrow_right,
-        arrow_left_arrow_right_circle,
-        arrow_left_arrow_right_circle_fill,
-        arrow_left_arrow_right_square,
-        arrow_left_arrow_right_square_fill,
-        arrow_turn_up_forward_iphone,
-        arrow_turn_up_forward_iphone_fill,
-        arrow_up_and_down_and_arrow_left_and_right,
-        arrow_up_and_person_rectangle_portrait,
-        arrow_up_and_person_rectangle_turn_left,
-        arrow_up_and_person_rectangle_turn_right,
-        arrow_up_backward,
-        arrow_up_backward_and_arrow_down_forward,
-        arrow_up_backward_and_arrow_down_forward_circle,
-        arrow_up_backward_and_arrow_down_forward_circle_fill,
-        arrow_up_backward_circle,
-        arrow_up_backward_circle_fill,
-        arrow_up_backward_square,
-        arrow_up_backward_square_fill,
-        arrow_up_forward,
-        arrow_up_forward_app,
-        arrow_up_forward_app_fill,
-        arrow_up_forward_circle,
-        arrow_up_forward_circle_fill,
-        arrow_up_forward_square,
-        arrow_up_forward_square_fill,
-        arrow_up_heart,
-        arrow_up_heart_fill,
-        arrow_up_left_and_arrow_down_right_circle,
-        arrow_up_left_and_arrow_down_right_circle_fill,
-        arrow_up_left_and_down_right_and_arrow_up_right_and_down_left,
-        arrow_up_left_and_down_right_magnifyingglass,
-        arrow_up_message,
-        arrow_up_message_fill,
-        arrow_up_right_and_arrow_down_left_rectangle,
-        arrow_up_right_and_arrow_down_left_rectangle_fill,
-        arrow_uturn_backward,
-        arrow_uturn_backward_circle,
-        arrow_uturn_backward_circle_badge_ellipsis,
-        arrow_uturn_backward_circle_fill,
-        arrow_uturn_backward_square,
-        arrow_uturn_backward_square_fill,
-        arrow_uturn_forward,
-        arrow_uturn_forward_circle,
-        arrow_uturn_forward_circle_fill,
-        arrow_uturn_forward_square,
-        arrow_uturn_forward_square_fill,
-        arrowshape_bounce_forward,
-        arrowshape_bounce_forward_fill,
-        arrowshape_bounce_right,
-        arrowshape_bounce_right_fill,
-        arrowshape_turn_up_backward,
-        arrowshape_turn_up_backward_2,
-        arrowshape_turn_up_backward_2_circle,
-        arrowshape_turn_up_backward_2_circle_fill,
-        arrowshape_turn_up_backward_2_fill,
-        arrowshape_turn_up_backward_circle,
-        arrowshape_turn_up_backward_circle_fill,
-        arrowshape_turn_up_backward_fill,
-        arrowshape_turn_up_forward,
-        arrowshape_turn_up_forward_circle,
-        arrowshape_turn_up_forward_circle_fill,
-        arrowshape_turn_up_forward_fill,
-        arrowshape_turn_up_left_2_circle,
-        arrowshape_turn_up_left_2_circle_fill,
-        arrowshape_zigzag_forward,
-        arrowshape_zigzag_forward_fill,
-        arrowshape_zigzag_right,
-        arrowshape_zigzag_right_fill,
-        arrowtriangle_backward,
-        arrowtriangle_backward_circle,
-        arrowtriangle_backward_circle_fill,
-        arrowtriangle_backward_fill,
-        arrowtriangle_backward_square,
-        arrowtriangle_backward_square_fill,
-        arrowtriangle_forward,
-        arrowtriangle_forward_circle,
-        arrowtriangle_forward_circle_fill,
-        arrowtriangle_forward_fill,
-        arrowtriangle_forward_square,
-        arrowtriangle_forward_square_fill,
-        arrowtriangle_left_and_line_vertical_and_arrowtriangle_right,
-        arrowtriangle_right_and_line_vertical_and_arrowtriangle_left,
-        at_circle,
-        at_circle_fill,
-        atom,
-        backward_frame,
-        backward_frame_fill,
-        badge_plus_radiowaves_forward,
-        bag_circle,
-        bag_circle_fill,
-        banknote,
-        banknote_fill,
-        barometer,
-        bell_badge,
-        bell_badge_fill,
-        bell_slash_circle,
-        bell_slash_circle_fill,
-        bicycle,
-        bicycle_circle,
-        bicycle_circle_fill,
-        binoculars,
-        binoculars_fill,
-        bolt_car,
-        bolt_car_fill,
-        bolt_heart,
-        bolt_heart_fill,
-        bolt_slash_circle,
-        bolt_slash_circle_fill,
-        bonjour,
-        book_closed,
-        book_closed_fill,
-        bookmark_circle,
-        bookmark_circle_fill,
-        bookmark_slash,
-        bookmark_slash_fill,
-        books_vertical,
-        books_vertical_fill,
-        building,
-        building_2,
-        building_2_crop_circle,
-        building_2_crop_circle_fill,
-        building_2_fill,
-        building_columns,
-        building_columns_fill,
-        building_fill,
-        bus,
-        bus_doubledecker,
-        bus_doubledecker_fill,
-        bus_fill,
-        calendar_badge_clock,
-        calendar_badge_exclamationmark,
-        camera_aperture,
-        camera_badge_ellipsis,
-        camera_filters,
-        camera_metering_center_weighted,
-        camera_metering_center_weighted_average,
-        camera_metering_matrix,
-        camera_metering_multispot,
-        camera_metering_none,
-        camera_metering_partial,
-        camera_metering_spot,
-        camera_metering_unknown,
-        candybarphone,
-        capsule_portrait,
-        capsule_portrait_fill,
-        car_2,
-        car_2_fill,
-        car_circle,
-        car_circle_fill,
-        _case,
-        case_fill,
-        chart_bar_xaxis,
-        checkmark_icloud,
-        checkmark_icloud_fill,
-        checkmark_rectangle_portrait,
-        checkmark_rectangle_portrait_fill,
-        chevron_backward,
-        chevron_backward_2,
-        chevron_backward_circle,
-        chevron_backward_circle_fill,
-        chevron_backward_square,
-        chevron_backward_square_fill,
-        chevron_forward,
-        chevron_forward_2,
-        chevron_forward_circle,
-        chevron_forward_circle_fill,
-        chevron_forward_square,
-        chevron_forward_square_fill,
-        circle_circle,
-        circle_circle_fill,
-        circle_dashed,
-        circle_grid_cross,
-        circle_grid_cross_fill,
-        circle_square,
-        circlebadge,
-        circlebadge_2,
-        circlebadge_2_fill,
-        circlebadge_fill,
-        comb,
-        comb_fill,
-        command_circle,
-        command_circle_fill,
-        command_square,
-        command_square_fill,
-        cone,
-        cone_fill,
-        contextualmenu_and_cursorarrow,
-        cpu,
-        creditcard_circle,
-        creditcard_circle_fill,
-        cross,
-        cross_case,
-        cross_case_fill,
-        cross_circle,
-        cross_circle_fill,
-        cross_fill,
-        crown,
-        crown_fill,
-        cube_transparent,
-        cube_transparent_fill,
-        curlybraces,
-        curlybraces_square,
-        curlybraces_square_fill,
-        cursorarrow,
-        cursorarrow_and_square_on_square_dashed,
-        cursorarrow_click,
-        cursorarrow_click_2,
-        cursorarrow_click_badge_clock,
-        cursorarrow_motionlines,
-        cursorarrow_motionlines_click,
-        cursorarrow_rays,
-        cursorarrow_square,
-        cylinder,
-        cylinder_fill,
-        cylinder_split_1x2,
-        cylinder_split_1x2_fill,
-        deskclock,
-        deskclock_fill,
-        diamond,
-        diamond_fill,
-        die_face_1,
-        die_face_1_fill,
-        die_face_2,
-        die_face_2_fill,
-        die_face_3,
-        die_face_3_fill,
-        die_face_4,
-        die_face_4_fill,
-        die_face_5,
-        die_face_5_fill,
-        die_face_6,
-        die_face_6_fill,
-        display,
-        display_2,
-        display_trianglebadge_exclamationmark,
-        dock_arrow_down_rectangle,
-        dock_arrow_up_rectangle,
-        dock_rectangle,
-        dot_arrowtriangles_up_right_down_left_circle,
-        dot_circle_and_cursorarrow,
-        dot_radiowaves_forward,
-        dot_squareshape,
-        dot_squareshape_fill,
-        dot_squareshape_split_2x2,
-        dpad,
-        dpad_fill,
-        drop,
-        drop_fill,
-        ear_badge_checkmark,
-        ear_fill,
-        ear_trianglebadge_exclamationmark,
-        earpods,
-        eject_circle,
-        eject_circle_fill,
-        ellipsis_bubble,
-        ellipsis_bubble_fill,
-        ellipsis_rectangle,
-        ellipsis_rectangle_fill,
-        esim,
-        esim_fill,
-        exclamationmark_2,
-        exclamationmark_3,
-        externaldrive,
-        externaldrive_badge_checkmark,
-        externaldrive_badge_icloud,
-        externaldrive_badge_minus,
-        externaldrive_badge_person_crop,
-        externaldrive_badge_plus,
-        externaldrive_badge_timemachine,
-        externaldrive_badge_wifi,
-        externaldrive_badge_xmark,
-        externaldrive_connected_to_line_below,
-        externaldrive_connected_to_line_below_fill,
-        externaldrive_fill,
-        externaldrive_fill_badge_checkmark,
-        externaldrive_fill_badge_icloud,
-        externaldrive_fill_badge_minus,
-        externaldrive_fill_badge_person_crop,
-        externaldrive_fill_badge_plus,
-        externaldrive_fill_badge_timemachine,
-        externaldrive_fill_badge_wifi,
-        externaldrive_fill_badge_xmark,
-        eye_circle,
-        eye_circle_fill,
-        eyebrow,
-        eyes,
-        eyes_inverse,
-        face_dashed,
-        face_dashed_fill,
-        face_smiling,
-        faxmachine,
-        figure_stand,
-        figure_stand_line_dotted_figure_stand,
-        figure_walk,
-        figure_walk_circle,
-        figure_walk_circle_fill,
-        figure_walk_diamond,
-        figure_walk_diamond_fill,
-        figure_wave,
-        figure_wave_circle,
-        figure_wave_circle_fill,
-        filemenu_and_cursorarrow,
-        filemenu_and_selection,
-        flag_badge_ellipsis,
-        flag_badge_ellipsis_fill,
-        flag_slash_circle,
-        flag_slash_circle_fill,
-        flipphone,
-        fn,
-        folder_badge_questionmark,
-        folder_fill_badge_questionmark,
-        forward_frame,
-        forward_frame_fill,
-        gearshape,
-        gearshape_2,
-        gearshape_2_fill,
-        gearshape_fill,
-        gift_circle,
-        gift_circle_fill,
-        giftcard,
-        giftcard_fill,
-        graduationcap,
-        graduationcap_fill,
-        greetingcard,
-        greetingcard_fill,
-        guitars_fill,
-        gyroscope,
-        h_square_on_square,
-        hand_point_down,
-        hand_point_down_fill,
-        hand_point_up,
-        hand_point_up_braille,
-        hand_point_up_braille_fill,
-        hand_point_up_fill,
-        hand_point_up_left,
-        hand_point_up_left_fill,
-        hand_tap,
-        hand_tap_fill,
-        hand_wave,
-        hand_wave_fill,
-        hands_clap,
-        hands_clap_fill,
-        headphones_circle,
-        headphones_circle_fill,
-        heart_text_square,
-        heart_text_square_fill,
-        hifispeaker_2,
-        hifispeaker_2_fill,
-        hifispeaker_and_homepod,
-        hifispeaker_and_homepod_fill,
-        highlighter,
-        homekit,
-        homepod,
-        homepod_2,
-        homepod_2_fill,
-        homepod_fill,
-        hourglass_badge_plus,
-        house_circle,
-        house_circle_fill,
-        infinity,
-        internaldrive,
-        internaldrive_fill,
-        ipad,
-        ipad_landscape,
-        iphone,
-        iphone_radiowaves_left_and_right,
-        iphone_slash,
-        ipod,
-        j_square_on_square,
-        k,
-        key,
-        key_fill,
-        key_icloud,
-        key_icloud_fill,
-        keyboard_badge_ellipsis,
-        keyboard_chevron_compact_left,
-        keyboard_macwindow,
-        keyboard_onehanded_left,
-        keyboard_onehanded_right,
-        l_joystick,
-        l_joystick_fill,
-        ladybug,
-        ladybug_fill,
-        laptopcomputer,
-        latch_2_case,
-        latch_2_case_fill,
-        leaf,
-        leaf_fill,
-        level,
-        level_fill,
-        lifepreserver,
-        lifepreserver_fill,
-        line_3_crossed_swirl_circle,
-        line_3_crossed_swirl_circle_fill,
-        line_diagonal,
-        line_diagonal_arrow,
-        line_horizontal_star_fill_line_horizontal,
-        lineweight,
-        link_badge_plus,
-        list_and_film,
-        list_bullet_rectangle,
-        list_star,
-        list_triangle,
-        location_fill_viewfinder,
-        location_viewfinder,
-        lock_rectangle,
-        lock_rectangle_fill,
-        lock_rectangle_on_rectangle,
-        lock_rectangle_on_rectangle_fill,
-        lock_rectangle_stack,
-        lock_rectangle_stack_fill,
-        lock_square,
-        lock_square_fill,
-        lock_square_stack,
-        lock_square_stack_fill,
-        loupe,
-        lungs,
-        lungs_fill,
-        macmini,
-        macmini_fill,
-        macpro_gen1,
-        macpro_gen2,
-        macpro_gen2_fill,
-        macpro_gen3,
-        macpro_gen3_server,
-        macwindow_badge_plus,
-        macwindow_on_rectangle,
-        mail,
-        mail_and_text_magnifyingglass,
-        mail_fill,
-        mail_stack,
-        mail_stack_fill,
-        megaphone,
-        megaphone_fill,
-        memorychip,
-        menubar_arrow_down_rectangle,
-        menubar_arrow_up_rectangle,
-        menubar_dock_rectangle,
-        menubar_dock_rectangle_badge_record,
-        menubar_rectangle,
-        metronome_fill,
-        minus_diamond,
-        minus_diamond_fill,
-        minus_plus_batteryblock,
-        minus_plus_batteryblock_fill,
-        minus_rectangle_portrait,
-        minus_rectangle_portrait_fill,
-        mosaic,
-        mosaic_fill,
-        mount,
-        mount_fill,
-        mouth,
-        mouth_fill,
-        move_3d,
-        music_note_house,
-        music_note_house_fill,
-        music_quarternote_3,
-        mustache,
-        mustache_fill,
-        network,
-        newspaper,
-        newspaper_fill,
-        nose,
-        nose_fill,
-        note,
-        note_text,
-        note_text_badge_plus,
-        octagon,
-        octagon_fill,
-        opticaldisc,
-        opticaldiscdrive,
-        opticaldiscdrive_fill,
-        oval,
-        oval_fill,
-        oval_portrait,
-        oval_portrait_fill,
-        paintbrush_pointed,
-        paintbrush_pointed_fill,
-        paintpalette,
-        paintpalette_fill,
-        paperclip_badge_ellipsis,
-        paperplane_circle,
-        paperplane_circle_fill,
-        paragraphsign,
-        pc,
-        pencil_tip_crop_circle_badge_arrow_forward,
-        person_2_circle,
-        person_2_circle_fill,
-        person_crop_circle_badge_exclamationmark,
-        person_crop_circle_badge_questionmark,
-        person_fill_badge_minus,
-        person_fill_badge_plus,
-        person_fill_checkmark,
-        person_fill_questionmark,
-        person_fill_turn_down,
-        person_fill_turn_left,
-        person_fill_turn_right,
-        person_fill_viewfinder,
-        person_fill_xmark,
-        phone_connection,
-        photo_on_rectangle_angled,
-        pianokeys,
-        pianokeys_inverse,
-        pills,
-        pills_fill,
-        pip,
-        pip_enter,
-        pip_exit,
-        pip_fill,
-        pip_remove,
-        pip_swap,
-        placeholdertext_fill,
-        play_slash,
-        play_slash_fill,
-        plus_diamond,
-        plus_diamond_fill,
-        plus_message,
-        plus_message_fill,
-        plus_rectangle_on_folder,
-        plus_rectangle_portrait,
-        plus_rectangle_portrait_fill,
-        plus_viewfinder,
-        poweroff,
-        poweron,
-        powersleep,
-        printer_dotmatrix,
-        printer_dotmatrix_fill,
-        puzzlepiece,
-        puzzlepiece_fill,
-        pyramid,
-        pyramid_fill,
-        questionmark_folder,
-        questionmark_folder_fill,
-        questionmark_square_dashed,
-        r_joystick,
-        r_joystick_fill,
-        r_square_on_square,
-        radio,
-        radio_fill,
-        record_circle,
-        record_circle_fill,
-        rectangle_and_pencil_and_ellipsis,
-        rectangle_and_text_magnifyingglass,
-        rectangle_arrowtriangle_2_inward,
-        rectangle_arrowtriangle_2_outward,
-        rectangle_badge_minus,
-        rectangle_badge_plus,
-        rectangle_connected_to_line_below,
-        rectangle_dashed,
-        rectangle_dashed_and_paperclip,
-        rectangle_dashed_badge_record,
-        rectangle_fill_badge_minus,
-        rectangle_fill_badge_plus,
-        rectangle_on_rectangle_slash,
-        rectangle_portrait,
-        rectangle_portrait_arrowtriangle_2_inward,
-        rectangle_portrait_arrowtriangle_2_outward,
-        rectangle_portrait_fill,
-        rectangle_slash,
-        rectangle_slash_fill,
-        rectangle_split_1x2,
-        rectangle_split_1x2_fill,
-        rectangle_split_2x1,
-        rectangle_split_2x1_fill,
-        rectangle_split_2x2,
-        rectangle_split_2x2_fill,
-        restart,
-        restart_circle,
-        rotate_3d,
-        ruler,
-        ruler_fill,
-        scale_3d,
-        scalemass,
-        scalemass_fill,
-        scanner,
-        scanner_fill,
-        scribble_variable,
-        scroll,
-        scroll_fill,
-        sdcard,
-        sdcard_fill,
-        seal,
-        seal_fill,
-        server_rack,
-        shadow,
-        shekelsign_circle,
-        shekelsign_circle_fill,
-        shekelsign_square,
-        shekelsign_square_fill,
-        shippingbox,
-        shippingbox_fill,
-        sidebar_leading,
-        sidebar_squares_leading,
-        sidebar_squares_left,
-        sidebar_squares_right,
-        sidebar_squares_trailing,
-        sidebar_trailing,
-        signpost_left,
-        signpost_left_fill,
-        signpost_right,
-        signpost_right_fill,
-        simcard,
-        simcard_2,
-        simcard_2_fill,
-        simcard_fill,
-        sleep,
-        slider_vertical_3,
-        sparkle,
-        sparkles_rectangle_stack,
-        sparkles_rectangle_stack_fill,
-        speaker_slash_circle,
-        speaker_slash_circle_fill,
-        speaker_wave_1,
-        speaker_wave_1_fill,
-        speaker_wave_2,
-        speaker_wave_2_circle,
-        speaker_wave_2_circle_fill,
-        speaker_wave_2_fill,
-        speaker_wave_3,
-        speaker_wave_3_fill,
-        square_and_at_rectangle,
-        square_circle,
-        square_circle_fill,
-        square_dashed,
-        square_fill_text_grid_1x2,
-        square_grid_3x1_below_line_grid_1x2,
-        square_grid_3x1_folder_badge_plus,
-        square_grid_3x1_folder_fill_badge_plus,
-        square_grid_3x3,
-        square_grid_3x3_fill,
-        square_on_square_dashed,
-        square_on_square_squareshape_controlhandles,
-        square_slash,
-        square_slash_fill,
-        square_split_bottomrightquarter,
-        square_split_bottomrightquarter_fill,
-        square_split_diagonal,
-        square_split_diagonal_2x2,
-        square_split_diagonal_2x2_fill,
-        square_split_diagonal_fill,
-        square_stack_3d_down_forward,
-        square_stack_3d_down_forward_fill,
-        square_stack_3d_forward_dottedline,
-        square_stack_3d_forward_dottedline_fill,
-        squareshape,
-        squareshape_controlhandles_on_squareshape_controlhandles,
-        squareshape_fill,
-        squareshape_split_2x2,
-        squareshape_split_2x2_dotted,
-        squareshape_split_3x3,
-        star_square,
-        star_square_fill,
-        staroflife_circle,
-        staroflife_circle_fill,
-        stethoscope,
-        swift,
-        switch_2,
-        tablecells,
-        tablecells_badge_ellipsis,
-        tablecells_fill,
-        tag_slash,
-        tag_slash_fill,
-        target,
-        teletype_circle,
-        teletype_circle_fill,
-        text_and_command_macwindow,
-        text_below_photo,
-        text_below_photo_fill,
-        text_book_closed,
-        text_book_closed_fill,
-        text_magnifyingglass,
-        text_redaction,
-        thermometer_sun_fill,
-        ticket,
-        ticket_fill,
-        timeline_selection,
-        timer_square,
-        togglepower,
-        touchid,
-        tram,
-        tram_circle,
-        tram_circle_fill,
-        tray_circle,
-        tray_circle_fill,
-        triangle_circle,
-        triangle_circle_fill,
-        tv_and_hifispeaker_fill,
-        video_badge_checkmark,
-        video_fill_badge_checkmark,
-        video_fill_badge_plus,
-        wake,
-        wallet_pass,
-        wallet_pass_fill,
-        wave_3_backward,
-        wave_3_backward_circle,
-        wave_3_backward_circle_fill,
-        wave_3_forward,
-        wave_3_forward_circle,
-        wave_3_forward_circle_fill,
-        wave_3_left,
-        wave_3_left_circle,
-        wave_3_left_circle_fill,
-        wave_3_right,
-        wave_3_right_circle,
-        wave_3_right_circle_fill,
-        waveform_path_ecg_rectangle,
-        waveform_path_ecg_rectangle_fill,
-        wrench_and_screwdriver,
-        wrench_and_screwdriver_fill,
-        xmark_bin,
-        xmark_bin_circle,
-        xmark_bin_circle_fill,
-        xmark_bin_fill,
-        xmark_diamond,
-        xmark_diamond_fill,
-        xmark_rectangle_portrait,
-        xmark_rectangle_portrait_fill,
-        xserve
-    ]
-    
-    static let _4k_tv: SymbolExtension = SymbolExtension(rawValue: "4k.tv")
-    static let _4k_tv_fill: SymbolExtension = SymbolExtension(rawValue: "4k.tv.fill")
-    static let airplane_circle: SymbolExtension = SymbolExtension(rawValue: "airplane.circle")
-    static let airplane_circle_fill: SymbolExtension = SymbolExtension(rawValue: "airplane.circle.fill")
-    static let airpod_left: SymbolExtension = SymbolExtension(rawValue: "airpod.left")
-    static let airpod_right: SymbolExtension = SymbolExtension(rawValue: "airpod.right")
-    static let airpods: SymbolExtension = SymbolExtension(rawValue: "airpods")
-    static let airport_express: SymbolExtension = SymbolExtension(rawValue: "airport.express")
-    static let airport_extreme: SymbolExtension = SymbolExtension(rawValue: "airport.extreme")
-    static let airport_extreme_tower: SymbolExtension = SymbolExtension(rawValue: "airport.extreme.tower")
-    static let amplifier: SymbolExtension = SymbolExtension(rawValue: "amplifier")
-    static let appclip: SymbolExtension = SymbolExtension(rawValue: "appclip")
-    static let applescript: SymbolExtension = SymbolExtension(rawValue: "applescript")
-    static let applescript_fill: SymbolExtension = SymbolExtension(rawValue: "applescript.fill")
-    static let appletv: SymbolExtension = SymbolExtension(rawValue: "appletv")
-    static let appletv_fill: SymbolExtension = SymbolExtension(rawValue: "appletv.fill")
-    static let applewatch: SymbolExtension = SymbolExtension(rawValue: "applewatch")
-    static let applewatch_radiowaves_left_and_right: SymbolExtension = SymbolExtension(rawValue: "applewatch.radiowaves.left.and.right")
-    static let applewatch_slash: SymbolExtension = SymbolExtension(rawValue: "applewatch.slash")
-    static let applewatch_watchface: SymbolExtension = SymbolExtension(rawValue: "applewatch.watchface")
-    static let apps_ipad: SymbolExtension = SymbolExtension(rawValue: "apps.ipad")
-    static let apps_ipad_landscape: SymbolExtension = SymbolExtension(rawValue: "apps.ipad.landscape")
-    static let apps_iphone: SymbolExtension = SymbolExtension(rawValue: "apps.iphone")
-    static let apps_iphone_badge_plus: SymbolExtension = SymbolExtension(rawValue: "apps.iphone.badge.plus")
-    static let apps_iphone_landscape: SymbolExtension = SymbolExtension(rawValue: "apps.iphone.landscape")
-    static let archivebox_circle: SymbolExtension = SymbolExtension(rawValue: "archivebox.circle")
-    static let archivebox_circle_fill: SymbolExtension = SymbolExtension(rawValue: "archivebox.circle.fill")
-    static let arrow_backward: SymbolExtension = SymbolExtension(rawValue: "arrow.backward")
-    static let arrow_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.circle")
-    static let arrow_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.circle.fill")
-    static let arrow_backward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.square")
-    static let arrow_backward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.square.fill")
-    static let arrow_down_app: SymbolExtension = SymbolExtension(rawValue: "arrow.down.app")
-    static let arrow_down_app_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.app.fill")
-    static let arrow_down_backward: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward")
-    static let arrow_down_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.circle")
-    static let arrow_down_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.circle.fill")
-    static let arrow_down_backward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.square")
-    static let arrow_down_backward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.square.fill")
-    static let arrow_down_forward: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward")
-    static let arrow_down_forward_and_arrow_up_backward: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.and.arrow.up.backward")
-    static let arrow_down_forward_and_arrow_up_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.and.arrow.up.backward.circle")
-    static let arrow_down_forward_and_arrow_up_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.and.arrow.up.backward.circle.fill")
-    static let arrow_down_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.circle")
-    static let arrow_down_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.circle.fill")
-    static let arrow_down_forward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.square")
-    static let arrow_down_forward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.square.fill")
-    static let arrow_down_heart: SymbolExtension = SymbolExtension(rawValue: "arrow.down.heart")
-    static let arrow_down_heart_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.heart.fill")
-    static let arrow_down_right_and_arrow_up_left_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.right.and.arrow.up.left.circle")
-    static let arrow_down_right_and_arrow_up_left_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.right.and.arrow.up.left.circle.fill")
-    static let arrow_forward: SymbolExtension = SymbolExtension(rawValue: "arrow.forward")
-    static let arrow_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.forward.circle")
-    static let arrow_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.forward.circle.fill")
-    static let arrow_forward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.forward.square")
-    static let arrow_forward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.forward.square.fill")
-    static let arrow_left_arrow_right: SymbolExtension = SymbolExtension(rawValue: "arrow.left.arrow.right")
-    static let arrow_left_arrow_right_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.left.arrow.right.circle")
-    static let arrow_left_arrow_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.left.arrow.right.circle.fill")
-    static let arrow_left_arrow_right_square: SymbolExtension = SymbolExtension(rawValue: "arrow.left.arrow.right.square")
-    static let arrow_left_arrow_right_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.left.arrow.right.square.fill")
-    static let arrow_turn_up_forward_iphone: SymbolExtension = SymbolExtension(rawValue: "arrow.turn.up.forward.iphone")
-    static let arrow_turn_up_forward_iphone_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.turn.up.forward.iphone.fill")
-    static let arrow_up_and_down_and_arrow_left_and_right: SymbolExtension = SymbolExtension(rawValue: "arrow.up.and.down.and.arrow.left.and.right")
-    static let arrow_up_and_person_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "arrow.up.and.person.rectangle.portrait")
-    static let arrow_up_and_person_rectangle_turn_left: SymbolExtension = SymbolExtension(rawValue: "arrow.up.and.person.rectangle.turn.left")
-    static let arrow_up_and_person_rectangle_turn_right: SymbolExtension = SymbolExtension(rawValue: "arrow.up.and.person.rectangle.turn.right")
-    static let arrow_up_backward: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward")
-    static let arrow_up_backward_and_arrow_down_forward: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.and.arrow.down.forward")
-    static let arrow_up_backward_and_arrow_down_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.and.arrow.down.forward.circle")
-    static let arrow_up_backward_and_arrow_down_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.and.arrow.down.forward.circle.fill")
-    static let arrow_up_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.circle")
-    static let arrow_up_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.circle.fill")
-    static let arrow_up_backward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.square")
-    static let arrow_up_backward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.square.fill")
-    static let arrow_up_forward: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward")
-    static let arrow_up_forward_app: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.app")
-    static let arrow_up_forward_app_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.app.fill")
-    static let arrow_up_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.circle")
-    static let arrow_up_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.circle.fill")
-    static let arrow_up_forward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.square")
-    static let arrow_up_forward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.square.fill")
-    static let arrow_up_heart: SymbolExtension = SymbolExtension(rawValue: "arrow.up.heart")
-    static let arrow_up_heart_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.heart.fill")
-    static let arrow_up_left_and_arrow_down_right_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.and.arrow.down.right.circle")
-    static let arrow_up_left_and_arrow_down_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.and.arrow.down.right.circle.fill")
-    static let arrow_up_left_and_down_right_and_arrow_up_right_and_down_left: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left")
-    static let arrow_up_left_and_down_right_magnifyingglass: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.and.down.right.magnifyingglass")
-    static let arrow_up_message: SymbolExtension = SymbolExtension(rawValue: "arrow.up.message")
-    static let arrow_up_message_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.message.fill")
-    static let arrow_up_right_and_arrow_down_left_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.right.and.arrow.down.left.rectangle")
-    static let arrow_up_right_and_arrow_down_left_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.right.and.arrow.down.left.rectangle.fill")
-    static let arrow_uturn_backward: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.backward")
-    static let arrow_uturn_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.backward.circle")
-    static let arrow_uturn_backward_circle_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.backward.circle.badge.ellipsis")
-    static let arrow_uturn_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.backward.circle.fill")
-    static let arrow_uturn_backward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.backward.square")
-    static let arrow_uturn_backward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.backward.square.fill")
-    static let arrow_uturn_forward: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.forward")
-    static let arrow_uturn_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.forward.circle")
-    static let arrow_uturn_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.forward.circle.fill")
-    static let arrow_uturn_forward_square: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.forward.square")
-    static let arrow_uturn_forward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.uturn.forward.square.fill")
-    static let arrowshape_bounce_forward: SymbolExtension = SymbolExtension(rawValue: "arrowshape.bounce.forward")
-    static let arrowshape_bounce_forward_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.bounce.forward.fill")
-    static let arrowshape_bounce_right: SymbolExtension = SymbolExtension(rawValue: "arrowshape.bounce.right")
-    static let arrowshape_bounce_right_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.bounce.right.fill")
-    static let arrowshape_turn_up_backward: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward")
-    static let arrowshape_turn_up_backward_2: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.2")
-    static let arrowshape_turn_up_backward_2_circle: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.2.circle")
-    static let arrowshape_turn_up_backward_2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.2.circle.fill")
-    static let arrowshape_turn_up_backward_2_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.2.fill")
-    static let arrowshape_turn_up_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.circle")
-    static let arrowshape_turn_up_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.circle.fill")
-    static let arrowshape_turn_up_backward_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.backward.fill")
-    static let arrowshape_turn_up_forward: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.forward")
-    static let arrowshape_turn_up_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.forward.circle")
-    static let arrowshape_turn_up_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.forward.circle.fill")
-    static let arrowshape_turn_up_forward_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.forward.fill")
-    static let arrowshape_turn_up_left_2_circle: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.left.2.circle")
-    static let arrowshape_turn_up_left_2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.turn.up.left.2.circle.fill")
-    static let arrowshape_zigzag_forward: SymbolExtension = SymbolExtension(rawValue: "arrowshape.zigzag.forward")
-    static let arrowshape_zigzag_forward_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.zigzag.forward.fill")
-    static let arrowshape_zigzag_right: SymbolExtension = SymbolExtension(rawValue: "arrowshape.zigzag.right")
-    static let arrowshape_zigzag_right_fill: SymbolExtension = SymbolExtension(rawValue: "arrowshape.zigzag.right.fill")
-    static let arrowtriangle_backward: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.backward")
-    static let arrowtriangle_backward_circle: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.backward.circle")
-    static let arrowtriangle_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.backward.circle.fill")
-    static let arrowtriangle_backward_fill: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.backward.fill")
-    static let arrowtriangle_backward_square: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.backward.square")
-    static let arrowtriangle_backward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.backward.square.fill")
-    static let arrowtriangle_forward: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.forward")
-    static let arrowtriangle_forward_circle: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.forward.circle")
-    static let arrowtriangle_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.forward.circle.fill")
-    static let arrowtriangle_forward_fill: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.forward.fill")
-    static let arrowtriangle_forward_square: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.forward.square")
-    static let arrowtriangle_forward_square_fill: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.forward.square.fill")
-    static let arrowtriangle_left_and_line_vertical_and_arrowtriangle_right: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right")
-    static let arrowtriangle_right_and_line_vertical_and_arrowtriangle_left: SymbolExtension = SymbolExtension(rawValue: "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left")
-    static let at_circle: SymbolExtension = SymbolExtension(rawValue: "at.circle")
-    static let at_circle_fill: SymbolExtension = SymbolExtension(rawValue: "at.circle.fill")
-    static let atom: SymbolExtension = SymbolExtension(rawValue: "atom")
-    static let backward_frame: SymbolExtension = SymbolExtension(rawValue: "backward.frame")
-    static let backward_frame_fill: SymbolExtension = SymbolExtension(rawValue: "backward.frame.fill")
-    static let badge_plus_radiowaves_forward: SymbolExtension = SymbolExtension(rawValue: "badge.plus.radiowaves.forward")
-    static let bag_circle: SymbolExtension = SymbolExtension(rawValue: "bag.circle")
-    static let bag_circle_fill: SymbolExtension = SymbolExtension(rawValue: "bag.circle.fill")
-    static let banknote: SymbolExtension = SymbolExtension(rawValue: "banknote")
-    static let banknote_fill: SymbolExtension = SymbolExtension(rawValue: "banknote.fill")
-    static let barometer: SymbolExtension = SymbolExtension(rawValue: "barometer")
-    static let bell_badge: SymbolExtension = SymbolExtension(rawValue: "bell.badge")
-    static let bell_badge_fill: SymbolExtension = SymbolExtension(rawValue: "bell.badge.fill")
-    static let bell_slash_circle: SymbolExtension = SymbolExtension(rawValue: "bell.slash.circle")
-    static let bell_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "bell.slash.circle.fill")
-    static let bicycle: SymbolExtension = SymbolExtension(rawValue: "bicycle")
-    static let bicycle_circle: SymbolExtension = SymbolExtension(rawValue: "bicycle.circle")
-    static let bicycle_circle_fill: SymbolExtension = SymbolExtension(rawValue: "bicycle.circle.fill")
-    static let binoculars: SymbolExtension = SymbolExtension(rawValue: "binoculars")
-    static let binoculars_fill: SymbolExtension = SymbolExtension(rawValue: "binoculars.fill")
-    static let bolt_car: SymbolExtension = SymbolExtension(rawValue: "bolt.car")
-    static let bolt_car_fill: SymbolExtension = SymbolExtension(rawValue: "bolt.car.fill")
-    static let bolt_heart: SymbolExtension = SymbolExtension(rawValue: "bolt.heart")
-    static let bolt_heart_fill: SymbolExtension = SymbolExtension(rawValue: "bolt.heart.fill")
-    static let bolt_slash_circle: SymbolExtension = SymbolExtension(rawValue: "bolt.slash.circle")
-    static let bolt_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "bolt.slash.circle.fill")
-    static let bonjour: SymbolExtension = SymbolExtension(rawValue: "bonjour")
-    static let book_closed: SymbolExtension = SymbolExtension(rawValue: "book.closed")
-    static let book_closed_fill: SymbolExtension = SymbolExtension(rawValue: "book.closed.fill")
-    static let bookmark_circle: SymbolExtension = SymbolExtension(rawValue: "bookmark.circle")
-    static let bookmark_circle_fill: SymbolExtension = SymbolExtension(rawValue: "bookmark.circle.fill")
-    static let bookmark_slash: SymbolExtension = SymbolExtension(rawValue: "bookmark.slash")
-    static let bookmark_slash_fill: SymbolExtension = SymbolExtension(rawValue: "bookmark.slash.fill")
-    static let books_vertical: SymbolExtension = SymbolExtension(rawValue: "books.vertical")
-    static let books_vertical_fill: SymbolExtension = SymbolExtension(rawValue: "books.vertical.fill")
-    static let building: SymbolExtension = SymbolExtension(rawValue: "building")
-    static let building_2: SymbolExtension = SymbolExtension(rawValue: "building.2")
-    static let building_2_crop_circle: SymbolExtension = SymbolExtension(rawValue: "building.2.crop.circle")
-    static let building_2_crop_circle_fill: SymbolExtension = SymbolExtension(rawValue: "building.2.crop.circle.fill")
-    static let building_2_fill: SymbolExtension = SymbolExtension(rawValue: "building.2.fill")
-    static let building_columns: SymbolExtension = SymbolExtension(rawValue: "building.columns")
-    static let building_columns_fill: SymbolExtension = SymbolExtension(rawValue: "building.columns.fill")
-    static let building_fill: SymbolExtension = SymbolExtension(rawValue: "building.fill")
-    static let bus: SymbolExtension = SymbolExtension(rawValue: "bus")
-    static let bus_doubledecker: SymbolExtension = SymbolExtension(rawValue: "bus.doubledecker")
-    static let bus_doubledecker_fill: SymbolExtension = SymbolExtension(rawValue: "bus.doubledecker.fill")
-    static let bus_fill: SymbolExtension = SymbolExtension(rawValue: "bus.fill")
-    static let calendar_badge_clock: SymbolExtension = SymbolExtension(rawValue: "calendar.badge.clock")
-    static let calendar_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "calendar.badge.exclamationmark")
-    static let camera_aperture: SymbolExtension = SymbolExtension(rawValue: "camera.aperture")
-    static let camera_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "camera.badge.ellipsis")
-    static let camera_filters: SymbolExtension = SymbolExtension(rawValue: "camera.filters")
-    static let camera_metering_center_weighted: SymbolExtension = SymbolExtension(rawValue: "camera.metering.center.weighted")
-    static let camera_metering_center_weighted_average: SymbolExtension = SymbolExtension(rawValue: "camera.metering.center.weighted.average")
-    static let camera_metering_matrix: SymbolExtension = SymbolExtension(rawValue: "camera.metering.matrix")
-    static let camera_metering_multispot: SymbolExtension = SymbolExtension(rawValue: "camera.metering.multispot")
-    static let camera_metering_none: SymbolExtension = SymbolExtension(rawValue: "camera.metering.none")
-    static let camera_metering_partial: SymbolExtension = SymbolExtension(rawValue: "camera.metering.partial")
-    static let camera_metering_spot: SymbolExtension = SymbolExtension(rawValue: "camera.metering.spot")
-    static let camera_metering_unknown: SymbolExtension = SymbolExtension(rawValue: "camera.metering.unknown")
-    static let candybarphone: SymbolExtension = SymbolExtension(rawValue: "candybarphone")
-    static let capsule_portrait: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait")
-    static let capsule_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "capsule.portrait.fill")
-    static let car_2: SymbolExtension = SymbolExtension(rawValue: "car.2")
-    static let car_2_fill: SymbolExtension = SymbolExtension(rawValue: "car.2.fill")
-    static let car_circle: SymbolExtension = SymbolExtension(rawValue: "car.circle")
-    static let car_circle_fill: SymbolExtension = SymbolExtension(rawValue: "car.circle.fill")
-    static let _case: SymbolExtension = SymbolExtension(rawValue: "case")
-    static let case_fill: SymbolExtension = SymbolExtension(rawValue: "case.fill")
-    static let chart_bar_xaxis: SymbolExtension = SymbolExtension(rawValue: "chart.bar.xaxis")
-    static let checkmark_icloud: SymbolExtension = SymbolExtension(rawValue: "checkmark.icloud")
-    static let checkmark_icloud_fill: SymbolExtension = SymbolExtension(rawValue: "checkmark.icloud.fill")
-    static let checkmark_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "checkmark.rectangle.portrait")
-    static let checkmark_rectangle_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "checkmark.rectangle.portrait.fill")
-    static let chevron_backward: SymbolExtension = SymbolExtension(rawValue: "chevron.backward")
-    static let chevron_backward_2: SymbolExtension = SymbolExtension(rawValue: "chevron.backward.2")
-    static let chevron_backward_circle: SymbolExtension = SymbolExtension(rawValue: "chevron.backward.circle")
-    static let chevron_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "chevron.backward.circle.fill")
-    static let chevron_backward_square: SymbolExtension = SymbolExtension(rawValue: "chevron.backward.square")
-    static let chevron_backward_square_fill: SymbolExtension = SymbolExtension(rawValue: "chevron.backward.square.fill")
-    static let chevron_forward: SymbolExtension = SymbolExtension(rawValue: "chevron.forward")
-    static let chevron_forward_2: SymbolExtension = SymbolExtension(rawValue: "chevron.forward.2")
-    static let chevron_forward_circle: SymbolExtension = SymbolExtension(rawValue: "chevron.forward.circle")
-    static let chevron_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "chevron.forward.circle.fill")
-    static let chevron_forward_square: SymbolExtension = SymbolExtension(rawValue: "chevron.forward.square")
-    static let chevron_forward_square_fill: SymbolExtension = SymbolExtension(rawValue: "chevron.forward.square.fill")
-    static let circle_circle: SymbolExtension = SymbolExtension(rawValue: "circle.circle")
-    static let circle_circle_fill: SymbolExtension = SymbolExtension(rawValue: "circle.circle.fill")
-    static let circle_dashed: SymbolExtension = SymbolExtension(rawValue: "circle.dashed")
-    static let circle_grid_cross: SymbolExtension = SymbolExtension(rawValue: "circle.grid.cross")
-    static let circle_grid_cross_fill: SymbolExtension = SymbolExtension(rawValue: "circle.grid.cross.fill")
-    static let circle_square: SymbolExtension = SymbolExtension(rawValue: "circle.square")
-    static let circlebadge: SymbolExtension = SymbolExtension(rawValue: "circlebadge")
-    static let circlebadge_2: SymbolExtension = SymbolExtension(rawValue: "circlebadge.2")
-    static let circlebadge_2_fill: SymbolExtension = SymbolExtension(rawValue: "circlebadge.2.fill")
-    static let circlebadge_fill: SymbolExtension = SymbolExtension(rawValue: "circlebadge.fill")
-    static let comb: SymbolExtension = SymbolExtension(rawValue: "comb")
-    static let comb_fill: SymbolExtension = SymbolExtension(rawValue: "comb.fill")
-    static let command_circle: SymbolExtension = SymbolExtension(rawValue: "command.circle")
-    static let command_circle_fill: SymbolExtension = SymbolExtension(rawValue: "command.circle.fill")
-    static let command_square: SymbolExtension = SymbolExtension(rawValue: "command.square")
-    static let command_square_fill: SymbolExtension = SymbolExtension(rawValue: "command.square.fill")
-    static let cone: SymbolExtension = SymbolExtension(rawValue: "cone")
-    static let cone_fill: SymbolExtension = SymbolExtension(rawValue: "cone.fill")
-    static let contextualmenu_and_cursorarrow: SymbolExtension = SymbolExtension(rawValue: "contextualmenu.and.cursorarrow")
-    static let cpu: SymbolExtension = SymbolExtension(rawValue: "cpu")
-    static let creditcard_circle: SymbolExtension = SymbolExtension(rawValue: "creditcard.circle")
-    static let creditcard_circle_fill: SymbolExtension = SymbolExtension(rawValue: "creditcard.circle.fill")
-    static let cross: SymbolExtension = SymbolExtension(rawValue: "cross")
-    static let cross_case: SymbolExtension = SymbolExtension(rawValue: "cross.case")
-    static let cross_case_fill: SymbolExtension = SymbolExtension(rawValue: "cross.case.fill")
-    static let cross_circle: SymbolExtension = SymbolExtension(rawValue: "cross.circle")
-    static let cross_circle_fill: SymbolExtension = SymbolExtension(rawValue: "cross.circle.fill")
-    static let cross_fill: SymbolExtension = SymbolExtension(rawValue: "cross.fill")
-    static let crown: SymbolExtension = SymbolExtension(rawValue: "crown")
-    static let crown_fill: SymbolExtension = SymbolExtension(rawValue: "crown.fill")
-    static let cube_transparent: SymbolExtension = SymbolExtension(rawValue: "cube.transparent")
-    static let cube_transparent_fill: SymbolExtension = SymbolExtension(rawValue: "cube.transparent.fill")
-    static let curlybraces: SymbolExtension = SymbolExtension(rawValue: "curlybraces")
-    static let curlybraces_square: SymbolExtension = SymbolExtension(rawValue: "curlybraces.square")
-    static let curlybraces_square_fill: SymbolExtension = SymbolExtension(rawValue: "curlybraces.square.fill")
-    static let cursorarrow: SymbolExtension = SymbolExtension(rawValue: "cursorarrow")
-    static let cursorarrow_and_square_on_square_dashed: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.and.square.on.square.dashed")
-    static let cursorarrow_click: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.click")
-    static let cursorarrow_click_2: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.click.2")
-    static let cursorarrow_click_badge_clock: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.click.badge.clock")
-    static let cursorarrow_motionlines: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.motionlines")
-    static let cursorarrow_motionlines_click: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.motionlines.click")
-    static let cursorarrow_rays: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.rays")
-    static let cursorarrow_square: SymbolExtension = SymbolExtension(rawValue: "cursorarrow.square")
-    static let cylinder: SymbolExtension = SymbolExtension(rawValue: "cylinder")
-    static let cylinder_fill: SymbolExtension = SymbolExtension(rawValue: "cylinder.fill")
-    static let cylinder_split_1x2: SymbolExtension = SymbolExtension(rawValue: "cylinder.split.1x2")
-    static let cylinder_split_1x2_fill: SymbolExtension = SymbolExtension(rawValue: "cylinder.split.1x2.fill")
-    static let deskclock: SymbolExtension = SymbolExtension(rawValue: "deskclock")
-    static let deskclock_fill: SymbolExtension = SymbolExtension(rawValue: "deskclock.fill")
-    static let diamond: SymbolExtension = SymbolExtension(rawValue: "diamond")
-    static let diamond_fill: SymbolExtension = SymbolExtension(rawValue: "diamond.fill")
-    static let die_face_1: SymbolExtension = SymbolExtension(rawValue: "die.face.1")
-    static let die_face_1_fill: SymbolExtension = SymbolExtension(rawValue: "die.face.1.fill")
-    static let die_face_2: SymbolExtension = SymbolExtension(rawValue: "die.face.2")
-    static let die_face_2_fill: SymbolExtension = SymbolExtension(rawValue: "die.face.2.fill")
-    static let die_face_3: SymbolExtension = SymbolExtension(rawValue: "die.face.3")
-    static let die_face_3_fill: SymbolExtension = SymbolExtension(rawValue: "die.face.3.fill")
-    static let die_face_4: SymbolExtension = SymbolExtension(rawValue: "die.face.4")
-    static let die_face_4_fill: SymbolExtension = SymbolExtension(rawValue: "die.face.4.fill")
-    static let die_face_5: SymbolExtension = SymbolExtension(rawValue: "die.face.5")
-    static let die_face_5_fill: SymbolExtension = SymbolExtension(rawValue: "die.face.5.fill")
-    static let die_face_6: SymbolExtension = SymbolExtension(rawValue: "die.face.6")
-    static let die_face_6_fill: SymbolExtension = SymbolExtension(rawValue: "die.face.6.fill")
-    static let display: SymbolExtension = SymbolExtension(rawValue: "display")
-    static let display_2: SymbolExtension = SymbolExtension(rawValue: "display.2")
-    static let display_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "display.trianglebadge.exclamationmark")
-    static let dock_arrow_down_rectangle: SymbolExtension = SymbolExtension(rawValue: "dock.arrow.down.rectangle")
-    static let dock_arrow_up_rectangle: SymbolExtension = SymbolExtension(rawValue: "dock.arrow.up.rectangle")
-    static let dock_rectangle: SymbolExtension = SymbolExtension(rawValue: "dock.rectangle")
-    static let dot_arrowtriangles_up_right_down_left_circle: SymbolExtension = SymbolExtension(rawValue: "dot.arrowtriangles.up.right.down.left.circle")
-    static let dot_circle_and_cursorarrow: SymbolExtension = SymbolExtension(rawValue: "dot.circle.and.cursorarrow")
-    static let dot_radiowaves_forward: SymbolExtension = SymbolExtension(rawValue: "dot.radiowaves.forward")
-    static let dot_squareshape: SymbolExtension = SymbolExtension(rawValue: "dot.squareshape")
-    static let dot_squareshape_fill: SymbolExtension = SymbolExtension(rawValue: "dot.squareshape.fill")
-    static let dot_squareshape_split_2x2: SymbolExtension = SymbolExtension(rawValue: "dot.squareshape.split.2x2")
-    static let dpad: SymbolExtension = SymbolExtension(rawValue: "dpad")
-    static let dpad_fill: SymbolExtension = SymbolExtension(rawValue: "dpad.fill")
-    static let drop: SymbolExtension = SymbolExtension(rawValue: "drop")
-    static let drop_fill: SymbolExtension = SymbolExtension(rawValue: "drop.fill")
-    static let ear_badge_checkmark: SymbolExtension = SymbolExtension(rawValue: "ear.badge.checkmark")
-    static let ear_fill: SymbolExtension = SymbolExtension(rawValue: "ear.fill")
-    static let ear_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "ear.trianglebadge.exclamationmark")
-    static let earpods: SymbolExtension = SymbolExtension(rawValue: "earpods")
-    static let eject_circle: SymbolExtension = SymbolExtension(rawValue: "eject.circle")
-    static let eject_circle_fill: SymbolExtension = SymbolExtension(rawValue: "eject.circle.fill")
-    static let ellipsis_bubble: SymbolExtension = SymbolExtension(rawValue: "ellipsis.bubble")
-    static let ellipsis_bubble_fill: SymbolExtension = SymbolExtension(rawValue: "ellipsis.bubble.fill")
-    static let ellipsis_rectangle: SymbolExtension = SymbolExtension(rawValue: "ellipsis.rectangle")
-    static let ellipsis_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "ellipsis.rectangle.fill")
-    static let esim: SymbolExtension = SymbolExtension(rawValue: "esim")
-    static let esim_fill: SymbolExtension = SymbolExtension(rawValue: "esim.fill")
-    static let exclamationmark_2: SymbolExtension = SymbolExtension(rawValue: "exclamationmark.2")
-    static let exclamationmark_3: SymbolExtension = SymbolExtension(rawValue: "exclamationmark.3")
-    static let externaldrive: SymbolExtension = SymbolExtension(rawValue: "externaldrive")
-    static let externaldrive_badge_checkmark: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.checkmark")
-    static let externaldrive_badge_icloud: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.icloud")
-    static let externaldrive_badge_minus: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.minus")
-    static let externaldrive_badge_person_crop: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.person.crop")
-    static let externaldrive_badge_plus: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.plus")
-    static let externaldrive_badge_timemachine: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.timemachine")
-    static let externaldrive_badge_wifi: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.wifi")
-    static let externaldrive_badge_xmark: SymbolExtension = SymbolExtension(rawValue: "externaldrive.badge.xmark")
-    static let externaldrive_connected_to_line_below: SymbolExtension = SymbolExtension(rawValue: "externaldrive.connected.to.line.below")
-    static let externaldrive_connected_to_line_below_fill: SymbolExtension = SymbolExtension(rawValue: "externaldrive.connected.to.line.below.fill")
-    static let externaldrive_fill: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill")
-    static let externaldrive_fill_badge_checkmark: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.checkmark")
-    static let externaldrive_fill_badge_icloud: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.icloud")
-    static let externaldrive_fill_badge_minus: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.minus")
-    static let externaldrive_fill_badge_person_crop: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.person.crop")
-    static let externaldrive_fill_badge_plus: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.plus")
-    static let externaldrive_fill_badge_timemachine: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.timemachine")
-    static let externaldrive_fill_badge_wifi: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.wifi")
-    static let externaldrive_fill_badge_xmark: SymbolExtension = SymbolExtension(rawValue: "externaldrive.fill.badge.xmark")
-    static let eye_circle: SymbolExtension = SymbolExtension(rawValue: "eye.circle")
-    static let eye_circle_fill: SymbolExtension = SymbolExtension(rawValue: "eye.circle.fill")
-    static let eyebrow: SymbolExtension = SymbolExtension(rawValue: "eyebrow")
-    static let eyes: SymbolExtension = SymbolExtension(rawValue: "eyes")
-    static let eyes_inverse: SymbolExtension = SymbolExtension(rawValue: "eyes.inverse")
-    static let face_dashed: SymbolExtension = SymbolExtension(rawValue: "face.dashed")
-    static let face_dashed_fill: SymbolExtension = SymbolExtension(rawValue: "face.dashed.fill")
-    static let face_smiling: SymbolExtension = SymbolExtension(rawValue: "face.smiling")
-    static let faxmachine: SymbolExtension = SymbolExtension(rawValue: "faxmachine")
-    static let figure_stand: SymbolExtension = SymbolExtension(rawValue: "figure.stand")
-    static let figure_stand_line_dotted_figure_stand: SymbolExtension = SymbolExtension(rawValue: "figure.stand.line.dotted.figure.stand")
-    static let figure_walk: SymbolExtension = SymbolExtension(rawValue: "figure.walk")
-    static let figure_walk_circle: SymbolExtension = SymbolExtension(rawValue: "figure.walk.circle")
-    static let figure_walk_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.walk.circle.fill")
-    static let figure_walk_diamond: SymbolExtension = SymbolExtension(rawValue: "figure.walk.diamond")
-    static let figure_walk_diamond_fill: SymbolExtension = SymbolExtension(rawValue: "figure.walk.diamond.fill")
-    static let figure_wave: SymbolExtension = SymbolExtension(rawValue: "figure.wave")
-    static let figure_wave_circle: SymbolExtension = SymbolExtension(rawValue: "figure.wave.circle")
-    static let figure_wave_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.wave.circle.fill")
-    static let filemenu_and_cursorarrow: SymbolExtension = SymbolExtension(rawValue: "filemenu.and.cursorarrow")
-    static let filemenu_and_selection: SymbolExtension = SymbolExtension(rawValue: "filemenu.and.selection")
-    static let flag_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "flag.badge.ellipsis")
-    static let flag_badge_ellipsis_fill: SymbolExtension = SymbolExtension(rawValue: "flag.badge.ellipsis.fill")
-    static let flag_slash_circle: SymbolExtension = SymbolExtension(rawValue: "flag.slash.circle")
-    static let flag_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "flag.slash.circle.fill")
-    static let flipphone: SymbolExtension = SymbolExtension(rawValue: "flipphone")
-    static let fn: SymbolExtension = SymbolExtension(rawValue: "fn")
-    static let folder_badge_questionmark: SymbolExtension = SymbolExtension(rawValue: "folder.badge.questionmark")
-    static let folder_fill_badge_questionmark: SymbolExtension = SymbolExtension(rawValue: "folder.fill.badge.questionmark")
-    static let forward_frame: SymbolExtension = SymbolExtension(rawValue: "forward.frame")
-    static let forward_frame_fill: SymbolExtension = SymbolExtension(rawValue: "forward.frame.fill")
-    static let gearshape: SymbolExtension = SymbolExtension(rawValue: "gearshape")
-    static let gearshape_2: SymbolExtension = SymbolExtension(rawValue: "gearshape.2")
-    static let gearshape_2_fill: SymbolExtension = SymbolExtension(rawValue: "gearshape.2.fill")
-    static let gearshape_fill: SymbolExtension = SymbolExtension(rawValue: "gearshape.fill")
-    static let gift_circle: SymbolExtension = SymbolExtension(rawValue: "gift.circle")
-    static let gift_circle_fill: SymbolExtension = SymbolExtension(rawValue: "gift.circle.fill")
-    static let giftcard: SymbolExtension = SymbolExtension(rawValue: "giftcard")
-    static let giftcard_fill: SymbolExtension = SymbolExtension(rawValue: "giftcard.fill")
-    static let graduationcap: SymbolExtension = SymbolExtension(rawValue: "graduationcap")
-    static let graduationcap_fill: SymbolExtension = SymbolExtension(rawValue: "graduationcap.fill")
-    static let greetingcard: SymbolExtension = SymbolExtension(rawValue: "greetingcard")
-    static let greetingcard_fill: SymbolExtension = SymbolExtension(rawValue: "greetingcard.fill")
-    static let guitars_fill: SymbolExtension = SymbolExtension(rawValue: "guitars.fill")
-    static let gyroscope: SymbolExtension = SymbolExtension(rawValue: "gyroscope")
-    static let h_square_on_square: SymbolExtension = SymbolExtension(rawValue: "h.square.on.square")
-    static let hand_point_down: SymbolExtension = SymbolExtension(rawValue: "hand.point.down")
-    static let hand_point_down_fill: SymbolExtension = SymbolExtension(rawValue: "hand.point.down.fill")
-    static let hand_point_up: SymbolExtension = SymbolExtension(rawValue: "hand.point.up")
-    static let hand_point_up_braille: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.braille")
-    static let hand_point_up_braille_fill: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.braille.fill")
-    static let hand_point_up_fill: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.fill")
-    static let hand_point_up_left: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.left")
-    static let hand_point_up_left_fill: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.left.fill")
-    static let hand_tap: SymbolExtension = SymbolExtension(rawValue: "hand.tap")
-    static let hand_tap_fill: SymbolExtension = SymbolExtension(rawValue: "hand.tap.fill")
-    static let hand_wave: SymbolExtension = SymbolExtension(rawValue: "hand.wave")
-    static let hand_wave_fill: SymbolExtension = SymbolExtension(rawValue: "hand.wave.fill")
-    static let hands_clap: SymbolExtension = SymbolExtension(rawValue: "hands.clap")
-    static let hands_clap_fill: SymbolExtension = SymbolExtension(rawValue: "hands.clap.fill")
-    static let headphones_circle: SymbolExtension = SymbolExtension(rawValue: "headphones.circle")
-    static let headphones_circle_fill: SymbolExtension = SymbolExtension(rawValue: "headphones.circle.fill")
-    static let heart_text_square: SymbolExtension = SymbolExtension(rawValue: "heart.text.square")
-    static let heart_text_square_fill: SymbolExtension = SymbolExtension(rawValue: "heart.text.square.fill")
-    static let hifispeaker_2: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.2")
-    static let hifispeaker_2_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.2.fill")
-    static let hifispeaker_and_homepod: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod")
-    static let hifispeaker_and_homepod_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.fill")
-    static let highlighter: SymbolExtension = SymbolExtension(rawValue: "highlighter")
-    static let homekit: SymbolExtension = SymbolExtension(rawValue: "homekit")
-    static let homepod: SymbolExtension = SymbolExtension(rawValue: "homepod")
-    static let homepod_2: SymbolExtension = SymbolExtension(rawValue: "homepod.2")
-    static let homepod_2_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.2.fill")
-    static let homepod_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.fill")
-    static let hourglass_badge_plus: SymbolExtension = SymbolExtension(rawValue: "hourglass.badge.plus")
-    static let house_circle: SymbolExtension = SymbolExtension(rawValue: "house.circle")
-    static let house_circle_fill: SymbolExtension = SymbolExtension(rawValue: "house.circle.fill")
-    static let infinity: SymbolExtension = SymbolExtension(rawValue: "infinity")
-    static let internaldrive: SymbolExtension = SymbolExtension(rawValue: "internaldrive")
-    static let internaldrive_fill: SymbolExtension = SymbolExtension(rawValue: "internaldrive.fill")
-    static let ipad: SymbolExtension = SymbolExtension(rawValue: "ipad")
-    static let ipad_landscape: SymbolExtension = SymbolExtension(rawValue: "ipad.landscape")
-    static let iphone: SymbolExtension = SymbolExtension(rawValue: "iphone")
-    static let iphone_radiowaves_left_and_right: SymbolExtension = SymbolExtension(rawValue: "iphone.radiowaves.left.and.right")
-    static let iphone_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.slash")
-    static let ipod: SymbolExtension = SymbolExtension(rawValue: "ipod")
-    static let j_square_on_square: SymbolExtension = SymbolExtension(rawValue: "j.square.on.square")
-    static let k: SymbolExtension = SymbolExtension(rawValue: "k")
-    static let key: SymbolExtension = SymbolExtension(rawValue: "key")
-    static let key_fill: SymbolExtension = SymbolExtension(rawValue: "key.fill")
-    static let key_icloud: SymbolExtension = SymbolExtension(rawValue: "key.icloud")
-    static let key_icloud_fill: SymbolExtension = SymbolExtension(rawValue: "key.icloud.fill")
-    static let keyboard_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "keyboard.badge.ellipsis")
-    static let keyboard_chevron_compact_left: SymbolExtension = SymbolExtension(rawValue: "keyboard.chevron.compact.left")
-    static let keyboard_macwindow: SymbolExtension = SymbolExtension(rawValue: "keyboard.macwindow")
-    static let keyboard_onehanded_left: SymbolExtension = SymbolExtension(rawValue: "keyboard.onehanded.left")
-    static let keyboard_onehanded_right: SymbolExtension = SymbolExtension(rawValue: "keyboard.onehanded.right")
-    static let l_joystick: SymbolExtension = SymbolExtension(rawValue: "l.joystick")
-    static let l_joystick_fill: SymbolExtension = SymbolExtension(rawValue: "l.joystick.fill")
-    static let ladybug: SymbolExtension = SymbolExtension(rawValue: "ladybug")
-    static let ladybug_fill: SymbolExtension = SymbolExtension(rawValue: "ladybug.fill")
-    static let laptopcomputer: SymbolExtension = SymbolExtension(rawValue: "laptopcomputer")
-    static let latch_2_case: SymbolExtension = SymbolExtension(rawValue: "latch.2.case")
-    static let latch_2_case_fill: SymbolExtension = SymbolExtension(rawValue: "latch.2.case.fill")
-    static let leaf: SymbolExtension = SymbolExtension(rawValue: "leaf")
-    static let leaf_fill: SymbolExtension = SymbolExtension(rawValue: "leaf.fill")
-    static let level: SymbolExtension = SymbolExtension(rawValue: "level")
-    static let level_fill: SymbolExtension = SymbolExtension(rawValue: "level.fill")
-    static let lifepreserver: SymbolExtension = SymbolExtension(rawValue: "lifepreserver")
-    static let lifepreserver_fill: SymbolExtension = SymbolExtension(rawValue: "lifepreserver.fill")
-    static let line_3_crossed_swirl_circle: SymbolExtension = SymbolExtension(rawValue: "line.3.crossed.swirl.circle")
-    static let line_3_crossed_swirl_circle_fill: SymbolExtension = SymbolExtension(rawValue: "line.3.crossed.swirl.circle.fill")
-    static let line_diagonal: SymbolExtension = SymbolExtension(rawValue: "line.diagonal")
-    static let line_diagonal_arrow: SymbolExtension = SymbolExtension(rawValue: "line.diagonal.arrow")
-    static let line_horizontal_star_fill_line_horizontal: SymbolExtension = SymbolExtension(rawValue: "line.horizontal.star.fill.line.horizontal")
-    static let lineweight: SymbolExtension = SymbolExtension(rawValue: "lineweight")
-    static let link_badge_plus: SymbolExtension = SymbolExtension(rawValue: "link.badge.plus")
-    static let list_and_film: SymbolExtension = SymbolExtension(rawValue: "list.and.film")
-    static let list_bullet_rectangle: SymbolExtension = SymbolExtension(rawValue: "list.bullet.rectangle")
-    static let list_star: SymbolExtension = SymbolExtension(rawValue: "list.star")
-    static let list_triangle: SymbolExtension = SymbolExtension(rawValue: "list.triangle")
-    static let location_fill_viewfinder: SymbolExtension = SymbolExtension(rawValue: "location.fill.viewfinder")
-    static let location_viewfinder: SymbolExtension = SymbolExtension(rawValue: "location.viewfinder")
-    static let lock_rectangle: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle")
-    static let lock_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle.fill")
-    static let lock_rectangle_on_rectangle: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle.on.rectangle")
-    static let lock_rectangle_on_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle.on.rectangle.fill")
-    static let lock_rectangle_stack: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle.stack")
-    static let lock_rectangle_stack_fill: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle.stack.fill")
-    static let lock_square: SymbolExtension = SymbolExtension(rawValue: "lock.square")
-    static let lock_square_fill: SymbolExtension = SymbolExtension(rawValue: "lock.square.fill")
-    static let lock_square_stack: SymbolExtension = SymbolExtension(rawValue: "lock.square.stack")
-    static let lock_square_stack_fill: SymbolExtension = SymbolExtension(rawValue: "lock.square.stack.fill")
-    static let loupe: SymbolExtension = SymbolExtension(rawValue: "loupe")
-    static let lungs: SymbolExtension = SymbolExtension(rawValue: "lungs")
-    static let lungs_fill: SymbolExtension = SymbolExtension(rawValue: "lungs.fill")
-    static let macmini: SymbolExtension = SymbolExtension(rawValue: "macmini")
-    static let macmini_fill: SymbolExtension = SymbolExtension(rawValue: "macmini.fill")
-    static let macpro_gen1: SymbolExtension = SymbolExtension(rawValue: "macpro.gen1")
-    static let macpro_gen2: SymbolExtension = SymbolExtension(rawValue: "macpro.gen2")
-    static let macpro_gen2_fill: SymbolExtension = SymbolExtension(rawValue: "macpro.gen2.fill")
-    static let macpro_gen3: SymbolExtension = SymbolExtension(rawValue: "macpro.gen3")
-    static let macpro_gen3_server: SymbolExtension = SymbolExtension(rawValue: "macpro.gen3.server")
-    static let macwindow_badge_plus: SymbolExtension = SymbolExtension(rawValue: "macwindow.badge.plus")
-    static let macwindow_on_rectangle: SymbolExtension = SymbolExtension(rawValue: "macwindow.on.rectangle")
-    static let mail: SymbolExtension = SymbolExtension(rawValue: "mail")
-    static let mail_and_text_magnifyingglass: SymbolExtension = SymbolExtension(rawValue: "mail.and.text.magnifyingglass")
-    static let mail_fill: SymbolExtension = SymbolExtension(rawValue: "mail.fill")
-    static let mail_stack: SymbolExtension = SymbolExtension(rawValue: "mail.stack")
-    static let mail_stack_fill: SymbolExtension = SymbolExtension(rawValue: "mail.stack.fill")
-    static let megaphone: SymbolExtension = SymbolExtension(rawValue: "megaphone")
-    static let megaphone_fill: SymbolExtension = SymbolExtension(rawValue: "megaphone.fill")
-    static let memorychip: SymbolExtension = SymbolExtension(rawValue: "memorychip")
-    static let menubar_arrow_down_rectangle: SymbolExtension = SymbolExtension(rawValue: "menubar.arrow.down.rectangle")
-    static let menubar_arrow_up_rectangle: SymbolExtension = SymbolExtension(rawValue: "menubar.arrow.up.rectangle")
-    static let menubar_dock_rectangle: SymbolExtension = SymbolExtension(rawValue: "menubar.dock.rectangle")
-    static let menubar_dock_rectangle_badge_record: SymbolExtension = SymbolExtension(rawValue: "menubar.dock.rectangle.badge.record")
-    static let menubar_rectangle: SymbolExtension = SymbolExtension(rawValue: "menubar.rectangle")
-    static let metronome_fill: SymbolExtension = SymbolExtension(rawValue: "metronome.fill")
-    static let minus_diamond: SymbolExtension = SymbolExtension(rawValue: "minus.diamond")
-    static let minus_diamond_fill: SymbolExtension = SymbolExtension(rawValue: "minus.diamond.fill")
-    static let minus_plus_batteryblock: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock")
-    static let minus_plus_batteryblock_fill: SymbolExtension = SymbolExtension(rawValue: "minus.plus.batteryblock.fill")
-    static let minus_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "minus.rectangle.portrait")
-    static let minus_rectangle_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "minus.rectangle.portrait.fill")
-    static let mosaic: SymbolExtension = SymbolExtension(rawValue: "mosaic")
-    static let mosaic_fill: SymbolExtension = SymbolExtension(rawValue: "mosaic.fill")
-    static let mount: SymbolExtension = SymbolExtension(rawValue: "mount")
-    static let mount_fill: SymbolExtension = SymbolExtension(rawValue: "mount.fill")
-    static let mouth: SymbolExtension = SymbolExtension(rawValue: "mouth")
-    static let mouth_fill: SymbolExtension = SymbolExtension(rawValue: "mouth.fill")
-    static let move_3d: SymbolExtension = SymbolExtension(rawValue: "move.3d")
-    static let music_note_house: SymbolExtension = SymbolExtension(rawValue: "music.note.house")
-    static let music_note_house_fill: SymbolExtension = SymbolExtension(rawValue: "music.note.house.fill")
-    static let music_quarternote_3: SymbolExtension = SymbolExtension(rawValue: "music.quarternote.3")
-    static let mustache: SymbolExtension = SymbolExtension(rawValue: "mustache")
-    static let mustache_fill: SymbolExtension = SymbolExtension(rawValue: "mustache.fill")
-    static let network: SymbolExtension = SymbolExtension(rawValue: "network")
-    static let newspaper: SymbolExtension = SymbolExtension(rawValue: "newspaper")
-    static let newspaper_fill: SymbolExtension = SymbolExtension(rawValue: "newspaper.fill")
-    static let nose: SymbolExtension = SymbolExtension(rawValue: "nose")
-    static let nose_fill: SymbolExtension = SymbolExtension(rawValue: "nose.fill")
-    static let note: SymbolExtension = SymbolExtension(rawValue: "note")
-    static let note_text: SymbolExtension = SymbolExtension(rawValue: "note.text")
-    static let note_text_badge_plus: SymbolExtension = SymbolExtension(rawValue: "note.text.badge.plus")
-    static let octagon: SymbolExtension = SymbolExtension(rawValue: "octagon")
-    static let octagon_fill: SymbolExtension = SymbolExtension(rawValue: "octagon.fill")
-    static let opticaldisc: SymbolExtension = SymbolExtension(rawValue: "opticaldisc")
-    static let opticaldiscdrive: SymbolExtension = SymbolExtension(rawValue: "opticaldiscdrive")
-    static let opticaldiscdrive_fill: SymbolExtension = SymbolExtension(rawValue: "opticaldiscdrive.fill")
-    static let oval: SymbolExtension = SymbolExtension(rawValue: "oval")
-    static let oval_fill: SymbolExtension = SymbolExtension(rawValue: "oval.fill")
-    static let oval_portrait: SymbolExtension = SymbolExtension(rawValue: "oval.portrait")
-    static let oval_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "oval.portrait.fill")
-    static let paintbrush_pointed: SymbolExtension = SymbolExtension(rawValue: "paintbrush.pointed")
-    static let paintbrush_pointed_fill: SymbolExtension = SymbolExtension(rawValue: "paintbrush.pointed.fill")
-    static let paintpalette: SymbolExtension = SymbolExtension(rawValue: "paintpalette")
-    static let paintpalette_fill: SymbolExtension = SymbolExtension(rawValue: "paintpalette.fill")
-    static let paperclip_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "paperclip.badge.ellipsis")
-    static let paperplane_circle: SymbolExtension = SymbolExtension(rawValue: "paperplane.circle")
-    static let paperplane_circle_fill: SymbolExtension = SymbolExtension(rawValue: "paperplane.circle.fill")
-    static let paragraphsign: SymbolExtension = SymbolExtension(rawValue: "paragraphsign")
-    static let pc: SymbolExtension = SymbolExtension(rawValue: "pc")
-    static let pencil_tip_crop_circle_badge_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "pencil.tip.crop.circle.badge.arrow.forward")
-    static let person_2_circle: SymbolExtension = SymbolExtension(rawValue: "person.2.circle")
-    static let person_2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "person.2.circle.fill")
-    static let person_crop_circle_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "person.crop.circle.badge.exclamationmark")
-    static let person_crop_circle_badge_questionmark: SymbolExtension = SymbolExtension(rawValue: "person.crop.circle.badge.questionmark")
-    static let person_fill_badge_minus: SymbolExtension = SymbolExtension(rawValue: "person.fill.badge.minus")
-    static let person_fill_badge_plus: SymbolExtension = SymbolExtension(rawValue: "person.fill.badge.plus")
-    static let person_fill_checkmark: SymbolExtension = SymbolExtension(rawValue: "person.fill.checkmark")
-    static let person_fill_questionmark: SymbolExtension = SymbolExtension(rawValue: "person.fill.questionmark")
-    static let person_fill_turn_down: SymbolExtension = SymbolExtension(rawValue: "person.fill.turn.down")
-    static let person_fill_turn_left: SymbolExtension = SymbolExtension(rawValue: "person.fill.turn.left")
-    static let person_fill_turn_right: SymbolExtension = SymbolExtension(rawValue: "person.fill.turn.right")
-    static let person_fill_viewfinder: SymbolExtension = SymbolExtension(rawValue: "person.fill.viewfinder")
-    static let person_fill_xmark: SymbolExtension = SymbolExtension(rawValue: "person.fill.xmark")
-    static let phone_connection: SymbolExtension = SymbolExtension(rawValue: "phone.connection")
-    static let photo_on_rectangle_angled: SymbolExtension = SymbolExtension(rawValue: "photo.on.rectangle.angled")
-    static let pianokeys: SymbolExtension = SymbolExtension(rawValue: "pianokeys")
-    static let pianokeys_inverse: SymbolExtension = SymbolExtension(rawValue: "pianokeys.inverse")
-    static let pills: SymbolExtension = SymbolExtension(rawValue: "pills")
-    static let pills_fill: SymbolExtension = SymbolExtension(rawValue: "pills.fill")
-    static let pip: SymbolExtension = SymbolExtension(rawValue: "pip")
-    static let pip_enter: SymbolExtension = SymbolExtension(rawValue: "pip.enter")
-    static let pip_exit: SymbolExtension = SymbolExtension(rawValue: "pip.exit")
-    static let pip_fill: SymbolExtension = SymbolExtension(rawValue: "pip.fill")
-    static let pip_remove: SymbolExtension = SymbolExtension(rawValue: "pip.remove")
-    static let pip_swap: SymbolExtension = SymbolExtension(rawValue: "pip.swap")
-    static let placeholdertext_fill: SymbolExtension = SymbolExtension(rawValue: "placeholdertext.fill")
-    static let play_slash: SymbolExtension = SymbolExtension(rawValue: "play.slash")
-    static let play_slash_fill: SymbolExtension = SymbolExtension(rawValue: "play.slash.fill")
-    static let plus_diamond: SymbolExtension = SymbolExtension(rawValue: "plus.diamond")
-    static let plus_diamond_fill: SymbolExtension = SymbolExtension(rawValue: "plus.diamond.fill")
-    static let plus_message: SymbolExtension = SymbolExtension(rawValue: "plus.message")
-    static let plus_message_fill: SymbolExtension = SymbolExtension(rawValue: "plus.message.fill")
-    static let plus_rectangle_on_folder: SymbolExtension = SymbolExtension(rawValue: "plus.rectangle.on.folder")
-    static let plus_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "plus.rectangle.portrait")
-    static let plus_rectangle_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "plus.rectangle.portrait.fill")
-    static let plus_viewfinder: SymbolExtension = SymbolExtension(rawValue: "plus.viewfinder")
-    static let poweroff: SymbolExtension = SymbolExtension(rawValue: "poweroff")
-    static let poweron: SymbolExtension = SymbolExtension(rawValue: "poweron")
-    static let powersleep: SymbolExtension = SymbolExtension(rawValue: "powersleep")
-    static let printer_dotmatrix: SymbolExtension = SymbolExtension(rawValue: "printer.dotmatrix")
-    static let printer_dotmatrix_fill: SymbolExtension = SymbolExtension(rawValue: "printer.dotmatrix.fill")
-    static let puzzlepiece: SymbolExtension = SymbolExtension(rawValue: "puzzlepiece")
-    static let puzzlepiece_fill: SymbolExtension = SymbolExtension(rawValue: "puzzlepiece.fill")
-    static let pyramid: SymbolExtension = SymbolExtension(rawValue: "pyramid")
-    static let pyramid_fill: SymbolExtension = SymbolExtension(rawValue: "pyramid.fill")
-    static let questionmark_folder: SymbolExtension = SymbolExtension(rawValue: "questionmark.folder")
-    static let questionmark_folder_fill: SymbolExtension = SymbolExtension(rawValue: "questionmark.folder.fill")
-    static let questionmark_square_dashed: SymbolExtension = SymbolExtension(rawValue: "questionmark.square.dashed")
-    static let r_joystick: SymbolExtension = SymbolExtension(rawValue: "r.joystick")
-    static let r_joystick_fill: SymbolExtension = SymbolExtension(rawValue: "r.joystick.fill")
-    static let r_square_on_square: SymbolExtension = SymbolExtension(rawValue: "r.square.on.square")
-    static let radio: SymbolExtension = SymbolExtension(rawValue: "radio")
-    static let radio_fill: SymbolExtension = SymbolExtension(rawValue: "radio.fill")
-    static let record_circle: SymbolExtension = SymbolExtension(rawValue: "record.circle")
-    static let record_circle_fill: SymbolExtension = SymbolExtension(rawValue: "record.circle.fill")
-    static let rectangle_and_pencil_and_ellipsis: SymbolExtension = SymbolExtension(rawValue: "rectangle.and.pencil.and.ellipsis")
-    static let rectangle_and_text_magnifyingglass: SymbolExtension = SymbolExtension(rawValue: "rectangle.and.text.magnifyingglass")
-    static let rectangle_arrowtriangle_2_inward: SymbolExtension = SymbolExtension(rawValue: "rectangle.arrowtriangle.2.inward")
-    static let rectangle_arrowtriangle_2_outward: SymbolExtension = SymbolExtension(rawValue: "rectangle.arrowtriangle.2.outward")
-    static let rectangle_badge_minus: SymbolExtension = SymbolExtension(rawValue: "rectangle.badge.minus")
-    static let rectangle_badge_plus: SymbolExtension = SymbolExtension(rawValue: "rectangle.badge.plus")
-    static let rectangle_connected_to_line_below: SymbolExtension = SymbolExtension(rawValue: "rectangle.connected.to.line.below")
-    static let rectangle_dashed: SymbolExtension = SymbolExtension(rawValue: "rectangle.dashed")
-    static let rectangle_dashed_and_paperclip: SymbolExtension = SymbolExtension(rawValue: "rectangle.dashed.and.paperclip")
-    static let rectangle_dashed_badge_record: SymbolExtension = SymbolExtension(rawValue: "rectangle.dashed.badge.record")
-    static let rectangle_fill_badge_minus: SymbolExtension = SymbolExtension(rawValue: "rectangle.fill.badge.minus")
-    static let rectangle_fill_badge_plus: SymbolExtension = SymbolExtension(rawValue: "rectangle.fill.badge.plus")
-    static let rectangle_on_rectangle_slash: SymbolExtension = SymbolExtension(rawValue: "rectangle.on.rectangle.slash")
-    static let rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait")
-    static let rectangle_portrait_arrowtriangle_2_inward: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.arrowtriangle.2.inward")
-    static let rectangle_portrait_arrowtriangle_2_outward: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.arrowtriangle.2.outward")
-    static let rectangle_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.portrait.fill")
-    static let rectangle_slash: SymbolExtension = SymbolExtension(rawValue: "rectangle.slash")
-    static let rectangle_slash_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.slash.fill")
-    static let rectangle_split_1x2: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.1x2")
-    static let rectangle_split_1x2_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.1x2.fill")
-    static let rectangle_split_2x1: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.2x1")
-    static let rectangle_split_2x1_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.2x1.fill")
-    static let rectangle_split_2x2: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.2x2")
-    static let rectangle_split_2x2_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.split.2x2.fill")
-    static let restart: SymbolExtension = SymbolExtension(rawValue: "restart")
-    static let restart_circle: SymbolExtension = SymbolExtension(rawValue: "restart.circle")
-    static let rotate_3d: SymbolExtension = SymbolExtension(rawValue: "rotate.3d")
-    static let ruler: SymbolExtension = SymbolExtension(rawValue: "ruler")
-    static let ruler_fill: SymbolExtension = SymbolExtension(rawValue: "ruler.fill")
-    static let scale_3d: SymbolExtension = SymbolExtension(rawValue: "scale.3d")
-    static let scalemass: SymbolExtension = SymbolExtension(rawValue: "scalemass")
-    static let scalemass_fill: SymbolExtension = SymbolExtension(rawValue: "scalemass.fill")
-    static let scanner: SymbolExtension = SymbolExtension(rawValue: "scanner")
-    static let scanner_fill: SymbolExtension = SymbolExtension(rawValue: "scanner.fill")
-    static let scribble_variable: SymbolExtension = SymbolExtension(rawValue: "scribble.variable")
-    static let scroll: SymbolExtension = SymbolExtension(rawValue: "scroll")
-    static let scroll_fill: SymbolExtension = SymbolExtension(rawValue: "scroll.fill")
-    static let sdcard: SymbolExtension = SymbolExtension(rawValue: "sdcard")
-    static let sdcard_fill: SymbolExtension = SymbolExtension(rawValue: "sdcard.fill")
-    static let seal: SymbolExtension = SymbolExtension(rawValue: "seal")
-    static let seal_fill: SymbolExtension = SymbolExtension(rawValue: "seal.fill")
-    static let server_rack: SymbolExtension = SymbolExtension(rawValue: "server.rack")
-    static let shadow: SymbolExtension = SymbolExtension(rawValue: "shadow")
-    static let shekelsign_circle: SymbolExtension = SymbolExtension(rawValue: "shekelsign.circle")
-    static let shekelsign_circle_fill: SymbolExtension = SymbolExtension(rawValue: "shekelsign.circle.fill")
-    static let shekelsign_square: SymbolExtension = SymbolExtension(rawValue: "shekelsign.square")
-    static let shekelsign_square_fill: SymbolExtension = SymbolExtension(rawValue: "shekelsign.square.fill")
-    static let shippingbox: SymbolExtension = SymbolExtension(rawValue: "shippingbox")
-    static let shippingbox_fill: SymbolExtension = SymbolExtension(rawValue: "shippingbox.fill")
-    static let sidebar_leading: SymbolExtension = SymbolExtension(rawValue: "sidebar.leading")
-    static let sidebar_squares_leading: SymbolExtension = SymbolExtension(rawValue: "sidebar.squares.leading")
-    static let sidebar_squares_left: SymbolExtension = SymbolExtension(rawValue: "sidebar.squares.left")
-    static let sidebar_squares_right: SymbolExtension = SymbolExtension(rawValue: "sidebar.squares.right")
-    static let sidebar_squares_trailing: SymbolExtension = SymbolExtension(rawValue: "sidebar.squares.trailing")
-    static let sidebar_trailing: SymbolExtension = SymbolExtension(rawValue: "sidebar.trailing")
-    static let signpost_left: SymbolExtension = SymbolExtension(rawValue: "signpost.left")
-    static let signpost_left_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.left.fill")
-    static let signpost_right: SymbolExtension = SymbolExtension(rawValue: "signpost.right")
-    static let signpost_right_fill: SymbolExtension = SymbolExtension(rawValue: "signpost.right.fill")
-    static let simcard: SymbolExtension = SymbolExtension(rawValue: "simcard")
-    static let simcard_2: SymbolExtension = SymbolExtension(rawValue: "simcard.2")
-    static let simcard_2_fill: SymbolExtension = SymbolExtension(rawValue: "simcard.2.fill")
-    static let simcard_fill: SymbolExtension = SymbolExtension(rawValue: "simcard.fill")
-    static let sleep: SymbolExtension = SymbolExtension(rawValue: "sleep")
-    static let slider_vertical_3: SymbolExtension = SymbolExtension(rawValue: "slider.vertical.3")
-    static let sparkle: SymbolExtension = SymbolExtension(rawValue: "sparkle")
-    static let sparkles_rectangle_stack: SymbolExtension = SymbolExtension(rawValue: "sparkles.rectangle.stack")
-    static let sparkles_rectangle_stack_fill: SymbolExtension = SymbolExtension(rawValue: "sparkles.rectangle.stack.fill")
-    static let speaker_slash_circle: SymbolExtension = SymbolExtension(rawValue: "speaker.slash.circle")
-    static let speaker_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "speaker.slash.circle.fill")
-    static let speaker_wave_1: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.1")
-    static let speaker_wave_1_fill: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.1.fill")
-    static let speaker_wave_2: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.2")
-    static let speaker_wave_2_circle: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.2.circle")
-    static let speaker_wave_2_circle_fill: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.2.circle.fill")
-    static let speaker_wave_2_fill: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.2.fill")
-    static let speaker_wave_3: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.3")
-    static let speaker_wave_3_fill: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.3.fill")
-    static let square_and_at_rectangle: SymbolExtension = SymbolExtension(rawValue: "square.and.at.rectangle")
-    static let square_circle: SymbolExtension = SymbolExtension(rawValue: "square.circle")
-    static let square_circle_fill: SymbolExtension = SymbolExtension(rawValue: "square.circle.fill")
-    static let square_dashed: SymbolExtension = SymbolExtension(rawValue: "square.dashed")
-    static let square_fill_text_grid_1x2: SymbolExtension = SymbolExtension(rawValue: "square.fill.text.grid.1x2")
-    static let square_grid_3x1_below_line_grid_1x2: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x1.below.line.grid.1x2")
-    static let square_grid_3x1_folder_badge_plus: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x1.folder.badge.plus")
-    static let square_grid_3x1_folder_fill_badge_plus: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x1.folder.fill.badge.plus")
-    static let square_grid_3x3: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x3")
-    static let square_grid_3x3_fill: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x3.fill")
-    static let square_on_square_dashed: SymbolExtension = SymbolExtension(rawValue: "square.on.square.dashed")
-    static let square_on_square_squareshape_controlhandles: SymbolExtension = SymbolExtension(rawValue: "square.on.square.squareshape.controlhandles")
-    static let square_slash: SymbolExtension = SymbolExtension(rawValue: "square.slash")
-    static let square_slash_fill: SymbolExtension = SymbolExtension(rawValue: "square.slash.fill")
-    static let square_split_bottomrightquarter: SymbolExtension = SymbolExtension(rawValue: "square.split.bottomrightquarter")
-    static let square_split_bottomrightquarter_fill: SymbolExtension = SymbolExtension(rawValue: "square.split.bottomrightquarter.fill")
-    static let square_split_diagonal: SymbolExtension = SymbolExtension(rawValue: "square.split.diagonal")
-    static let square_split_diagonal_2x2: SymbolExtension = SymbolExtension(rawValue: "square.split.diagonal.2x2")
-    static let square_split_diagonal_2x2_fill: SymbolExtension = SymbolExtension(rawValue: "square.split.diagonal.2x2.fill")
-    static let square_split_diagonal_fill: SymbolExtension = SymbolExtension(rawValue: "square.split.diagonal.fill")
-    static let square_stack_3d_down_forward: SymbolExtension = SymbolExtension(rawValue: "square.stack.3d.down.forward")
-    static let square_stack_3d_down_forward_fill: SymbolExtension = SymbolExtension(rawValue: "square.stack.3d.down.forward.fill")
-    static let square_stack_3d_forward_dottedline: SymbolExtension = SymbolExtension(rawValue: "square.stack.3d.forward.dottedline")
-    static let square_stack_3d_forward_dottedline_fill: SymbolExtension = SymbolExtension(rawValue: "square.stack.3d.forward.dottedline.fill")
-    static let squareshape: SymbolExtension = SymbolExtension(rawValue: "squareshape")
-    static let squareshape_controlhandles_on_squareshape_controlhandles: SymbolExtension = SymbolExtension(rawValue: "squareshape.controlhandles.on.squareshape.controlhandles")
-    static let squareshape_fill: SymbolExtension = SymbolExtension(rawValue: "squareshape.fill")
-    static let squareshape_split_2x2: SymbolExtension = SymbolExtension(rawValue: "squareshape.split.2x2")
-    static let squareshape_split_2x2_dotted: SymbolExtension = SymbolExtension(rawValue: "squareshape.split.2x2.dotted")
-    static let squareshape_split_3x3: SymbolExtension = SymbolExtension(rawValue: "squareshape.split.3x3")
-    static let star_square: SymbolExtension = SymbolExtension(rawValue: "star.square")
-    static let star_square_fill: SymbolExtension = SymbolExtension(rawValue: "star.square.fill")
-    static let staroflife_circle: SymbolExtension = SymbolExtension(rawValue: "staroflife.circle")
-    static let staroflife_circle_fill: SymbolExtension = SymbolExtension(rawValue: "staroflife.circle.fill")
-    static let stethoscope: SymbolExtension = SymbolExtension(rawValue: "stethoscope")
-    static let swift: SymbolExtension = SymbolExtension(rawValue: "swift")
-    static let switch_2: SymbolExtension = SymbolExtension(rawValue: "switch.2")
-    static let tablecells: SymbolExtension = SymbolExtension(rawValue: "tablecells")
-    static let tablecells_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "tablecells.badge.ellipsis")
-    static let tablecells_fill: SymbolExtension = SymbolExtension(rawValue: "tablecells.fill")
-    static let tag_slash: SymbolExtension = SymbolExtension(rawValue: "tag.slash")
-    static let tag_slash_fill: SymbolExtension = SymbolExtension(rawValue: "tag.slash.fill")
-    static let target: SymbolExtension = SymbolExtension(rawValue: "target")
-    static let teletype_circle: SymbolExtension = SymbolExtension(rawValue: "teletype.circle")
-    static let teletype_circle_fill: SymbolExtension = SymbolExtension(rawValue: "teletype.circle.fill")
-    static let text_and_command_macwindow: SymbolExtension = SymbolExtension(rawValue: "text.and.command.macwindow")
-    static let text_below_photo: SymbolExtension = SymbolExtension(rawValue: "text.below.photo")
-    static let text_below_photo_fill: SymbolExtension = SymbolExtension(rawValue: "text.below.photo.fill")
-    static let text_book_closed: SymbolExtension = SymbolExtension(rawValue: "text.book.closed")
-    static let text_book_closed_fill: SymbolExtension = SymbolExtension(rawValue: "text.book.closed.fill")
-    static let text_magnifyingglass: SymbolExtension = SymbolExtension(rawValue: "text.magnifyingglass")
-    static let text_redaction: SymbolExtension = SymbolExtension(rawValue: "text.redaction")
-    static let thermometer_sun_fill: SymbolExtension = SymbolExtension(rawValue: "thermometer.sun.fill")
-    static let ticket: SymbolExtension = SymbolExtension(rawValue: "ticket")
-    static let ticket_fill: SymbolExtension = SymbolExtension(rawValue: "ticket.fill")
-    static let timeline_selection: SymbolExtension = SymbolExtension(rawValue: "timeline.selection")
-    static let timer_square: SymbolExtension = SymbolExtension(rawValue: "timer.square")
-    static let togglepower: SymbolExtension = SymbolExtension(rawValue: "togglepower")
-    static let touchid: SymbolExtension = SymbolExtension(rawValue: "touchid")
-    static let tram: SymbolExtension = SymbolExtension(rawValue: "tram")
-    static let tram_circle: SymbolExtension = SymbolExtension(rawValue: "tram.circle")
-    static let tram_circle_fill: SymbolExtension = SymbolExtension(rawValue: "tram.circle.fill")
-    static let tray_circle: SymbolExtension = SymbolExtension(rawValue: "tray.circle")
-    static let tray_circle_fill: SymbolExtension = SymbolExtension(rawValue: "tray.circle.fill")
-    static let triangle_circle: SymbolExtension = SymbolExtension(rawValue: "triangle.circle")
-    static let triangle_circle_fill: SymbolExtension = SymbolExtension(rawValue: "triangle.circle.fill")
-    static let tv_and_hifispeaker_fill: SymbolExtension = SymbolExtension(rawValue: "tv.and.hifispeaker.fill")
-    static let video_badge_checkmark: SymbolExtension = SymbolExtension(rawValue: "video.badge.checkmark")
-    static let video_fill_badge_checkmark: SymbolExtension = SymbolExtension(rawValue: "video.fill.badge.checkmark")
-    static let video_fill_badge_plus: SymbolExtension = SymbolExtension(rawValue: "video.fill.badge.plus")
-    static let wake: SymbolExtension = SymbolExtension(rawValue: "wake")
-    static let wallet_pass: SymbolExtension = SymbolExtension(rawValue: "wallet.pass")
-    static let wallet_pass_fill: SymbolExtension = SymbolExtension(rawValue: "wallet.pass.fill")
-    static let wave_3_backward: SymbolExtension = SymbolExtension(rawValue: "wave.3.backward")
-    static let wave_3_backward_circle: SymbolExtension = SymbolExtension(rawValue: "wave.3.backward.circle")
-    static let wave_3_backward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.backward.circle.fill")
-    static let wave_3_forward: SymbolExtension = SymbolExtension(rawValue: "wave.3.forward")
-    static let wave_3_forward_circle: SymbolExtension = SymbolExtension(rawValue: "wave.3.forward.circle")
-    static let wave_3_forward_circle_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.forward.circle.fill")
-    static let wave_3_left: SymbolExtension = SymbolExtension(rawValue: "wave.3.left")
-    static let wave_3_left_circle: SymbolExtension = SymbolExtension(rawValue: "wave.3.left.circle")
-    static let wave_3_left_circle_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.left.circle.fill")
-    static let wave_3_right: SymbolExtension = SymbolExtension(rawValue: "wave.3.right")
-    static let wave_3_right_circle: SymbolExtension = SymbolExtension(rawValue: "wave.3.right.circle")
-    static let wave_3_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.right.circle.fill")
-    static let waveform_path_ecg_rectangle: SymbolExtension = SymbolExtension(rawValue: "waveform.path.ecg.rectangle")
-    static let waveform_path_ecg_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "waveform.path.ecg.rectangle.fill")
-    static let wrench_and_screwdriver: SymbolExtension = SymbolExtension(rawValue: "wrench.and.screwdriver")
-    static let wrench_and_screwdriver_fill: SymbolExtension = SymbolExtension(rawValue: "wrench.and.screwdriver.fill")
-    static let xmark_bin: SymbolExtension = SymbolExtension(rawValue: "xmark.bin")
-    static let xmark_bin_circle: SymbolExtension = SymbolExtension(rawValue: "xmark.bin.circle")
-    static let xmark_bin_circle_fill: SymbolExtension = SymbolExtension(rawValue: "xmark.bin.circle.fill")
-    static let xmark_bin_fill: SymbolExtension = SymbolExtension(rawValue: "xmark.bin.fill")
-    static let xmark_diamond: SymbolExtension = SymbolExtension(rawValue: "xmark.diamond")
-    static let xmark_diamond_fill: SymbolExtension = SymbolExtension(rawValue: "xmark.diamond.fill")
-    static let xmark_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "xmark.rectangle.portrait")
-    static let xmark_rectangle_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "xmark.rectangle.portrait.fill")
-    static let xserve: SymbolExtension = SymbolExtension(rawValue: "xserve")
-    
+public extension S {
+    static let _4k_tv = "4k.tv"
+    static let _4k_tv_fill = "4k.tv.fill"
+    static let airplane_circle = "airplane.circle"
+    static let airplane_circle_fill = "airplane.circle.fill"
+    static let airpod_left = "airpod.left"
+    static let airpod_right = "airpod.right"
+    static let airpods = "airpods"
+    static let airport_express = "airport.express"
+    static let airport_extreme = "airport.extreme"
+    static let airport_extreme_tower = "airport.extreme.tower"
+    static let amplifier = "amplifier"
+    static let appclip = "appclip"
+    static let applescript = "applescript"
+    static let applescript_fill = "applescript.fill"
+    static let appletv = "appletv"
+    static let appletv_fill = "appletv.fill"
+    static let applewatch = "applewatch"
+    static let applewatch_radiowaves_left_and_right = "applewatch.radiowaves.left.and.right"
+    static let applewatch_slash = "applewatch.slash"
+    static let applewatch_watchface = "applewatch.watchface"
+    static let apps_ipad = "apps.ipad"
+    static let apps_ipad_landscape = "apps.ipad.landscape"
+    static let apps_iphone = "apps.iphone"
+    static let apps_iphone_badge_plus = "apps.iphone.badge.plus"
+    static let apps_iphone_landscape = "apps.iphone.landscape"
+    static let archivebox_circle = "archivebox.circle"
+    static let archivebox_circle_fill = "archivebox.circle.fill"
+    static let arrow_backward = "arrow.backward"
+    static let arrow_backward_circle = "arrow.backward.circle"
+    static let arrow_backward_circle_fill = "arrow.backward.circle.fill"
+    static let arrow_backward_square = "arrow.backward.square"
+    static let arrow_backward_square_fill = "arrow.backward.square.fill"
+    static let arrow_down_app = "arrow.down.app"
+    static let arrow_down_app_fill = "arrow.down.app.fill"
+    static let arrow_down_backward = "arrow.down.backward"
+    static let arrow_down_backward_circle = "arrow.down.backward.circle"
+    static let arrow_down_backward_circle_fill = "arrow.down.backward.circle.fill"
+    static let arrow_down_backward_square = "arrow.down.backward.square"
+    static let arrow_down_backward_square_fill = "arrow.down.backward.square.fill"
+    static let arrow_down_forward = "arrow.down.forward"
+    static let arrow_down_forward_and_arrow_up_backward = "arrow.down.forward.and.arrow.up.backward"
+    static let arrow_down_forward_and_arrow_up_backward_circle = "arrow.down.forward.and.arrow.up.backward.circle"
+    static let arrow_down_forward_and_arrow_up_backward_circle_fill = "arrow.down.forward.and.arrow.up.backward.circle.fill"
+    static let arrow_down_forward_circle = "arrow.down.forward.circle"
+    static let arrow_down_forward_circle_fill = "arrow.down.forward.circle.fill"
+    static let arrow_down_forward_square = "arrow.down.forward.square"
+    static let arrow_down_forward_square_fill = "arrow.down.forward.square.fill"
+    static let arrow_down_heart = "arrow.down.heart"
+    static let arrow_down_heart_fill = "arrow.down.heart.fill"
+    static let arrow_down_right_and_arrow_up_left_circle = "arrow.down.right.and.arrow.up.left.circle"
+    static let arrow_down_right_and_arrow_up_left_circle_fill = "arrow.down.right.and.arrow.up.left.circle.fill"
+    static let arrow_forward = "arrow.forward"
+    static let arrow_forward_circle = "arrow.forward.circle"
+    static let arrow_forward_circle_fill = "arrow.forward.circle.fill"
+    static let arrow_forward_square = "arrow.forward.square"
+    static let arrow_forward_square_fill = "arrow.forward.square.fill"
+    static let arrow_left_arrow_right = "arrow.left.arrow.right"
+    static let arrow_left_arrow_right_circle = "arrow.left.arrow.right.circle"
+    static let arrow_left_arrow_right_circle_fill = "arrow.left.arrow.right.circle.fill"
+    static let arrow_left_arrow_right_square = "arrow.left.arrow.right.square"
+    static let arrow_left_arrow_right_square_fill = "arrow.left.arrow.right.square.fill"
+    static let arrow_turn_up_forward_iphone = "arrow.turn.up.forward.iphone"
+    static let arrow_turn_up_forward_iphone_fill = "arrow.turn.up.forward.iphone.fill"
+    static let arrow_up_and_down_and_arrow_left_and_right = "arrow.up.and.down.and.arrow.left.and.right"
+    static let arrow_up_and_person_rectangle_portrait = "arrow.up.and.person.rectangle.portrait"
+    static let arrow_up_and_person_rectangle_turn_left = "arrow.up.and.person.rectangle.turn.left"
+    static let arrow_up_and_person_rectangle_turn_right = "arrow.up.and.person.rectangle.turn.right"
+    static let arrow_up_backward = "arrow.up.backward"
+    static let arrow_up_backward_and_arrow_down_forward = "arrow.up.backward.and.arrow.down.forward"
+    static let arrow_up_backward_and_arrow_down_forward_circle = "arrow.up.backward.and.arrow.down.forward.circle"
+    static let arrow_up_backward_and_arrow_down_forward_circle_fill = "arrow.up.backward.and.arrow.down.forward.circle.fill"
+    static let arrow_up_backward_circle = "arrow.up.backward.circle"
+    static let arrow_up_backward_circle_fill = "arrow.up.backward.circle.fill"
+    static let arrow_up_backward_square = "arrow.up.backward.square"
+    static let arrow_up_backward_square_fill = "arrow.up.backward.square.fill"
+    static let arrow_up_forward = "arrow.up.forward"
+    static let arrow_up_forward_app = "arrow.up.forward.app"
+    static let arrow_up_forward_app_fill = "arrow.up.forward.app.fill"
+    static let arrow_up_forward_circle = "arrow.up.forward.circle"
+    static let arrow_up_forward_circle_fill = "arrow.up.forward.circle.fill"
+    static let arrow_up_forward_square = "arrow.up.forward.square"
+    static let arrow_up_forward_square_fill = "arrow.up.forward.square.fill"
+    static let arrow_up_heart = "arrow.up.heart"
+    static let arrow_up_heart_fill = "arrow.up.heart.fill"
+    static let arrow_up_left_and_arrow_down_right_circle = "arrow.up.left.and.arrow.down.right.circle"
+    static let arrow_up_left_and_arrow_down_right_circle_fill = "arrow.up.left.and.arrow.down.right.circle.fill"
+    static let arrow_up_left_and_down_right_and_arrow_up_right_and_down_left = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
+    static let arrow_up_left_and_down_right_magnifyingglass = "arrow.up.left.and.down.right.magnifyingglass"
+    static let arrow_up_message = "arrow.up.message"
+    static let arrow_up_message_fill = "arrow.up.message.fill"
+    static let arrow_up_right_and_arrow_down_left_rectangle = "arrow.up.right.and.arrow.down.left.rectangle"
+    static let arrow_up_right_and_arrow_down_left_rectangle_fill = "arrow.up.right.and.arrow.down.left.rectangle.fill"
+    static let arrow_uturn_backward = "arrow.uturn.backward"
+    static let arrow_uturn_backward_circle = "arrow.uturn.backward.circle"
+    static let arrow_uturn_backward_circle_badge_ellipsis = "arrow.uturn.backward.circle.badge.ellipsis"
+    static let arrow_uturn_backward_circle_fill = "arrow.uturn.backward.circle.fill"
+    static let arrow_uturn_backward_square = "arrow.uturn.backward.square"
+    static let arrow_uturn_backward_square_fill = "arrow.uturn.backward.square.fill"
+    static let arrow_uturn_forward = "arrow.uturn.forward"
+    static let arrow_uturn_forward_circle = "arrow.uturn.forward.circle"
+    static let arrow_uturn_forward_circle_fill = "arrow.uturn.forward.circle.fill"
+    static let arrow_uturn_forward_square = "arrow.uturn.forward.square"
+    static let arrow_uturn_forward_square_fill = "arrow.uturn.forward.square.fill"
+    static let arrowshape_bounce_forward = "arrowshape.bounce.forward"
+    static let arrowshape_bounce_forward_fill = "arrowshape.bounce.forward.fill"
+    static let arrowshape_bounce_right = "arrowshape.bounce.right"
+    static let arrowshape_bounce_right_fill = "arrowshape.bounce.right.fill"
+    static let arrowshape_turn_up_backward = "arrowshape.turn.up.backward"
+    static let arrowshape_turn_up_backward_2 = "arrowshape.turn.up.backward.2"
+    static let arrowshape_turn_up_backward_2_circle = "arrowshape.turn.up.backward.2.circle"
+    static let arrowshape_turn_up_backward_2_circle_fill = "arrowshape.turn.up.backward.2.circle.fill"
+    static let arrowshape_turn_up_backward_2_fill = "arrowshape.turn.up.backward.2.fill"
+    static let arrowshape_turn_up_backward_circle = "arrowshape.turn.up.backward.circle"
+    static let arrowshape_turn_up_backward_circle_fill = "arrowshape.turn.up.backward.circle.fill"
+    static let arrowshape_turn_up_backward_fill = "arrowshape.turn.up.backward.fill"
+    static let arrowshape_turn_up_forward = "arrowshape.turn.up.forward"
+    static let arrowshape_turn_up_forward_circle = "arrowshape.turn.up.forward.circle"
+    static let arrowshape_turn_up_forward_circle_fill = "arrowshape.turn.up.forward.circle.fill"
+    static let arrowshape_turn_up_forward_fill = "arrowshape.turn.up.forward.fill"
+    static let arrowshape_turn_up_left_2_circle = "arrowshape.turn.up.left.2.circle"
+    static let arrowshape_turn_up_left_2_circle_fill = "arrowshape.turn.up.left.2.circle.fill"
+    static let arrowshape_zigzag_forward = "arrowshape.zigzag.forward"
+    static let arrowshape_zigzag_forward_fill = "arrowshape.zigzag.forward.fill"
+    static let arrowshape_zigzag_right = "arrowshape.zigzag.right"
+    static let arrowshape_zigzag_right_fill = "arrowshape.zigzag.right.fill"
+    static let arrowtriangle_backward = "arrowtriangle.backward"
+    static let arrowtriangle_backward_circle = "arrowtriangle.backward.circle"
+    static let arrowtriangle_backward_circle_fill = "arrowtriangle.backward.circle.fill"
+    static let arrowtriangle_backward_fill = "arrowtriangle.backward.fill"
+    static let arrowtriangle_backward_square = "arrowtriangle.backward.square"
+    static let arrowtriangle_backward_square_fill = "arrowtriangle.backward.square.fill"
+    static let arrowtriangle_forward = "arrowtriangle.forward"
+    static let arrowtriangle_forward_circle = "arrowtriangle.forward.circle"
+    static let arrowtriangle_forward_circle_fill = "arrowtriangle.forward.circle.fill"
+    static let arrowtriangle_forward_fill = "arrowtriangle.forward.fill"
+    static let arrowtriangle_forward_square = "arrowtriangle.forward.square"
+    static let arrowtriangle_forward_square_fill = "arrowtriangle.forward.square.fill"
+    static let arrowtriangle_left_and_line_vertical_and_arrowtriangle_right = "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
+    static let arrowtriangle_right_and_line_vertical_and_arrowtriangle_left = "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
+    static let at_circle = "at.circle"
+    static let at_circle_fill = "at.circle.fill"
+    static let atom = "atom"
+    static let backward_frame = "backward.frame"
+    static let backward_frame_fill = "backward.frame.fill"
+    static let badge_plus_radiowaves_forward = "badge.plus.radiowaves.forward"
+    static let bag_circle = "bag.circle"
+    static let bag_circle_fill = "bag.circle.fill"
+    static let banknote = "banknote"
+    static let banknote_fill = "banknote.fill"
+    static let barometer = "barometer"
+    static let bell_badge = "bell.badge"
+    static let bell_badge_fill = "bell.badge.fill"
+    static let bell_slash_circle = "bell.slash.circle"
+    static let bell_slash_circle_fill = "bell.slash.circle.fill"
+    static let bicycle = "bicycle"
+    static let bicycle_circle = "bicycle.circle"
+    static let bicycle_circle_fill = "bicycle.circle.fill"
+    static let binoculars = "binoculars"
+    static let binoculars_fill = "binoculars.fill"
+    static let bolt_car = "bolt.car"
+    static let bolt_car_fill = "bolt.car.fill"
+    static let bolt_heart = "bolt.heart"
+    static let bolt_heart_fill = "bolt.heart.fill"
+    static let bolt_slash_circle = "bolt.slash.circle"
+    static let bolt_slash_circle_fill = "bolt.slash.circle.fill"
+    static let bonjour = "bonjour"
+    static let book_closed = "book.closed"
+    static let book_closed_fill = "book.closed.fill"
+    static let bookmark_circle = "bookmark.circle"
+    static let bookmark_circle_fill = "bookmark.circle.fill"
+    static let bookmark_slash = "bookmark.slash"
+    static let bookmark_slash_fill = "bookmark.slash.fill"
+    static let books_vertical = "books.vertical"
+    static let books_vertical_fill = "books.vertical.fill"
+    static let building = "building"
+    static let building_2 = "building.2"
+    static let building_2_crop_circle = "building.2.crop.circle"
+    static let building_2_crop_circle_fill = "building.2.crop.circle.fill"
+    static let building_2_fill = "building.2.fill"
+    static let building_columns = "building.columns"
+    static let building_columns_fill = "building.columns.fill"
+    static let building_fill = "building.fill"
+    static let bus = "bus"
+    static let bus_doubledecker = "bus.doubledecker"
+    static let bus_doubledecker_fill = "bus.doubledecker.fill"
+    static let bus_fill = "bus.fill"
+    static let calendar_badge_clock = "calendar.badge.clock"
+    static let calendar_badge_exclamationmark = "calendar.badge.exclamationmark"
+    static let camera_aperture = "camera.aperture"
+    static let camera_badge_ellipsis = "camera.badge.ellipsis"
+    static let camera_filters = "camera.filters"
+    static let camera_metering_center_weighted = "camera.metering.center.weighted"
+    static let camera_metering_center_weighted_average = "camera.metering.center.weighted.average"
+    static let camera_metering_matrix = "camera.metering.matrix"
+    static let camera_metering_multispot = "camera.metering.multispot"
+    static let camera_metering_none = "camera.metering.none"
+    static let camera_metering_partial = "camera.metering.partial"
+    static let camera_metering_spot = "camera.metering.spot"
+    static let camera_metering_unknown = "camera.metering.unknown"
+    static let candybarphone = "candybarphone"
+    static let capsule_portrait = "capsule.portrait"
+    static let capsule_portrait_fill = "capsule.portrait.fill"
+    static let car_2 = "car.2"
+    static let car_2_fill = "car.2.fill"
+    static let car_circle = "car.circle"
+    static let car_circle_fill = "car.circle.fill"
+    static let _case = "case"
+    static let case_fill = "case.fill"
+    static let chart_bar_xaxis = "chart.bar.xaxis"
+    static let checkmark_icloud = "checkmark.icloud"
+    static let checkmark_icloud_fill = "checkmark.icloud.fill"
+    static let checkmark_rectangle_portrait = "checkmark.rectangle.portrait"
+    static let checkmark_rectangle_portrait_fill = "checkmark.rectangle.portrait.fill"
+    static let chevron_backward = "chevron.backward"
+    static let chevron_backward_2 = "chevron.backward.2"
+    static let chevron_backward_circle = "chevron.backward.circle"
+    static let chevron_backward_circle_fill = "chevron.backward.circle.fill"
+    static let chevron_backward_square = "chevron.backward.square"
+    static let chevron_backward_square_fill = "chevron.backward.square.fill"
+    static let chevron_forward = "chevron.forward"
+    static let chevron_forward_2 = "chevron.forward.2"
+    static let chevron_forward_circle = "chevron.forward.circle"
+    static let chevron_forward_circle_fill = "chevron.forward.circle.fill"
+    static let chevron_forward_square = "chevron.forward.square"
+    static let chevron_forward_square_fill = "chevron.forward.square.fill"
+    static let circle_circle = "circle.circle"
+    static let circle_circle_fill = "circle.circle.fill"
+    static let circle_dashed = "circle.dashed"
+    static let circle_grid_cross = "circle.grid.cross"
+    static let circle_grid_cross_fill = "circle.grid.cross.fill"
+    static let circle_square = "circle.square"
+    static let circlebadge = "circlebadge"
+    static let circlebadge_2 = "circlebadge.2"
+    static let circlebadge_2_fill = "circlebadge.2.fill"
+    static let circlebadge_fill = "circlebadge.fill"
+    static let comb = "comb"
+    static let comb_fill = "comb.fill"
+    static let command_circle = "command.circle"
+    static let command_circle_fill = "command.circle.fill"
+    static let command_square = "command.square"
+    static let command_square_fill = "command.square.fill"
+    static let cone = "cone"
+    static let cone_fill = "cone.fill"
+    static let contextualmenu_and_cursorarrow = "contextualmenu.and.cursorarrow"
+    static let cpu = "cpu"
+    static let creditcard_circle = "creditcard.circle"
+    static let creditcard_circle_fill = "creditcard.circle.fill"
+    static let cross = "cross"
+    static let cross_case = "cross.case"
+    static let cross_case_fill = "cross.case.fill"
+    static let cross_circle = "cross.circle"
+    static let cross_circle_fill = "cross.circle.fill"
+    static let cross_fill = "cross.fill"
+    static let crown = "crown"
+    static let crown_fill = "crown.fill"
+    static let cube_transparent = "cube.transparent"
+    static let cube_transparent_fill = "cube.transparent.fill"
+    static let curlybraces = "curlybraces"
+    static let curlybraces_square = "curlybraces.square"
+    static let curlybraces_square_fill = "curlybraces.square.fill"
+    static let cursorarrow = "cursorarrow"
+    static let cursorarrow_and_square_on_square_dashed = "cursorarrow.and.square.on.square.dashed"
+    static let cursorarrow_click = "cursorarrow.click"
+    static let cursorarrow_click_2 = "cursorarrow.click.2"
+    static let cursorarrow_click_badge_clock = "cursorarrow.click.badge.clock"
+    static let cursorarrow_motionlines = "cursorarrow.motionlines"
+    static let cursorarrow_motionlines_click = "cursorarrow.motionlines.click"
+    static let cursorarrow_rays = "cursorarrow.rays"
+    static let cursorarrow_square = "cursorarrow.square"
+    static let cylinder = "cylinder"
+    static let cylinder_fill = "cylinder.fill"
+    static let cylinder_split_1x2 = "cylinder.split.1x2"
+    static let cylinder_split_1x2_fill = "cylinder.split.1x2.fill"
+    static let deskclock = "deskclock"
+    static let deskclock_fill = "deskclock.fill"
+    static let diamond = "diamond"
+    static let diamond_fill = "diamond.fill"
+    static let die_face_1 = "die.face.1"
+    static let die_face_1_fill = "die.face.1.fill"
+    static let die_face_2 = "die.face.2"
+    static let die_face_2_fill = "die.face.2.fill"
+    static let die_face_3 = "die.face.3"
+    static let die_face_3_fill = "die.face.3.fill"
+    static let die_face_4 = "die.face.4"
+    static let die_face_4_fill = "die.face.4.fill"
+    static let die_face_5 = "die.face.5"
+    static let die_face_5_fill = "die.face.5.fill"
+    static let die_face_6 = "die.face.6"
+    static let die_face_6_fill = "die.face.6.fill"
+    static let display = "display"
+    static let display_2 = "display.2"
+    static let display_trianglebadge_exclamationmark = "display.trianglebadge.exclamationmark"
+    static let dock_arrow_down_rectangle = "dock.arrow.down.rectangle"
+    static let dock_arrow_up_rectangle = "dock.arrow.up.rectangle"
+    static let dock_rectangle = "dock.rectangle"
+    static let dot_arrowtriangles_up_right_down_left_circle = "dot.arrowtriangles.up.right.down.left.circle"
+    static let dot_circle_and_cursorarrow = "dot.circle.and.cursorarrow"
+    static let dot_radiowaves_forward = "dot.radiowaves.forward"
+    static let dot_squareshape = "dot.squareshape"
+    static let dot_squareshape_fill = "dot.squareshape.fill"
+    static let dot_squareshape_split_2x2 = "dot.squareshape.split.2x2"
+    static let dpad = "dpad"
+    static let dpad_fill = "dpad.fill"
+    static let drop = "drop"
+    static let drop_fill = "drop.fill"
+    static let ear_badge_checkmark = "ear.badge.checkmark"
+    static let ear_fill = "ear.fill"
+    static let ear_trianglebadge_exclamationmark = "ear.trianglebadge.exclamationmark"
+    static let earpods = "earpods"
+    static let eject_circle = "eject.circle"
+    static let eject_circle_fill = "eject.circle.fill"
+    static let ellipsis_bubble = "ellipsis.bubble"
+    static let ellipsis_bubble_fill = "ellipsis.bubble.fill"
+    static let ellipsis_rectangle = "ellipsis.rectangle"
+    static let ellipsis_rectangle_fill = "ellipsis.rectangle.fill"
+    static let esim = "esim"
+    static let esim_fill = "esim.fill"
+    static let exclamationmark_2 = "exclamationmark.2"
+    static let exclamationmark_3 = "exclamationmark.3"
+    static let externaldrive = "externaldrive"
+    static let externaldrive_badge_checkmark = "externaldrive.badge.checkmark"
+    static let externaldrive_badge_icloud = "externaldrive.badge.icloud"
+    static let externaldrive_badge_minus = "externaldrive.badge.minus"
+    static let externaldrive_badge_person_crop = "externaldrive.badge.person.crop"
+    static let externaldrive_badge_plus = "externaldrive.badge.plus"
+    static let externaldrive_badge_timemachine = "externaldrive.badge.timemachine"
+    static let externaldrive_badge_wifi = "externaldrive.badge.wifi"
+    static let externaldrive_badge_xmark = "externaldrive.badge.xmark"
+    static let externaldrive_connected_to_line_below = "externaldrive.connected.to.line.below"
+    static let externaldrive_connected_to_line_below_fill = "externaldrive.connected.to.line.below.fill"
+    static let externaldrive_fill = "externaldrive.fill"
+    static let externaldrive_fill_badge_checkmark = "externaldrive.fill.badge.checkmark"
+    static let externaldrive_fill_badge_icloud = "externaldrive.fill.badge.icloud"
+    static let externaldrive_fill_badge_minus = "externaldrive.fill.badge.minus"
+    static let externaldrive_fill_badge_person_crop = "externaldrive.fill.badge.person.crop"
+    static let externaldrive_fill_badge_plus = "externaldrive.fill.badge.plus"
+    static let externaldrive_fill_badge_timemachine = "externaldrive.fill.badge.timemachine"
+    static let externaldrive_fill_badge_wifi = "externaldrive.fill.badge.wifi"
+    static let externaldrive_fill_badge_xmark = "externaldrive.fill.badge.xmark"
+    static let eye_circle = "eye.circle"
+    static let eye_circle_fill = "eye.circle.fill"
+    static let eyebrow = "eyebrow"
+    static let eyes = "eyes"
+    static let eyes_inverse = "eyes.inverse"
+    static let face_dashed = "face.dashed"
+    static let face_dashed_fill = "face.dashed.fill"
+    static let face_smiling = "face.smiling"
+    static let faxmachine = "faxmachine"
+    static let figure_stand = "figure.stand"
+    static let figure_stand_line_dotted_figure_stand = "figure.stand.line.dotted.figure.stand"
+    static let figure_walk = "figure.walk"
+    static let figure_walk_circle = "figure.walk.circle"
+    static let figure_walk_circle_fill = "figure.walk.circle.fill"
+    static let figure_walk_diamond = "figure.walk.diamond"
+    static let figure_walk_diamond_fill = "figure.walk.diamond.fill"
+    static let figure_wave = "figure.wave"
+    static let figure_wave_circle = "figure.wave.circle"
+    static let figure_wave_circle_fill = "figure.wave.circle.fill"
+    static let filemenu_and_cursorarrow = "filemenu.and.cursorarrow"
+    static let filemenu_and_selection = "filemenu.and.selection"
+    static let flag_badge_ellipsis = "flag.badge.ellipsis"
+    static let flag_badge_ellipsis_fill = "flag.badge.ellipsis.fill"
+    static let flag_slash_circle = "flag.slash.circle"
+    static let flag_slash_circle_fill = "flag.slash.circle.fill"
+    static let flipphone = "flipphone"
+    static let fn = "fn"
+    static let folder_badge_questionmark = "folder.badge.questionmark"
+    static let folder_fill_badge_questionmark = "folder.fill.badge.questionmark"
+    static let forward_frame = "forward.frame"
+    static let forward_frame_fill = "forward.frame.fill"
+    static let gearshape = "gearshape"
+    static let gearshape_2 = "gearshape.2"
+    static let gearshape_2_fill = "gearshape.2.fill"
+    static let gearshape_fill = "gearshape.fill"
+    static let gift_circle = "gift.circle"
+    static let gift_circle_fill = "gift.circle.fill"
+    static let giftcard = "giftcard"
+    static let giftcard_fill = "giftcard.fill"
+    static let graduationcap = "graduationcap"
+    static let graduationcap_fill = "graduationcap.fill"
+    static let greetingcard = "greetingcard"
+    static let greetingcard_fill = "greetingcard.fill"
+    static let guitars_fill = "guitars.fill"
+    static let gyroscope = "gyroscope"
+    static let h_square_on_square = "h.square.on.square"
+    static let hand_point_down = "hand.point.down"
+    static let hand_point_down_fill = "hand.point.down.fill"
+    static let hand_point_up = "hand.point.up"
+    static let hand_point_up_braille = "hand.point.up.braille"
+    static let hand_point_up_braille_fill = "hand.point.up.braille.fill"
+    static let hand_point_up_fill = "hand.point.up.fill"
+    static let hand_point_up_left = "hand.point.up.left"
+    static let hand_point_up_left_fill = "hand.point.up.left.fill"
+    static let hand_tap = "hand.tap"
+    static let hand_tap_fill = "hand.tap.fill"
+    static let hand_wave = "hand.wave"
+    static let hand_wave_fill = "hand.wave.fill"
+    static let hands_clap = "hands.clap"
+    static let hands_clap_fill = "hands.clap.fill"
+    static let headphones_circle = "headphones.circle"
+    static let headphones_circle_fill = "headphones.circle.fill"
+    static let heart_text_square = "heart.text.square"
+    static let heart_text_square_fill = "heart.text.square.fill"
+    static let hifispeaker_2 = "hifispeaker.2"
+    static let hifispeaker_2_fill = "hifispeaker.2.fill"
+    static let hifispeaker_and_homepod = "hifispeaker.and.homepod"
+    static let hifispeaker_and_homepod_fill = "hifispeaker.and.homepod.fill"
+    static let highlighter = "highlighter"
+    static let homekit = "homekit"
+    static let homepod = "homepod"
+    static let homepod_2 = "homepod.2"
+    static let homepod_2_fill = "homepod.2.fill"
+    static let homepod_fill = "homepod.fill"
+    static let hourglass_badge_plus = "hourglass.badge.plus"
+    static let house_circle = "house.circle"
+    static let house_circle_fill = "house.circle.fill"
+    static let infinity = "infinity"
+    static let internaldrive = "internaldrive"
+    static let internaldrive_fill = "internaldrive.fill"
+    static let ipad = "ipad"
+    static let ipad_landscape = "ipad.landscape"
+    static let iphone = "iphone"
+    static let iphone_radiowaves_left_and_right = "iphone.radiowaves.left.and.right"
+    static let iphone_slash = "iphone.slash"
+    static let ipod = "ipod"
+    static let j_square_on_square = "j.square.on.square"
+    static let k = "k"
+    static let key = "key"
+    static let key_fill = "key.fill"
+    static let key_icloud = "key.icloud"
+    static let key_icloud_fill = "key.icloud.fill"
+    static let keyboard_badge_ellipsis = "keyboard.badge.ellipsis"
+    static let keyboard_chevron_compact_left = "keyboard.chevron.compact.left"
+    static let keyboard_macwindow = "keyboard.macwindow"
+    static let keyboard_onehanded_left = "keyboard.onehanded.left"
+    static let keyboard_onehanded_right = "keyboard.onehanded.right"
+    static let l_joystick = "l.joystick"
+    static let l_joystick_fill = "l.joystick.fill"
+    static let ladybug = "ladybug"
+    static let ladybug_fill = "ladybug.fill"
+    static let laptopcomputer = "laptopcomputer"
+    static let latch_2_case = "latch.2.case"
+    static let latch_2_case_fill = "latch.2.case.fill"
+    static let leaf = "leaf"
+    static let leaf_fill = "leaf.fill"
+    static let level = "level"
+    static let level_fill = "level.fill"
+    static let lifepreserver = "lifepreserver"
+    static let lifepreserver_fill = "lifepreserver.fill"
+    static let line_3_crossed_swirl_circle = "line.3.crossed.swirl.circle"
+    static let line_3_crossed_swirl_circle_fill = "line.3.crossed.swirl.circle.fill"
+    static let line_diagonal = "line.diagonal"
+    static let line_diagonal_arrow = "line.diagonal.arrow"
+    static let line_horizontal_star_fill_line_horizontal = "line.horizontal.star.fill.line.horizontal"
+    static let lineweight = "lineweight"
+    static let link_badge_plus = "link.badge.plus"
+    static let list_and_film = "list.and.film"
+    static let list_bullet_rectangle = "list.bullet.rectangle"
+    static let list_star = "list.star"
+    static let list_triangle = "list.triangle"
+    static let location_fill_viewfinder = "location.fill.viewfinder"
+    static let location_viewfinder = "location.viewfinder"
+    static let lock_rectangle = "lock.rectangle"
+    static let lock_rectangle_fill = "lock.rectangle.fill"
+    static let lock_rectangle_on_rectangle = "lock.rectangle.on.rectangle"
+    static let lock_rectangle_on_rectangle_fill = "lock.rectangle.on.rectangle.fill"
+    static let lock_rectangle_stack = "lock.rectangle.stack"
+    static let lock_rectangle_stack_fill = "lock.rectangle.stack.fill"
+    static let lock_square = "lock.square"
+    static let lock_square_fill = "lock.square.fill"
+    static let lock_square_stack = "lock.square.stack"
+    static let lock_square_stack_fill = "lock.square.stack.fill"
+    static let loupe = "loupe"
+    static let lungs = "lungs"
+    static let lungs_fill = "lungs.fill"
+    static let macmini = "macmini"
+    static let macmini_fill = "macmini.fill"
+    static let macpro_gen1 = "macpro.gen1"
+    static let macpro_gen2 = "macpro.gen2"
+    static let macpro_gen2_fill = "macpro.gen2.fill"
+    static let macpro_gen3 = "macpro.gen3"
+    static let macpro_gen3_server = "macpro.gen3.server"
+    static let macwindow_badge_plus = "macwindow.badge.plus"
+    static let macwindow_on_rectangle = "macwindow.on.rectangle"
+    static let mail = "mail"
+    static let mail_and_text_magnifyingglass = "mail.and.text.magnifyingglass"
+    static let mail_fill = "mail.fill"
+    static let mail_stack = "mail.stack"
+    static let mail_stack_fill = "mail.stack.fill"
+    static let megaphone = "megaphone"
+    static let megaphone_fill = "megaphone.fill"
+    static let memorychip = "memorychip"
+    static let menubar_arrow_down_rectangle = "menubar.arrow.down.rectangle"
+    static let menubar_arrow_up_rectangle = "menubar.arrow.up.rectangle"
+    static let menubar_dock_rectangle = "menubar.dock.rectangle"
+    static let menubar_dock_rectangle_badge_record = "menubar.dock.rectangle.badge.record"
+    static let menubar_rectangle = "menubar.rectangle"
+    static let metronome_fill = "metronome.fill"
+    static let minus_diamond = "minus.diamond"
+    static let minus_diamond_fill = "minus.diamond.fill"
+    static let minus_plus_batteryblock = "minus.plus.batteryblock"
+    static let minus_plus_batteryblock_fill = "minus.plus.batteryblock.fill"
+    static let minus_rectangle_portrait = "minus.rectangle.portrait"
+    static let minus_rectangle_portrait_fill = "minus.rectangle.portrait.fill"
+    static let mosaic = "mosaic"
+    static let mosaic_fill = "mosaic.fill"
+    static let mount = "mount"
+    static let mount_fill = "mount.fill"
+    static let mouth = "mouth"
+    static let mouth_fill = "mouth.fill"
+    static let move_3d = "move.3d"
+    static let music_note_house = "music.note.house"
+    static let music_note_house_fill = "music.note.house.fill"
+    static let music_quarternote_3 = "music.quarternote.3"
+    static let mustache = "mustache"
+    static let mustache_fill = "mustache.fill"
+    static let network = "network"
+    static let newspaper = "newspaper"
+    static let newspaper_fill = "newspaper.fill"
+    static let nose = "nose"
+    static let nose_fill = "nose.fill"
+    static let note = "note"
+    static let note_text = "note.text"
+    static let note_text_badge_plus = "note.text.badge.plus"
+    static let octagon = "octagon"
+    static let octagon_fill = "octagon.fill"
+    static let opticaldisc = "opticaldisc"
+    static let opticaldiscdrive = "opticaldiscdrive"
+    static let opticaldiscdrive_fill = "opticaldiscdrive.fill"
+    static let oval = "oval"
+    static let oval_fill = "oval.fill"
+    static let oval_portrait = "oval.portrait"
+    static let oval_portrait_fill = "oval.portrait.fill"
+    static let paintbrush_pointed = "paintbrush.pointed"
+    static let paintbrush_pointed_fill = "paintbrush.pointed.fill"
+    static let paintpalette = "paintpalette"
+    static let paintpalette_fill = "paintpalette.fill"
+    static let paperclip_badge_ellipsis = "paperclip.badge.ellipsis"
+    static let paperplane_circle = "paperplane.circle"
+    static let paperplane_circle_fill = "paperplane.circle.fill"
+    static let paragraphsign = "paragraphsign"
+    static let pc = "pc"
+    static let pencil_tip_crop_circle_badge_arrow_forward = "pencil.tip.crop.circle.badge.arrow.forward"
+    static let person_2_circle = "person.2.circle"
+    static let person_2_circle_fill = "person.2.circle.fill"
+    static let person_crop_circle_badge_exclamationmark = "person.crop.circle.badge.exclamationmark"
+    static let person_crop_circle_badge_questionmark = "person.crop.circle.badge.questionmark"
+    static let person_fill_badge_minus = "person.fill.badge.minus"
+    static let person_fill_badge_plus = "person.fill.badge.plus"
+    static let person_fill_checkmark = "person.fill.checkmark"
+    static let person_fill_questionmark = "person.fill.questionmark"
+    static let person_fill_turn_down = "person.fill.turn.down"
+    static let person_fill_turn_left = "person.fill.turn.left"
+    static let person_fill_turn_right = "person.fill.turn.right"
+    static let person_fill_viewfinder = "person.fill.viewfinder"
+    static let person_fill_xmark = "person.fill.xmark"
+    static let phone_connection = "phone.connection"
+    static let photo_on_rectangle_angled = "photo.on.rectangle.angled"
+    static let pianokeys = "pianokeys"
+    static let pianokeys_inverse = "pianokeys.inverse"
+    static let pills = "pills"
+    static let pills_fill = "pills.fill"
+    static let pip = "pip"
+    static let pip_enter = "pip.enter"
+    static let pip_exit = "pip.exit"
+    static let pip_fill = "pip.fill"
+    static let pip_remove = "pip.remove"
+    static let pip_swap = "pip.swap"
+    static let placeholdertext_fill = "placeholdertext.fill"
+    static let play_slash = "play.slash"
+    static let play_slash_fill = "play.slash.fill"
+    static let plus_diamond = "plus.diamond"
+    static let plus_diamond_fill = "plus.diamond.fill"
+    static let plus_message = "plus.message"
+    static let plus_message_fill = "plus.message.fill"
+    static let plus_rectangle_on_folder = "plus.rectangle.on.folder"
+    static let plus_rectangle_portrait = "plus.rectangle.portrait"
+    static let plus_rectangle_portrait_fill = "plus.rectangle.portrait.fill"
+    static let plus_viewfinder = "plus.viewfinder"
+    static let poweroff = "poweroff"
+    static let poweron = "poweron"
+    static let powersleep = "powersleep"
+    static let printer_dotmatrix = "printer.dotmatrix"
+    static let printer_dotmatrix_fill = "printer.dotmatrix.fill"
+    static let puzzlepiece = "puzzlepiece"
+    static let puzzlepiece_fill = "puzzlepiece.fill"
+    static let pyramid = "pyramid"
+    static let pyramid_fill = "pyramid.fill"
+    static let questionmark_folder = "questionmark.folder"
+    static let questionmark_folder_fill = "questionmark.folder.fill"
+    static let questionmark_square_dashed = "questionmark.square.dashed"
+    static let r_joystick = "r.joystick"
+    static let r_joystick_fill = "r.joystick.fill"
+    static let r_square_on_square = "r.square.on.square"
+    static let radio = "radio"
+    static let radio_fill = "radio.fill"
+    static let record_circle = "record.circle"
+    static let record_circle_fill = "record.circle.fill"
+    static let rectangle_and_pencil_and_ellipsis = "rectangle.and.pencil.and.ellipsis"
+    static let rectangle_and_text_magnifyingglass = "rectangle.and.text.magnifyingglass"
+    static let rectangle_arrowtriangle_2_inward = "rectangle.arrowtriangle.2.inward"
+    static let rectangle_arrowtriangle_2_outward = "rectangle.arrowtriangle.2.outward"
+    static let rectangle_badge_minus = "rectangle.badge.minus"
+    static let rectangle_badge_plus = "rectangle.badge.plus"
+    static let rectangle_connected_to_line_below = "rectangle.connected.to.line.below"
+    static let rectangle_dashed = "rectangle.dashed"
+    static let rectangle_dashed_and_paperclip = "rectangle.dashed.and.paperclip"
+    static let rectangle_dashed_badge_record = "rectangle.dashed.badge.record"
+    static let rectangle_fill_badge_minus = "rectangle.fill.badge.minus"
+    static let rectangle_fill_badge_plus = "rectangle.fill.badge.plus"
+    static let rectangle_on_rectangle_slash = "rectangle.on.rectangle.slash"
+    static let rectangle_portrait = "rectangle.portrait"
+    static let rectangle_portrait_arrowtriangle_2_inward = "rectangle.portrait.arrowtriangle.2.inward"
+    static let rectangle_portrait_arrowtriangle_2_outward = "rectangle.portrait.arrowtriangle.2.outward"
+    static let rectangle_portrait_fill = "rectangle.portrait.fill"
+    static let rectangle_slash = "rectangle.slash"
+    static let rectangle_slash_fill = "rectangle.slash.fill"
+    static let rectangle_split_1x2 = "rectangle.split.1x2"
+    static let rectangle_split_1x2_fill = "rectangle.split.1x2.fill"
+    static let rectangle_split_2x1 = "rectangle.split.2x1"
+    static let rectangle_split_2x1_fill = "rectangle.split.2x1.fill"
+    static let rectangle_split_2x2 = "rectangle.split.2x2"
+    static let rectangle_split_2x2_fill = "rectangle.split.2x2.fill"
+    static let restart = "restart"
+    static let restart_circle = "restart.circle"
+    static let rotate_3d = "rotate.3d"
+    static let ruler = "ruler"
+    static let ruler_fill = "ruler.fill"
+    static let scale_3d = "scale.3d"
+    static let scalemass = "scalemass"
+    static let scalemass_fill = "scalemass.fill"
+    static let scanner = "scanner"
+    static let scanner_fill = "scanner.fill"
+    static let scribble_variable = "scribble.variable"
+    static let scroll = "scroll"
+    static let scroll_fill = "scroll.fill"
+    static let sdcard = "sdcard"
+    static let sdcard_fill = "sdcard.fill"
+    static let seal = "seal"
+    static let seal_fill = "seal.fill"
+    static let server_rack = "server.rack"
+    static let shadow = "shadow"
+    static let shekelsign_circle = "shekelsign.circle"
+    static let shekelsign_circle_fill = "shekelsign.circle.fill"
+    static let shekelsign_square = "shekelsign.square"
+    static let shekelsign_square_fill = "shekelsign.square.fill"
+    static let shippingbox = "shippingbox"
+    static let shippingbox_fill = "shippingbox.fill"
+    static let sidebar_leading = "sidebar.leading"
+    static let sidebar_squares_leading = "sidebar.squares.leading"
+    static let sidebar_squares_left = "sidebar.squares.left"
+    static let sidebar_squares_right = "sidebar.squares.right"
+    static let sidebar_squares_trailing = "sidebar.squares.trailing"
+    static let sidebar_trailing = "sidebar.trailing"
+    static let signpost_left = "signpost.left"
+    static let signpost_left_fill = "signpost.left.fill"
+    static let signpost_right = "signpost.right"
+    static let signpost_right_fill = "signpost.right.fill"
+    static let simcard = "simcard"
+    static let simcard_2 = "simcard.2"
+    static let simcard_2_fill = "simcard.2.fill"
+    static let simcard_fill = "simcard.fill"
+    static let sleep = "sleep"
+    static let slider_vertical_3 = "slider.vertical.3"
+    static let sparkle = "sparkle"
+    static let sparkles_rectangle_stack = "sparkles.rectangle.stack"
+    static let sparkles_rectangle_stack_fill = "sparkles.rectangle.stack.fill"
+    static let speaker_slash_circle = "speaker.slash.circle"
+    static let speaker_slash_circle_fill = "speaker.slash.circle.fill"
+    static let speaker_wave_1 = "speaker.wave.1"
+    static let speaker_wave_1_fill = "speaker.wave.1.fill"
+    static let speaker_wave_2 = "speaker.wave.2"
+    static let speaker_wave_2_circle = "speaker.wave.2.circle"
+    static let speaker_wave_2_circle_fill = "speaker.wave.2.circle.fill"
+    static let speaker_wave_2_fill = "speaker.wave.2.fill"
+    static let speaker_wave_3 = "speaker.wave.3"
+    static let speaker_wave_3_fill = "speaker.wave.3.fill"
+    static let square_and_at_rectangle = "square.and.at.rectangle"
+    static let square_circle = "square.circle"
+    static let square_circle_fill = "square.circle.fill"
+    static let square_dashed = "square.dashed"
+    static let square_fill_text_grid_1x2 = "square.fill.text.grid.1x2"
+    static let square_grid_3x1_below_line_grid_1x2 = "square.grid.3x1.below.line.grid.1x2"
+    static let square_grid_3x1_folder_badge_plus = "square.grid.3x1.folder.badge.plus"
+    static let square_grid_3x1_folder_fill_badge_plus = "square.grid.3x1.folder.fill.badge.plus"
+    static let square_grid_3x3 = "square.grid.3x3"
+    static let square_grid_3x3_fill = "square.grid.3x3.fill"
+    static let square_on_square_dashed = "square.on.square.dashed"
+    static let square_on_square_squareshape_controlhandles = "square.on.square.squareshape.controlhandles"
+    static let square_slash = "square.slash"
+    static let square_slash_fill = "square.slash.fill"
+    static let square_split_bottomrightquarter = "square.split.bottomrightquarter"
+    static let square_split_bottomrightquarter_fill = "square.split.bottomrightquarter.fill"
+    static let square_split_diagonal = "square.split.diagonal"
+    static let square_split_diagonal_2x2 = "square.split.diagonal.2x2"
+    static let square_split_diagonal_2x2_fill = "square.split.diagonal.2x2.fill"
+    static let square_split_diagonal_fill = "square.split.diagonal.fill"
+    static let square_stack_3d_down_forward = "square.stack.3d.down.forward"
+    static let square_stack_3d_down_forward_fill = "square.stack.3d.down.forward.fill"
+    static let square_stack_3d_forward_dottedline = "square.stack.3d.forward.dottedline"
+    static let square_stack_3d_forward_dottedline_fill = "square.stack.3d.forward.dottedline.fill"
+    static let squareshape = "squareshape"
+    static let squareshape_controlhandles_on_squareshape_controlhandles = "squareshape.controlhandles.on.squareshape.controlhandles"
+    static let squareshape_fill = "squareshape.fill"
+    static let squareshape_split_2x2 = "squareshape.split.2x2"
+    static let squareshape_split_2x2_dotted = "squareshape.split.2x2.dotted"
+    static let squareshape_split_3x3 = "squareshape.split.3x3"
+    static let star_square = "star.square"
+    static let star_square_fill = "star.square.fill"
+    static let staroflife_circle = "staroflife.circle"
+    static let staroflife_circle_fill = "staroflife.circle.fill"
+    static let stethoscope = "stethoscope"
+    static let swift = "swift"
+    static let switch_2 = "switch.2"
+    static let tablecells = "tablecells"
+    static let tablecells_badge_ellipsis = "tablecells.badge.ellipsis"
+    static let tablecells_fill = "tablecells.fill"
+    static let tag_slash = "tag.slash"
+    static let tag_slash_fill = "tag.slash.fill"
+    static let target = "target"
+    static let teletype_circle = "teletype.circle"
+    static let teletype_circle_fill = "teletype.circle.fill"
+    static let text_and_command_macwindow = "text.and.command.macwindow"
+    static let text_below_photo = "text.below.photo"
+    static let text_below_photo_fill = "text.below.photo.fill"
+    static let text_book_closed = "text.book.closed"
+    static let text_book_closed_fill = "text.book.closed.fill"
+    static let text_magnifyingglass = "text.magnifyingglass"
+    static let text_redaction = "text.redaction"
+    static let thermometer_sun_fill = "thermometer.sun.fill"
+    static let ticket = "ticket"
+    static let ticket_fill = "ticket.fill"
+    static let timeline_selection = "timeline.selection"
+    static let timer_square = "timer.square"
+    static let togglepower = "togglepower"
+    static let touchid = "touchid"
+    static let tram = "tram"
+    static let tram_circle = "tram.circle"
+    static let tram_circle_fill = "tram.circle.fill"
+    static let tray_circle = "tray.circle"
+    static let tray_circle_fill = "tray.circle.fill"
+    static let triangle_circle = "triangle.circle"
+    static let triangle_circle_fill = "triangle.circle.fill"
+    static let tv_and_hifispeaker_fill = "tv.and.hifispeaker.fill"
+    static let video_badge_checkmark = "video.badge.checkmark"
+    static let video_fill_badge_checkmark = "video.fill.badge.checkmark"
+    static let video_fill_badge_plus = "video.fill.badge.plus"
+    static let wake = "wake"
+    static let wallet_pass = "wallet.pass"
+    static let wallet_pass_fill = "wallet.pass.fill"
+    static let wave_3_backward = "wave.3.backward"
+    static let wave_3_backward_circle = "wave.3.backward.circle"
+    static let wave_3_backward_circle_fill = "wave.3.backward.circle.fill"
+    static let wave_3_forward = "wave.3.forward"
+    static let wave_3_forward_circle = "wave.3.forward.circle"
+    static let wave_3_forward_circle_fill = "wave.3.forward.circle.fill"
+    static let wave_3_left = "wave.3.left"
+    static let wave_3_left_circle = "wave.3.left.circle"
+    static let wave_3_left_circle_fill = "wave.3.left.circle.fill"
+    static let wave_3_right = "wave.3.right"
+    static let wave_3_right_circle = "wave.3.right.circle"
+    static let wave_3_right_circle_fill = "wave.3.right.circle.fill"
+    static let waveform_path_ecg_rectangle = "waveform.path.ecg.rectangle"
+    static let waveform_path_ecg_rectangle_fill = "waveform.path.ecg.rectangle.fill"
+    static let wrench_and_screwdriver = "wrench.and.screwdriver"
+    static let wrench_and_screwdriver_fill = "wrench.and.screwdriver.fill"
+    static let xmark_bin = "xmark.bin"
+    static let xmark_bin_circle = "xmark.bin.circle"
+    static let xmark_bin_circle_fill = "xmark.bin.circle.fill"
+    static let xmark_bin_fill = "xmark.bin.fill"
+    static let xmark_diamond = "xmark.diamond"
+    static let xmark_diamond_fill = "xmark.diamond.fill"
+    static let xmark_rectangle_portrait = "xmark.rectangle.portrait"
+    static let xmark_rectangle_portrait_fill = "xmark.rectangle.portrait.fill"
+    static let xserve = "xserve"
 }

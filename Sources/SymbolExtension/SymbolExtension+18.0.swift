@@ -8,2782 +8,1392 @@
 import Foundation
 
 @available(iOS 18.0, macOS 15.0, *)
-public extension SymbolExtension {
-    static let iOS18_0: [SymbolExtension] = [
-        _5_arrow_trianglehead_clockwise,
-        _5_arrow_trianglehead_counterclockwise,
-        _10_arrow_trianglehead_clockwise,
-        _10_arrow_trianglehead_counterclockwise,
-        _15_arrow_trianglehead_clockwise,
-        _15_arrow_trianglehead_counterclockwise,
-        _30_arrow_trianglehead_clockwise,
-        _30_arrow_trianglehead_counterclockwise,
-        _45_arrow_trianglehead_clockwise,
-        _45_arrow_trianglehead_counterclockwise,
-        _60_arrow_trianglehead_clockwise,
-        _60_arrow_trianglehead_counterclockwise,
-        _75_arrow_trianglehead_clockwise,
-        _75_arrow_trianglehead_counterclockwise,
-        _90_arrow_trianglehead_clockwise,
-        _90_arrow_trianglehead_counterclockwise,
-        air_car_side,
-        air_car_side_fill,
-        air_convertible_side,
-        air_convertible_side_fill,
-        air_pickup_side,
-        air_pickup_side_fill,
-        air_suv_side,
-        air_suv_side_fill,
-        airplay_audio,
-        airplay_audio_badge_exclamationmark,
-        airplay_audio_circle,
-        airplay_audio_circle_fill,
-        airplay_video,
-        airplay_video_badge_exclamationmark,
-        airplay_video_circle,
-        airplay_video_circle_fill,
-        airpods_max,
-        airpods_pro,
-        airpods_pro_chargingcase_wireless,
-        airpods_pro_chargingcase_wireless_fill,
-        airpods_pro_chargingcase_wireless_radiowaves_left_and_right,
-        airpods_pro_chargingcase_wireless_radiowaves_left_and_right_fill,
-        airpods_pro_left,
-        airpods_pro_right,
-        american_football,
-        american_football_circle,
-        american_football_circle_fill,
-        american_football_fill,
-        american_football_professional,
-        american_football_professional_circle,
-        american_football_professional_circle_fill,
-        american_football_professional_fill,
-        antenna_radiowaves_left_and_right_slash_circle,
-        antenna_radiowaves_left_and_right_slash_circle_fill,
-        app_badge_clock,
-        app_badge_clock_fill,
-        append_page,
-        append_page_fill,
-        apple_haptics_and_exclamationmark_triangle,
-        apple_haptics_and_music_note,
-        apple_haptics_and_music_note_slash,
-        apple_image_playground,
-        apple_image_playground_fill,
-        apple_intelligence,
-        apple_meditate_circle,
-        apple_meditate_circle_fill,
-        applepencil_doubletap,
-        applepencil_hover,
-        applepencil_squeeze,
-        applewatch_case_sizes,
-        arcade_stick_and_arrow_left_and_arrow_right_outward,
-        arrow_backward_circle_dotted,
-        arrow_down_backward_and_arrow_up_forward_rectangle,
-        arrow_down_backward_and_arrow_up_forward_rectangle_fill,
-        arrow_down_backward_circle_dotted,
-        arrow_down_document,
-        arrow_down_document_fill,
-        arrow_down_forward_and_arrow_up_backward_rectangle,
-        arrow_down_forward_and_arrow_up_backward_rectangle_fill,
-        arrow_down_forward_circle_dotted,
-        arrow_down_left_and_arrow_up_right_rectangle,
-        arrow_down_left_and_arrow_up_right_rectangle_fill,
-        arrow_down_left_circle_dotted,
-        arrow_down_right_and_arrow_up_left_rectangle,
-        arrow_down_right_and_arrow_up_left_rectangle_fill,
-        arrow_down_right_circle_dotted,
-        arrow_forward_circle_dotted,
-        arrow_left_circle_dotted,
-        arrow_right_circle_dotted,
-        arrow_right_filled_filter_arrow_right,
-        arrow_right_page_on_clipboard,
-        arrow_trianglehead_2_clockwise,
-        arrow_trianglehead_2_clockwise_rotate_90,
-        arrow_trianglehead_2_clockwise_rotate_90_camera,
-        arrow_trianglehead_2_clockwise_rotate_90_camera_fill,
-        arrow_trianglehead_2_clockwise_rotate_90_circle,
-        arrow_trianglehead_2_clockwise_rotate_90_circle_fill,
-        arrow_trianglehead_2_clockwise_rotate_90_icloud,
-        arrow_trianglehead_2_clockwise_rotate_90_icloud_fill,
-        arrow_trianglehead_2_clockwise_rotate_90_page_on_clipboard,
-        arrow_trianglehead_2_counterclockwise,
-        arrow_trianglehead_2_counterclockwise_rotate_90,
-        arrow_trianglehead_bottomleft_capsulepath_clockwise,
-        arrow_trianglehead_branch,
-        arrow_trianglehead_clockwise,
-        arrow_trianglehead_clockwise_heart,
-        arrow_trianglehead_clockwise_heart_fill,
-        arrow_trianglehead_clockwise_icloud,
-        arrow_trianglehead_clockwise_icloud_fill,
-        arrow_trianglehead_clockwise_rotate_90,
-        arrow_trianglehead_counterclockwise,
-        arrow_trianglehead_counterclockwise_icloud,
-        arrow_trianglehead_counterclockwise_icloud_fill,
-        arrow_trianglehead_counterclockwise_rotate_90,
-        arrow_trianglehead_left_and_right_righttriangle_left_righttriangle_right,
-        arrow_trianglehead_left_and_right_righttriangle_left_righttriangle_right_fill,
-        arrow_trianglehead_merge,
-        arrow_trianglehead_pull,
-        arrow_trianglehead_rectanglepath,
-        arrow_trianglehead_swap,
-        arrow_trianglehead_topright_capsulepath_clockwise,
-        arrow_trianglehead_turn_up_right_circle,
-        arrow_trianglehead_turn_up_right_circle_fill,
-        arrow_trianglehead_turn_up_right_diamond,
-        arrow_trianglehead_turn_up_right_diamond_fill,
-        arrow_trianglehead_up_and_down_righttriangle_up_righttriangle_down,
-        arrow_trianglehead_up_and_down_righttriangle_up_righttriangle_down_fill,
-        arrow_up_backward_and_arrow_down_forward_rectangle,
-        arrow_up_backward_and_arrow_down_forward_rectangle_fill,
-        arrow_up_backward_circle_dotted,
-        arrow_up_circle_dotted,
-        arrow_up_document,
-        arrow_up_document_fill,
-        arrow_up_forward_and_arrow_down_backward_rectangle,
-        arrow_up_forward_and_arrow_down_backward_rectangle_fill,
-        arrow_up_forward_circle_dotted,
-        arrow_up_left_and_arrow_down_right_rectangle,
-        arrow_up_left_and_arrow_down_right_rectangle_fill,
-        arrow_up_left_circle_dotted,
-        arrow_up_page_on_clipboard,
-        arrow_up_right_circle_dotted,
-        australian_football,
-        australian_football_circle,
-        australian_football_circle_fill,
-        australian_football_fill,
-        australiandollarsign_arrow_trianglehead_counterclockwise_rotate_90,
-        australiandollarsign_bank_building,
-        australiandollarsign_bank_building_fill,
-        australiandollarsign_gauge_chart_lefthalf_righthalf,
-        australiandollarsign_gauge_chart_leftthird_topthird_rightthird,
-        australiandollarsign_ring,
-        australiandollarsign_ring_dashed,
-        australsign_arrow_trianglehead_counterclockwise_rotate_90,
-        australsign_bank_building,
-        australsign_bank_building_fill,
-        australsign_gauge_chart_lefthalf_righthalf,
-        australsign_gauge_chart_leftthird_topthird_rightthird,
-        australsign_ring,
-        australsign_ring_dashed,
-        bahtsign_arrow_trianglehead_counterclockwise_rotate_90,
-        bahtsign_bank_building,
-        bahtsign_bank_building_fill,
-        bahtsign_gauge_chart_lefthalf_righthalf,
-        bahtsign_gauge_chart_leftthird_topthird_rightthird,
-        bahtsign_ring,
-        bahtsign_ring_dashed,
-        base_unit,
-        baseball_diamond_bases_outs_indicator,
-        batteryblock_stack,
-        batteryblock_stack_badge_snowflake,
-        batteryblock_stack_badge_snowflake_fill,
-        batteryblock_stack_fill,
-        batteryblock_stack_trianglebadge_exclamationmark,
-        batteryblock_stack_trianglebadge_exclamationmark_fill,
-        beats_powerbeats_pro,
-        beats_powerbeats_pro_chargingcase,
-        beats_powerbeats_pro_chargingcase_fill,
-        beats_powerbeats_pro_left,
-        beats_powerbeats_pro_right,
-        beats_studiobuds_left,
-        beats_studiobuds_plus,
-        beats_studiobuds_plus_chargingcase,
-        beats_studiobuds_plus_chargingcase_fill,
-        beats_studiobuds_plus_left,
-        beats_studiobuds_plus_right,
-        beats_studiobuds_right,
-        beziercurve,
-        bitcoinsign_arrow_trianglehead_counterclockwise_rotate_90,
-        bitcoinsign_bank_building,
-        bitcoinsign_bank_building_fill,
-        bitcoinsign_gauge_chart_lefthalf_righthalf,
-        bitcoinsign_gauge_chart_leftthird_topthird_rightthird,
-        bitcoinsign_ring,
-        bitcoinsign_ring_dashed,
-        brazilianrealsign_arrow_trianglehead_counterclockwise_rotate_90,
-        brazilianrealsign_bank_building,
-        brazilianrealsign_bank_building_fill,
-        brazilianrealsign_gauge_chart_lefthalf_righthalf,
-        brazilianrealsign_gauge_chart_leftthird_topthird_rightthird,
-        brazilianrealsign_ring,
-        brazilianrealsign_ring_dashed,
-        bubble_and_pencil,
-        calendar_and_person,
-        camera_macro_slash,
-        camera_macro_slash_circle,
-        camera_macro_slash_circle_fill,
-        capsule_on_capsule,
-        capsule_on_capsule_fill,
-        capsule_on_rectangle,
-        capsule_on_rectangle_fill,
-        car_badge_gearshape,
-        car_badge_gearshape_fill,
-        car_front_waves_left_and_right_and_up,
-        car_front_waves_left_and_right_and_up_fill,
-        car_rear_and_tire_marks_off,
-        car_rear_hazardsign,
-        car_rear_hazardsign_fill,
-        car_rear_road_lane_distance_1,
-        car_rear_road_lane_distance_1_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle,
-        car_rear_road_lane_distance_2,
-        car_rear_road_lane_distance_2_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle,
-        car_rear_road_lane_distance_3,
-        car_rear_road_lane_distance_3_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle,
-        car_rear_road_lane_distance_4,
-        car_rear_road_lane_distance_4_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle,
-        car_rear_road_lane_distance_5,
-        car_rear_road_lane_distance_5_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle,
-        car_rear_road_lane_off,
-        car_rear_road_lane_wave_up,
-        car_rear_tilt_road_lanes_curved_right,
-        car_side_front_open_crop,
-        car_side_front_open_crop_fill,
-        car_side_hill_descent_control,
-        car_side_hill_descent_control_fill,
-        car_side_rear_and_exclamationmark_and_car_side_front_off,
-        car_side_rear_crop_trunk_partition,
-        car_side_rear_crop_trunk_partition_fill,
-        car_side_rear_open_crop,
-        car_side_rear_open_crop_fill,
-        car_side_rear_tow_hitch,
-        car_side_rear_tow_hitch_fill,
-        car_side_roof_cargo_carrier,
-        car_side_roof_cargo_carrier_fill,
-        car_side_roof_cargo_carrier_slash,
-        car_side_roof_cargo_carrier_slash_fill,
-        car_top_arrowtriangle_front_left,
-        car_top_arrowtriangle_front_left_fill,
-        car_top_arrowtriangle_front_right,
-        car_top_arrowtriangle_front_right_fill,
-        car_top_arrowtriangle_rear_left,
-        car_top_arrowtriangle_rear_left_fill,
-        car_top_arrowtriangle_rear_right,
-        car_top_arrowtriangle_rear_right_fill,
-        car_top_front_radiowaves_front_left_and_front_and_front_right,
-        car_top_front_radiowaves_front_left_and_front_and_front_right_fill,
-        car_top_radiowaves_rear_left_car_top_front,
-        car_top_radiowaves_rear_left_car_top_front_fill,
-        car_top_radiowaves_rear_right_car_top_front,
-        car_top_radiowaves_rear_right_car_top_front_fill,
-        car_top_rear_radiowaves_rear_left_and_rear_and_rear_right,
-        car_top_rear_radiowaves_rear_left_and_rear_and_rear_right_fill,
-        car_top_video_rear_left,
-        car_top_video_rear_left_fill,
-        car_top_video_rear_right,
-        car_top_video_rear_right_fill,
-        cart_badge_clock,
-        cart_badge_clock_fill,
-        cedisign_arrow_trianglehead_counterclockwise_rotate_90,
-        cedisign_bank_building,
-        cedisign_bank_building_fill,
-        cedisign_gauge_chart_lefthalf_righthalf,
-        cedisign_gauge_chart_leftthird_topthird_rightthird,
-        cedisign_ring,
-        cedisign_ring_dashed,
-        centsign_arrow_trianglehead_counterclockwise_rotate_90,
-        centsign_bank_building,
-        centsign_bank_building_fill,
-        centsign_gauge_chart_lefthalf_righthalf,
-        centsign_gauge_chart_leftthird_topthird_rightthird,
-        centsign_ring,
-        centsign_ring_dashed,
-        character_circle,
-        character_circle_fill,
-        character_square,
-        character_square_fill,
-        characters_lowercase,
-        characters_uppercase,
-        chart_bar_horizontal_page,
-        chart_bar_horizontal_page_fill,
-        chart_bar_yaxis,
-        chart_line_text_clipboard,
-        chart_line_text_clipboard_fill,
-        checkmark_arrow_trianglehead_counterclockwise,
-        checkmark_seal_text_page,
-        checkmark_seal_text_page_fill,
-        chevron_backward_chevron_backward_dotted,
-        chevron_compact_left_chevron_compact_right,
-        chevron_compact_up_chevron_compact_down,
-        chevron_compact_up_chevron_compact_right_chevron_compact_down_chevron_compact_left,
-        chevron_down_2,
-        chevron_down_dotted_2,
-        chevron_down_forward_2,
-        chevron_down_forward_dotted_2,
-        chevron_down_right_2,
-        chevron_down_right_dotted_2,
-        chevron_forward_dotted_chevron_forward,
-        chevron_left_chevron_left_dotted,
-        chevron_left_chevron_right,
-        chevron_right_dotted_chevron_right,
-        chevron_up_2,
-        chevron_up_chevron_down_square,
-        chevron_up_chevron_down_square_fill,
-        chevron_up_chevron_right_chevron_down_chevron_left,
-        chevron_up_dotted_2,
-        chevron_up_forward_2,
-        chevron_up_forward_dotted_2,
-        chevron_up_right_2,
-        chevron_up_right_dotted_2,
-        chineseyuanrenminbisign_arrow_trianglehead_counterclockwise_rotate_90,
-        chineseyuanrenminbisign_bank_building,
-        chineseyuanrenminbisign_bank_building_fill,
-        chineseyuanrenminbisign_gauge_chart_lefthalf_righthalf,
-        chineseyuanrenminbisign_gauge_chart_leftthird_topthird_rightthird,
-        chineseyuanrenminbisign_ring,
-        chineseyuanrenminbisign_ring_dashed,
-        circle_bottomrighthalf_pattern_checkered,
-        clock_arrow_trianglehead_2_counterclockwise_rotate_90,
-        clock_arrow_trianglehead_counterclockwise_rotate_90,
-        cloud_rainbow_crop,
-        cloud_rainbow_crop_fill,
-        coat,
-        coat_fill,
-        coloncurrencysign_arrow_trianglehead_counterclockwise_rotate_90,
-        coloncurrencysign_bank_building,
-        coloncurrencysign_bank_building_fill,
-        coloncurrencysign_gauge_chart_lefthalf_righthalf,
-        coloncurrencysign_gauge_chart_leftthird_topthird_rightthird,
-        coloncurrencysign_ring,
-        coloncurrencysign_ring_dashed,
-        convertible_side,
-        convertible_side_air_circulate,
-        convertible_side_air_circulate_fill,
-        convertible_side_air_fresh,
-        convertible_side_air_fresh_fill,
-        convertible_side_and_exclamationmark,
-        convertible_side_and_exclamationmark_fill,
-        convertible_side_arrow_trianglehead_backward,
-        convertible_side_arrow_trianglehead_backward_fill,
-        convertible_side_arrow_trianglehead_forward,
-        convertible_side_arrow_trianglehead_forward_and_backward,
-        convertible_side_arrow_trianglehead_forward_and_backward_fill,
-        convertible_side_arrow_trianglehead_forward_fill,
-        convertible_side_arrowtriangle_down,
-        convertible_side_arrowtriangle_down_fill,
-        convertible_side_arrowtriangle_up,
-        convertible_side_arrowtriangle_up_arrowtriangle_down,
-        convertible_side_arrowtriangle_up_arrowtriangle_down_fill,
-        convertible_side_arrowtriangle_up_fill,
-        convertible_side_fill,
-        convertible_side_front_open,
-        convertible_side_front_open_crop,
-        convertible_side_front_open_crop_fill,
-        convertible_side_front_open_fill,
-        convertible_side_hill_descent_control,
-        convertible_side_hill_descent_control_fill,
-        convertible_side_hill_down,
-        convertible_side_hill_down_fill,
-        convertible_side_hill_up,
-        convertible_side_hill_up_fill,
-        convertible_side_lock,
-        convertible_side_lock_fill,
-        convertible_side_lock_open,
-        convertible_side_lock_open_fill,
-        cruzeirosign_arrow_trianglehead_counterclockwise_rotate_90,
-        cruzeirosign_bank_building,
-        cruzeirosign_bank_building_fill,
-        cruzeirosign_gauge_chart_lefthalf_righthalf,
-        cruzeirosign_gauge_chart_leftthird_topthird_rightthird,
-        cruzeirosign_ring,
-        cruzeirosign_ring_dashed,
-        cup_and_heat_waves,
-        cup_and_heat_waves_fill,
-        danishkronesign_arrow_trianglehead_counterclockwise_rotate_90,
-        danishkronesign_bank_building,
-        danishkronesign_bank_building_fill,
-        danishkronesign_gauge_chart_lefthalf_righthalf,
-        danishkronesign_gauge_chart_leftthird_topthird_rightthird,
-        danishkronesign_ring,
-        danishkronesign_ring_dashed,
-        degreesign_celsius,
-        degreesign_fahrenheit,
-        desktopcomputer_and_macbook,
-        distribute_horizontal,
-        distribute_horizontal_fill,
-        distribute_vertical,
-        distribute_vertical_fill,
-        document,
-        document_badge_arrow_up,
-        document_badge_arrow_up_fill,
-        document_badge_clock,
-        document_badge_clock_fill,
-        document_badge_ellipsis,
-        document_badge_ellipsis_fill,
-        document_badge_gearshape,
-        document_badge_gearshape_fill,
-        document_badge_plus,
-        document_badge_plus_fill,
-        document_circle,
-        document_circle_fill,
-        document_fill,
-        document_on_clipboard,
-        document_on_clipboard_fill,
-        document_on_document,
-        document_on_document_fill,
-        document_viewfinder,
-        document_viewfinder_fill,
-        dollarsign_arrow_trianglehead_counterclockwise_rotate_90,
-        dollarsign_bank_building,
-        dollarsign_bank_building_fill,
-        dollarsign_gauge_chart_lefthalf_righthalf,
-        dollarsign_gauge_chart_leftthird_topthird_rightthird,
-        dollarsign_ring,
-        dollarsign_ring_dashed,
-        dongsign_arrow_trianglehead_counterclockwise_rotate_90,
-        dongsign_bank_building,
-        dongsign_bank_building_fill,
-        dongsign_gauge_chart_lefthalf_righthalf,
-        dongsign_gauge_chart_leftthird_topthird_rightthird,
-        dongsign_ring,
-        dongsign_ring_dashed,
-        drone,
-        drone_fill,
-        duffle_bag,
-        duffle_bag_fill,
-        ecg_text_page,
-        ecg_text_page_fill,
-        engine_emission_and_exclamationmark,
-        engine_emission_and_filter,
-        envelope_and_arrow_trianglehead_branch,
-        envelope_and_arrow_trianglehead_branch_fill,
-        envelope_front,
-        envelope_front_fill,
-        eurosign_arrow_trianglehead_counterclockwise_rotate_90,
-        eurosign_bank_building,
-        eurosign_bank_building_fill,
-        eurosign_gauge_chart_lefthalf_righthalf,
-        eurosign_gauge_chart_leftthird_topthird_rightthird,
-        eurosign_ring,
-        eurosign_ring_dashed,
-        eurozonesign_arrow_trianglehead_counterclockwise_rotate_90,
-        eurozonesign_bank_building,
-        eurozonesign_bank_building_fill,
-        eurozonesign_gauge_chart_lefthalf_righthalf,
-        eurozonesign_gauge_chart_leftthird_topthird_rightthird,
-        eurozonesign_ring,
-        eurozonesign_ring_dashed,
-        exclamationmark_arrow_trianglehead_2_clockwise_rotate_90,
-        exclamationmark_arrow_trianglehead_counterclockwise_rotate_90,
-        figure_2_left_holdinghands,
-        figure_2_right_holdinghands,
-        figure_american_football_circle,
-        figure_american_football_circle_fill,
-        figure_archery_circle,
-        figure_archery_circle_fill,
-        figure_australian_football_circle,
-        figure_australian_football_circle_fill,
-        figure_badminton_circle,
-        figure_badminton_circle_fill,
-        figure_barre_circle,
-        figure_barre_circle_fill,
-        figure_baseball_circle,
-        figure_baseball_circle_fill,
-        figure_basketball_circle,
-        figure_basketball_circle_fill,
-        figure_bowling_circle,
-        figure_bowling_circle_fill,
-        figure_boxing_circle,
-        figure_boxing_circle_fill,
-        figure_climbing_circle,
-        figure_climbing_circle_fill,
-        figure_cooldown_circle,
-        figure_cooldown_circle_fill,
-        figure_core_training_circle,
-        figure_core_training_circle_fill,
-        figure_cricket_circle,
-        figure_cricket_circle_fill,
-        figure_cross_training_circle,
-        figure_cross_training_circle_fill,
-        figure_curling_circle,
-        figure_curling_circle_fill,
-        figure_dance_circle,
-        figure_dance_circle_fill,
-        figure_disc_sports_circle,
-        figure_disc_sports_circle_fill,
-        figure_elliptical_circle,
-        figure_elliptical_circle_fill,
-        figure_equestrian_sports_circle,
-        figure_equestrian_sports_circle_fill,
-        figure_fencing_circle,
-        figure_fencing_circle_fill,
-        figure_field_hockey,
-        figure_field_hockey_circle,
-        figure_field_hockey_circle_fill,
-        figure_fishing_circle,
-        figure_fishing_circle_fill,
-        figure_flexibility_circle,
-        figure_flexibility_circle_fill,
-        figure_golf_circle,
-        figure_golf_circle_fill,
-        figure_gymnastics_circle,
-        figure_gymnastics_circle_fill,
-        figure_hand_cycling_circle,
-        figure_hand_cycling_circle_fill,
-        figure_handball_circle,
-        figure_handball_circle_fill,
-        figure_highintensity_intervaltraining_circle,
-        figure_highintensity_intervaltraining_circle_fill,
-        figure_hiking_circle,
-        figure_hiking_circle_fill,
-        figure_hockey_circle,
-        figure_hockey_circle_fill,
-        figure_hunting_circle,
-        figure_hunting_circle_fill,
-        figure_ice_hockey,
-        figure_ice_hockey_circle,
-        figure_ice_hockey_circle_fill,
-        figure_ice_skating,
-        figure_ice_skating_circle,
-        figure_ice_skating_circle_fill,
-        figure_indoor_cycle_circle,
-        figure_indoor_cycle_circle_fill,
-        figure_indoor_rowing,
-        figure_indoor_rowing_circle,
-        figure_indoor_rowing_circle_fill,
-        figure_indoor_soccer,
-        figure_indoor_soccer_circle,
-        figure_indoor_soccer_circle_fill,
-        figure_jumprope_circle,
-        figure_jumprope_circle_fill,
-        figure_kickboxing_circle,
-        figure_kickboxing_circle_fill,
-        figure_lacrosse_circle,
-        figure_lacrosse_circle_fill,
-        figure_martial_arts_circle,
-        figure_martial_arts_circle_fill,
-        figure_mind_and_body_circle,
-        figure_mind_and_body_circle_fill,
-        figure_mixed_cardio_circle,
-        figure_mixed_cardio_circle_fill,
-        figure_open_water_swim_circle,
-        figure_open_water_swim_circle_fill,
-        figure_outdoor_cycle_circle,
-        figure_outdoor_cycle_circle_fill,
-        figure_outdoor_rowing,
-        figure_outdoor_rowing_circle,
-        figure_outdoor_rowing_circle_fill,
-        figure_outdoor_soccer,
-        figure_outdoor_soccer_circle,
-        figure_outdoor_soccer_circle_fill,
-        figure_pickleball_circle,
-        figure_pickleball_circle_fill,
-        figure_pilates_circle,
-        figure_pilates_circle_fill,
-        figure_play_circle,
-        figure_play_circle_fill,
-        figure_pool_swim_circle,
-        figure_pool_swim_circle_fill,
-        figure_racquetball_circle,
-        figure_racquetball_circle_fill,
-        figure_roll_circle,
-        figure_roll_circle_fill,
-        figure_roll_runningpace_circle,
-        figure_roll_runningpace_circle_fill,
-        figure_rolling_circle,
-        figure_rolling_circle_fill,
-        figure_rugby_circle,
-        figure_rugby_circle_fill,
-        figure_run_treadmill,
-        figure_run_treadmill_circle,
-        figure_run_treadmill_circle_fill,
-        figure_sailing_circle,
-        figure_sailing_circle_fill,
-        figure_seated_seatbelt_left_drive_seats_1,
-        figure_seated_seatbelt_left_drive_seats_1_1,
-        figure_seated_seatbelt_left_drive_seats_1_1_fill,
-        figure_seated_seatbelt_left_drive_seats_1_2,
-        figure_seated_seatbelt_left_drive_seats_1_2_fill,
-        figure_seated_seatbelt_left_drive_seats_1_fill,
-        figure_seated_seatbelt_left_drive_seats_2,
-        figure_seated_seatbelt_left_drive_seats_2_2,
-        figure_seated_seatbelt_left_drive_seats_2_2_2,
-        figure_seated_seatbelt_left_drive_seats_2_2_2_fill,
-        figure_seated_seatbelt_left_drive_seats_2_2_3,
-        figure_seated_seatbelt_left_drive_seats_2_2_3_fill,
-        figure_seated_seatbelt_left_drive_seats_2_2_fill,
-        figure_seated_seatbelt_left_drive_seats_2_3,
-        figure_seated_seatbelt_left_drive_seats_2_3_2,
-        figure_seated_seatbelt_left_drive_seats_2_3_2_fill,
-        figure_seated_seatbelt_left_drive_seats_2_3_3,
-        figure_seated_seatbelt_left_drive_seats_2_3_3_fill,
-        figure_seated_seatbelt_left_drive_seats_2_3_fill,
-        figure_seated_seatbelt_left_drive_seats_2_fill,
-        figure_seated_seatbelt_left_drive_seats_3,
-        figure_seated_seatbelt_left_drive_seats_3_3,
-        figure_seated_seatbelt_left_drive_seats_3_3_3,
-        figure_seated_seatbelt_left_drive_seats_3_3_3_fill,
-        figure_seated_seatbelt_left_drive_seats_3_3_fill,
-        figure_seated_seatbelt_left_drive_seats_3_fill,
-        figure_seated_side_left,
-        figure_seated_side_left_air_distribution_lower,
-        figure_seated_side_left_air_distribution_middle,
-        figure_seated_side_left_air_distribution_middle_and_lower,
-        figure_seated_side_left_air_distribution_middle_and_lower_angled,
-        figure_seated_side_left_air_distribution_upper,
-        figure_seated_side_left_air_distribution_upper_angled_and_lower_angled,
-        figure_seated_side_left_air_distribution_upper_angled_and_middle,
-        figure_seated_side_left_air_distribution_upper_angled_and_middle_and_lower_angled,
-        figure_seated_side_left_airbag_off,
-        figure_seated_side_left_airbag_off_2,
-        figure_seated_side_left_airbag_on,
-        figure_seated_side_left_airbag_on_2,
-        figure_seated_side_left_automatic,
-        figure_seated_side_left_fan,
-        figure_seated_side_left_steeringwheel,
-        figure_seated_side_left_windshield_front_and_heat_waves,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_lower,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle_and_lower,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_lower,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle,
-        figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower,
-        figure_seated_side_right,
-        figure_seated_side_right_air_distribution_lower,
-        figure_seated_side_right_air_distribution_middle,
-        figure_seated_side_right_air_distribution_middle_and_lower,
-        figure_seated_side_right_air_distribution_middle_and_lower_angled,
-        figure_seated_side_right_air_distribution_upper,
-        figure_seated_side_right_air_distribution_upper_angled_and_lower_angled,
-        figure_seated_side_right_air_distribution_upper_angled_and_middle,
-        figure_seated_side_right_air_distribution_upper_angled_and_middle_and_lower_angled,
-        figure_seated_side_right_airbag_off,
-        figure_seated_side_right_airbag_off_2,
-        figure_seated_side_right_airbag_on,
-        figure_seated_side_right_airbag_on_2,
-        figure_seated_side_right_automatic,
-        figure_seated_side_right_fan,
-        figure_seated_side_right_steeringwheel,
-        figure_seated_side_right_windshield_front_and_heat_waves,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_lower,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle_and_lower,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_lower,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle,
-        figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower,
-        figure_skateboarding,
-        figure_skateboarding_circle,
-        figure_skateboarding_circle_fill,
-        figure_skiing_crosscountry_circle,
-        figure_skiing_crosscountry_circle_fill,
-        figure_skiing_downhill_circle,
-        figure_skiing_downhill_circle_fill,
-        figure_snowboarding_circle,
-        figure_snowboarding_circle_fill,
-        figure_socialdance_circle,
-        figure_socialdance_circle_fill,
-        figure_softball_circle,
-        figure_softball_circle_fill,
-        figure_squash_circle,
-        figure_squash_circle_fill,
-        figure_stair_stepper_circle,
-        figure_stair_stepper_circle_fill,
-        figure_stairs_circle,
-        figure_stairs_circle_fill,
-        figure_stand_dress,
-        figure_stand_dress_line_vertical_figure,
-        figure_step_training_circle,
-        figure_step_training_circle_fill,
-        figure_strengthtraining_functional_circle,
-        figure_strengthtraining_functional_circle_fill,
-        figure_strengthtraining_traditional_circle,
-        figure_strengthtraining_traditional_circle_fill,
-        figure_surfing_circle,
-        figure_surfing_circle_fill,
-        figure_table_tennis_circle,
-        figure_table_tennis_circle_fill,
-        figure_taichi_circle,
-        figure_taichi_circle_fill,
-        figure_tennis_circle,
-        figure_tennis_circle_fill,
-        figure_track_and_field_circle,
-        figure_track_and_field_circle_fill,
-        figure_volleyball_circle,
-        figure_volleyball_circle_fill,
-        figure_walk_treadmill,
-        figure_walk_treadmill_circle,
-        figure_walk_treadmill_circle_fill,
-        figure_walk_triangle,
-        figure_walk_triangle_fill,
-        figure_water_fitness_circle,
-        figure_water_fitness_circle_fill,
-        figure_waterpolo_circle,
-        figure_waterpolo_circle_fill,
-        figure_wrestling_circle,
-        figure_wrestling_circle_fill,
-        figure_yoga_circle,
-        figure_yoga_circle_fill,
-        fire_extinguisher,
-        fire_extinguisher_fill,
-        flag_pattern_checkered,
-        flag_pattern_checkered_2_crossed,
-        flag_pattern_checkered_circle,
-        flag_pattern_checkered_circle_fill,
-        florinsign_arrow_trianglehead_counterclockwise_rotate_90,
-        florinsign_bank_building,
-        florinsign_bank_building_fill,
-        florinsign_gauge_chart_lefthalf_righthalf,
-        florinsign_gauge_chart_leftthird_topthird_rightthird,
-        florinsign_ring,
-        florinsign_ring_dashed,
-        fluid_batteryblock,
-        fluid_coolant,
-        formfitting_gamecontroller,
-        formfitting_gamecontroller_fill,
-        francsign_arrow_trianglehead_counterclockwise_rotate_90,
-        francsign_bank_building,
-        francsign_bank_building_fill,
-        francsign_gauge_chart_lefthalf_righthalf,
-        francsign_gauge_chart_leftthird_topthird_rightthird,
-        francsign_ring,
-        francsign_ring_dashed,
-        fuelpump_and_filter,
-        gamecontroller_circle,
-        gamecontroller_circle_fill,
-        gauge_open_with_lines_needle_33percent_and_arrow_trianglehead_from_0percent_to_50percent,
-        gearshape_arrow_trianglehead_2_clockwise_rotate_90,
-        greaterthanorequalto,
-        greaterthanorequalto_circle,
-        greaterthanorequalto_circle_fill,
-        greaterthanorequalto_square,
-        greaterthanorequalto_square_fill,
-        guaranisign_arrow_trianglehead_counterclockwise_rotate_90,
-        guaranisign_bank_building,
-        guaranisign_bank_building_fill,
-        guaranisign_gauge_chart_lefthalf_righthalf,
-        guaranisign_gauge_chart_leftthird_topthird_rightthird,
-        guaranisign_ring,
-        guaranisign_ring_dashed,
-        hand_draw_badge_ellipsis,
-        hand_draw_badge_ellipsis_fill,
-        hand_palm_facing,
-        hand_palm_facing_fill,
-        hand_pinch,
-        hand_pinch_fill,
-        hand_point_up_braille_badge_ellipsis,
-        hand_point_up_braille_badge_ellipsis_fill,
-        hand_raised_palm_facing,
-        hand_raised_palm_facing_fill,
-        hand_rays,
-        hand_rays_fill,
-        hat_cap,
-        hat_cap_fill,
-        hat_widebrim,
-        hat_widebrim_fill,
-        head_profile_arrow_forward_and_vision_pro,
-        headphones_slash,
-        headset,
-        headset_circle,
-        headset_circle_fill,
-        heart_text_clipboard,
-        heart_text_clipboard_fill,
-        heat_waves_and_fan,
-        helmet,
-        helmet_fill,
-        hifispeaker_2_badge_minus,
-        hifispeaker_2_badge_minus_fill,
-        hifispeaker_2_badge_plus,
-        hifispeaker_2_badge_plus_fill,
-        hifispeaker_and_homepod_badge_minus,
-        hifispeaker_and_homepod_badge_minus_fill,
-        hifispeaker_and_homepod_badge_plus,
-        hifispeaker_and_homepod_badge_plus_fill,
-        hifispeaker_and_homepod_mini,
-        hifispeaker_and_homepod_mini_badge_minus,
-        hifispeaker_and_homepod_mini_badge_minus_fill,
-        hifispeaker_and_homepod_mini_badge_plus,
-        hifispeaker_and_homepod_mini_badge_plus_fill,
-        hifispeaker_and_homepod_mini_fill,
-        hifispeaker_arrow_forward,
-        hifispeaker_arrow_forward_fill,
-        hifispeaker_badge_minus,
-        hifispeaker_badge_minus_fill,
-        hifispeaker_badge_plus,
-        hifispeaker_badge_plus_fill,
-        homepod_2_badge_minus,
-        homepod_2_badge_minus_fill,
-        homepod_2_badge_plus,
-        homepod_2_badge_plus_fill,
-        homepod_and_homepod_mini,
-        homepod_and_homepod_mini_badge_minus,
-        homepod_and_homepod_mini_badge_minus_fill,
-        homepod_and_homepod_mini_badge_plus,
-        homepod_and_homepod_mini_badge_plus_fill,
-        homepod_and_homepod_mini_fill,
-        homepod_arrow_forward,
-        homepod_arrow_forward_fill,
-        homepod_badge_minus,
-        homepod_badge_minus_fill,
-        homepod_badge_plus,
-        homepod_badge_plus_fill,
-        homepod_mini,
-        homepod_mini_2,
-        homepod_mini_2_badge_minus,
-        homepod_mini_2_badge_minus_fill,
-        homepod_mini_2_badge_plus,
-        homepod_mini_2_badge_plus_fill,
-        homepod_mini_2_fill,
-        homepod_mini_arrow_forward,
-        homepod_mini_arrow_forward_fill,
-        homepod_mini_badge_minus,
-        homepod_mini_badge_minus_fill,
-        homepod_mini_badge_plus,
-        homepod_mini_badge_plus_fill,
-        homepod_mini_fill,
-        hourglass_badge_eye,
-        house_badge_exclamationmark,
-        house_badge_exclamationmark_fill,
-        house_badge_wifi,
-        house_badge_wifi_fill,
-        house_slash,
-        house_slash_fill,
-        hryvniasign_arrow_trianglehead_counterclockwise_rotate_90,
-        hryvniasign_bank_building,
-        hryvniasign_bank_building_fill,
-        hryvniasign_gauge_chart_lefthalf_righthalf,
-        hryvniasign_gauge_chart_leftthird_topthird_rightthird,
-        hryvniasign_ring,
-        hryvniasign_ring_dashed,
-        indianrupeesign_arrow_trianglehead_counterclockwise_rotate_90,
-        indianrupeesign_bank_building,
-        indianrupeesign_bank_building_fill,
-        indianrupeesign_gauge_chart_lefthalf_righthalf,
-        indianrupeesign_gauge_chart_leftthird_topthird_rightthird,
-        indianrupeesign_ring,
-        indianrupeesign_ring_dashed,
-        inhaler,
-        inhaler_fill,
-        inset_filled_applewatch_case,
-        inset_filled_bottomhalf_rectangle,
-        inset_filled_bottomhalf_rectangle_portrait,
-        inset_filled_bottomhalf_tophalf_rectangle,
-        inset_filled_bottomleading_rectangle,
-        inset_filled_bottomleading_rectangle_portrait,
-        inset_filled_bottomleft_rectangle,
-        inset_filled_bottomleft_rectangle_portrait,
-        inset_filled_bottomright_rectangle,
-        inset_filled_bottomright_rectangle_portrait,
-        inset_filled_bottomthird_rectangle,
-        inset_filled_bottomthird_rectangle_portrait,
-        inset_filled_bottomthird_square,
-        inset_filled_bottomtrailing_rectangle,
-        inset_filled_bottomtrailing_rectangle_portrait,
-        inset_filled_capsule,
-        inset_filled_capsule_portrait,
-        inset_filled_center_rectangle,
-        inset_filled_center_rectangle_badge_plus,
-        inset_filled_center_rectangle_portrait,
-        inset_filled_circle,
-        inset_filled_circle_dashed,
-        inset_filled_diamond,
-        inset_filled_leadinghalf_arrow_leading_rectangle,
-        inset_filled_leadinghalf_rectangle,
-        inset_filled_leadinghalf_rectangle_portrait,
-        inset_filled_leadinghalf_toptrailing_bottomtrailing_rectangle,
-        inset_filled_leadinghalf_trailinghalf_rectangle,
-        inset_filled_leadingthird_rectangle,
-        inset_filled_leadingthird_rectangle_portrait,
-        inset_filled_leadingthird_square,
-        inset_filled_lefthalf_arrow_left_rectangle,
-        inset_filled_lefthalf_rectangle,
-        inset_filled_lefthalf_rectangle_portrait,
-        inset_filled_lefthalf_righthalf_rectangle,
-        inset_filled_lefthalf_topright_bottomright_rectangle,
-        inset_filled_leftthird_rectangle,
-        inset_filled_leftthird_rectangle_portrait,
-        inset_filled_leftthird_square,
-        inset_filled_oval,
-        inset_filled_oval_portrait,
-        inset_filled_rectangle,
-        inset_filled_rectangle_and_cursorarrow,
-        inset_filled_rectangle_and_person_filled,
-        inset_filled_rectangle_badge_record,
-        inset_filled_rectangle_on_rectangle,
-        inset_filled_rectangle_portrait,
-        inset_filled_righthalf_arrow_right_rectangle,
-        inset_filled_righthalf_lefthalf_rectangle,
-        inset_filled_righthalf_rectangle,
-        inset_filled_righthalf_rectangle_portrait,
-        inset_filled_rightthird_rectangle,
-        inset_filled_rightthird_rectangle_portrait,
-        inset_filled_rightthird_square,
-        inset_filled_square,
-        inset_filled_square_dashed,
-        inset_filled_tophalf_bottomhalf_rectangle,
-        inset_filled_tophalf_bottomleft_bottomright_rectangle,
-        inset_filled_tophalf_rectangle,
-        inset_filled_tophalf_rectangle_portrait,
-        inset_filled_topleading_bottomleading_trailinghalf_rectangle,
-        inset_filled_topleading_rectangle,
-        inset_filled_topleading_rectangle_portrait,
-        inset_filled_topleft_bottomleft_righthalf_rectangle,
-        inset_filled_topleft_rectangle,
-        inset_filled_topleft_rectangle_portrait,
-        inset_filled_topleft_topright_bottomhalf_rectangle,
-        inset_filled_topleft_topright_bottomleft_bottomright_rectangle,
-        inset_filled_topright_rectangle,
-        inset_filled_topright_rectangle_portrait,
-        inset_filled_topthird_rectangle,
-        inset_filled_topthird_rectangle_portrait,
-        inset_filled_topthird_square,
-        inset_filled_toptrailing_rectangle,
-        inset_filled_toptrailing_rectangle_portrait,
-        inset_filled_trailinghalf_arrow_trailing_rectangle,
-        inset_filled_trailinghalf_leadinghalf_rectangle,
-        inset_filled_trailinghalf_rectangle,
-        inset_filled_trailinghalf_rectangle_portrait,
-        inset_filled_trailingthird_rectangle,
-        inset_filled_trailingthird_rectangle_portrait,
-        inset_filled_trailingthird_square,
-        inset_filled_triangle,
-        inset_filled_tv,
-        ipad_badge_location,
-        ipad_gen1_badge_location,
-        ipad_gen1_landscape_badge_location,
-        ipad_gen1_landscape_slash,
-        ipad_gen1_slash,
-        ipad_gen2_badge_location,
-        ipad_gen2_landscape_badge_location,
-        ipad_gen2_landscape_slash,
-        ipad_gen2_slash,
-        ipad_landscape_and_iphone,
-        ipad_landscape_and_iphone_slash,
-        ipad_landscape_badge_location,
-        iphone_and_arrow_forward_inward,
-        iphone_and_arrow_forward_outward,
-        iphone_and_arrow_left_and_arrow_right_inward,
-        iphone_and_arrow_right_inward,
-        iphone_and_arrow_right_outward,
-        iphone_app_switcher,
-        iphone_badge_location,
-        iphone_crop_circle,
-        iphone_dock_motorized_viewfinder,
-        iphone_gen1_and_arrow_left,
-        iphone_gen1_badge_location,
-        iphone_gen1_crop_circle,
-        iphone_gen1_landscape_slash,
-        iphone_gen1_motion,
-        iphone_gen2_and_arrow_left_and_arrow_right_inward,
-        iphone_gen2_badge_location,
-        iphone_gen2_crop_circle,
-        iphone_gen2_landscape_slash,
-        iphone_gen2_motion,
-        iphone_gen3_and_arrow_left_and_arrow_right_inward,
-        iphone_gen3_badge_location,
-        iphone_gen3_crop_circle,
-        iphone_gen3_landscape_slash,
-        iphone_gen3_motion,
-        iphone_motion,
-        ipod_shuffle_gen1,
-        ipod_shuffle_gen2,
-        ipod_shuffle_gen3,
-        ipod_shuffle_gen4,
-        ipod_touch,
-        ipod_touch_landscape,
-        ipod_touch_slash,
-        jacket,
-        jacket_fill,
-        key_2_on_ring,
-        key_2_on_ring_fill,
-        key_car_radiowaves_forward,
-        key_car_radiowaves_forward_fill,
-        key_card,
-        key_card_fill,
-        kipsign_arrow_trianglehead_counterclockwise_rotate_90,
-        kipsign_bank_building,
-        kipsign_bank_building_fill,
-        kipsign_gauge_chart_lefthalf_righthalf,
-        kipsign_gauge_chart_leftthird_topthird_rightthird,
-        kipsign_ring,
-        kipsign_ring_dashed,
-        ladybug_slash,
-        ladybug_slash_circle,
-        ladybug_slash_circle_fill,
-        ladybug_slash_fill,
-        larisign_arrow_trianglehead_counterclockwise_rotate_90,
-        larisign_bank_building,
-        larisign_bank_building_fill,
-        larisign_gauge_chart_lefthalf_righthalf,
-        larisign_gauge_chart_leftthird_topthird_rightthird,
-        larisign_ring,
-        larisign_ring_dashed,
-        leaf_arrow_trianglehead_clockwise,
-        lessthanorequalto,
-        lessthanorequalto_circle,
-        lessthanorequalto_circle_fill,
-        lessthanorequalto_square,
-        lessthanorequalto_square_fill,
-        lirasign_arrow_trianglehead_counterclockwise_rotate_90,
-        lirasign_bank_building,
-        lirasign_bank_building_fill,
-        lirasign_gauge_chart_lefthalf_righthalf,
-        lirasign_gauge_chart_leftthird_topthird_rightthird,
-        lirasign_ring,
-        lirasign_ring_dashed,
-        location_app,
-        location_app_fill,
-        lock_document,
-        lock_document_fill,
-        lock_rectangle_on_rectangle_dashed,
-        macbook_and_applewatch,
-        macbook_and_vision_pro,
-        macbook_slash,
-        malaysianringgitsign,
-        malaysianringgitsign_arrow_trianglehead_counterclockwise_rotate_90,
-        malaysianringgitsign_bank_building,
-        malaysianringgitsign_bank_building_fill,
-        malaysianringgitsign_circle,
-        malaysianringgitsign_circle_fill,
-        malaysianringgitsign_gauge_chart_lefthalf_righthalf,
-        malaysianringgitsign_gauge_chart_leftthird_topthird_rightthird,
-        malaysianringgitsign_ring,
-        malaysianringgitsign_ring_dashed,
-        malaysianringgitsign_square,
-        malaysianringgitsign_square_fill,
-        manatsign_arrow_trianglehead_counterclockwise_rotate_90,
-        manatsign_bank_building,
-        manatsign_bank_building_fill,
-        manatsign_gauge_chart_lefthalf_righthalf,
-        manatsign_gauge_chart_leftthird_topthird_rightthird,
-        manatsign_ring,
-        manatsign_ring_dashed,
-        matter_logo,
-        mecca,
-        microphone,
-        microphone_and_signal_meter,
-        microphone_and_signal_meter_fill,
-        microphone_badge_ellipsis,
-        microphone_badge_ellipsis_fill,
-        microphone_badge_plus,
-        microphone_badge_plus_fill,
-        microphone_badge_xmark,
-        microphone_badge_xmark_fill,
-        microphone_circle,
-        microphone_circle_fill,
-        microphone_fill,
-        microphone_slash,
-        microphone_slash_circle,
-        microphone_slash_circle_fill,
-        microphone_slash_fill,
-        microphone_square,
-        microphone_square_fill,
-        millsign_arrow_trianglehead_counterclockwise_rotate_90,
-        millsign_bank_building,
-        millsign_bank_building_fill,
-        millsign_gauge_chart_lefthalf_righthalf,
-        millsign_gauge_chart_leftthird_topthird_rightthird,
-        millsign_ring,
-        millsign_ring_dashed,
-        minus_arrow_trianglehead_counterclockwise,
-        moon_road_lanes,
-        moped,
-        moped_fill,
-        motorcycle,
-        motorcycle_fill,
-        music_microphone,
-        music_microphone_circle,
-        music_microphone_circle_fill,
-        nairasign_arrow_trianglehead_counterclockwise_rotate_90,
-        nairasign_bank_building,
-        nairasign_bank_building_fill,
-        nairasign_gauge_chart_lefthalf_righthalf,
-        nairasign_gauge_chart_leftthird_topthird_rightthird,
-        nairasign_ring,
-        nairasign_ring_dashed,
-        norwegiankronesign_arrow_trianglehead_counterclockwise_rotate_90,
-        norwegiankronesign_bank_building,
-        norwegiankronesign_bank_building_fill,
-        norwegiankronesign_gauge_chart_lefthalf_righthalf,
-        norwegiankronesign_gauge_chart_leftthird_topthird_rightthird,
-        norwegiankronesign_ring,
-        norwegiankronesign_ring_dashed,
-        notequal,
-        notequal_circle,
-        notequal_circle_fill,
-        notequal_square,
-        notequal_square_fill,
-        numbers,
-        numbers_rectangle,
-        numbers_rectangle_fill,
-        oar_2_crossed_circle,
-        oar_2_crossed_circle_fill,
-        oilcan_and_thermometer,
-        oilcan_and_thermometer_fill,
-        parkingsign_radiowaves_down_right_off,
-        parkingsign_radiowaves_left_and_right_slash,
-        parkingsign_square,
-        parkingsign_square_fill,
-        person_2_arrow_trianglehead_counterclockwise,
-        person_2_badge_minus,
-        person_2_badge_minus_fill,
-        person_2_badge_plus,
-        person_2_badge_plus_fill,
-        person_and_arrow_left_and_arrow_right_outward,
-        person_badge_shield_exclamationmark,
-        person_badge_shield_exclamationmark_fill,
-        person_crop_badge_magnifyingglass,
-        person_crop_badge_magnifyingglass_fill,
-        person_crop_square_on_square_angled,
-        person_crop_square_on_square_angled_fill,
-        person_fill_and_arrow_left_and_arrow_right_outward,
-        personalhotspot_slash,
-        peruviansolessign,
-        peruviansolessign_arrow_trianglehead_counterclockwise_rotate_90,
-        peruviansolessign_bank_building,
-        peruviansolessign_bank_building_fill,
-        peruviansolessign_circle,
-        peruviansolessign_circle_fill,
-        peruviansolessign_gauge_chart_lefthalf_righthalf,
-        peruviansolessign_gauge_chart_leftthird_topthird_rightthird,
-        peruviansolessign_ring,
-        peruviansolessign_ring_dashed,
-        peruviansolessign_square,
-        peruviansolessign_square_fill,
-        pesetasign_arrow_trianglehead_counterclockwise_rotate_90,
-        pesetasign_bank_building,
-        pesetasign_bank_building_fill,
-        pesetasign_gauge_chart_lefthalf_righthalf,
-        pesetasign_gauge_chart_leftthird_topthird_rightthird,
-        pesetasign_ring,
-        pesetasign_ring_dashed,
-        pesosign_arrow_trianglehead_counterclockwise_rotate_90,
-        pesosign_bank_building,
-        pesosign_bank_building_fill,
-        pesosign_gauge_chart_lefthalf_righthalf,
-        pesosign_gauge_chart_leftthird_topthird_rightthird,
-        pesosign_ring,
-        pesosign_ring_dashed,
-        phone_badge_clock,
-        phone_badge_clock_fill,
-        photo_badge_exclamationmark,
-        photo_badge_exclamationmark_fill,
-        photo_on_rectangle_angled_fill,
-        plus_arrow_trianglehead_clockwise,
-        point_bottomleft_forward_to_arrow_triangle_scurvepath,
-        point_bottomleft_forward_to_arrow_triangle_scurvepath_fill,
-        point_bottomleft_forward_to_arrow_triangle_uturn_scurvepath,
-        point_bottomleft_forward_to_arrow_triangle_uturn_scurvepath_fill,
-        point_topright_arrow_triangle_backward_to_point_bottomleft_filled_scurvepath,
-        point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath,
-        point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath_fill,
-        point_topright_filled_arrow_triangle_backward_to_point_bottomleft_scurvepath,
-        polishzlotysign_arrow_trianglehead_counterclockwise_rotate_90,
-        polishzlotysign_bank_building,
-        polishzlotysign_bank_building_fill,
-        polishzlotysign_gauge_chart_lefthalf_righthalf,
-        polishzlotysign_gauge_chart_leftthird_topthird_rightthird,
-        polishzlotysign_ring,
-        polishzlotysign_ring_dashed,
-        powermeter,
-        powerplug_portrait,
-        powerplug_portrait_fill,
-        printer_dotmatrix_filled_and_paper_inverse,
-        printer_dotmatrix_inverse,
-        printer_filled_and_paper_inverse,
-        printer_inverse,
-        progress_indicator,
-        questionmark_circle_dashed,
-        questionmark_text_page,
-        questionmark_text_page_fill,
-        rectangle_expand_diagonal,
-        rectangle_grid_3x3,
-        rectangle_grid_3x3_fill,
-        rectangle_on_rectangle_dashed,
-        rectangle_pattern_checkered,
-        richtext_page,
-        richtext_page_fill,
-        robotic_vacuum,
-        robotic_vacuum_fill,
-        rublesign_arrow_trianglehead_counterclockwise_rotate_90,
-        rublesign_bank_building,
-        rublesign_bank_building_fill,
-        rublesign_gauge_chart_lefthalf_righthalf,
-        rublesign_gauge_chart_leftthird_topthird_rightthird,
-        rublesign_ring,
-        rublesign_ring_dashed,
-        rugbyball,
-        rugbyball_circle,
-        rugbyball_circle_fill,
-        rugbyball_fill,
-        rupeesign_arrow_trianglehead_counterclockwise_rotate_90,
-        rupeesign_bank_building,
-        rupeesign_bank_building_fill,
-        rupeesign_gauge_chart_lefthalf_righthalf,
-        rupeesign_gauge_chart_leftthird_topthird_rightthird,
-        rupeesign_ring,
-        rupeesign_ring_dashed,
-        sharedwithyou,
-        sharedwithyou_circle,
-        sharedwithyou_circle_fill,
-        sharedwithyou_slash,
-        shekelsign_arrow_trianglehead_counterclockwise_rotate_90,
-        shekelsign_bank_building,
-        shekelsign_bank_building_fill,
-        shekelsign_gauge_chart_lefthalf_righthalf,
-        shekelsign_gauge_chart_leftthird_topthird_rightthird,
-        shekelsign_ring,
-        shekelsign_ring_dashed,
-        shield_pattern_checkered,
-        singaporedollarsign,
-        singaporedollarsign_arrow_trianglehead_counterclockwise_rotate_90,
-        singaporedollarsign_bank_building,
-        singaporedollarsign_bank_building_fill,
-        singaporedollarsign_circle,
-        singaporedollarsign_circle_fill,
-        singaporedollarsign_gauge_chart_lefthalf_righthalf,
-        singaporedollarsign_gauge_chart_leftthird_topthird_rightthird,
-        singaporedollarsign_ring,
-        singaporedollarsign_ring_dashed,
-        singaporedollarsign_square,
-        singaporedollarsign_square_fill,
-        slider_horizontal_2_arrow_trianglehead_counterclockwise,
-        slider_horizontal_2_rectangle_and_arrow_trianglehead_2_clockwise_rotate_90,
-        speaker_wave_1_arrowtriangles_up_right_down_left,
-        square_and_arrow_down_badge_clock,
-        square_and_arrow_down_badge_clock_fill,
-        square_and_arrow_up_trianglebadge_exclamationmark_fill,
-        square_grid_3x3_square_badge_ellipsis,
-        squareroot,
-        steeringwheel_and_hands,
-        steeringwheel_arrow_trianglehead_counterclockwise_and_clockwise,
-        sterlingsign_arrow_trianglehead_counterclockwise_rotate_90,
-        sterlingsign_bank_building,
-        sterlingsign_bank_building_fill,
-        sterlingsign_gauge_chart_lefthalf_righthalf,
-        sterlingsign_gauge_chart_leftthird_topthird_rightthird,
-        sterlingsign_ring,
-        sterlingsign_ring_dashed,
-        sun_lefthalf_filled,
-        sun_righthalf_filled,
-        suspension_shock,
-        suv_side_front_open_crop,
-        suv_side_front_open_crop_fill,
-        suv_side_hill_descent_control,
-        suv_side_hill_descent_control_fill,
-        suv_side_rear_open_crop,
-        suv_side_rear_open_crop_fill,
-        suv_side_roof_cargo_carrier,
-        suv_side_roof_cargo_carrier_fill,
-        suv_side_roof_cargo_carrier_slash,
-        suv_side_roof_cargo_carrier_slash_fill,
-        swedishkronasign_arrow_trianglehead_counterclockwise_rotate_90,
-        swedishkronasign_bank_building,
-        swedishkronasign_bank_building_fill,
-        swedishkronasign_gauge_chart_lefthalf_righthalf,
-        swedishkronasign_gauge_chart_leftthird_topthird_rightthird,
-        swedishkronasign_ring,
-        swedishkronasign_ring_dashed,
-        tachometer,
-        tengesign_arrow_trianglehead_counterclockwise_rotate_90,
-        tengesign_bank_building,
-        tengesign_bank_building_fill,
-        tengesign_gauge_chart_lefthalf_righthalf,
-        tengesign_gauge_chart_leftthird_topthird_rightthird,
-        tengesign_ring,
-        tengesign_ring_dashed,
-        text_bubble_badge_clock,
-        text_bubble_badge_clock_fill,
-        text_document,
-        text_document_fill,
-        text_line_magnify,
-        text_page,
-        text_page_badge_magnifyingglass,
-        text_page_fill,
-        text_page_slash,
-        text_page_slash_fill,
-        text_rectangle_page,
-        text_rectangle_page_fill,
-        textformat_characters,
-        textformat_characters_arrow_left_and_right,
-        textformat_characters_dottedunderline,
-        textformat_numbers,
-        thermometer_and_liquid_waves_snowflake,
-        thermometer_and_liquid_waves_trianglebadge_exclamationmark,
-        thermometer_variable,
-        tire,
-        tire_badge_snowflake,
-        tow_hitch,
-        tow_hitch_exclamationmark,
-        tow_hitch_exclamationmark_fill,
-        tow_hitch_fill,
-        truck_pickup_side_front_open_crop,
-        truck_pickup_side_front_open_crop_fill,
-        truck_side_hill_descent_control,
-        truck_side_hill_descent_control_fill,
-        truck_side_roof_cargo_carrier,
-        truck_side_roof_cargo_carrier_fill,
-        truck_side_roof_cargo_carrier_slash,
-        truck_side_roof_cargo_carrier_slash_fill,
-        tsa,
-        tsa_circle,
-        tsa_circle_fill,
-        tsa_slash,
-        tugriksign_arrow_trianglehead_counterclockwise_rotate_90,
-        tugriksign_bank_building,
-        tugriksign_bank_building_fill,
-        tugriksign_gauge_chart_lefthalf_righthalf,
-        tugriksign_gauge_chart_leftthird_topthird_rightthird,
-        tugriksign_ring,
-        tugriksign_ring_dashed,
-        turkishlirasign_arrow_trianglehead_counterclockwise_rotate_90,
-        turkishlirasign_bank_building,
-        turkishlirasign_bank_building_fill,
-        turkishlirasign_gauge_chart_lefthalf_righthalf,
-        turkishlirasign_gauge_chart_leftthird_topthird_rightthird,
-        turkishlirasign_ring,
-        turkishlirasign_ring_dashed,
-        vision_pro,
-        vision_pro_and_arrow_forward,
-        vision_pro_and_arrow_forward_fill,
-        vision_pro_badge_exclamationmark,
-        vision_pro_badge_exclamationmark_fill,
-        vision_pro_badge_play,
-        vision_pro_badge_play_fill,
-        vision_pro_circle,
-        vision_pro_circle_fill,
-        vision_pro_fill,
-        vision_pro_slash,
-        vision_pro_slash_circle,
-        vision_pro_slash_circle_fill,
-        vision_pro_slash_fill,
-        vision_pro_trianglebadge_exclamationmark,
-        vision_pro_trianglebadge_exclamationmark_fill,
-        wallet_bifold,
-        wallet_bifold_fill,
-        wand_and_sparkles,
-        wand_and_sparkles_inverse,
-        water_waves_and_arrow_trianglehead_down,
-        water_waves_and_arrow_trianglehead_down_trianglebadge_exclamationmark,
-        water_waves_and_arrow_trianglehead_up,
-        wave_3_down,
-        wave_3_down_car_side,
-        wave_3_down_car_side_fill,
-        wave_3_down_circle,
-        wave_3_down_circle_fill,
-        wave_3_down_convertible_side,
-        wave_3_down_convertible_side_fill,
-        wave_3_down_pickup_side,
-        wave_3_down_pickup_side_fill,
-        wave_3_down_suv_side,
-        wave_3_down_suv_side_fill,
-        wave_3_up,
-        wave_3_up_circle,
-        wave_3_up_circle_fill,
-        waveform_badge_microphone,
-        wheelchair,
-        widget_extralarge,
-        widget_extralarge_badge_plus,
-        widget_large,
-        widget_large_badge_plus,
-        widget_medium,
-        widget_medium_badge_plus,
-        widget_small,
-        widget_small_badge_plus,
-        wonsign_arrow_trianglehead_counterclockwise_rotate_90,
-        wonsign_bank_building,
-        wonsign_bank_building_fill,
-        wonsign_gauge_chart_lefthalf_righthalf,
-        wonsign_gauge_chart_leftthird_topthird_rightthird,
-        wonsign_ring,
-        wonsign_ring_dashed,
-        xmark_triangle_circle_square,
-        xmark_triangle_circle_square_fill,
-        yensign_arrow_trianglehead_counterclockwise_rotate_90,
-        yensign_bank_building,
-        yensign_bank_building_fill,
-        yensign_gauge_chart_lefthalf_righthalf,
-        yensign_gauge_chart_leftthird_topthird_rightthird,
-        yensign_ring,
-        yensign_ring_dashed,
-        zipper_page
-    ]
-
-    static let _5_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "5.arrow.trianglehead.clockwise")
-    static let _5_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "5.arrow.trianglehead.counterclockwise")
-    static let _10_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "10.arrow.trianglehead.clockwise")
-    static let _10_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "10.arrow.trianglehead.counterclockwise")
-    static let _15_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "15.arrow.trianglehead.clockwise")
-    static let _15_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "15.arrow.trianglehead.counterclockwise")
-    static let _30_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "30.arrow.trianglehead.clockwise")
-    static let _30_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "30.arrow.trianglehead.counterclockwise")
-    static let _45_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "45.arrow.trianglehead.clockwise")
-    static let _45_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "45.arrow.trianglehead.counterclockwise")
-    static let _60_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "60.arrow.trianglehead.clockwise")
-    static let _60_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "60.arrow.trianglehead.counterclockwise")
-    static let _75_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "75.arrow.trianglehead.clockwise")
-    static let _75_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "75.arrow.trianglehead.counterclockwise")
-    static let _90_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "90.arrow.trianglehead.clockwise")
-    static let _90_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "90.arrow.trianglehead.counterclockwise")
-    static let air_car_side: SymbolExtension = SymbolExtension(rawValue: "air.car.side")
-    static let air_car_side_fill: SymbolExtension = SymbolExtension(rawValue: "air.car.side.fill")
-    static let air_convertible_side: SymbolExtension = SymbolExtension(rawValue: "air.convertible.side")
-    static let air_convertible_side_fill: SymbolExtension = SymbolExtension(rawValue: "air.convertible.side.fill")
-    static let air_pickup_side: SymbolExtension = SymbolExtension(rawValue: "air.pickup.side")
-    static let air_pickup_side_fill: SymbolExtension = SymbolExtension(rawValue: "air.pickup.side.fill")
-    static let air_suv_side: SymbolExtension = SymbolExtension(rawValue: "air.suv.side")
-    static let air_suv_side_fill: SymbolExtension = SymbolExtension(rawValue: "air.suv.side.fill")
-    static let airplay_audio: SymbolExtension = SymbolExtension(rawValue: "airplay.audio")
-    static let airplay_audio_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "airplay.audio.badge.exclamationmark")
-    static let airplay_audio_circle: SymbolExtension = SymbolExtension(rawValue: "airplay.audio.circle")
-    static let airplay_audio_circle_fill: SymbolExtension = SymbolExtension(rawValue: "airplay.audio.circle.fill")
-    static let airplay_video: SymbolExtension = SymbolExtension(rawValue: "airplay.video")
-    static let airplay_video_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "airplay.video.badge.exclamationmark")
-    static let airplay_video_circle: SymbolExtension = SymbolExtension(rawValue: "airplay.video.circle")
-    static let airplay_video_circle_fill: SymbolExtension = SymbolExtension(rawValue: "airplay.video.circle.fill")
-    static let airpods_max: SymbolExtension = SymbolExtension(rawValue: "airpods.max")
-    static let airpods_pro: SymbolExtension = SymbolExtension(rawValue: "airpods.pro")
-    static let airpods_pro_chargingcase_wireless: SymbolExtension = SymbolExtension(rawValue: "airpods.pro.chargingcase.wireless")
-    static let airpods_pro_chargingcase_wireless_fill: SymbolExtension = SymbolExtension(rawValue: "airpods.pro.chargingcase.wireless.fill")
-    static let airpods_pro_chargingcase_wireless_radiowaves_left_and_right: SymbolExtension = SymbolExtension(rawValue: "airpods.pro.chargingcase.wireless.radiowaves.left.and.right")
-    static let airpods_pro_chargingcase_wireless_radiowaves_left_and_right_fill: SymbolExtension = SymbolExtension(rawValue: "airpods.pro.chargingcase.wireless.radiowaves.left.and.right.fill")
-    static let airpods_pro_left: SymbolExtension = SymbolExtension(rawValue: "airpods.pro.left")
-    static let airpods_pro_right: SymbolExtension = SymbolExtension(rawValue: "airpods.pro.right")
-    static let american_football: SymbolExtension = SymbolExtension(rawValue: "american.football")
-    static let american_football_circle: SymbolExtension = SymbolExtension(rawValue: "american.football.circle")
-    static let american_football_circle_fill: SymbolExtension = SymbolExtension(rawValue: "american.football.circle.fill")
-    static let american_football_fill: SymbolExtension = SymbolExtension(rawValue: "american.football.fill")
-    static let american_football_professional: SymbolExtension = SymbolExtension(rawValue: "american.football.professional")
-    static let american_football_professional_circle: SymbolExtension = SymbolExtension(rawValue: "american.football.professional.circle")
-    static let american_football_professional_circle_fill: SymbolExtension = SymbolExtension(rawValue: "american.football.professional.circle.fill")
-    static let american_football_professional_fill: SymbolExtension = SymbolExtension(rawValue: "american.football.professional.fill")
-    static let antenna_radiowaves_left_and_right_slash_circle: SymbolExtension = SymbolExtension(rawValue: "antenna.radiowaves.left.and.right.slash.circle")
-    static let antenna_radiowaves_left_and_right_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "antenna.radiowaves.left.and.right.slash.circle.fill")
-    static let app_badge_clock: SymbolExtension = SymbolExtension(rawValue: "app.badge.clock")
-    static let app_badge_clock_fill: SymbolExtension = SymbolExtension(rawValue: "app.badge.clock.fill")
-    static let append_page: SymbolExtension = SymbolExtension(rawValue: "append.page")
-    static let append_page_fill: SymbolExtension = SymbolExtension(rawValue: "append.page.fill")
-    static let apple_haptics_and_exclamationmark_triangle: SymbolExtension = SymbolExtension(rawValue: "apple.haptics.and.exclamationmark.triangle")
-    static let apple_haptics_and_music_note: SymbolExtension = SymbolExtension(rawValue: "apple.haptics.and.music.note")
-    static let apple_haptics_and_music_note_slash: SymbolExtension = SymbolExtension(rawValue: "apple.haptics.and.music.note.slash")
-    static let apple_image_playground: SymbolExtension = SymbolExtension(rawValue: "apple.image.playground")
-    static let apple_image_playground_fill: SymbolExtension = SymbolExtension(rawValue: "apple.image.playground.fill")
-    static let apple_intelligence: SymbolExtension = SymbolExtension(rawValue: "apple.intelligence")
-    static let apple_meditate_circle: SymbolExtension = SymbolExtension(rawValue: "apple.meditate.circle")
-    static let apple_meditate_circle_fill: SymbolExtension = SymbolExtension(rawValue: "apple.meditate.circle.fill")
-    static let applepencil_doubletap: SymbolExtension = SymbolExtension(rawValue: "applepencil.doubletap")
-    static let applepencil_hover: SymbolExtension = SymbolExtension(rawValue: "applepencil.hover")
-    static let applepencil_squeeze: SymbolExtension = SymbolExtension(rawValue: "applepencil.squeeze")
-    static let applewatch_case_sizes: SymbolExtension = SymbolExtension(rawValue: "applewatch.case.sizes")
-    static let arcade_stick_and_arrow_left_and_arrow_right_outward: SymbolExtension = SymbolExtension(rawValue: "arcade.stick.and.arrow.left.and.arrow.right.outward")
-    static let arrow_backward_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.backward.circle.dotted")
-    static let arrow_down_backward_and_arrow_up_forward_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.and.arrow.up.forward.rectangle")
-    static let arrow_down_backward_and_arrow_up_forward_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.and.arrow.up.forward.rectangle.fill")
-    static let arrow_down_backward_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.down.backward.circle.dotted")
-    static let arrow_down_document: SymbolExtension = SymbolExtension(rawValue: "arrow.down.document")
-    static let arrow_down_document_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.document.fill")
-    static let arrow_down_forward_and_arrow_up_backward_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.and.arrow.up.backward.rectangle")
-    static let arrow_down_forward_and_arrow_up_backward_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.and.arrow.up.backward.rectangle.fill")
-    static let arrow_down_forward_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.down.forward.circle.dotted")
-    static let arrow_down_left_and_arrow_up_right_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.left.and.arrow.up.right.rectangle")
-    static let arrow_down_left_and_arrow_up_right_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.left.and.arrow.up.right.rectangle.fill")
-    static let arrow_down_left_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.down.left.circle.dotted")
-    static let arrow_down_right_and_arrow_up_left_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.down.right.and.arrow.up.left.rectangle")
-    static let arrow_down_right_and_arrow_up_left_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.down.right.and.arrow.up.left.rectangle.fill")
-    static let arrow_down_right_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.down.right.circle.dotted")
-    static let arrow_forward_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.forward.circle.dotted")
-    static let arrow_left_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.left.circle.dotted")
-    static let arrow_right_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.right.circle.dotted")
-    static let arrow_right_filled_filter_arrow_right: SymbolExtension = SymbolExtension(rawValue: "arrow.right.filled.filter.arrow.right")
-    static let arrow_right_page_on_clipboard: SymbolExtension = SymbolExtension(rawValue: "arrow.right.page.on.clipboard")
-    static let arrow_trianglehead_2_clockwise: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise")
-    static let arrow_trianglehead_2_clockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90")
-    static let arrow_trianglehead_2_clockwise_rotate_90_camera: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.camera")
-    static let arrow_trianglehead_2_clockwise_rotate_90_camera_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.camera.fill")
-    static let arrow_trianglehead_2_clockwise_rotate_90_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.circle")
-    static let arrow_trianglehead_2_clockwise_rotate_90_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.circle.fill")
-    static let arrow_trianglehead_2_clockwise_rotate_90_icloud: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.icloud")
-    static let arrow_trianglehead_2_clockwise_rotate_90_icloud_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.icloud.fill")
-    static let arrow_trianglehead_2_clockwise_rotate_90_page_on_clipboard: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.clockwise.rotate.90.page.on.clipboard")
-    static let arrow_trianglehead_2_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.counterclockwise")
-    static let arrow_trianglehead_2_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.2.counterclockwise.rotate.90")
-    static let arrow_trianglehead_bottomleft_capsulepath_clockwise: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.bottomleft.capsulepath.clockwise")
-    static let arrow_trianglehead_branch: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.branch")
-    static let arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.clockwise")
-    static let arrow_trianglehead_clockwise_heart: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.clockwise.heart")
-    static let arrow_trianglehead_clockwise_heart_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.clockwise.heart.fill")
-    static let arrow_trianglehead_clockwise_icloud: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.clockwise.icloud")
-    static let arrow_trianglehead_clockwise_icloud_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.clockwise.icloud.fill")
-    static let arrow_trianglehead_clockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.clockwise.rotate.90")
-    static let arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.counterclockwise")
-    static let arrow_trianglehead_counterclockwise_icloud: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.counterclockwise.icloud")
-    static let arrow_trianglehead_counterclockwise_icloud_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.counterclockwise.icloud.fill")
-    static let arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.counterclockwise.rotate.90")
-    static let arrow_trianglehead_left_and_right_righttriangle_left_righttriangle_right: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.left.and.right.righttriangle.left.righttriangle.right")
-    static let arrow_trianglehead_left_and_right_righttriangle_left_righttriangle_right_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.left.and.right.righttriangle.left.righttriangle.right.fill")
-    static let arrow_trianglehead_merge: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.merge")
-    static let arrow_trianglehead_pull: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.pull")
-    static let arrow_trianglehead_rectanglepath: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.rectanglepath")
-    static let arrow_trianglehead_swap: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.swap")
-    static let arrow_trianglehead_topright_capsulepath_clockwise: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.topright.capsulepath.clockwise")
-    static let arrow_trianglehead_turn_up_right_circle: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.turn.up.right.circle")
-    static let arrow_trianglehead_turn_up_right_circle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.turn.up.right.circle.fill")
-    static let arrow_trianglehead_turn_up_right_diamond: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.turn.up.right.diamond")
-    static let arrow_trianglehead_turn_up_right_diamond_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.turn.up.right.diamond.fill")
-    static let arrow_trianglehead_up_and_down_righttriangle_up_righttriangle_down: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.up.and.down.righttriangle.up.righttriangle.down")
-    static let arrow_trianglehead_up_and_down_righttriangle_up_righttriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.trianglehead.up.and.down.righttriangle.up.righttriangle.down.fill")
-    static let arrow_up_backward_and_arrow_down_forward_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.and.arrow.down.forward.rectangle")
-    static let arrow_up_backward_and_arrow_down_forward_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.and.arrow.down.forward.rectangle.fill")
-    static let arrow_up_backward_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.up.backward.circle.dotted")
-    static let arrow_up_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.up.circle.dotted")
-    static let arrow_up_document: SymbolExtension = SymbolExtension(rawValue: "arrow.up.document")
-    static let arrow_up_document_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.document.fill")
-    static let arrow_up_forward_and_arrow_down_backward_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.and.arrow.down.backward.rectangle")
-    static let arrow_up_forward_and_arrow_down_backward_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.and.arrow.down.backward.rectangle.fill")
-    static let arrow_up_forward_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.up.forward.circle.dotted")
-    static let arrow_up_left_and_arrow_down_right_rectangle: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.and.arrow.down.right.rectangle")
-    static let arrow_up_left_and_arrow_down_right_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.and.arrow.down.right.rectangle.fill")
-    static let arrow_up_left_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.up.left.circle.dotted")
-    static let arrow_up_page_on_clipboard: SymbolExtension = SymbolExtension(rawValue: "arrow.up.page.on.clipboard")
-    static let arrow_up_right_circle_dotted: SymbolExtension = SymbolExtension(rawValue: "arrow.up.right.circle.dotted")
-    static let australian_football: SymbolExtension = SymbolExtension(rawValue: "australian.football")
-    static let australian_football_circle: SymbolExtension = SymbolExtension(rawValue: "australian.football.circle")
-    static let australian_football_circle_fill: SymbolExtension = SymbolExtension(rawValue: "australian.football.circle.fill")
-    static let australian_football_fill: SymbolExtension = SymbolExtension(rawValue: "australian.football.fill")
-    static let australiandollarsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let australiandollarsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.bank.building")
-    static let australiandollarsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.bank.building.fill")
-    static let australiandollarsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.gauge.chart.lefthalf.righthalf")
-    static let australiandollarsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.gauge.chart.leftthird.topthird.rightthird")
-    static let australiandollarsign_ring: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.ring")
-    static let australiandollarsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "australiandollarsign.ring.dashed")
-    static let australsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "australsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let australsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "australsign.bank.building")
-    static let australsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "australsign.bank.building.fill")
-    static let australsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "australsign.gauge.chart.lefthalf.righthalf")
-    static let australsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "australsign.gauge.chart.leftthird.topthird.rightthird")
-    static let australsign_ring: SymbolExtension = SymbolExtension(rawValue: "australsign.ring")
-    static let australsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "australsign.ring.dashed")
-    static let bahtsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "bahtsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let bahtsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "bahtsign.bank.building")
-    static let bahtsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "bahtsign.bank.building.fill")
-    static let bahtsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "bahtsign.gauge.chart.lefthalf.righthalf")
-    static let bahtsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "bahtsign.gauge.chart.leftthird.topthird.rightthird")
-    static let bahtsign_ring: SymbolExtension = SymbolExtension(rawValue: "bahtsign.ring")
-    static let bahtsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "bahtsign.ring.dashed")
-    static let base_unit: SymbolExtension = SymbolExtension(rawValue: "base.unit")
-    static let baseball_diamond_bases_outs_indicator: SymbolExtension = SymbolExtension(rawValue: "baseball.diamond.bases.outs.indicator")
-    static let batteryblock_stack: SymbolExtension = SymbolExtension(rawValue: "batteryblock.stack")
-    static let batteryblock_stack_badge_snowflake: SymbolExtension = SymbolExtension(rawValue: "batteryblock.stack.badge.snowflake")
-    static let batteryblock_stack_badge_snowflake_fill: SymbolExtension = SymbolExtension(rawValue: "batteryblock.stack.badge.snowflake.fill")
-    static let batteryblock_stack_fill: SymbolExtension = SymbolExtension(rawValue: "batteryblock.stack.fill")
-    static let batteryblock_stack_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "batteryblock.stack.trianglebadge.exclamationmark")
-    static let batteryblock_stack_trianglebadge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "batteryblock.stack.trianglebadge.exclamationmark.fill")
-    static let beats_powerbeats_pro: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats.pro")
-    static let beats_powerbeats_pro_chargingcase: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats.pro.chargingcase")
-    static let beats_powerbeats_pro_chargingcase_fill: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats.pro.chargingcase.fill")
-    static let beats_powerbeats_pro_left: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats.pro.left")
-    static let beats_powerbeats_pro_right: SymbolExtension = SymbolExtension(rawValue: "beats.powerbeats.pro.right")
-    static let beats_studiobuds_left: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.left")
-    static let beats_studiobuds_plus: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.plus")
-    static let beats_studiobuds_plus_chargingcase: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.plus.chargingcase")
-    static let beats_studiobuds_plus_chargingcase_fill: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.plus.chargingcase.fill")
-    static let beats_studiobuds_plus_left: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.plus.left")
-    static let beats_studiobuds_plus_right: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.plus.right")
-    static let beats_studiobuds_right: SymbolExtension = SymbolExtension(rawValue: "beats.studiobuds.right")
-    static let beziercurve: SymbolExtension = SymbolExtension(rawValue: "beziercurve")
-    static let bitcoinsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let bitcoinsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.bank.building")
-    static let bitcoinsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.bank.building.fill")
-    static let bitcoinsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.gauge.chart.lefthalf.righthalf")
-    static let bitcoinsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.gauge.chart.leftthird.topthird.rightthird")
-    static let bitcoinsign_ring: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.ring")
-    static let bitcoinsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "bitcoinsign.ring.dashed")
-    static let brazilianrealsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let brazilianrealsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.bank.building")
-    static let brazilianrealsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.bank.building.fill")
-    static let brazilianrealsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.gauge.chart.lefthalf.righthalf")
-    static let brazilianrealsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.gauge.chart.leftthird.topthird.rightthird")
-    static let brazilianrealsign_ring: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.ring")
-    static let brazilianrealsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "brazilianrealsign.ring.dashed")
-    static let bubble_and_pencil: SymbolExtension = SymbolExtension(rawValue: "bubble.and.pencil")
-    static let calendar_and_person: SymbolExtension = SymbolExtension(rawValue: "calendar.and.person")
-    static let camera_macro_slash: SymbolExtension = SymbolExtension(rawValue: "camera.macro.slash")
-    static let camera_macro_slash_circle: SymbolExtension = SymbolExtension(rawValue: "camera.macro.slash.circle")
-    static let camera_macro_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "camera.macro.slash.circle.fill")
-    static let capsule_on_capsule: SymbolExtension = SymbolExtension(rawValue: "capsule.on.capsule")
-    static let capsule_on_capsule_fill: SymbolExtension = SymbolExtension(rawValue: "capsule.on.capsule.fill")
-    static let capsule_on_rectangle: SymbolExtension = SymbolExtension(rawValue: "capsule.on.rectangle")
-    static let capsule_on_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "capsule.on.rectangle.fill")
-    static let car_badge_gearshape: SymbolExtension = SymbolExtension(rawValue: "car.badge.gearshape")
-    static let car_badge_gearshape_fill: SymbolExtension = SymbolExtension(rawValue: "car.badge.gearshape.fill")
-    static let car_front_waves_left_and_right_and_up: SymbolExtension = SymbolExtension(rawValue: "car.front.waves.left.and.right.and.up")
-    static let car_front_waves_left_and_right_and_up_fill: SymbolExtension = SymbolExtension(rawValue: "car.front.waves.left.and.right.and.up.fill")
-    static let car_rear_and_tire_marks_off: SymbolExtension = SymbolExtension(rawValue: "car.rear.and.tire.marks.off")
-    static let car_rear_hazardsign: SymbolExtension = SymbolExtension(rawValue: "car.rear.hazardsign")
-    static let car_rear_hazardsign_fill: SymbolExtension = SymbolExtension(rawValue: "car.rear.hazardsign.fill")
-    static let car_rear_road_lane_distance_1: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.1")
-    static let car_rear_road_lane_distance_1_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
-    static let car_rear_road_lane_distance_2: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.2")
-    static let car_rear_road_lane_distance_2_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.2.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
-    static let car_rear_road_lane_distance_3: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.3")
-    static let car_rear_road_lane_distance_3_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.3.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
-    static let car_rear_road_lane_distance_4: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.4")
-    static let car_rear_road_lane_distance_4_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.4.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
-    static let car_rear_road_lane_distance_5: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.5")
-    static let car_rear_road_lane_distance_5_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.distance.5.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
-    static let car_rear_road_lane_off: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.off")
-    static let car_rear_road_lane_wave_up: SymbolExtension = SymbolExtension(rawValue: "car.rear.road.lane.wave.up")
-    static let car_rear_tilt_road_lanes_curved_right: SymbolExtension = SymbolExtension(rawValue: "car.rear.tilt.road.lanes.curved.right")
-    static let car_side_front_open_crop: SymbolExtension = SymbolExtension(rawValue: "car.side.front.open.crop")
-    static let car_side_front_open_crop_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.front.open.crop.fill")
-    static let car_side_hill_descent_control: SymbolExtension = SymbolExtension(rawValue: "car.side.hill.descent.control")
-    static let car_side_hill_descent_control_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.hill.descent.control.fill")
-    static let car_side_rear_and_exclamationmark_and_car_side_front_off: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.and.exclamationmark.and.car.side.front.off")
-    static let car_side_rear_crop_trunk_partition: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.crop.trunk.partition")
-    static let car_side_rear_crop_trunk_partition_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.crop.trunk.partition.fill")
-    static let car_side_rear_open_crop: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.open.crop")
-    static let car_side_rear_open_crop_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.open.crop.fill")
-    static let car_side_rear_tow_hitch: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.tow.hitch")
-    static let car_side_rear_tow_hitch_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.rear.tow.hitch.fill")
-    static let car_side_roof_cargo_carrier: SymbolExtension = SymbolExtension(rawValue: "car.side.roof.cargo.carrier")
-    static let car_side_roof_cargo_carrier_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.roof.cargo.carrier.fill")
-    static let car_side_roof_cargo_carrier_slash: SymbolExtension = SymbolExtension(rawValue: "car.side.roof.cargo.carrier.slash")
-    static let car_side_roof_cargo_carrier_slash_fill: SymbolExtension = SymbolExtension(rawValue: "car.side.roof.cargo.carrier.slash.fill")
-    static let car_top_arrowtriangle_front_left: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.front.left")
-    static let car_top_arrowtriangle_front_left_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.front.left.fill")
-    static let car_top_arrowtriangle_front_right: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.front.right")
-    static let car_top_arrowtriangle_front_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.front.right.fill")
-    static let car_top_arrowtriangle_rear_left: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.rear.left")
-    static let car_top_arrowtriangle_rear_left_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.rear.left.fill")
-    static let car_top_arrowtriangle_rear_right: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.rear.right")
-    static let car_top_arrowtriangle_rear_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.arrowtriangle.rear.right.fill")
-    static let car_top_front_radiowaves_front_left_and_front_and_front_right: SymbolExtension = SymbolExtension(rawValue: "car.top.front.radiowaves.front.left.and.front.and.front.right")
-    static let car_top_front_radiowaves_front_left_and_front_and_front_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.front.radiowaves.front.left.and.front.and.front.right.fill")
-    static let car_top_radiowaves_rear_left_car_top_front: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.left.car.top.front")
-    static let car_top_radiowaves_rear_left_car_top_front_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.left.car.top.front.fill")
-    static let car_top_radiowaves_rear_right_car_top_front: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.right.car.top.front")
-    static let car_top_radiowaves_rear_right_car_top_front_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.radiowaves.rear.right.car.top.front.fill")
-    static let car_top_rear_radiowaves_rear_left_and_rear_and_rear_right: SymbolExtension = SymbolExtension(rawValue: "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right")
-    static let car_top_rear_radiowaves_rear_left_and_rear_and_rear_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right.fill")
-    static let car_top_video_rear_left: SymbolExtension = SymbolExtension(rawValue: "car.top.video.rear.left")
-    static let car_top_video_rear_left_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.video.rear.left.fill")
-    static let car_top_video_rear_right: SymbolExtension = SymbolExtension(rawValue: "car.top.video.rear.right")
-    static let car_top_video_rear_right_fill: SymbolExtension = SymbolExtension(rawValue: "car.top.video.rear.right.fill")
-    static let cart_badge_clock: SymbolExtension = SymbolExtension(rawValue: "cart.badge.clock")
-    static let cart_badge_clock_fill: SymbolExtension = SymbolExtension(rawValue: "cart.badge.clock.fill")
-    static let cedisign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "cedisign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let cedisign_bank_building: SymbolExtension = SymbolExtension(rawValue: "cedisign.bank.building")
-    static let cedisign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "cedisign.bank.building.fill")
-    static let cedisign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "cedisign.gauge.chart.lefthalf.righthalf")
-    static let cedisign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "cedisign.gauge.chart.leftthird.topthird.rightthird")
-    static let cedisign_ring: SymbolExtension = SymbolExtension(rawValue: "cedisign.ring")
-    static let cedisign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "cedisign.ring.dashed")
-    static let centsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "centsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let centsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "centsign.bank.building")
-    static let centsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "centsign.bank.building.fill")
-    static let centsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "centsign.gauge.chart.lefthalf.righthalf")
-    static let centsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "centsign.gauge.chart.leftthird.topthird.rightthird")
-    static let centsign_ring: SymbolExtension = SymbolExtension(rawValue: "centsign.ring")
-    static let centsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "centsign.ring.dashed")
-    static let character_circle: SymbolExtension = SymbolExtension(rawValue: "character.circle")
-    static let character_circle_fill: SymbolExtension = SymbolExtension(rawValue: "character.circle.fill")
-    static let character_square: SymbolExtension = SymbolExtension(rawValue: "character.square")
-    static let character_square_fill: SymbolExtension = SymbolExtension(rawValue: "character.square.fill")
-    static let characters_lowercase: SymbolExtension = SymbolExtension(rawValue: "characters.lowercase")
-    static let characters_uppercase: SymbolExtension = SymbolExtension(rawValue: "characters.uppercase")
-    static let chart_bar_horizontal_page: SymbolExtension = SymbolExtension(rawValue: "chart.bar.horizontal.page")
-    static let chart_bar_horizontal_page_fill: SymbolExtension = SymbolExtension(rawValue: "chart.bar.horizontal.page.fill")
-    static let chart_bar_yaxis: SymbolExtension = SymbolExtension(rawValue: "chart.bar.yaxis")
-    static let chart_line_text_clipboard: SymbolExtension = SymbolExtension(rawValue: "chart.line.text.clipboard")
-    static let chart_line_text_clipboard_fill: SymbolExtension = SymbolExtension(rawValue: "chart.line.text.clipboard.fill")
-    static let checkmark_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "checkmark.arrow.trianglehead.counterclockwise")
-    static let checkmark_seal_text_page: SymbolExtension = SymbolExtension(rawValue: "checkmark.seal.text.page")
-    static let checkmark_seal_text_page_fill: SymbolExtension = SymbolExtension(rawValue: "checkmark.seal.text.page.fill")
-    static let chevron_backward_chevron_backward_dotted: SymbolExtension = SymbolExtension(rawValue: "chevron.backward.chevron.backward.dotted")
-    static let chevron_compact_left_chevron_compact_right: SymbolExtension = SymbolExtension(rawValue: "chevron.compact.left.chevron.compact.right")
-    static let chevron_compact_up_chevron_compact_down: SymbolExtension = SymbolExtension(rawValue: "chevron.compact.up.chevron.compact.down")
-    static let chevron_compact_up_chevron_compact_right_chevron_compact_down_chevron_compact_left: SymbolExtension = SymbolExtension(rawValue: "chevron.compact.up.chevron.compact.right.chevron.compact.down.chevron.compact.left")
-    static let chevron_down_2: SymbolExtension = SymbolExtension(rawValue: "chevron.down.2")
-    static let chevron_down_dotted_2: SymbolExtension = SymbolExtension(rawValue: "chevron.down.dotted.2")
-    static let chevron_down_forward_2: SymbolExtension = SymbolExtension(rawValue: "chevron.down.forward.2")
-    static let chevron_down_forward_dotted_2: SymbolExtension = SymbolExtension(rawValue: "chevron.down.forward.dotted.2")
-    static let chevron_down_right_2: SymbolExtension = SymbolExtension(rawValue: "chevron.down.right.2")
-    static let chevron_down_right_dotted_2: SymbolExtension = SymbolExtension(rawValue: "chevron.down.right.dotted.2")
-    static let chevron_forward_dotted_chevron_forward: SymbolExtension = SymbolExtension(rawValue: "chevron.forward.dotted.chevron.forward")
-    static let chevron_left_chevron_left_dotted: SymbolExtension = SymbolExtension(rawValue: "chevron.left.chevron.left.dotted")
-    static let chevron_left_chevron_right: SymbolExtension = SymbolExtension(rawValue: "chevron.left.chevron.right")
-    static let chevron_right_dotted_chevron_right: SymbolExtension = SymbolExtension(rawValue: "chevron.right.dotted.chevron.right")
-    static let chevron_up_2: SymbolExtension = SymbolExtension(rawValue: "chevron.up.2")
-    static let chevron_up_chevron_down_square: SymbolExtension = SymbolExtension(rawValue: "chevron.up.chevron.down.square")
-    static let chevron_up_chevron_down_square_fill: SymbolExtension = SymbolExtension(rawValue: "chevron.up.chevron.down.square.fill")
-    static let chevron_up_chevron_right_chevron_down_chevron_left: SymbolExtension = SymbolExtension(rawValue: "chevron.up.chevron.right.chevron.down.chevron.left")
-    static let chevron_up_dotted_2: SymbolExtension = SymbolExtension(rawValue: "chevron.up.dotted.2")
-    static let chevron_up_forward_2: SymbolExtension = SymbolExtension(rawValue: "chevron.up.forward.2")
-    static let chevron_up_forward_dotted_2: SymbolExtension = SymbolExtension(rawValue: "chevron.up.forward.dotted.2")
-    static let chevron_up_right_2: SymbolExtension = SymbolExtension(rawValue: "chevron.up.right.2")
-    static let chevron_up_right_dotted_2: SymbolExtension = SymbolExtension(rawValue: "chevron.up.right.dotted.2")
-    static let chineseyuanrenminbisign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let chineseyuanrenminbisign_bank_building: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.bank.building")
-    static let chineseyuanrenminbisign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.bank.building.fill")
-    static let chineseyuanrenminbisign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.gauge.chart.lefthalf.righthalf")
-    static let chineseyuanrenminbisign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.gauge.chart.leftthird.topthird.rightthird")
-    static let chineseyuanrenminbisign_ring: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.ring")
-    static let chineseyuanrenminbisign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "chineseyuanrenminbisign.ring.dashed")
-    static let circle_bottomrighthalf_pattern_checkered: SymbolExtension = SymbolExtension(rawValue: "circle.bottomrighthalf.pattern.checkered")
-    static let clock_arrow_trianglehead_2_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "clock.arrow.trianglehead.2.counterclockwise.rotate.90")
-    static let clock_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "clock.arrow.trianglehead.counterclockwise.rotate.90")
-    static let cloud_rainbow_crop: SymbolExtension = SymbolExtension(rawValue: "cloud.rainbow.crop")
-    static let cloud_rainbow_crop_fill: SymbolExtension = SymbolExtension(rawValue: "cloud.rainbow.crop.fill")
-    static let coat: SymbolExtension = SymbolExtension(rawValue: "coat")
-    static let coat_fill: SymbolExtension = SymbolExtension(rawValue: "coat.fill")
-    static let coloncurrencysign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let coloncurrencysign_bank_building: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.bank.building")
-    static let coloncurrencysign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.bank.building.fill")
-    static let coloncurrencysign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.gauge.chart.lefthalf.righthalf")
-    static let coloncurrencysign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.gauge.chart.leftthird.topthird.rightthird")
-    static let coloncurrencysign_ring: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.ring")
-    static let coloncurrencysign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "coloncurrencysign.ring.dashed")
-    static let convertible_side: SymbolExtension = SymbolExtension(rawValue: "convertible.side")
-    static let convertible_side_air_circulate: SymbolExtension = SymbolExtension(rawValue: "convertible.side.air.circulate")
-    static let convertible_side_air_circulate_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.air.circulate.fill")
-    static let convertible_side_air_fresh: SymbolExtension = SymbolExtension(rawValue: "convertible.side.air.fresh")
-    static let convertible_side_air_fresh_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.air.fresh.fill")
-    static let convertible_side_and_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "convertible.side.and.exclamationmark")
-    static let convertible_side_and_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.and.exclamationmark.fill")
-    static let convertible_side_arrow_trianglehead_backward: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrow.trianglehead.backward")
-    static let convertible_side_arrow_trianglehead_backward_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrow.trianglehead.backward.fill")
-    static let convertible_side_arrow_trianglehead_forward: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrow.trianglehead.forward")
-    static let convertible_side_arrow_trianglehead_forward_and_backward: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrow.trianglehead.forward.and.backward")
-    static let convertible_side_arrow_trianglehead_forward_and_backward_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrow.trianglehead.forward.and.backward.fill")
-    static let convertible_side_arrow_trianglehead_forward_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrow.trianglehead.forward.fill")
-    static let convertible_side_arrowtriangle_down: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrowtriangle.down")
-    static let convertible_side_arrowtriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrowtriangle.down.fill")
-    static let convertible_side_arrowtriangle_up: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrowtriangle.up")
-    static let convertible_side_arrowtriangle_up_arrowtriangle_down: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrowtriangle.up.arrowtriangle.down")
-    static let convertible_side_arrowtriangle_up_arrowtriangle_down_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrowtriangle.up.arrowtriangle.down.fill")
-    static let convertible_side_arrowtriangle_up_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.arrowtriangle.up.fill")
-    static let convertible_side_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.fill")
-    static let convertible_side_front_open: SymbolExtension = SymbolExtension(rawValue: "convertible.side.front.open")
-    static let convertible_side_front_open_crop: SymbolExtension = SymbolExtension(rawValue: "convertible.side.front.open.crop")
-    static let convertible_side_front_open_crop_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.front.open.crop.fill")
-    static let convertible_side_front_open_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.front.open.fill")
-    static let convertible_side_hill_descent_control: SymbolExtension = SymbolExtension(rawValue: "convertible.side.hill.descent.control")
-    static let convertible_side_hill_descent_control_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.hill.descent.control.fill")
-    static let convertible_side_hill_down: SymbolExtension = SymbolExtension(rawValue: "convertible.side.hill.down")
-    static let convertible_side_hill_down_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.hill.down.fill")
-    static let convertible_side_hill_up: SymbolExtension = SymbolExtension(rawValue: "convertible.side.hill.up")
-    static let convertible_side_hill_up_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.hill.up.fill")
-    static let convertible_side_lock: SymbolExtension = SymbolExtension(rawValue: "convertible.side.lock")
-    static let convertible_side_lock_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.lock.fill")
-    static let convertible_side_lock_open: SymbolExtension = SymbolExtension(rawValue: "convertible.side.lock.open")
-    static let convertible_side_lock_open_fill: SymbolExtension = SymbolExtension(rawValue: "convertible.side.lock.open.fill")
-    static let cruzeirosign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let cruzeirosign_bank_building: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.bank.building")
-    static let cruzeirosign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.bank.building.fill")
-    static let cruzeirosign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.gauge.chart.lefthalf.righthalf")
-    static let cruzeirosign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.gauge.chart.leftthird.topthird.rightthird")
-    static let cruzeirosign_ring: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.ring")
-    static let cruzeirosign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "cruzeirosign.ring.dashed")
-    static let cup_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "cup.and.heat.waves")
-    static let cup_and_heat_waves_fill: SymbolExtension = SymbolExtension(rawValue: "cup.and.heat.waves.fill")
-    static let danishkronesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let danishkronesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.bank.building")
-    static let danishkronesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.bank.building.fill")
-    static let danishkronesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.gauge.chart.lefthalf.righthalf")
-    static let danishkronesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.gauge.chart.leftthird.topthird.rightthird")
-    static let danishkronesign_ring: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.ring")
-    static let danishkronesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "danishkronesign.ring.dashed")
-    static let degreesign_celsius: SymbolExtension = SymbolExtension(rawValue: "degreesign.celsius")
-    static let degreesign_fahrenheit: SymbolExtension = SymbolExtension(rawValue: "degreesign.fahrenheit")
-    static let desktopcomputer_and_macbook: SymbolExtension = SymbolExtension(rawValue: "desktopcomputer.and.macbook")
-    static let distribute_horizontal: SymbolExtension = SymbolExtension(rawValue: "distribute.horizontal")
-    static let distribute_horizontal_fill: SymbolExtension = SymbolExtension(rawValue: "distribute.horizontal.fill")
-    static let distribute_vertical: SymbolExtension = SymbolExtension(rawValue: "distribute.vertical")
-    static let distribute_vertical_fill: SymbolExtension = SymbolExtension(rawValue: "distribute.vertical.fill")
-    static let document: SymbolExtension = SymbolExtension(rawValue: "document")
-    static let document_badge_arrow_up: SymbolExtension = SymbolExtension(rawValue: "document.badge.arrow.up")
-    static let document_badge_arrow_up_fill: SymbolExtension = SymbolExtension(rawValue: "document.badge.arrow.up.fill")
-    static let document_badge_clock: SymbolExtension = SymbolExtension(rawValue: "document.badge.clock")
-    static let document_badge_clock_fill: SymbolExtension = SymbolExtension(rawValue: "document.badge.clock.fill")
-    static let document_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "document.badge.ellipsis")
-    static let document_badge_ellipsis_fill: SymbolExtension = SymbolExtension(rawValue: "document.badge.ellipsis.fill")
-    static let document_badge_gearshape: SymbolExtension = SymbolExtension(rawValue: "document.badge.gearshape")
-    static let document_badge_gearshape_fill: SymbolExtension = SymbolExtension(rawValue: "document.badge.gearshape.fill")
-    static let document_badge_plus: SymbolExtension = SymbolExtension(rawValue: "document.badge.plus")
-    static let document_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "document.badge.plus.fill")
-    static let document_circle: SymbolExtension = SymbolExtension(rawValue: "document.circle")
-    static let document_circle_fill: SymbolExtension = SymbolExtension(rawValue: "document.circle.fill")
-    static let document_fill: SymbolExtension = SymbolExtension(rawValue: "document.fill")
-    static let document_on_clipboard: SymbolExtension = SymbolExtension(rawValue: "document.on.clipboard")
-    static let document_on_clipboard_fill: SymbolExtension = SymbolExtension(rawValue: "document.on.clipboard.fill")
-    static let document_on_document: SymbolExtension = SymbolExtension(rawValue: "document.on.document")
-    static let document_on_document_fill: SymbolExtension = SymbolExtension(rawValue: "document.on.document.fill")
-    static let document_viewfinder: SymbolExtension = SymbolExtension(rawValue: "document.viewfinder")
-    static let document_viewfinder_fill: SymbolExtension = SymbolExtension(rawValue: "document.viewfinder.fill")
-    static let dollarsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "dollarsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let dollarsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "dollarsign.bank.building")
-    static let dollarsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "dollarsign.bank.building.fill")
-    static let dollarsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "dollarsign.gauge.chart.lefthalf.righthalf")
-    static let dollarsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "dollarsign.gauge.chart.leftthird.topthird.rightthird")
-    static let dollarsign_ring: SymbolExtension = SymbolExtension(rawValue: "dollarsign.ring")
-    static let dollarsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "dollarsign.ring.dashed")
-    static let dongsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "dongsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let dongsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "dongsign.bank.building")
-    static let dongsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "dongsign.bank.building.fill")
-    static let dongsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "dongsign.gauge.chart.lefthalf.righthalf")
-    static let dongsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "dongsign.gauge.chart.leftthird.topthird.rightthird")
-    static let dongsign_ring: SymbolExtension = SymbolExtension(rawValue: "dongsign.ring")
-    static let dongsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "dongsign.ring.dashed")
-    static let drone: SymbolExtension = SymbolExtension(rawValue: "drone")
-    static let drone_fill: SymbolExtension = SymbolExtension(rawValue: "drone.fill")
-    static let duffle_bag: SymbolExtension = SymbolExtension(rawValue: "duffle.bag")
-    static let duffle_bag_fill: SymbolExtension = SymbolExtension(rawValue: "duffle.bag.fill")
-    static let ecg_text_page: SymbolExtension = SymbolExtension(rawValue: "ecg.text.page")
-    static let ecg_text_page_fill: SymbolExtension = SymbolExtension(rawValue: "ecg.text.page.fill")
-    static let engine_emission_and_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "engine.emission.and.exclamationmark")
-    static let engine_emission_and_filter: SymbolExtension = SymbolExtension(rawValue: "engine.emission.and.filter")
-    static let envelope_and_arrow_trianglehead_branch: SymbolExtension = SymbolExtension(rawValue: "envelope.and.arrow.trianglehead.branch")
-    static let envelope_and_arrow_trianglehead_branch_fill: SymbolExtension = SymbolExtension(rawValue: "envelope.and.arrow.trianglehead.branch.fill")
-    static let envelope_front: SymbolExtension = SymbolExtension(rawValue: "envelope.front")
-    static let envelope_front_fill: SymbolExtension = SymbolExtension(rawValue: "envelope.front.fill")
-    static let eurosign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "eurosign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let eurosign_bank_building: SymbolExtension = SymbolExtension(rawValue: "eurosign.bank.building")
-    static let eurosign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "eurosign.bank.building.fill")
-    static let eurosign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "eurosign.gauge.chart.lefthalf.righthalf")
-    static let eurosign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "eurosign.gauge.chart.leftthird.topthird.rightthird")
-    static let eurosign_ring: SymbolExtension = SymbolExtension(rawValue: "eurosign.ring")
-    static let eurosign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "eurosign.ring.dashed")
-    static let eurozonesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let eurozonesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.bank.building")
-    static let eurozonesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.bank.building.fill")
-    static let eurozonesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.gauge.chart.lefthalf.righthalf")
-    static let eurozonesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.gauge.chart.leftthird.topthird.rightthird")
-    static let eurozonesign_ring: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.ring")
-    static let eurozonesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "eurozonesign.ring.dashed")
-    static let exclamationmark_arrow_trianglehead_2_clockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "exclamationmark.arrow.trianglehead.2.clockwise.rotate.90")
-    static let exclamationmark_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "exclamationmark.arrow.trianglehead.counterclockwise.rotate.90")
-    static let figure_2_left_holdinghands: SymbolExtension = SymbolExtension(rawValue: "figure.2.left.holdinghands")
-    static let figure_2_right_holdinghands: SymbolExtension = SymbolExtension(rawValue: "figure.2.right.holdinghands")
-    static let figure_american_football_circle: SymbolExtension = SymbolExtension(rawValue: "figure.american.football.circle")
-    static let figure_american_football_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.american.football.circle.fill")
-    static let figure_archery_circle: SymbolExtension = SymbolExtension(rawValue: "figure.archery.circle")
-    static let figure_archery_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.archery.circle.fill")
-    static let figure_australian_football_circle: SymbolExtension = SymbolExtension(rawValue: "figure.australian.football.circle")
-    static let figure_australian_football_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.australian.football.circle.fill")
-    static let figure_badminton_circle: SymbolExtension = SymbolExtension(rawValue: "figure.badminton.circle")
-    static let figure_badminton_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.badminton.circle.fill")
-    static let figure_barre_circle: SymbolExtension = SymbolExtension(rawValue: "figure.barre.circle")
-    static let figure_barre_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.barre.circle.fill")
-    static let figure_baseball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.baseball.circle")
-    static let figure_baseball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.baseball.circle.fill")
-    static let figure_basketball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.basketball.circle")
-    static let figure_basketball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.basketball.circle.fill")
-    static let figure_bowling_circle: SymbolExtension = SymbolExtension(rawValue: "figure.bowling.circle")
-    static let figure_bowling_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.bowling.circle.fill")
-    static let figure_boxing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.boxing.circle")
-    static let figure_boxing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.boxing.circle.fill")
-    static let figure_climbing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.climbing.circle")
-    static let figure_climbing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.climbing.circle.fill")
-    static let figure_cooldown_circle: SymbolExtension = SymbolExtension(rawValue: "figure.cooldown.circle")
-    static let figure_cooldown_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.cooldown.circle.fill")
-    static let figure_core_training_circle: SymbolExtension = SymbolExtension(rawValue: "figure.core.training.circle")
-    static let figure_core_training_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.core.training.circle.fill")
-    static let figure_cricket_circle: SymbolExtension = SymbolExtension(rawValue: "figure.cricket.circle")
-    static let figure_cricket_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.cricket.circle.fill")
-    static let figure_cross_training_circle: SymbolExtension = SymbolExtension(rawValue: "figure.cross.training.circle")
-    static let figure_cross_training_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.cross.training.circle.fill")
-    static let figure_curling_circle: SymbolExtension = SymbolExtension(rawValue: "figure.curling.circle")
-    static let figure_curling_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.curling.circle.fill")
-    static let figure_dance_circle: SymbolExtension = SymbolExtension(rawValue: "figure.dance.circle")
-    static let figure_dance_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.dance.circle.fill")
-    static let figure_disc_sports_circle: SymbolExtension = SymbolExtension(rawValue: "figure.disc.sports.circle")
-    static let figure_disc_sports_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.disc.sports.circle.fill")
-    static let figure_elliptical_circle: SymbolExtension = SymbolExtension(rawValue: "figure.elliptical.circle")
-    static let figure_elliptical_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.elliptical.circle.fill")
-    static let figure_equestrian_sports_circle: SymbolExtension = SymbolExtension(rawValue: "figure.equestrian.sports.circle")
-    static let figure_equestrian_sports_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.equestrian.sports.circle.fill")
-    static let figure_fencing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.fencing.circle")
-    static let figure_fencing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.fencing.circle.fill")
-    static let figure_field_hockey: SymbolExtension = SymbolExtension(rawValue: "figure.field.hockey")
-    static let figure_field_hockey_circle: SymbolExtension = SymbolExtension(rawValue: "figure.field.hockey.circle")
-    static let figure_field_hockey_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.field.hockey.circle.fill")
-    static let figure_fishing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.fishing.circle")
-    static let figure_fishing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.fishing.circle.fill")
-    static let figure_flexibility_circle: SymbolExtension = SymbolExtension(rawValue: "figure.flexibility.circle")
-    static let figure_flexibility_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.flexibility.circle.fill")
-    static let figure_golf_circle: SymbolExtension = SymbolExtension(rawValue: "figure.golf.circle")
-    static let figure_golf_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.golf.circle.fill")
-    static let figure_gymnastics_circle: SymbolExtension = SymbolExtension(rawValue: "figure.gymnastics.circle")
-    static let figure_gymnastics_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.gymnastics.circle.fill")
-    static let figure_hand_cycling_circle: SymbolExtension = SymbolExtension(rawValue: "figure.hand.cycling.circle")
-    static let figure_hand_cycling_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.hand.cycling.circle.fill")
-    static let figure_handball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.handball.circle")
-    static let figure_handball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.handball.circle.fill")
-    static let figure_highintensity_intervaltraining_circle: SymbolExtension = SymbolExtension(rawValue: "figure.highintensity.intervaltraining.circle")
-    static let figure_highintensity_intervaltraining_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.highintensity.intervaltraining.circle.fill")
-    static let figure_hiking_circle: SymbolExtension = SymbolExtension(rawValue: "figure.hiking.circle")
-    static let figure_hiking_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.hiking.circle.fill")
-    static let figure_hockey_circle: SymbolExtension = SymbolExtension(rawValue: "figure.hockey.circle")
-    static let figure_hockey_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.hockey.circle.fill")
-    static let figure_hunting_circle: SymbolExtension = SymbolExtension(rawValue: "figure.hunting.circle")
-    static let figure_hunting_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.hunting.circle.fill")
-    static let figure_ice_hockey: SymbolExtension = SymbolExtension(rawValue: "figure.ice.hockey")
-    static let figure_ice_hockey_circle: SymbolExtension = SymbolExtension(rawValue: "figure.ice.hockey.circle")
-    static let figure_ice_hockey_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.ice.hockey.circle.fill")
-    static let figure_ice_skating: SymbolExtension = SymbolExtension(rawValue: "figure.ice.skating")
-    static let figure_ice_skating_circle: SymbolExtension = SymbolExtension(rawValue: "figure.ice.skating.circle")
-    static let figure_ice_skating_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.ice.skating.circle.fill")
-    static let figure_indoor_cycle_circle: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.cycle.circle")
-    static let figure_indoor_cycle_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.cycle.circle.fill")
-    static let figure_indoor_rowing: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.rowing")
-    static let figure_indoor_rowing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.rowing.circle")
-    static let figure_indoor_rowing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.rowing.circle.fill")
-    static let figure_indoor_soccer: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.soccer")
-    static let figure_indoor_soccer_circle: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.soccer.circle")
-    static let figure_indoor_soccer_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.indoor.soccer.circle.fill")
-    static let figure_jumprope_circle: SymbolExtension = SymbolExtension(rawValue: "figure.jumprope.circle")
-    static let figure_jumprope_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.jumprope.circle.fill")
-    static let figure_kickboxing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.kickboxing.circle")
-    static let figure_kickboxing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.kickboxing.circle.fill")
-    static let figure_lacrosse_circle: SymbolExtension = SymbolExtension(rawValue: "figure.lacrosse.circle")
-    static let figure_lacrosse_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.lacrosse.circle.fill")
-    static let figure_martial_arts_circle: SymbolExtension = SymbolExtension(rawValue: "figure.martial.arts.circle")
-    static let figure_martial_arts_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.martial.arts.circle.fill")
-    static let figure_mind_and_body_circle: SymbolExtension = SymbolExtension(rawValue: "figure.mind.and.body.circle")
-    static let figure_mind_and_body_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.mind.and.body.circle.fill")
-    static let figure_mixed_cardio_circle: SymbolExtension = SymbolExtension(rawValue: "figure.mixed.cardio.circle")
-    static let figure_mixed_cardio_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.mixed.cardio.circle.fill")
-    static let figure_open_water_swim_circle: SymbolExtension = SymbolExtension(rawValue: "figure.open.water.swim.circle")
-    static let figure_open_water_swim_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.open.water.swim.circle.fill")
-    static let figure_outdoor_cycle_circle: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.cycle.circle")
-    static let figure_outdoor_cycle_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.cycle.circle.fill")
-    static let figure_outdoor_rowing: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.rowing")
-    static let figure_outdoor_rowing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.rowing.circle")
-    static let figure_outdoor_rowing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.rowing.circle.fill")
-    static let figure_outdoor_soccer: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.soccer")
-    static let figure_outdoor_soccer_circle: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.soccer.circle")
-    static let figure_outdoor_soccer_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.outdoor.soccer.circle.fill")
-    static let figure_pickleball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.pickleball.circle")
-    static let figure_pickleball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.pickleball.circle.fill")
-    static let figure_pilates_circle: SymbolExtension = SymbolExtension(rawValue: "figure.pilates.circle")
-    static let figure_pilates_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.pilates.circle.fill")
-    static let figure_play_circle: SymbolExtension = SymbolExtension(rawValue: "figure.play.circle")
-    static let figure_play_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.play.circle.fill")
-    static let figure_pool_swim_circle: SymbolExtension = SymbolExtension(rawValue: "figure.pool.swim.circle")
-    static let figure_pool_swim_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.pool.swim.circle.fill")
-    static let figure_racquetball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.racquetball.circle")
-    static let figure_racquetball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.racquetball.circle.fill")
-    static let figure_roll_circle: SymbolExtension = SymbolExtension(rawValue: "figure.roll.circle")
-    static let figure_roll_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.roll.circle.fill")
-    static let figure_roll_runningpace_circle: SymbolExtension = SymbolExtension(rawValue: "figure.roll.runningpace.circle")
-    static let figure_roll_runningpace_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.roll.runningpace.circle.fill")
-    static let figure_rolling_circle: SymbolExtension = SymbolExtension(rawValue: "figure.rolling.circle")
-    static let figure_rolling_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.rolling.circle.fill")
-    static let figure_rugby_circle: SymbolExtension = SymbolExtension(rawValue: "figure.rugby.circle")
-    static let figure_rugby_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.rugby.circle.fill")
-    static let figure_run_treadmill: SymbolExtension = SymbolExtension(rawValue: "figure.run.treadmill")
-    static let figure_run_treadmill_circle: SymbolExtension = SymbolExtension(rawValue: "figure.run.treadmill.circle")
-    static let figure_run_treadmill_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.run.treadmill.circle.fill")
-    static let figure_sailing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.sailing.circle")
-    static let figure_sailing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.sailing.circle.fill")
-    static let figure_seated_seatbelt_left_drive_seats_1: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.1")
-    static let figure_seated_seatbelt_left_drive_seats_1_1: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.1.1")
-    static let figure_seated_seatbelt_left_drive_seats_1_1_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.1.1.fill")
-    static let figure_seated_seatbelt_left_drive_seats_1_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.1.2")
-    static let figure_seated_seatbelt_left_drive_seats_1_2_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.1.2.fill")
-    static let figure_seated_seatbelt_left_drive_seats_1_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.1.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2")
-    static let figure_seated_seatbelt_left_drive_seats_2_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.2")
-    static let figure_seated_seatbelt_left_drive_seats_2_2_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.2.2")
-    static let figure_seated_seatbelt_left_drive_seats_2_2_2_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.2.2.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2_2_3: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.2.3")
-    static let figure_seated_seatbelt_left_drive_seats_2_2_3_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.2.3.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2_2_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.2.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2_3: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.3")
-    static let figure_seated_seatbelt_left_drive_seats_2_3_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.3.2")
-    static let figure_seated_seatbelt_left_drive_seats_2_3_2_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.3.2.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2_3_3: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.3.3")
-    static let figure_seated_seatbelt_left_drive_seats_2_3_3_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.3.3.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2_3_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.3.fill")
-    static let figure_seated_seatbelt_left_drive_seats_2_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.2.fill")
-    static let figure_seated_seatbelt_left_drive_seats_3: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.3")
-    static let figure_seated_seatbelt_left_drive_seats_3_3: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.3.3")
-    static let figure_seated_seatbelt_left_drive_seats_3_3_3: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.3.3.3")
-    static let figure_seated_seatbelt_left_drive_seats_3_3_3_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.3.3.3.fill")
-    static let figure_seated_seatbelt_left_drive_seats_3_3_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.3.3.fill")
-    static let figure_seated_seatbelt_left_drive_seats_3_fill: SymbolExtension = SymbolExtension(rawValue: "figure.seated.seatbelt.left.drive.seats.3.fill")
-    static let figure_seated_side_left: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left")
-    static let figure_seated_side_left_air_distribution_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.lower")
-    static let figure_seated_side_left_air_distribution_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.middle")
-    static let figure_seated_side_left_air_distribution_middle_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.middle.and.lower")
-    static let figure_seated_side_left_air_distribution_middle_and_lower_angled: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.middle.and.lower.angled")
-    static let figure_seated_side_left_air_distribution_upper: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.upper")
-    static let figure_seated_side_left_air_distribution_upper_angled_and_lower_angled: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.upper.angled.and.lower.angled")
-    static let figure_seated_side_left_air_distribution_upper_angled_and_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.upper.angled.and.middle")
-    static let figure_seated_side_left_air_distribution_upper_angled_and_middle_and_lower_angled: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.air.distribution.upper.angled.and.middle.and.lower.angled")
-    static let figure_seated_side_left_airbag_off: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.airbag.off")
-    static let figure_seated_side_left_airbag_off_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.airbag.off.2")
-    static let figure_seated_side_left_airbag_on: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.airbag.on")
-    static let figure_seated_side_left_airbag_on_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.airbag.on.2")
-    static let figure_seated_side_left_automatic: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.automatic")
-    static let figure_seated_side_left_fan: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.fan")
-    static let figure_seated_side_left_steeringwheel: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.steeringwheel")
-    static let figure_seated_side_left_windshield_front_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.lower")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.middle")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.middle.and.lower")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.lower")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.middle")
-    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower")
-    static let figure_seated_side_right: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right")
-    static let figure_seated_side_right_air_distribution_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.lower")
-    static let figure_seated_side_right_air_distribution_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.middle")
-    static let figure_seated_side_right_air_distribution_middle_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.middle.and.lower")
-    static let figure_seated_side_right_air_distribution_middle_and_lower_angled: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.middle.and.lower.angled")
-    static let figure_seated_side_right_air_distribution_upper: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.upper")
-    static let figure_seated_side_right_air_distribution_upper_angled_and_lower_angled: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.upper.angled.and.lower.angled")
-    static let figure_seated_side_right_air_distribution_upper_angled_and_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.upper.angled.and.middle")
-    static let figure_seated_side_right_air_distribution_upper_angled_and_middle_and_lower_angled: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.air.distribution.upper.angled.and.middle.and.lower.angled")
-    static let figure_seated_side_right_airbag_off: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.airbag.off")
-    static let figure_seated_side_right_airbag_off_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.airbag.off.2")
-    static let figure_seated_side_right_airbag_on: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.airbag.on")
-    static let figure_seated_side_right_airbag_on_2: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.airbag.on.2")
-    static let figure_seated_side_right_automatic: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.automatic")
-    static let figure_seated_side_right_fan: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.fan")
-    static let figure_seated_side_right_steeringwheel: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.steeringwheel")
-    static let figure_seated_side_right_windshield_front_and_heat_waves: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.lower")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.middle")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.middle.and.lower")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.lower")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.middle")
-    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower: SymbolExtension = SymbolExtension(rawValue: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower")
-    static let figure_skateboarding: SymbolExtension = SymbolExtension(rawValue: "figure.skateboarding")
-    static let figure_skateboarding_circle: SymbolExtension = SymbolExtension(rawValue: "figure.skateboarding.circle")
-    static let figure_skateboarding_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.skateboarding.circle.fill")
-    static let figure_skiing_crosscountry_circle: SymbolExtension = SymbolExtension(rawValue: "figure.skiing.crosscountry.circle")
-    static let figure_skiing_crosscountry_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.skiing.crosscountry.circle.fill")
-    static let figure_skiing_downhill_circle: SymbolExtension = SymbolExtension(rawValue: "figure.skiing.downhill.circle")
-    static let figure_skiing_downhill_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.skiing.downhill.circle.fill")
-    static let figure_snowboarding_circle: SymbolExtension = SymbolExtension(rawValue: "figure.snowboarding.circle")
-    static let figure_snowboarding_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.snowboarding.circle.fill")
-    static let figure_socialdance_circle: SymbolExtension = SymbolExtension(rawValue: "figure.socialdance.circle")
-    static let figure_socialdance_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.socialdance.circle.fill")
-    static let figure_softball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.softball.circle")
-    static let figure_softball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.softball.circle.fill")
-    static let figure_squash_circle: SymbolExtension = SymbolExtension(rawValue: "figure.squash.circle")
-    static let figure_squash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.squash.circle.fill")
-    static let figure_stair_stepper_circle: SymbolExtension = SymbolExtension(rawValue: "figure.stair.stepper.circle")
-    static let figure_stair_stepper_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.stair.stepper.circle.fill")
-    static let figure_stairs_circle: SymbolExtension = SymbolExtension(rawValue: "figure.stairs.circle")
-    static let figure_stairs_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.stairs.circle.fill")
-    static let figure_stand_dress: SymbolExtension = SymbolExtension(rawValue: "figure.stand.dress")
-    static let figure_stand_dress_line_vertical_figure: SymbolExtension = SymbolExtension(rawValue: "figure.stand.dress.line.vertical.figure")
-    static let figure_step_training_circle: SymbolExtension = SymbolExtension(rawValue: "figure.step.training.circle")
-    static let figure_step_training_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.step.training.circle.fill")
-    static let figure_strengthtraining_functional_circle: SymbolExtension = SymbolExtension(rawValue: "figure.strengthtraining.functional.circle")
-    static let figure_strengthtraining_functional_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.strengthtraining.functional.circle.fill")
-    static let figure_strengthtraining_traditional_circle: SymbolExtension = SymbolExtension(rawValue: "figure.strengthtraining.traditional.circle")
-    static let figure_strengthtraining_traditional_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.strengthtraining.traditional.circle.fill")
-    static let figure_surfing_circle: SymbolExtension = SymbolExtension(rawValue: "figure.surfing.circle")
-    static let figure_surfing_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.surfing.circle.fill")
-    static let figure_table_tennis_circle: SymbolExtension = SymbolExtension(rawValue: "figure.table.tennis.circle")
-    static let figure_table_tennis_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.table.tennis.circle.fill")
-    static let figure_taichi_circle: SymbolExtension = SymbolExtension(rawValue: "figure.taichi.circle")
-    static let figure_taichi_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.taichi.circle.fill")
-    static let figure_tennis_circle: SymbolExtension = SymbolExtension(rawValue: "figure.tennis.circle")
-    static let figure_tennis_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.tennis.circle.fill")
-    static let figure_track_and_field_circle: SymbolExtension = SymbolExtension(rawValue: "figure.track.and.field.circle")
-    static let figure_track_and_field_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.track.and.field.circle.fill")
-    static let figure_volleyball_circle: SymbolExtension = SymbolExtension(rawValue: "figure.volleyball.circle")
-    static let figure_volleyball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.volleyball.circle.fill")
-    static let figure_walk_treadmill: SymbolExtension = SymbolExtension(rawValue: "figure.walk.treadmill")
-    static let figure_walk_treadmill_circle: SymbolExtension = SymbolExtension(rawValue: "figure.walk.treadmill.circle")
-    static let figure_walk_treadmill_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.walk.treadmill.circle.fill")
-    static let figure_walk_triangle: SymbolExtension = SymbolExtension(rawValue: "figure.walk.triangle")
-    static let figure_walk_triangle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.walk.triangle.fill")
-    static let figure_water_fitness_circle: SymbolExtension = SymbolExtension(rawValue: "figure.water.fitness.circle")
-    static let figure_water_fitness_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.water.fitness.circle.fill")
-    static let figure_waterpolo_circle: SymbolExtension = SymbolExtension(rawValue: "figure.waterpolo.circle")
-    static let figure_waterpolo_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.waterpolo.circle.fill")
-    static let figure_wrestling_circle: SymbolExtension = SymbolExtension(rawValue: "figure.wrestling.circle")
-    static let figure_wrestling_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.wrestling.circle.fill")
-    static let figure_yoga_circle: SymbolExtension = SymbolExtension(rawValue: "figure.yoga.circle")
-    static let figure_yoga_circle_fill: SymbolExtension = SymbolExtension(rawValue: "figure.yoga.circle.fill")
-    static let fire_extinguisher: SymbolExtension = SymbolExtension(rawValue: "fire.extinguisher")
-    static let fire_extinguisher_fill: SymbolExtension = SymbolExtension(rawValue: "fire.extinguisher.fill")
-    static let flag_pattern_checkered: SymbolExtension = SymbolExtension(rawValue: "flag.pattern.checkered")
-    static let flag_pattern_checkered_2_crossed: SymbolExtension = SymbolExtension(rawValue: "flag.pattern.checkered.2.crossed")
-    static let flag_pattern_checkered_circle: SymbolExtension = SymbolExtension(rawValue: "flag.pattern.checkered.circle")
-    static let flag_pattern_checkered_circle_fill: SymbolExtension = SymbolExtension(rawValue: "flag.pattern.checkered.circle.fill")
-    static let florinsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "florinsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let florinsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "florinsign.bank.building")
-    static let florinsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "florinsign.bank.building.fill")
-    static let florinsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "florinsign.gauge.chart.lefthalf.righthalf")
-    static let florinsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "florinsign.gauge.chart.leftthird.topthird.rightthird")
-    static let florinsign_ring: SymbolExtension = SymbolExtension(rawValue: "florinsign.ring")
-    static let florinsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "florinsign.ring.dashed")
-    static let fluid_batteryblock: SymbolExtension = SymbolExtension(rawValue: "fluid.batteryblock")
-    static let fluid_coolant: SymbolExtension = SymbolExtension(rawValue: "fluid.coolant")
-    static let formfitting_gamecontroller: SymbolExtension = SymbolExtension(rawValue: "formfitting.gamecontroller")
-    static let formfitting_gamecontroller_fill: SymbolExtension = SymbolExtension(rawValue: "formfitting.gamecontroller.fill")
-    static let francsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "francsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let francsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "francsign.bank.building")
-    static let francsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "francsign.bank.building.fill")
-    static let francsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "francsign.gauge.chart.lefthalf.righthalf")
-    static let francsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "francsign.gauge.chart.leftthird.topthird.rightthird")
-    static let francsign_ring: SymbolExtension = SymbolExtension(rawValue: "francsign.ring")
-    static let francsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "francsign.ring.dashed")
-    static let fuelpump_and_filter: SymbolExtension = SymbolExtension(rawValue: "fuelpump.and.filter")
-    static let gamecontroller_circle: SymbolExtension = SymbolExtension(rawValue: "gamecontroller.circle")
-    static let gamecontroller_circle_fill: SymbolExtension = SymbolExtension(rawValue: "gamecontroller.circle.fill")
-    static let gauge_open_with_lines_needle_33percent_and_arrow_trianglehead_from_0percent_to_50percent: SymbolExtension = SymbolExtension(rawValue: "gauge.open.with.lines.needle.33percent.and.arrow.trianglehead.from.0percent.to.50percent")
-    static let gearshape_arrow_trianglehead_2_clockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "gearshape.arrow.trianglehead.2.clockwise.rotate.90")
-    static let greaterthanorequalto: SymbolExtension = SymbolExtension(rawValue: "greaterthanorequalto")
-    static let greaterthanorequalto_circle: SymbolExtension = SymbolExtension(rawValue: "greaterthanorequalto.circle")
-    static let greaterthanorequalto_circle_fill: SymbolExtension = SymbolExtension(rawValue: "greaterthanorequalto.circle.fill")
-    static let greaterthanorequalto_square: SymbolExtension = SymbolExtension(rawValue: "greaterthanorequalto.square")
-    static let greaterthanorequalto_square_fill: SymbolExtension = SymbolExtension(rawValue: "greaterthanorequalto.square.fill")
-    static let guaranisign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "guaranisign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let guaranisign_bank_building: SymbolExtension = SymbolExtension(rawValue: "guaranisign.bank.building")
-    static let guaranisign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "guaranisign.bank.building.fill")
-    static let guaranisign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "guaranisign.gauge.chart.lefthalf.righthalf")
-    static let guaranisign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "guaranisign.gauge.chart.leftthird.topthird.rightthird")
-    static let guaranisign_ring: SymbolExtension = SymbolExtension(rawValue: "guaranisign.ring")
-    static let guaranisign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "guaranisign.ring.dashed")
-    static let hand_draw_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "hand.draw.badge.ellipsis")
-    static let hand_draw_badge_ellipsis_fill: SymbolExtension = SymbolExtension(rawValue: "hand.draw.badge.ellipsis.fill")
-    static let hand_palm_facing: SymbolExtension = SymbolExtension(rawValue: "hand.palm.facing")
-    static let hand_palm_facing_fill: SymbolExtension = SymbolExtension(rawValue: "hand.palm.facing.fill")
-    static let hand_pinch: SymbolExtension = SymbolExtension(rawValue: "hand.pinch")
-    static let hand_pinch_fill: SymbolExtension = SymbolExtension(rawValue: "hand.pinch.fill")
-    static let hand_point_up_braille_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.braille.badge.ellipsis")
-    static let hand_point_up_braille_badge_ellipsis_fill: SymbolExtension = SymbolExtension(rawValue: "hand.point.up.braille.badge.ellipsis.fill")
-    static let hand_raised_palm_facing: SymbolExtension = SymbolExtension(rawValue: "hand.raised.palm.facing")
-    static let hand_raised_palm_facing_fill: SymbolExtension = SymbolExtension(rawValue: "hand.raised.palm.facing.fill")
-    static let hand_rays: SymbolExtension = SymbolExtension(rawValue: "hand.rays")
-    static let hand_rays_fill: SymbolExtension = SymbolExtension(rawValue: "hand.rays.fill")
-    static let hat_cap: SymbolExtension = SymbolExtension(rawValue: "hat.cap")
-    static let hat_cap_fill: SymbolExtension = SymbolExtension(rawValue: "hat.cap.fill")
-    static let hat_widebrim: SymbolExtension = SymbolExtension(rawValue: "hat.widebrim")
-    static let hat_widebrim_fill: SymbolExtension = SymbolExtension(rawValue: "hat.widebrim.fill")
-    static let head_profile_arrow_forward_and_vision_pro: SymbolExtension = SymbolExtension(rawValue: "head.profile.arrow.forward.and.vision.pro")
-    static let headphones_slash: SymbolExtension = SymbolExtension(rawValue: "headphones.slash")
-    static let headset: SymbolExtension = SymbolExtension(rawValue: "headset")
-    static let headset_circle: SymbolExtension = SymbolExtension(rawValue: "headset.circle")
-    static let headset_circle_fill: SymbolExtension = SymbolExtension(rawValue: "headset.circle.fill")
-    static let heart_text_clipboard: SymbolExtension = SymbolExtension(rawValue: "heart.text.clipboard")
-    static let heart_text_clipboard_fill: SymbolExtension = SymbolExtension(rawValue: "heart.text.clipboard.fill")
-    static let heat_waves_and_fan: SymbolExtension = SymbolExtension(rawValue: "heat.waves.and.fan")
-    static let helmet: SymbolExtension = SymbolExtension(rawValue: "helmet")
-    static let helmet_fill: SymbolExtension = SymbolExtension(rawValue: "helmet.fill")
-    static let hifispeaker_2_badge_minus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.2.badge.minus")
-    static let hifispeaker_2_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.2.badge.minus.fill")
-    static let hifispeaker_2_badge_plus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.2.badge.plus")
-    static let hifispeaker_2_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.2.badge.plus.fill")
-    static let hifispeaker_and_homepod_badge_minus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.badge.minus")
-    static let hifispeaker_and_homepod_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.badge.minus.fill")
-    static let hifispeaker_and_homepod_badge_plus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.badge.plus")
-    static let hifispeaker_and_homepod_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.badge.plus.fill")
-    static let hifispeaker_and_homepod_mini: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.mini")
-    static let hifispeaker_and_homepod_mini_badge_minus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.mini.badge.minus")
-    static let hifispeaker_and_homepod_mini_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.mini.badge.minus.fill")
-    static let hifispeaker_and_homepod_mini_badge_plus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.mini.badge.plus")
-    static let hifispeaker_and_homepod_mini_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.mini.badge.plus.fill")
-    static let hifispeaker_and_homepod_mini_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.and.homepod.mini.fill")
-    static let hifispeaker_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.arrow.forward")
-    static let hifispeaker_arrow_forward_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.arrow.forward.fill")
-    static let hifispeaker_badge_minus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.badge.minus")
-    static let hifispeaker_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.badge.minus.fill")
-    static let hifispeaker_badge_plus: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.badge.plus")
-    static let hifispeaker_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "hifispeaker.badge.plus.fill")
-    static let homepod_2_badge_minus: SymbolExtension = SymbolExtension(rawValue: "homepod.2.badge.minus")
-    static let homepod_2_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.2.badge.minus.fill")
-    static let homepod_2_badge_plus: SymbolExtension = SymbolExtension(rawValue: "homepod.2.badge.plus")
-    static let homepod_2_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.2.badge.plus.fill")
-    static let homepod_and_homepod_mini: SymbolExtension = SymbolExtension(rawValue: "homepod.and.homepod.mini")
-    static let homepod_and_homepod_mini_badge_minus: SymbolExtension = SymbolExtension(rawValue: "homepod.and.homepod.mini.badge.minus")
-    static let homepod_and_homepod_mini_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.and.homepod.mini.badge.minus.fill")
-    static let homepod_and_homepod_mini_badge_plus: SymbolExtension = SymbolExtension(rawValue: "homepod.and.homepod.mini.badge.plus")
-    static let homepod_and_homepod_mini_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.and.homepod.mini.badge.plus.fill")
-    static let homepod_and_homepod_mini_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.and.homepod.mini.fill")
-    static let homepod_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "homepod.arrow.forward")
-    static let homepod_arrow_forward_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.arrow.forward.fill")
-    static let homepod_badge_minus: SymbolExtension = SymbolExtension(rawValue: "homepod.badge.minus")
-    static let homepod_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.badge.minus.fill")
-    static let homepod_badge_plus: SymbolExtension = SymbolExtension(rawValue: "homepod.badge.plus")
-    static let homepod_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.badge.plus.fill")
-    static let homepod_mini: SymbolExtension = SymbolExtension(rawValue: "homepod.mini")
-    static let homepod_mini_2: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.2")
-    static let homepod_mini_2_badge_minus: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.2.badge.minus")
-    static let homepod_mini_2_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.2.badge.minus.fill")
-    static let homepod_mini_2_badge_plus: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.2.badge.plus")
-    static let homepod_mini_2_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.2.badge.plus.fill")
-    static let homepod_mini_2_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.2.fill")
-    static let homepod_mini_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.arrow.forward")
-    static let homepod_mini_arrow_forward_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.arrow.forward.fill")
-    static let homepod_mini_badge_minus: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.badge.minus")
-    static let homepod_mini_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.badge.minus.fill")
-    static let homepod_mini_badge_plus: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.badge.plus")
-    static let homepod_mini_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.badge.plus.fill")
-    static let homepod_mini_fill: SymbolExtension = SymbolExtension(rawValue: "homepod.mini.fill")
-    static let hourglass_badge_eye: SymbolExtension = SymbolExtension(rawValue: "hourglass.badge.eye")
-    static let house_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "house.badge.exclamationmark")
-    static let house_badge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "house.badge.exclamationmark.fill")
-    static let house_badge_wifi: SymbolExtension = SymbolExtension(rawValue: "house.badge.wifi")
-    static let house_badge_wifi_fill: SymbolExtension = SymbolExtension(rawValue: "house.badge.wifi.fill")
-    static let house_slash: SymbolExtension = SymbolExtension(rawValue: "house.slash")
-    static let house_slash_fill: SymbolExtension = SymbolExtension(rawValue: "house.slash.fill")
-    static let hryvniasign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let hryvniasign_bank_building: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.bank.building")
-    static let hryvniasign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.bank.building.fill")
-    static let hryvniasign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.gauge.chart.lefthalf.righthalf")
-    static let hryvniasign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.gauge.chart.leftthird.topthird.rightthird")
-    static let hryvniasign_ring: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.ring")
-    static let hryvniasign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "hryvniasign.ring.dashed")
-    static let indianrupeesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let indianrupeesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.bank.building")
-    static let indianrupeesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.bank.building.fill")
-    static let indianrupeesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.gauge.chart.lefthalf.righthalf")
-    static let indianrupeesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.gauge.chart.leftthird.topthird.rightthird")
-    static let indianrupeesign_ring: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.ring")
-    static let indianrupeesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "indianrupeesign.ring.dashed")
-    static let inhaler: SymbolExtension = SymbolExtension(rawValue: "inhaler")
-    static let inhaler_fill: SymbolExtension = SymbolExtension(rawValue: "inhaler.fill")
-    static let inset_filled_applewatch_case: SymbolExtension = SymbolExtension(rawValue: "inset.filled.applewatch.case")
-    static let inset_filled_bottomhalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomhalf.rectangle")
-    static let inset_filled_bottomhalf_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomhalf.rectangle.portrait")
-    static let inset_filled_bottomhalf_tophalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomhalf.tophalf.rectangle")
-    static let inset_filled_bottomleading_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomleading.rectangle")
-    static let inset_filled_bottomleading_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomleading.rectangle.portrait")
-    static let inset_filled_bottomleft_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomleft.rectangle")
-    static let inset_filled_bottomleft_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomleft.rectangle.portrait")
-    static let inset_filled_bottomright_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomright.rectangle")
-    static let inset_filled_bottomright_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomright.rectangle.portrait")
-    static let inset_filled_bottomthird_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomthird.rectangle")
-    static let inset_filled_bottomthird_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomthird.rectangle.portrait")
-    static let inset_filled_bottomthird_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomthird.square")
-    static let inset_filled_bottomtrailing_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomtrailing.rectangle")
-    static let inset_filled_bottomtrailing_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.bottomtrailing.rectangle.portrait")
-    static let inset_filled_capsule: SymbolExtension = SymbolExtension(rawValue: "inset.filled.capsule")
-    static let inset_filled_capsule_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.capsule.portrait")
-    static let inset_filled_center_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.center.rectangle")
-    static let inset_filled_center_rectangle_badge_plus: SymbolExtension = SymbolExtension(rawValue: "inset.filled.center.rectangle.badge.plus")
-    static let inset_filled_center_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.center.rectangle.portrait")
-    static let inset_filled_circle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.circle")
-    static let inset_filled_circle_dashed: SymbolExtension = SymbolExtension(rawValue: "inset.filled.circle.dashed")
-    static let inset_filled_diamond: SymbolExtension = SymbolExtension(rawValue: "inset.filled.diamond")
-    static let inset_filled_leadinghalf_arrow_leading_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadinghalf.arrow.leading.rectangle")
-    static let inset_filled_leadinghalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadinghalf.rectangle")
-    static let inset_filled_leadinghalf_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadinghalf.rectangle.portrait")
-    static let inset_filled_leadinghalf_toptrailing_bottomtrailing_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadinghalf.toptrailing.bottomtrailing.rectangle")
-    static let inset_filled_leadinghalf_trailinghalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadinghalf.trailinghalf.rectangle")
-    static let inset_filled_leadingthird_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadingthird.rectangle")
-    static let inset_filled_leadingthird_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadingthird.rectangle.portrait")
-    static let inset_filled_leadingthird_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leadingthird.square")
-    static let inset_filled_lefthalf_arrow_left_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.lefthalf.arrow.left.rectangle")
-    static let inset_filled_lefthalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.lefthalf.rectangle")
-    static let inset_filled_lefthalf_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.lefthalf.rectangle.portrait")
-    static let inset_filled_lefthalf_righthalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.lefthalf.righthalf.rectangle")
-    static let inset_filled_lefthalf_topright_bottomright_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.lefthalf.topright.bottomright.rectangle")
-    static let inset_filled_leftthird_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leftthird.rectangle")
-    static let inset_filled_leftthird_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leftthird.rectangle.portrait")
-    static let inset_filled_leftthird_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.leftthird.square")
-    static let inset_filled_oval: SymbolExtension = SymbolExtension(rawValue: "inset.filled.oval")
-    static let inset_filled_oval_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.oval.portrait")
-    static let inset_filled_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rectangle")
-    static let inset_filled_rectangle_and_cursorarrow: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rectangle.and.cursorarrow")
-    static let inset_filled_rectangle_and_person_filled: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rectangle.and.person.filled")
-    static let inset_filled_rectangle_badge_record: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rectangle.badge.record")
-    static let inset_filled_rectangle_on_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rectangle.on.rectangle")
-    static let inset_filled_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rectangle.portrait")
-    static let inset_filled_righthalf_arrow_right_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.righthalf.arrow.right.rectangle")
-    static let inset_filled_righthalf_lefthalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.righthalf.lefthalf.rectangle")
-    static let inset_filled_righthalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.righthalf.rectangle")
-    static let inset_filled_righthalf_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.righthalf.rectangle.portrait")
-    static let inset_filled_rightthird_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rightthird.rectangle")
-    static let inset_filled_rightthird_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rightthird.rectangle.portrait")
-    static let inset_filled_rightthird_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.rightthird.square")
-    static let inset_filled_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.square")
-    static let inset_filled_square_dashed: SymbolExtension = SymbolExtension(rawValue: "inset.filled.square.dashed")
-    static let inset_filled_tophalf_bottomhalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.tophalf.bottomhalf.rectangle")
-    static let inset_filled_tophalf_bottomleft_bottomright_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.tophalf.bottomleft.bottomright.rectangle")
-    static let inset_filled_tophalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.tophalf.rectangle")
-    static let inset_filled_tophalf_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.tophalf.rectangle.portrait")
-    static let inset_filled_topleading_bottomleading_trailinghalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleading.bottomleading.trailinghalf.rectangle")
-    static let inset_filled_topleading_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleading.rectangle")
-    static let inset_filled_topleading_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleading.rectangle.portrait")
-    static let inset_filled_topleft_bottomleft_righthalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleft.bottomleft.righthalf.rectangle")
-    static let inset_filled_topleft_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleft.rectangle")
-    static let inset_filled_topleft_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleft.rectangle.portrait")
-    static let inset_filled_topleft_topright_bottomhalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleft.topright.bottomhalf.rectangle")
-    static let inset_filled_topleft_topright_bottomleft_bottomright_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topleft.topright.bottomleft.bottomright.rectangle")
-    static let inset_filled_topright_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topright.rectangle")
-    static let inset_filled_topright_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topright.rectangle.portrait")
-    static let inset_filled_topthird_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topthird.rectangle")
-    static let inset_filled_topthird_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topthird.rectangle.portrait")
-    static let inset_filled_topthird_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.topthird.square")
-    static let inset_filled_toptrailing_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.toptrailing.rectangle")
-    static let inset_filled_toptrailing_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.toptrailing.rectangle.portrait")
-    static let inset_filled_trailinghalf_arrow_trailing_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailinghalf.arrow.trailing.rectangle")
-    static let inset_filled_trailinghalf_leadinghalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailinghalf.leadinghalf.rectangle")
-    static let inset_filled_trailinghalf_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailinghalf.rectangle")
-    static let inset_filled_trailinghalf_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailinghalf.rectangle.portrait")
-    static let inset_filled_trailingthird_rectangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailingthird.rectangle")
-    static let inset_filled_trailingthird_rectangle_portrait: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailingthird.rectangle.portrait")
-    static let inset_filled_trailingthird_square: SymbolExtension = SymbolExtension(rawValue: "inset.filled.trailingthird.square")
-    static let inset_filled_triangle: SymbolExtension = SymbolExtension(rawValue: "inset.filled.triangle")
-    static let inset_filled_tv: SymbolExtension = SymbolExtension(rawValue: "inset.filled.tv")
-    static let ipad_badge_location: SymbolExtension = SymbolExtension(rawValue: "ipad.badge.location")
-    static let ipad_gen1_badge_location: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.badge.location")
-    static let ipad_gen1_landscape_badge_location: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.landscape.badge.location")
-    static let ipad_gen1_landscape_slash: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.landscape.slash")
-    static let ipad_gen1_slash: SymbolExtension = SymbolExtension(rawValue: "ipad.gen1.slash")
-    static let ipad_gen2_badge_location: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.badge.location")
-    static let ipad_gen2_landscape_badge_location: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.landscape.badge.location")
-    static let ipad_gen2_landscape_slash: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.landscape.slash")
-    static let ipad_gen2_slash: SymbolExtension = SymbolExtension(rawValue: "ipad.gen2.slash")
-    static let ipad_landscape_and_iphone: SymbolExtension = SymbolExtension(rawValue: "ipad.landscape.and.iphone")
-    static let ipad_landscape_and_iphone_slash: SymbolExtension = SymbolExtension(rawValue: "ipad.landscape.and.iphone.slash")
-    static let ipad_landscape_badge_location: SymbolExtension = SymbolExtension(rawValue: "ipad.landscape.badge.location")
-    static let iphone_and_arrow_forward_inward: SymbolExtension = SymbolExtension(rawValue: "iphone.and.arrow.forward.inward")
-    static let iphone_and_arrow_forward_outward: SymbolExtension = SymbolExtension(rawValue: "iphone.and.arrow.forward.outward")
-    static let iphone_and_arrow_left_and_arrow_right_inward: SymbolExtension = SymbolExtension(rawValue: "iphone.and.arrow.left.and.arrow.right.inward")
-    static let iphone_and_arrow_right_inward: SymbolExtension = SymbolExtension(rawValue: "iphone.and.arrow.right.inward")
-    static let iphone_and_arrow_right_outward: SymbolExtension = SymbolExtension(rawValue: "iphone.and.arrow.right.outward")
-    static let iphone_app_switcher: SymbolExtension = SymbolExtension(rawValue: "iphone.app.switcher")
-    static let iphone_badge_location: SymbolExtension = SymbolExtension(rawValue: "iphone.badge.location")
-    static let iphone_crop_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.crop.circle")
-    static let iphone_dock_motorized_viewfinder: SymbolExtension = SymbolExtension(rawValue: "iphone.dock.motorized.viewfinder")
-    static let iphone_gen1_and_arrow_left: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.and.arrow.left")
-    static let iphone_gen1_badge_location: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.badge.location")
-    static let iphone_gen1_crop_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.crop.circle")
-    static let iphone_gen1_landscape_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.landscape.slash")
-    static let iphone_gen1_motion: SymbolExtension = SymbolExtension(rawValue: "iphone.gen1.motion")
-    static let iphone_gen2_and_arrow_left_and_arrow_right_inward: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.and.arrow.left.and.arrow.right.inward")
-    static let iphone_gen2_badge_location: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.badge.location")
-    static let iphone_gen2_crop_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.crop.circle")
-    static let iphone_gen2_landscape_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.landscape.slash")
-    static let iphone_gen2_motion: SymbolExtension = SymbolExtension(rawValue: "iphone.gen2.motion")
-    static let iphone_gen3_and_arrow_left_and_arrow_right_inward: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.and.arrow.left.and.arrow.right.inward")
-    static let iphone_gen3_badge_location: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.badge.location")
-    static let iphone_gen3_crop_circle: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.crop.circle")
-    static let iphone_gen3_landscape_slash: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.landscape.slash")
-    static let iphone_gen3_motion: SymbolExtension = SymbolExtension(rawValue: "iphone.gen3.motion")
-    static let iphone_motion: SymbolExtension = SymbolExtension(rawValue: "iphone.motion")
-    static let ipod_shuffle_gen1: SymbolExtension = SymbolExtension(rawValue: "ipod.shuffle.gen1")
-    static let ipod_shuffle_gen2: SymbolExtension = SymbolExtension(rawValue: "ipod.shuffle.gen2")
-    static let ipod_shuffle_gen3: SymbolExtension = SymbolExtension(rawValue: "ipod.shuffle.gen3")
-    static let ipod_shuffle_gen4: SymbolExtension = SymbolExtension(rawValue: "ipod.shuffle.gen4")
-    static let ipod_touch: SymbolExtension = SymbolExtension(rawValue: "ipod.touch")
-    static let ipod_touch_landscape: SymbolExtension = SymbolExtension(rawValue: "ipod.touch.landscape")
-    static let ipod_touch_slash: SymbolExtension = SymbolExtension(rawValue: "ipod.touch.slash")
-    static let jacket: SymbolExtension = SymbolExtension(rawValue: "jacket")
-    static let jacket_fill: SymbolExtension = SymbolExtension(rawValue: "jacket.fill")
-    static let key_2_on_ring: SymbolExtension = SymbolExtension(rawValue: "key.2.on.ring")
-    static let key_2_on_ring_fill: SymbolExtension = SymbolExtension(rawValue: "key.2.on.ring.fill")
-    static let key_car_radiowaves_forward: SymbolExtension = SymbolExtension(rawValue: "key.car.radiowaves.forward")
-    static let key_car_radiowaves_forward_fill: SymbolExtension = SymbolExtension(rawValue: "key.car.radiowaves.forward.fill")
-    static let key_card: SymbolExtension = SymbolExtension(rawValue: "key.card")
-    static let key_card_fill: SymbolExtension = SymbolExtension(rawValue: "key.card.fill")
-    static let kipsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "kipsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let kipsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "kipsign.bank.building")
-    static let kipsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "kipsign.bank.building.fill")
-    static let kipsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "kipsign.gauge.chart.lefthalf.righthalf")
-    static let kipsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "kipsign.gauge.chart.leftthird.topthird.rightthird")
-    static let kipsign_ring: SymbolExtension = SymbolExtension(rawValue: "kipsign.ring")
-    static let kipsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "kipsign.ring.dashed")
-    static let ladybug_slash: SymbolExtension = SymbolExtension(rawValue: "ladybug.slash")
-    static let ladybug_slash_circle: SymbolExtension = SymbolExtension(rawValue: "ladybug.slash.circle")
-    static let ladybug_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "ladybug.slash.circle.fill")
-    static let ladybug_slash_fill: SymbolExtension = SymbolExtension(rawValue: "ladybug.slash.fill")
-    static let larisign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "larisign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let larisign_bank_building: SymbolExtension = SymbolExtension(rawValue: "larisign.bank.building")
-    static let larisign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "larisign.bank.building.fill")
-    static let larisign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "larisign.gauge.chart.lefthalf.righthalf")
-    static let larisign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "larisign.gauge.chart.leftthird.topthird.rightthird")
-    static let larisign_ring: SymbolExtension = SymbolExtension(rawValue: "larisign.ring")
-    static let larisign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "larisign.ring.dashed")
-    static let leaf_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "leaf.arrow.trianglehead.clockwise")
-    static let lessthanorequalto: SymbolExtension = SymbolExtension(rawValue: "lessthanorequalto")
-    static let lessthanorequalto_circle: SymbolExtension = SymbolExtension(rawValue: "lessthanorequalto.circle")
-    static let lessthanorequalto_circle_fill: SymbolExtension = SymbolExtension(rawValue: "lessthanorequalto.circle.fill")
-    static let lessthanorequalto_square: SymbolExtension = SymbolExtension(rawValue: "lessthanorequalto.square")
-    static let lessthanorequalto_square_fill: SymbolExtension = SymbolExtension(rawValue: "lessthanorequalto.square.fill")
-    static let lirasign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "lirasign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let lirasign_bank_building: SymbolExtension = SymbolExtension(rawValue: "lirasign.bank.building")
-    static let lirasign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "lirasign.bank.building.fill")
-    static let lirasign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "lirasign.gauge.chart.lefthalf.righthalf")
-    static let lirasign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "lirasign.gauge.chart.leftthird.topthird.rightthird")
-    static let lirasign_ring: SymbolExtension = SymbolExtension(rawValue: "lirasign.ring")
-    static let lirasign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "lirasign.ring.dashed")
-    static let location_app: SymbolExtension = SymbolExtension(rawValue: "location.app")
-    static let location_app_fill: SymbolExtension = SymbolExtension(rawValue: "location.app.fill")
-    static let lock_document: SymbolExtension = SymbolExtension(rawValue: "lock.document")
-    static let lock_document_fill: SymbolExtension = SymbolExtension(rawValue: "lock.document.fill")
-    static let lock_rectangle_on_rectangle_dashed: SymbolExtension = SymbolExtension(rawValue: "lock.rectangle.on.rectangle.dashed")
-    static let macbook_and_applewatch: SymbolExtension = SymbolExtension(rawValue: "macbook.and.applewatch")
-    static let macbook_and_vision_pro: SymbolExtension = SymbolExtension(rawValue: "macbook.and.vision.pro")
-    static let macbook_slash: SymbolExtension = SymbolExtension(rawValue: "macbook.slash")
-    static let malaysianringgitsign: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign")
-    static let malaysianringgitsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let malaysianringgitsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.bank.building")
-    static let malaysianringgitsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.bank.building.fill")
-    static let malaysianringgitsign_circle: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.circle")
-    static let malaysianringgitsign_circle_fill: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.circle.fill")
-    static let malaysianringgitsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.gauge.chart.lefthalf.righthalf")
-    static let malaysianringgitsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.gauge.chart.leftthird.topthird.rightthird")
-    static let malaysianringgitsign_ring: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.ring")
-    static let malaysianringgitsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.ring.dashed")
-    static let malaysianringgitsign_square: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.square")
-    static let malaysianringgitsign_square_fill: SymbolExtension = SymbolExtension(rawValue: "malaysianringgitsign.square.fill")
-    static let manatsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "manatsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let manatsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "manatsign.bank.building")
-    static let manatsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "manatsign.bank.building.fill")
-    static let manatsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "manatsign.gauge.chart.lefthalf.righthalf")
-    static let manatsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "manatsign.gauge.chart.leftthird.topthird.rightthird")
-    static let manatsign_ring: SymbolExtension = SymbolExtension(rawValue: "manatsign.ring")
-    static let manatsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "manatsign.ring.dashed")
-    static let matter_logo: SymbolExtension = SymbolExtension(rawValue: "matter.logo")
-    static let mecca: SymbolExtension = SymbolExtension(rawValue: "mecca")
-    static let microphone: SymbolExtension = SymbolExtension(rawValue: "microphone")
-    static let microphone_and_signal_meter: SymbolExtension = SymbolExtension(rawValue: "microphone.and.signal.meter")
-    static let microphone_and_signal_meter_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.and.signal.meter.fill")
-    static let microphone_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "microphone.badge.ellipsis")
-    static let microphone_badge_ellipsis_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.badge.ellipsis.fill")
-    static let microphone_badge_plus: SymbolExtension = SymbolExtension(rawValue: "microphone.badge.plus")
-    static let microphone_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.badge.plus.fill")
-    static let microphone_badge_xmark: SymbolExtension = SymbolExtension(rawValue: "microphone.badge.xmark")
-    static let microphone_badge_xmark_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.badge.xmark.fill")
-    static let microphone_circle: SymbolExtension = SymbolExtension(rawValue: "microphone.circle")
-    static let microphone_circle_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.circle.fill")
-    static let microphone_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.fill")
-    static let microphone_slash: SymbolExtension = SymbolExtension(rawValue: "microphone.slash")
-    static let microphone_slash_circle: SymbolExtension = SymbolExtension(rawValue: "microphone.slash.circle")
-    static let microphone_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.slash.circle.fill")
-    static let microphone_slash_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.slash.fill")
-    static let microphone_square: SymbolExtension = SymbolExtension(rawValue: "microphone.square")
-    static let microphone_square_fill: SymbolExtension = SymbolExtension(rawValue: "microphone.square.fill")
-    static let millsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "millsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let millsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "millsign.bank.building")
-    static let millsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "millsign.bank.building.fill")
-    static let millsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "millsign.gauge.chart.lefthalf.righthalf")
-    static let millsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "millsign.gauge.chart.leftthird.topthird.rightthird")
-    static let millsign_ring: SymbolExtension = SymbolExtension(rawValue: "millsign.ring")
-    static let millsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "millsign.ring.dashed")
-    static let minus_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "minus.arrow.trianglehead.counterclockwise")
-    static let moon_road_lanes: SymbolExtension = SymbolExtension(rawValue: "moon.road.lanes")
-    static let moped: SymbolExtension = SymbolExtension(rawValue: "moped")
-    static let moped_fill: SymbolExtension = SymbolExtension(rawValue: "moped.fill")
-    static let motorcycle: SymbolExtension = SymbolExtension(rawValue: "motorcycle")
-    static let motorcycle_fill: SymbolExtension = SymbolExtension(rawValue: "motorcycle.fill")
-    static let music_microphone: SymbolExtension = SymbolExtension(rawValue: "music.microphone")
-    static let music_microphone_circle: SymbolExtension = SymbolExtension(rawValue: "music.microphone.circle")
-    static let music_microphone_circle_fill: SymbolExtension = SymbolExtension(rawValue: "music.microphone.circle.fill")
-    static let nairasign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "nairasign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let nairasign_bank_building: SymbolExtension = SymbolExtension(rawValue: "nairasign.bank.building")
-    static let nairasign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "nairasign.bank.building.fill")
-    static let nairasign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "nairasign.gauge.chart.lefthalf.righthalf")
-    static let nairasign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "nairasign.gauge.chart.leftthird.topthird.rightthird")
-    static let nairasign_ring: SymbolExtension = SymbolExtension(rawValue: "nairasign.ring")
-    static let nairasign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "nairasign.ring.dashed")
-    static let norwegiankronesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let norwegiankronesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.bank.building")
-    static let norwegiankronesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.bank.building.fill")
-    static let norwegiankronesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.gauge.chart.lefthalf.righthalf")
-    static let norwegiankronesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.gauge.chart.leftthird.topthird.rightthird")
-    static let norwegiankronesign_ring: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.ring")
-    static let norwegiankronesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "norwegiankronesign.ring.dashed")
-    static let notequal: SymbolExtension = SymbolExtension(rawValue: "notequal")
-    static let notequal_circle: SymbolExtension = SymbolExtension(rawValue: "notequal.circle")
-    static let notequal_circle_fill: SymbolExtension = SymbolExtension(rawValue: "notequal.circle.fill")
-    static let notequal_square: SymbolExtension = SymbolExtension(rawValue: "notequal.square")
-    static let notequal_square_fill: SymbolExtension = SymbolExtension(rawValue: "notequal.square.fill")
-    static let numbers: SymbolExtension = SymbolExtension(rawValue: "numbers")
-    static let numbers_rectangle: SymbolExtension = SymbolExtension(rawValue: "numbers.rectangle")
-    static let numbers_rectangle_fill: SymbolExtension = SymbolExtension(rawValue: "numbers.rectangle.fill")
-    static let oar_2_crossed_circle: SymbolExtension = SymbolExtension(rawValue: "oar.2.crossed.circle")
-    static let oar_2_crossed_circle_fill: SymbolExtension = SymbolExtension(rawValue: "oar.2.crossed.circle.fill")
-    static let oilcan_and_thermometer: SymbolExtension = SymbolExtension(rawValue: "oilcan.and.thermometer")
-    static let oilcan_and_thermometer_fill: SymbolExtension = SymbolExtension(rawValue: "oilcan.and.thermometer.fill")
-    static let parkingsign_radiowaves_down_right_off: SymbolExtension = SymbolExtension(rawValue: "parkingsign.radiowaves.down.right.off")
-    static let parkingsign_radiowaves_left_and_right_slash: SymbolExtension = SymbolExtension(rawValue: "parkingsign.radiowaves.left.and.right.slash")
-    static let parkingsign_square: SymbolExtension = SymbolExtension(rawValue: "parkingsign.square")
-    static let parkingsign_square_fill: SymbolExtension = SymbolExtension(rawValue: "parkingsign.square.fill")
-    static let person_2_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "person.2.arrow.trianglehead.counterclockwise")
-    static let person_2_badge_minus: SymbolExtension = SymbolExtension(rawValue: "person.2.badge.minus")
-    static let person_2_badge_minus_fill: SymbolExtension = SymbolExtension(rawValue: "person.2.badge.minus.fill")
-    static let person_2_badge_plus: SymbolExtension = SymbolExtension(rawValue: "person.2.badge.plus")
-    static let person_2_badge_plus_fill: SymbolExtension = SymbolExtension(rawValue: "person.2.badge.plus.fill")
-    static let person_and_arrow_left_and_arrow_right_outward: SymbolExtension = SymbolExtension(rawValue: "person.and.arrow.left.and.arrow.right.outward")
-    static let person_badge_shield_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "person.badge.shield.exclamationmark")
-    static let person_badge_shield_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "person.badge.shield.exclamationmark.fill")
-    static let person_crop_badge_magnifyingglass: SymbolExtension = SymbolExtension(rawValue: "person.crop.badge.magnifyingglass")
-    static let person_crop_badge_magnifyingglass_fill: SymbolExtension = SymbolExtension(rawValue: "person.crop.badge.magnifyingglass.fill")
-    static let person_crop_square_on_square_angled: SymbolExtension = SymbolExtension(rawValue: "person.crop.square.on.square.angled")
-    static let person_crop_square_on_square_angled_fill: SymbolExtension = SymbolExtension(rawValue: "person.crop.square.on.square.angled.fill")
-    static let person_fill_and_arrow_left_and_arrow_right_outward: SymbolExtension = SymbolExtension(rawValue: "person.fill.and.arrow.left.and.arrow.right.outward")
-    static let personalhotspot_slash: SymbolExtension = SymbolExtension(rawValue: "personalhotspot.slash")
-    static let peruviansolessign: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign")
-    static let peruviansolessign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let peruviansolessign_bank_building: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.bank.building")
-    static let peruviansolessign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.bank.building.fill")
-    static let peruviansolessign_circle: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.circle")
-    static let peruviansolessign_circle_fill: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.circle.fill")
-    static let peruviansolessign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.gauge.chart.lefthalf.righthalf")
-    static let peruviansolessign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.gauge.chart.leftthird.topthird.rightthird")
-    static let peruviansolessign_ring: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.ring")
-    static let peruviansolessign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.ring.dashed")
-    static let peruviansolessign_square: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.square")
-    static let peruviansolessign_square_fill: SymbolExtension = SymbolExtension(rawValue: "peruviansolessign.square.fill")
-    static let pesetasign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "pesetasign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let pesetasign_bank_building: SymbolExtension = SymbolExtension(rawValue: "pesetasign.bank.building")
-    static let pesetasign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "pesetasign.bank.building.fill")
-    static let pesetasign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "pesetasign.gauge.chart.lefthalf.righthalf")
-    static let pesetasign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "pesetasign.gauge.chart.leftthird.topthird.rightthird")
-    static let pesetasign_ring: SymbolExtension = SymbolExtension(rawValue: "pesetasign.ring")
-    static let pesetasign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "pesetasign.ring.dashed")
-    static let pesosign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "pesosign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let pesosign_bank_building: SymbolExtension = SymbolExtension(rawValue: "pesosign.bank.building")
-    static let pesosign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "pesosign.bank.building.fill")
-    static let pesosign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "pesosign.gauge.chart.lefthalf.righthalf")
-    static let pesosign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "pesosign.gauge.chart.leftthird.topthird.rightthird")
-    static let pesosign_ring: SymbolExtension = SymbolExtension(rawValue: "pesosign.ring")
-    static let pesosign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "pesosign.ring.dashed")
-    static let phone_badge_clock: SymbolExtension = SymbolExtension(rawValue: "phone.badge.clock")
-    static let phone_badge_clock_fill: SymbolExtension = SymbolExtension(rawValue: "phone.badge.clock.fill")
-    static let photo_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "photo.badge.exclamationmark")
-    static let photo_badge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "photo.badge.exclamationmark.fill")
-    static let photo_on_rectangle_angled_fill: SymbolExtension = SymbolExtension(rawValue: "photo.on.rectangle.angled.fill")
-    static let plus_arrow_trianglehead_clockwise: SymbolExtension = SymbolExtension(rawValue: "plus.arrow.trianglehead.clockwise")
-    static let point_bottomleft_forward_to_arrow_triangle_scurvepath: SymbolExtension = SymbolExtension(rawValue: "point.bottomleft.forward.to.arrow.triangle.scurvepath")
-    static let point_bottomleft_forward_to_arrow_triangle_scurvepath_fill: SymbolExtension = SymbolExtension(rawValue: "point.bottomleft.forward.to.arrow.triangle.scurvepath.fill")
-    static let point_bottomleft_forward_to_arrow_triangle_uturn_scurvepath: SymbolExtension = SymbolExtension(rawValue: "point.bottomleft.forward.to.arrow.triangle.uturn.scurvepath")
-    static let point_bottomleft_forward_to_arrow_triangle_uturn_scurvepath_fill: SymbolExtension = SymbolExtension(rawValue: "point.bottomleft.forward.to.arrow.triangle.uturn.scurvepath.fill")
-    static let point_topright_arrow_triangle_backward_to_point_bottomleft_filled_scurvepath: SymbolExtension = SymbolExtension(rawValue: "point.topright.arrow.triangle.backward.to.point.bottomleft.filled.scurvepath")
-    static let point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath: SymbolExtension = SymbolExtension(rawValue: "point.topright.arrow.triangle.backward.to.point.bottomleft.scurvepath")
-    static let point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath_fill: SymbolExtension = SymbolExtension(rawValue: "point.topright.arrow.triangle.backward.to.point.bottomleft.scurvepath.fill")
-    static let point_topright_filled_arrow_triangle_backward_to_point_bottomleft_scurvepath: SymbolExtension = SymbolExtension(rawValue: "point.topright.filled.arrow.triangle.backward.to.point.bottomleft.scurvepath")
-    static let polishzlotysign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let polishzlotysign_bank_building: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.bank.building")
-    static let polishzlotysign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.bank.building.fill")
-    static let polishzlotysign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.gauge.chart.lefthalf.righthalf")
-    static let polishzlotysign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.gauge.chart.leftthird.topthird.rightthird")
-    static let polishzlotysign_ring: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.ring")
-    static let polishzlotysign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "polishzlotysign.ring.dashed")
-    static let powermeter: SymbolExtension = SymbolExtension(rawValue: "powermeter")
-    static let powerplug_portrait: SymbolExtension = SymbolExtension(rawValue: "powerplug.portrait")
-    static let powerplug_portrait_fill: SymbolExtension = SymbolExtension(rawValue: "powerplug.portrait.fill")
-    static let printer_dotmatrix_filled_and_paper_inverse: SymbolExtension = SymbolExtension(rawValue: "printer.dotmatrix.filled.and.paper.inverse")
-    static let printer_dotmatrix_inverse: SymbolExtension = SymbolExtension(rawValue: "printer.dotmatrix.inverse")
-    static let printer_filled_and_paper_inverse: SymbolExtension = SymbolExtension(rawValue: "printer.filled.and.paper.inverse")
-    static let printer_inverse: SymbolExtension = SymbolExtension(rawValue: "printer.inverse")
-    static let progress_indicator: SymbolExtension = SymbolExtension(rawValue: "progress.indicator")
-    static let questionmark_circle_dashed: SymbolExtension = SymbolExtension(rawValue: "questionmark.circle.dashed")
-    static let questionmark_text_page: SymbolExtension = SymbolExtension(rawValue: "questionmark.text.page")
-    static let questionmark_text_page_fill: SymbolExtension = SymbolExtension(rawValue: "questionmark.text.page.fill")
-    static let rectangle_expand_diagonal: SymbolExtension = SymbolExtension(rawValue: "rectangle.expand.diagonal")
-    static let rectangle_grid_3x3: SymbolExtension = SymbolExtension(rawValue: "rectangle.grid.3x3")
-    static let rectangle_grid_3x3_fill: SymbolExtension = SymbolExtension(rawValue: "rectangle.grid.3x3.fill")
-    static let rectangle_on_rectangle_dashed: SymbolExtension = SymbolExtension(rawValue: "rectangle.on.rectangle.dashed")
-    static let rectangle_pattern_checkered: SymbolExtension = SymbolExtension(rawValue: "rectangle.pattern.checkered")
-    static let richtext_page: SymbolExtension = SymbolExtension(rawValue: "richtext.page")
-    static let richtext_page_fill: SymbolExtension = SymbolExtension(rawValue: "richtext.page.fill")
-    static let robotic_vacuum: SymbolExtension = SymbolExtension(rawValue: "robotic.vacuum")
-    static let robotic_vacuum_fill: SymbolExtension = SymbolExtension(rawValue: "robotic.vacuum.fill")
-    static let rublesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "rublesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let rublesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "rublesign.bank.building")
-    static let rublesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "rublesign.bank.building.fill")
-    static let rublesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "rublesign.gauge.chart.lefthalf.righthalf")
-    static let rublesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "rublesign.gauge.chart.leftthird.topthird.rightthird")
-    static let rublesign_ring: SymbolExtension = SymbolExtension(rawValue: "rublesign.ring")
-    static let rublesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "rublesign.ring.dashed")
-    static let rugbyball: SymbolExtension = SymbolExtension(rawValue: "rugbyball")
-    static let rugbyball_circle: SymbolExtension = SymbolExtension(rawValue: "rugbyball.circle")
-    static let rugbyball_circle_fill: SymbolExtension = SymbolExtension(rawValue: "rugbyball.circle.fill")
-    static let rugbyball_fill: SymbolExtension = SymbolExtension(rawValue: "rugbyball.fill")
-    static let rupeesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "rupeesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let rupeesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "rupeesign.bank.building")
-    static let rupeesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "rupeesign.bank.building.fill")
-    static let rupeesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "rupeesign.gauge.chart.lefthalf.righthalf")
-    static let rupeesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "rupeesign.gauge.chart.leftthird.topthird.rightthird")
-    static let rupeesign_ring: SymbolExtension = SymbolExtension(rawValue: "rupeesign.ring")
-    static let rupeesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "rupeesign.ring.dashed")
-    static let sharedwithyou: SymbolExtension = SymbolExtension(rawValue: "sharedwithyou")
-    static let sharedwithyou_circle: SymbolExtension = SymbolExtension(rawValue: "sharedwithyou.circle")
-    static let sharedwithyou_circle_fill: SymbolExtension = SymbolExtension(rawValue: "sharedwithyou.circle.fill")
-    static let sharedwithyou_slash: SymbolExtension = SymbolExtension(rawValue: "sharedwithyou.slash")
-    static let shekelsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "shekelsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let shekelsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "shekelsign.bank.building")
-    static let shekelsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "shekelsign.bank.building.fill")
-    static let shekelsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "shekelsign.gauge.chart.lefthalf.righthalf")
-    static let shekelsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "shekelsign.gauge.chart.leftthird.topthird.rightthird")
-    static let shekelsign_ring: SymbolExtension = SymbolExtension(rawValue: "shekelsign.ring")
-    static let shekelsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "shekelsign.ring.dashed")
-    static let shield_pattern_checkered: SymbolExtension = SymbolExtension(rawValue: "shield.pattern.checkered")
-    static let singaporedollarsign: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign")
-    static let singaporedollarsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let singaporedollarsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.bank.building")
-    static let singaporedollarsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.bank.building.fill")
-    static let singaporedollarsign_circle: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.circle")
-    static let singaporedollarsign_circle_fill: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.circle.fill")
-    static let singaporedollarsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.gauge.chart.lefthalf.righthalf")
-    static let singaporedollarsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.gauge.chart.leftthird.topthird.rightthird")
-    static let singaporedollarsign_ring: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.ring")
-    static let singaporedollarsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.ring.dashed")
-    static let singaporedollarsign_square: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.square")
-    static let singaporedollarsign_square_fill: SymbolExtension = SymbolExtension(rawValue: "singaporedollarsign.square.fill")
-    static let slider_horizontal_2_arrow_trianglehead_counterclockwise: SymbolExtension = SymbolExtension(rawValue: "slider.horizontal.2.arrow.trianglehead.counterclockwise")
-    static let slider_horizontal_2_rectangle_and_arrow_trianglehead_2_clockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "slider.horizontal.2.rectangle.and.arrow.trianglehead.2.clockwise.rotate.90")
-    static let speaker_wave_1_arrowtriangles_up_right_down_left: SymbolExtension = SymbolExtension(rawValue: "speaker.wave.1.arrowtriangles.up.right.down.left")
-    static let square_and_arrow_down_badge_clock: SymbolExtension = SymbolExtension(rawValue: "square.and.arrow.down.badge.clock")
-    static let square_and_arrow_down_badge_clock_fill: SymbolExtension = SymbolExtension(rawValue: "square.and.arrow.down.badge.clock.fill")
-    static let square_and_arrow_up_trianglebadge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "square.and.arrow.up.trianglebadge.exclamationmark.fill")
-    static let square_grid_3x3_square_badge_ellipsis: SymbolExtension = SymbolExtension(rawValue: "square.grid.3x3.square.badge.ellipsis")
-    static let squareroot: SymbolExtension = SymbolExtension(rawValue: "squareroot")
-    static let steeringwheel_and_hands: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.and.hands")
-    static let steeringwheel_arrow_trianglehead_counterclockwise_and_clockwise: SymbolExtension = SymbolExtension(rawValue: "steeringwheel.arrow.trianglehead.counterclockwise.and.clockwise")
-    static let sterlingsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let sterlingsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.bank.building")
-    static let sterlingsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.bank.building.fill")
-    static let sterlingsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.gauge.chart.lefthalf.righthalf")
-    static let sterlingsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.gauge.chart.leftthird.topthird.rightthird")
-    static let sterlingsign_ring: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.ring")
-    static let sterlingsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "sterlingsign.ring.dashed")
-    static let sun_lefthalf_filled: SymbolExtension = SymbolExtension(rawValue: "sun.lefthalf.filled")
-    static let sun_righthalf_filled: SymbolExtension = SymbolExtension(rawValue: "sun.righthalf.filled")
-    static let suspension_shock: SymbolExtension = SymbolExtension(rawValue: "suspension.shock")
-    static let suv_side_front_open_crop: SymbolExtension = SymbolExtension(rawValue: "suv.side.front.open.crop")
-    static let suv_side_front_open_crop_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.front.open.crop.fill")
-    static let suv_side_hill_descent_control: SymbolExtension = SymbolExtension(rawValue: "suv.side.hill.descent.control")
-    static let suv_side_hill_descent_control_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.hill.descent.control.fill")
-    static let suv_side_rear_open_crop: SymbolExtension = SymbolExtension(rawValue: "suv.side.rear.open.crop")
-    static let suv_side_rear_open_crop_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.rear.open.crop.fill")
-    static let suv_side_roof_cargo_carrier: SymbolExtension = SymbolExtension(rawValue: "suv.side.roof.cargo.carrier")
-    static let suv_side_roof_cargo_carrier_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.roof.cargo.carrier.fill")
-    static let suv_side_roof_cargo_carrier_slash: SymbolExtension = SymbolExtension(rawValue: "suv.side.roof.cargo.carrier.slash")
-    static let suv_side_roof_cargo_carrier_slash_fill: SymbolExtension = SymbolExtension(rawValue: "suv.side.roof.cargo.carrier.slash.fill")
-    static let swedishkronasign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let swedishkronasign_bank_building: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.bank.building")
-    static let swedishkronasign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.bank.building.fill")
-    static let swedishkronasign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.gauge.chart.lefthalf.righthalf")
-    static let swedishkronasign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.gauge.chart.leftthird.topthird.rightthird")
-    static let swedishkronasign_ring: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.ring")
-    static let swedishkronasign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "swedishkronasign.ring.dashed")
-    static let tachometer: SymbolExtension = SymbolExtension(rawValue: "tachometer")
-    static let tengesign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "tengesign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let tengesign_bank_building: SymbolExtension = SymbolExtension(rawValue: "tengesign.bank.building")
-    static let tengesign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "tengesign.bank.building.fill")
-    static let tengesign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "tengesign.gauge.chart.lefthalf.righthalf")
-    static let tengesign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "tengesign.gauge.chart.leftthird.topthird.rightthird")
-    static let tengesign_ring: SymbolExtension = SymbolExtension(rawValue: "tengesign.ring")
-    static let tengesign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "tengesign.ring.dashed")
-    static let text_bubble_badge_clock: SymbolExtension = SymbolExtension(rawValue: "text.bubble.badge.clock")
-    static let text_bubble_badge_clock_fill: SymbolExtension = SymbolExtension(rawValue: "text.bubble.badge.clock.fill")
-    static let text_document: SymbolExtension = SymbolExtension(rawValue: "text.document")
-    static let text_document_fill: SymbolExtension = SymbolExtension(rawValue: "text.document.fill")
-    static let text_line_magnify: SymbolExtension = SymbolExtension(rawValue: "text.line.magnify")
-    static let text_page: SymbolExtension = SymbolExtension(rawValue: "text.page")
-    static let text_page_badge_magnifyingglass: SymbolExtension = SymbolExtension(rawValue: "text.page.badge.magnifyingglass")
-    static let text_page_fill: SymbolExtension = SymbolExtension(rawValue: "text.page.fill")
-    static let text_page_slash: SymbolExtension = SymbolExtension(rawValue: "text.page.slash")
-    static let text_page_slash_fill: SymbolExtension = SymbolExtension(rawValue: "text.page.slash.fill")
-    static let text_rectangle_page: SymbolExtension = SymbolExtension(rawValue: "text.rectangle.page")
-    static let text_rectangle_page_fill: SymbolExtension = SymbolExtension(rawValue: "text.rectangle.page.fill")
-    static let textformat_characters: SymbolExtension = SymbolExtension(rawValue: "textformat.characters")
-    static let textformat_characters_arrow_left_and_right: SymbolExtension = SymbolExtension(rawValue: "textformat.characters.arrow.left.and.right")
-    static let textformat_characters_dottedunderline: SymbolExtension = SymbolExtension(rawValue: "textformat.characters.dottedunderline")
-    static let textformat_numbers: SymbolExtension = SymbolExtension(rawValue: "textformat.numbers")
-    static let thermometer_and_liquid_waves_snowflake: SymbolExtension = SymbolExtension(rawValue: "thermometer.and.liquid.waves.snowflake")
-    static let thermometer_and_liquid_waves_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "thermometer.and.liquid.waves.trianglebadge.exclamationmark")
-    static let thermometer_variable: SymbolExtension = SymbolExtension(rawValue: "thermometer.variable")
-    static let tire: SymbolExtension = SymbolExtension(rawValue: "tire")
-    static let tire_badge_snowflake: SymbolExtension = SymbolExtension(rawValue: "tire.badge.snowflake")
-    static let tow_hitch: SymbolExtension = SymbolExtension(rawValue: "tow.hitch")
-    static let tow_hitch_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "tow.hitch.exclamationmark")
-    static let tow_hitch_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "tow.hitch.exclamationmark.fill")
-    static let tow_hitch_fill: SymbolExtension = SymbolExtension(rawValue: "tow.hitch.fill")
-    static let truck_pickup_side_front_open_crop: SymbolExtension = SymbolExtension(rawValue: "truck.pickup.side.front.open.crop")
-    static let truck_pickup_side_front_open_crop_fill: SymbolExtension = SymbolExtension(rawValue: "truck.pickup.side.front.open.crop.fill")
-    static let truck_side_hill_descent_control: SymbolExtension = SymbolExtension(rawValue: "truck.side.hill.descent.control")
-    static let truck_side_hill_descent_control_fill: SymbolExtension = SymbolExtension(rawValue: "truck.side.hill.descent.control.fill")
-    static let truck_side_roof_cargo_carrier: SymbolExtension = SymbolExtension(rawValue: "truck.side.roof.cargo.carrier")
-    static let truck_side_roof_cargo_carrier_fill: SymbolExtension = SymbolExtension(rawValue: "truck.side.roof.cargo.carrier.fill")
-    static let truck_side_roof_cargo_carrier_slash: SymbolExtension = SymbolExtension(rawValue: "truck.side.roof.cargo.carrier.slash")
-    static let truck_side_roof_cargo_carrier_slash_fill: SymbolExtension = SymbolExtension(rawValue: "truck.side.roof.cargo.carrier.slash.fill")
-    static let tsa: SymbolExtension = SymbolExtension(rawValue: "tsa")
-    static let tsa_circle: SymbolExtension = SymbolExtension(rawValue: "tsa.circle")
-    static let tsa_circle_fill: SymbolExtension = SymbolExtension(rawValue: "tsa.circle.fill")
-    static let tsa_slash: SymbolExtension = SymbolExtension(rawValue: "tsa.slash")
-    static let tugriksign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "tugriksign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let tugriksign_bank_building: SymbolExtension = SymbolExtension(rawValue: "tugriksign.bank.building")
-    static let tugriksign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "tugriksign.bank.building.fill")
-    static let tugriksign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "tugriksign.gauge.chart.lefthalf.righthalf")
-    static let tugriksign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "tugriksign.gauge.chart.leftthird.topthird.rightthird")
-    static let tugriksign_ring: SymbolExtension = SymbolExtension(rawValue: "tugriksign.ring")
-    static let tugriksign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "tugriksign.ring.dashed")
-    static let turkishlirasign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let turkishlirasign_bank_building: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.bank.building")
-    static let turkishlirasign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.bank.building.fill")
-    static let turkishlirasign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.gauge.chart.lefthalf.righthalf")
-    static let turkishlirasign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.gauge.chart.leftthird.topthird.rightthird")
-    static let turkishlirasign_ring: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.ring")
-    static let turkishlirasign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "turkishlirasign.ring.dashed")
-    static let vision_pro: SymbolExtension = SymbolExtension(rawValue: "vision.pro")
-    static let vision_pro_and_arrow_forward: SymbolExtension = SymbolExtension(rawValue: "vision.pro.and.arrow.forward")
-    static let vision_pro_and_arrow_forward_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.and.arrow.forward.fill")
-    static let vision_pro_badge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "vision.pro.badge.exclamationmark")
-    static let vision_pro_badge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.badge.exclamationmark.fill")
-    static let vision_pro_badge_play: SymbolExtension = SymbolExtension(rawValue: "vision.pro.badge.play")
-    static let vision_pro_badge_play_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.badge.play.fill")
-    static let vision_pro_circle: SymbolExtension = SymbolExtension(rawValue: "vision.pro.circle")
-    static let vision_pro_circle_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.circle.fill")
-    static let vision_pro_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.fill")
-    static let vision_pro_slash: SymbolExtension = SymbolExtension(rawValue: "vision.pro.slash")
-    static let vision_pro_slash_circle: SymbolExtension = SymbolExtension(rawValue: "vision.pro.slash.circle")
-    static let vision_pro_slash_circle_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.slash.circle.fill")
-    static let vision_pro_slash_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.slash.fill")
-    static let vision_pro_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "vision.pro.trianglebadge.exclamationmark")
-    static let vision_pro_trianglebadge_exclamationmark_fill: SymbolExtension = SymbolExtension(rawValue: "vision.pro.trianglebadge.exclamationmark.fill")
-    static let wallet_bifold: SymbolExtension = SymbolExtension(rawValue: "wallet.bifold")
-    static let wallet_bifold_fill: SymbolExtension = SymbolExtension(rawValue: "wallet.bifold.fill")
-    static let wand_and_sparkles: SymbolExtension = SymbolExtension(rawValue: "wand.and.sparkles")
-    static let wand_and_sparkles_inverse: SymbolExtension = SymbolExtension(rawValue: "wand.and.sparkles.inverse")
-    static let water_waves_and_arrow_trianglehead_down: SymbolExtension = SymbolExtension(rawValue: "water.waves.and.arrow.trianglehead.down")
-    static let water_waves_and_arrow_trianglehead_down_trianglebadge_exclamationmark: SymbolExtension = SymbolExtension(rawValue: "water.waves.and.arrow.trianglehead.down.trianglebadge.exclamationmark")
-    static let water_waves_and_arrow_trianglehead_up: SymbolExtension = SymbolExtension(rawValue: "water.waves.and.arrow.trianglehead.up")
-    static let wave_3_down: SymbolExtension = SymbolExtension(rawValue: "wave.3.down")
-    static let wave_3_down_car_side: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.car.side")
-    static let wave_3_down_car_side_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.car.side.fill")
-    static let wave_3_down_circle: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.circle")
-    static let wave_3_down_circle_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.circle.fill")
-    static let wave_3_down_convertible_side: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.convertible.side")
-    static let wave_3_down_convertible_side_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.convertible.side.fill")
-    static let wave_3_down_pickup_side: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.pickup.side")
-    static let wave_3_down_pickup_side_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.pickup.side.fill")
-    static let wave_3_down_suv_side: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.suv.side")
-    static let wave_3_down_suv_side_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.down.suv.side.fill")
-    static let wave_3_up: SymbolExtension = SymbolExtension(rawValue: "wave.3.up")
-    static let wave_3_up_circle: SymbolExtension = SymbolExtension(rawValue: "wave.3.up.circle")
-    static let wave_3_up_circle_fill: SymbolExtension = SymbolExtension(rawValue: "wave.3.up.circle.fill")
-    static let waveform_badge_microphone: SymbolExtension = SymbolExtension(rawValue: "waveform.badge.microphone")
-    static let wheelchair: SymbolExtension = SymbolExtension(rawValue: "wheelchair")
-    static let widget_extralarge: SymbolExtension = SymbolExtension(rawValue: "widget.extralarge")
-    static let widget_extralarge_badge_plus: SymbolExtension = SymbolExtension(rawValue: "widget.extralarge.badge.plus")
-    static let widget_large: SymbolExtension = SymbolExtension(rawValue: "widget.large")
-    static let widget_large_badge_plus: SymbolExtension = SymbolExtension(rawValue: "widget.large.badge.plus")
-    static let widget_medium: SymbolExtension = SymbolExtension(rawValue: "widget.medium")
-    static let widget_medium_badge_plus: SymbolExtension = SymbolExtension(rawValue: "widget.medium.badge.plus")
-    static let widget_small: SymbolExtension = SymbolExtension(rawValue: "widget.small")
-    static let widget_small_badge_plus: SymbolExtension = SymbolExtension(rawValue: "widget.small.badge.plus")
-    static let wonsign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "wonsign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let wonsign_bank_building: SymbolExtension = SymbolExtension(rawValue: "wonsign.bank.building")
-    static let wonsign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "wonsign.bank.building.fill")
-    static let wonsign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "wonsign.gauge.chart.lefthalf.righthalf")
-    static let wonsign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "wonsign.gauge.chart.leftthird.topthird.rightthird")
-    static let wonsign_ring: SymbolExtension = SymbolExtension(rawValue: "wonsign.ring")
-    static let wonsign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "wonsign.ring.dashed")
-    static let xmark_triangle_circle_square: SymbolExtension = SymbolExtension(rawValue: "xmark.triangle.circle.square")
-    static let xmark_triangle_circle_square_fill: SymbolExtension = SymbolExtension(rawValue: "xmark.triangle.circle.square.fill")
-    static let yensign_arrow_trianglehead_counterclockwise_rotate_90: SymbolExtension = SymbolExtension(rawValue: "yensign.arrow.trianglehead.counterclockwise.rotate.90")
-    static let yensign_bank_building: SymbolExtension = SymbolExtension(rawValue: "yensign.bank.building")
-    static let yensign_bank_building_fill: SymbolExtension = SymbolExtension(rawValue: "yensign.bank.building.fill")
-    static let yensign_gauge_chart_lefthalf_righthalf: SymbolExtension = SymbolExtension(rawValue: "yensign.gauge.chart.lefthalf.righthalf")
-    static let yensign_gauge_chart_leftthird_topthird_rightthird: SymbolExtension = SymbolExtension(rawValue: "yensign.gauge.chart.leftthird.topthird.rightthird")
-    static let yensign_ring: SymbolExtension = SymbolExtension(rawValue: "yensign.ring")
-    static let yensign_ring_dashed: SymbolExtension = SymbolExtension(rawValue: "yensign.ring.dashed")
-    static let zipper_page: SymbolExtension = SymbolExtension(rawValue: "zipper.page")
+public extension S {
+    static let _5_arrow_trianglehead_clockwise = "5.arrow.trianglehead.clockwise"
+    static let _5_arrow_trianglehead_counterclockwise = "5.arrow.trianglehead.counterclockwise"
+    static let _10_arrow_trianglehead_clockwise = "10.arrow.trianglehead.clockwise"
+    static let _10_arrow_trianglehead_counterclockwise = "10.arrow.trianglehead.counterclockwise"
+    static let _15_arrow_trianglehead_clockwise = "15.arrow.trianglehead.clockwise"
+    static let _15_arrow_trianglehead_counterclockwise = "15.arrow.trianglehead.counterclockwise"
+    static let _30_arrow_trianglehead_clockwise = "30.arrow.trianglehead.clockwise"
+    static let _30_arrow_trianglehead_counterclockwise = "30.arrow.trianglehead.counterclockwise"
+    static let _45_arrow_trianglehead_clockwise = "45.arrow.trianglehead.clockwise"
+    static let _45_arrow_trianglehead_counterclockwise = "45.arrow.trianglehead.counterclockwise"
+    static let _60_arrow_trianglehead_clockwise = "60.arrow.trianglehead.clockwise"
+    static let _60_arrow_trianglehead_counterclockwise = "60.arrow.trianglehead.counterclockwise"
+    static let _75_arrow_trianglehead_clockwise = "75.arrow.trianglehead.clockwise"
+    static let _75_arrow_trianglehead_counterclockwise = "75.arrow.trianglehead.counterclockwise"
+    static let _90_arrow_trianglehead_clockwise = "90.arrow.trianglehead.clockwise"
+    static let _90_arrow_trianglehead_counterclockwise = "90.arrow.trianglehead.counterclockwise"
+    static let air_car_side = "air.car.side"
+    static let air_car_side_fill = "air.car.side.fill"
+    static let air_convertible_side = "air.convertible.side"
+    static let air_convertible_side_fill = "air.convertible.side.fill"
+    static let air_pickup_side = "air.pickup.side"
+    static let air_pickup_side_fill = "air.pickup.side.fill"
+    static let air_suv_side = "air.suv.side"
+    static let air_suv_side_fill = "air.suv.side.fill"
+    static let airplay_audio = "airplay.audio"
+    static let airplay_audio_badge_exclamationmark = "airplay.audio.badge.exclamationmark"
+    static let airplay_audio_circle = "airplay.audio.circle"
+    static let airplay_audio_circle_fill = "airplay.audio.circle.fill"
+    static let airplay_video = "airplay.video"
+    static let airplay_video_badge_exclamationmark = "airplay.video.badge.exclamationmark"
+    static let airplay_video_circle = "airplay.video.circle"
+    static let airplay_video_circle_fill = "airplay.video.circle.fill"
+    static let airpods_max = "airpods.max"
+    static let airpods_pro = "airpods.pro"
+    static let airpods_pro_chargingcase_wireless = "airpods.pro.chargingcase.wireless"
+    static let airpods_pro_chargingcase_wireless_fill = "airpods.pro.chargingcase.wireless.fill"
+    static let airpods_pro_chargingcase_wireless_radiowaves_left_and_right = "airpods.pro.chargingcase.wireless.radiowaves.left.and.right"
+    static let airpods_pro_chargingcase_wireless_radiowaves_left_and_right_fill = "airpods.pro.chargingcase.wireless.radiowaves.left.and.right.fill"
+    static let airpods_pro_left = "airpods.pro.left"
+    static let airpods_pro_right = "airpods.pro.right"
+    static let american_football = "american.football"
+    static let american_football_circle = "american.football.circle"
+    static let american_football_circle_fill = "american.football.circle.fill"
+    static let american_football_fill = "american.football.fill"
+    static let american_football_professional = "american.football.professional"
+    static let american_football_professional_circle = "american.football.professional.circle"
+    static let american_football_professional_circle_fill = "american.football.professional.circle.fill"
+    static let american_football_professional_fill = "american.football.professional.fill"
+    static let antenna_radiowaves_left_and_right_slash_circle = "antenna.radiowaves.left.and.right.slash.circle"
+    static let antenna_radiowaves_left_and_right_slash_circle_fill = "antenna.radiowaves.left.and.right.slash.circle.fill"
+    static let app_badge_clock = "app.badge.clock"
+    static let app_badge_clock_fill = "app.badge.clock.fill"
+    static let append_page = "append.page"
+    static let append_page_fill = "append.page.fill"
+    static let apple_haptics_and_exclamationmark_triangle = "apple.haptics.and.exclamationmark.triangle"
+    static let apple_haptics_and_music_note = "apple.haptics.and.music.note"
+    static let apple_haptics_and_music_note_slash = "apple.haptics.and.music.note.slash"
+    static let apple_image_playground = "apple.image.playground"
+    static let apple_image_playground_fill = "apple.image.playground.fill"
+    static let apple_intelligence = "apple.intelligence"
+    static let apple_meditate_circle = "apple.meditate.circle"
+    static let apple_meditate_circle_fill = "apple.meditate.circle.fill"
+    static let applepencil_doubletap = "applepencil.doubletap"
+    static let applepencil_hover = "applepencil.hover"
+    static let applepencil_squeeze = "applepencil.squeeze"
+    static let applewatch_case_sizes = "applewatch.case.sizes"
+    static let arcade_stick_and_arrow_left_and_arrow_right_outward = "arcade.stick.and.arrow.left.and.arrow.right.outward"
+    static let arrow_backward_circle_dotted = "arrow.backward.circle.dotted"
+    static let arrow_down_backward_and_arrow_up_forward_rectangle = "arrow.down.backward.and.arrow.up.forward.rectangle"
+    static let arrow_down_backward_and_arrow_up_forward_rectangle_fill = "arrow.down.backward.and.arrow.up.forward.rectangle.fill"
+    static let arrow_down_backward_circle_dotted = "arrow.down.backward.circle.dotted"
+    static let arrow_down_document = "arrow.down.document"
+    static let arrow_down_document_fill = "arrow.down.document.fill"
+    static let arrow_down_forward_and_arrow_up_backward_rectangle = "arrow.down.forward.and.arrow.up.backward.rectangle"
+    static let arrow_down_forward_and_arrow_up_backward_rectangle_fill = "arrow.down.forward.and.arrow.up.backward.rectangle.fill"
+    static let arrow_down_forward_circle_dotted = "arrow.down.forward.circle.dotted"
+    static let arrow_down_left_and_arrow_up_right_rectangle = "arrow.down.left.and.arrow.up.right.rectangle"
+    static let arrow_down_left_and_arrow_up_right_rectangle_fill = "arrow.down.left.and.arrow.up.right.rectangle.fill"
+    static let arrow_down_left_circle_dotted = "arrow.down.left.circle.dotted"
+    static let arrow_down_right_and_arrow_up_left_rectangle = "arrow.down.right.and.arrow.up.left.rectangle"
+    static let arrow_down_right_and_arrow_up_left_rectangle_fill = "arrow.down.right.and.arrow.up.left.rectangle.fill"
+    static let arrow_down_right_circle_dotted = "arrow.down.right.circle.dotted"
+    static let arrow_forward_circle_dotted = "arrow.forward.circle.dotted"
+    static let arrow_left_circle_dotted = "arrow.left.circle.dotted"
+    static let arrow_right_circle_dotted = "arrow.right.circle.dotted"
+    static let arrow_right_filled_filter_arrow_right = "arrow.right.filled.filter.arrow.right"
+    static let arrow_right_page_on_clipboard = "arrow.right.page.on.clipboard"
+    static let arrow_trianglehead_2_clockwise = "arrow.trianglehead.2.clockwise"
+    static let arrow_trianglehead_2_clockwise_rotate_90 = "arrow.trianglehead.2.clockwise.rotate.90"
+    static let arrow_trianglehead_2_clockwise_rotate_90_camera = "arrow.trianglehead.2.clockwise.rotate.90.camera"
+    static let arrow_trianglehead_2_clockwise_rotate_90_camera_fill = "arrow.trianglehead.2.clockwise.rotate.90.camera.fill"
+    static let arrow_trianglehead_2_clockwise_rotate_90_circle = "arrow.trianglehead.2.clockwise.rotate.90.circle"
+    static let arrow_trianglehead_2_clockwise_rotate_90_circle_fill = "arrow.trianglehead.2.clockwise.rotate.90.circle.fill"
+    static let arrow_trianglehead_2_clockwise_rotate_90_icloud = "arrow.trianglehead.2.clockwise.rotate.90.icloud"
+    static let arrow_trianglehead_2_clockwise_rotate_90_icloud_fill = "arrow.trianglehead.2.clockwise.rotate.90.icloud.fill"
+    static let arrow_trianglehead_2_clockwise_rotate_90_page_on_clipboard = "arrow.trianglehead.2.clockwise.rotate.90.page.on.clipboard"
+    static let arrow_trianglehead_2_counterclockwise = "arrow.trianglehead.2.counterclockwise"
+    static let arrow_trianglehead_2_counterclockwise_rotate_90 = "arrow.trianglehead.2.counterclockwise.rotate.90"
+    static let arrow_trianglehead_bottomleft_capsulepath_clockwise = "arrow.trianglehead.bottomleft.capsulepath.clockwise"
+    static let arrow_trianglehead_branch = "arrow.trianglehead.branch"
+    static let arrow_trianglehead_clockwise = "arrow.trianglehead.clockwise"
+    static let arrow_trianglehead_clockwise_heart = "arrow.trianglehead.clockwise.heart"
+    static let arrow_trianglehead_clockwise_heart_fill = "arrow.trianglehead.clockwise.heart.fill"
+    static let arrow_trianglehead_clockwise_icloud = "arrow.trianglehead.clockwise.icloud"
+    static let arrow_trianglehead_clockwise_icloud_fill = "arrow.trianglehead.clockwise.icloud.fill"
+    static let arrow_trianglehead_clockwise_rotate_90 = "arrow.trianglehead.clockwise.rotate.90"
+    static let arrow_trianglehead_counterclockwise = "arrow.trianglehead.counterclockwise"
+    static let arrow_trianglehead_counterclockwise_icloud = "arrow.trianglehead.counterclockwise.icloud"
+    static let arrow_trianglehead_counterclockwise_icloud_fill = "arrow.trianglehead.counterclockwise.icloud.fill"
+    static let arrow_trianglehead_counterclockwise_rotate_90 = "arrow.trianglehead.counterclockwise.rotate.90"
+    static let arrow_trianglehead_left_and_right_righttriangle_left_righttriangle_right = "arrow.trianglehead.left.and.right.righttriangle.left.righttriangle.right"
+    static let arrow_trianglehead_left_and_right_righttriangle_left_righttriangle_right_fill = "arrow.trianglehead.left.and.right.righttriangle.left.righttriangle.right.fill"
+    static let arrow_trianglehead_merge = "arrow.trianglehead.merge"
+    static let arrow_trianglehead_pull = "arrow.trianglehead.pull"
+    static let arrow_trianglehead_rectanglepath = "arrow.trianglehead.rectanglepath"
+    static let arrow_trianglehead_swap = "arrow.trianglehead.swap"
+    static let arrow_trianglehead_topright_capsulepath_clockwise = "arrow.trianglehead.topright.capsulepath.clockwise"
+    static let arrow_trianglehead_turn_up_right_circle = "arrow.trianglehead.turn.up.right.circle"
+    static let arrow_trianglehead_turn_up_right_circle_fill = "arrow.trianglehead.turn.up.right.circle.fill"
+    static let arrow_trianglehead_turn_up_right_diamond = "arrow.trianglehead.turn.up.right.diamond"
+    static let arrow_trianglehead_turn_up_right_diamond_fill = "arrow.trianglehead.turn.up.right.diamond.fill"
+    static let arrow_trianglehead_up_and_down_righttriangle_up_righttriangle_down = "arrow.trianglehead.up.and.down.righttriangle.up.righttriangle.down"
+    static let arrow_trianglehead_up_and_down_righttriangle_up_righttriangle_down_fill = "arrow.trianglehead.up.and.down.righttriangle.up.righttriangle.down.fill"
+    static let arrow_up_backward_and_arrow_down_forward_rectangle = "arrow.up.backward.and.arrow.down.forward.rectangle"
+    static let arrow_up_backward_and_arrow_down_forward_rectangle_fill = "arrow.up.backward.and.arrow.down.forward.rectangle.fill"
+    static let arrow_up_backward_circle_dotted = "arrow.up.backward.circle.dotted"
+    static let arrow_up_circle_dotted = "arrow.up.circle.dotted"
+    static let arrow_up_document = "arrow.up.document"
+    static let arrow_up_document_fill = "arrow.up.document.fill"
+    static let arrow_up_forward_and_arrow_down_backward_rectangle = "arrow.up.forward.and.arrow.down.backward.rectangle"
+    static let arrow_up_forward_and_arrow_down_backward_rectangle_fill = "arrow.up.forward.and.arrow.down.backward.rectangle.fill"
+    static let arrow_up_forward_circle_dotted = "arrow.up.forward.circle.dotted"
+    static let arrow_up_left_and_arrow_down_right_rectangle = "arrow.up.left.and.arrow.down.right.rectangle"
+    static let arrow_up_left_and_arrow_down_right_rectangle_fill = "arrow.up.left.and.arrow.down.right.rectangle.fill"
+    static let arrow_up_left_circle_dotted = "arrow.up.left.circle.dotted"
+    static let arrow_up_page_on_clipboard = "arrow.up.page.on.clipboard"
+    static let arrow_up_right_circle_dotted = "arrow.up.right.circle.dotted"
+    static let australian_football = "australian.football"
+    static let australian_football_circle = "australian.football.circle"
+    static let australian_football_circle_fill = "australian.football.circle.fill"
+    static let australian_football_fill = "australian.football.fill"
+    static let australiandollarsign_arrow_trianglehead_counterclockwise_rotate_90 = "australiandollarsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let australiandollarsign_bank_building = "australiandollarsign.bank.building"
+    static let australiandollarsign_bank_building_fill = "australiandollarsign.bank.building.fill"
+    static let australiandollarsign_gauge_chart_lefthalf_righthalf = "australiandollarsign.gauge.chart.lefthalf.righthalf"
+    static let australiandollarsign_gauge_chart_leftthird_topthird_rightthird = "australiandollarsign.gauge.chart.leftthird.topthird.rightthird"
+    static let australiandollarsign_ring = "australiandollarsign.ring"
+    static let australiandollarsign_ring_dashed = "australiandollarsign.ring.dashed"
+    static let australsign_arrow_trianglehead_counterclockwise_rotate_90 = "australsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let australsign_bank_building = "australsign.bank.building"
+    static let australsign_bank_building_fill = "australsign.bank.building.fill"
+    static let australsign_gauge_chart_lefthalf_righthalf = "australsign.gauge.chart.lefthalf.righthalf"
+    static let australsign_gauge_chart_leftthird_topthird_rightthird = "australsign.gauge.chart.leftthird.topthird.rightthird"
+    static let australsign_ring = "australsign.ring"
+    static let australsign_ring_dashed = "australsign.ring.dashed"
+    static let bahtsign_arrow_trianglehead_counterclockwise_rotate_90 = "bahtsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let bahtsign_bank_building = "bahtsign.bank.building"
+    static let bahtsign_bank_building_fill = "bahtsign.bank.building.fill"
+    static let bahtsign_gauge_chart_lefthalf_righthalf = "bahtsign.gauge.chart.lefthalf.righthalf"
+    static let bahtsign_gauge_chart_leftthird_topthird_rightthird = "bahtsign.gauge.chart.leftthird.topthird.rightthird"
+    static let bahtsign_ring = "bahtsign.ring"
+    static let bahtsign_ring_dashed = "bahtsign.ring.dashed"
+    static let base_unit = "base.unit"
+    static let baseball_diamond_bases_outs_indicator = "baseball.diamond.bases.outs.indicator"
+    static let batteryblock_stack = "batteryblock.stack"
+    static let batteryblock_stack_badge_snowflake = "batteryblock.stack.badge.snowflake"
+    static let batteryblock_stack_badge_snowflake_fill = "batteryblock.stack.badge.snowflake.fill"
+    static let batteryblock_stack_fill = "batteryblock.stack.fill"
+    static let batteryblock_stack_trianglebadge_exclamationmark = "batteryblock.stack.trianglebadge.exclamationmark"
+    static let batteryblock_stack_trianglebadge_exclamationmark_fill = "batteryblock.stack.trianglebadge.exclamationmark.fill"
+    static let beats_powerbeats_pro = "beats.powerbeats.pro"
+    static let beats_powerbeats_pro_chargingcase = "beats.powerbeats.pro.chargingcase"
+    static let beats_powerbeats_pro_chargingcase_fill = "beats.powerbeats.pro.chargingcase.fill"
+    static let beats_powerbeats_pro_left = "beats.powerbeats.pro.left"
+    static let beats_powerbeats_pro_right = "beats.powerbeats.pro.right"
+    static let beats_studiobuds_left = "beats.studiobuds.left"
+    static let beats_studiobuds_plus = "beats.studiobuds.plus"
+    static let beats_studiobuds_plus_chargingcase = "beats.studiobuds.plus.chargingcase"
+    static let beats_studiobuds_plus_chargingcase_fill = "beats.studiobuds.plus.chargingcase.fill"
+    static let beats_studiobuds_plus_left = "beats.studiobuds.plus.left"
+    static let beats_studiobuds_plus_right = "beats.studiobuds.plus.right"
+    static let beats_studiobuds_right = "beats.studiobuds.right"
+    static let beziercurve = "beziercurve"
+    static let bitcoinsign_arrow_trianglehead_counterclockwise_rotate_90 = "bitcoinsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let bitcoinsign_bank_building = "bitcoinsign.bank.building"
+    static let bitcoinsign_bank_building_fill = "bitcoinsign.bank.building.fill"
+    static let bitcoinsign_gauge_chart_lefthalf_righthalf = "bitcoinsign.gauge.chart.lefthalf.righthalf"
+    static let bitcoinsign_gauge_chart_leftthird_topthird_rightthird = "bitcoinsign.gauge.chart.leftthird.topthird.rightthird"
+    static let bitcoinsign_ring = "bitcoinsign.ring"
+    static let bitcoinsign_ring_dashed = "bitcoinsign.ring.dashed"
+    static let brazilianrealsign_arrow_trianglehead_counterclockwise_rotate_90 = "brazilianrealsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let brazilianrealsign_bank_building = "brazilianrealsign.bank.building"
+    static let brazilianrealsign_bank_building_fill = "brazilianrealsign.bank.building.fill"
+    static let brazilianrealsign_gauge_chart_lefthalf_righthalf = "brazilianrealsign.gauge.chart.lefthalf.righthalf"
+    static let brazilianrealsign_gauge_chart_leftthird_topthird_rightthird = "brazilianrealsign.gauge.chart.leftthird.topthird.rightthird"
+    static let brazilianrealsign_ring = "brazilianrealsign.ring"
+    static let brazilianrealsign_ring_dashed = "brazilianrealsign.ring.dashed"
+    static let bubble_and_pencil = "bubble.and.pencil"
+    static let calendar_and_person = "calendar.and.person"
+    static let camera_macro_slash = "camera.macro.slash"
+    static let camera_macro_slash_circle = "camera.macro.slash.circle"
+    static let camera_macro_slash_circle_fill = "camera.macro.slash.circle.fill"
+    static let capsule_on_capsule = "capsule.on.capsule"
+    static let capsule_on_capsule_fill = "capsule.on.capsule.fill"
+    static let capsule_on_rectangle = "capsule.on.rectangle"
+    static let capsule_on_rectangle_fill = "capsule.on.rectangle.fill"
+    static let car_badge_gearshape = "car.badge.gearshape"
+    static let car_badge_gearshape_fill = "car.badge.gearshape.fill"
+    static let car_front_waves_left_and_right_and_up = "car.front.waves.left.and.right.and.up"
+    static let car_front_waves_left_and_right_and_up_fill = "car.front.waves.left.and.right.and.up.fill"
+    static let car_rear_and_tire_marks_off = "car.rear.and.tire.marks.off"
+    static let car_rear_hazardsign = "car.rear.hazardsign"
+    static let car_rear_hazardsign_fill = "car.rear.hazardsign.fill"
+    static let car_rear_road_lane_distance_1 = "car.rear.road.lane.distance.1"
+    static let car_rear_road_lane_distance_1_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = "car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    static let car_rear_road_lane_distance_2 = "car.rear.road.lane.distance.2"
+    static let car_rear_road_lane_distance_2_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = "car.rear.road.lane.distance.2.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    static let car_rear_road_lane_distance_3 = "car.rear.road.lane.distance.3"
+    static let car_rear_road_lane_distance_3_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = "car.rear.road.lane.distance.3.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    static let car_rear_road_lane_distance_4 = "car.rear.road.lane.distance.4"
+    static let car_rear_road_lane_distance_4_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = "car.rear.road.lane.distance.4.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    static let car_rear_road_lane_distance_5 = "car.rear.road.lane.distance.5"
+    static let car_rear_road_lane_distance_5_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = "car.rear.road.lane.distance.5.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    static let car_rear_road_lane_off = "car.rear.road.lane.off"
+    static let car_rear_road_lane_wave_up = "car.rear.road.lane.wave.up"
+    static let car_rear_tilt_road_lanes_curved_right = "car.rear.tilt.road.lanes.curved.right"
+    static let car_side_front_open_crop = "car.side.front.open.crop"
+    static let car_side_front_open_crop_fill = "car.side.front.open.crop.fill"
+    static let car_side_hill_descent_control = "car.side.hill.descent.control"
+    static let car_side_hill_descent_control_fill = "car.side.hill.descent.control.fill"
+    static let car_side_rear_and_exclamationmark_and_car_side_front_off = "car.side.rear.and.exclamationmark.and.car.side.front.off"
+    static let car_side_rear_crop_trunk_partition = "car.side.rear.crop.trunk.partition"
+    static let car_side_rear_crop_trunk_partition_fill = "car.side.rear.crop.trunk.partition.fill"
+    static let car_side_rear_open_crop = "car.side.rear.open.crop"
+    static let car_side_rear_open_crop_fill = "car.side.rear.open.crop.fill"
+    static let car_side_rear_tow_hitch = "car.side.rear.tow.hitch"
+    static let car_side_rear_tow_hitch_fill = "car.side.rear.tow.hitch.fill"
+    static let car_side_roof_cargo_carrier = "car.side.roof.cargo.carrier"
+    static let car_side_roof_cargo_carrier_fill = "car.side.roof.cargo.carrier.fill"
+    static let car_side_roof_cargo_carrier_slash = "car.side.roof.cargo.carrier.slash"
+    static let car_side_roof_cargo_carrier_slash_fill = "car.side.roof.cargo.carrier.slash.fill"
+    static let car_top_arrowtriangle_front_left = "car.top.arrowtriangle.front.left"
+    static let car_top_arrowtriangle_front_left_fill = "car.top.arrowtriangle.front.left.fill"
+    static let car_top_arrowtriangle_front_right = "car.top.arrowtriangle.front.right"
+    static let car_top_arrowtriangle_front_right_fill = "car.top.arrowtriangle.front.right.fill"
+    static let car_top_arrowtriangle_rear_left = "car.top.arrowtriangle.rear.left"
+    static let car_top_arrowtriangle_rear_left_fill = "car.top.arrowtriangle.rear.left.fill"
+    static let car_top_arrowtriangle_rear_right = "car.top.arrowtriangle.rear.right"
+    static let car_top_arrowtriangle_rear_right_fill = "car.top.arrowtriangle.rear.right.fill"
+    static let car_top_front_radiowaves_front_left_and_front_and_front_right = "car.top.front.radiowaves.front.left.and.front.and.front.right"
+    static let car_top_front_radiowaves_front_left_and_front_and_front_right_fill = "car.top.front.radiowaves.front.left.and.front.and.front.right.fill"
+    static let car_top_radiowaves_rear_left_car_top_front = "car.top.radiowaves.rear.left.car.top.front"
+    static let car_top_radiowaves_rear_left_car_top_front_fill = "car.top.radiowaves.rear.left.car.top.front.fill"
+    static let car_top_radiowaves_rear_right_car_top_front = "car.top.radiowaves.rear.right.car.top.front"
+    static let car_top_radiowaves_rear_right_car_top_front_fill = "car.top.radiowaves.rear.right.car.top.front.fill"
+    static let car_top_rear_radiowaves_rear_left_and_rear_and_rear_right = "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right"
+    static let car_top_rear_radiowaves_rear_left_and_rear_and_rear_right_fill = "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right.fill"
+    static let car_top_video_rear_left = "car.top.video.rear.left"
+    static let car_top_video_rear_left_fill = "car.top.video.rear.left.fill"
+    static let car_top_video_rear_right = "car.top.video.rear.right"
+    static let car_top_video_rear_right_fill = "car.top.video.rear.right.fill"
+    static let cart_badge_clock = "cart.badge.clock"
+    static let cart_badge_clock_fill = "cart.badge.clock.fill"
+    static let cedisign_arrow_trianglehead_counterclockwise_rotate_90 = "cedisign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let cedisign_bank_building = "cedisign.bank.building"
+    static let cedisign_bank_building_fill = "cedisign.bank.building.fill"
+    static let cedisign_gauge_chart_lefthalf_righthalf = "cedisign.gauge.chart.lefthalf.righthalf"
+    static let cedisign_gauge_chart_leftthird_topthird_rightthird = "cedisign.gauge.chart.leftthird.topthird.rightthird"
+    static let cedisign_ring = "cedisign.ring"
+    static let cedisign_ring_dashed = "cedisign.ring.dashed"
+    static let centsign_arrow_trianglehead_counterclockwise_rotate_90 = "centsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let centsign_bank_building = "centsign.bank.building"
+    static let centsign_bank_building_fill = "centsign.bank.building.fill"
+    static let centsign_gauge_chart_lefthalf_righthalf = "centsign.gauge.chart.lefthalf.righthalf"
+    static let centsign_gauge_chart_leftthird_topthird_rightthird = "centsign.gauge.chart.leftthird.topthird.rightthird"
+    static let centsign_ring = "centsign.ring"
+    static let centsign_ring_dashed = "centsign.ring.dashed"
+    static let character_circle = "character.circle"
+    static let character_circle_fill = "character.circle.fill"
+    static let character_square = "character.square"
+    static let character_square_fill = "character.square.fill"
+    static let characters_lowercase = "characters.lowercase"
+    static let characters_uppercase = "characters.uppercase"
+    static let chart_bar_horizontal_page = "chart.bar.horizontal.page"
+    static let chart_bar_horizontal_page_fill = "chart.bar.horizontal.page.fill"
+    static let chart_bar_yaxis = "chart.bar.yaxis"
+    static let chart_line_text_clipboard = "chart.line.text.clipboard"
+    static let chart_line_text_clipboard_fill = "chart.line.text.clipboard.fill"
+    static let checkmark_arrow_trianglehead_counterclockwise = "checkmark.arrow.trianglehead.counterclockwise"
+    static let checkmark_seal_text_page = "checkmark.seal.text.page"
+    static let checkmark_seal_text_page_fill = "checkmark.seal.text.page.fill"
+    static let chevron_backward_chevron_backward_dotted = "chevron.backward.chevron.backward.dotted"
+    static let chevron_compact_left_chevron_compact_right = "chevron.compact.left.chevron.compact.right"
+    static let chevron_compact_up_chevron_compact_down = "chevron.compact.up.chevron.compact.down"
+    static let chevron_compact_up_chevron_compact_right_chevron_compact_down_chevron_compact_left = "chevron.compact.up.chevron.compact.right.chevron.compact.down.chevron.compact.left"
+    static let chevron_down_2 = "chevron.down.2"
+    static let chevron_down_dotted_2 = "chevron.down.dotted.2"
+    static let chevron_down_forward_2 = "chevron.down.forward.2"
+    static let chevron_down_forward_dotted_2 = "chevron.down.forward.dotted.2"
+    static let chevron_down_right_2 = "chevron.down.right.2"
+    static let chevron_down_right_dotted_2 = "chevron.down.right.dotted.2"
+    static let chevron_forward_dotted_chevron_forward = "chevron.forward.dotted.chevron.forward"
+    static let chevron_left_chevron_left_dotted = "chevron.left.chevron.left.dotted"
+    static let chevron_left_chevron_right = "chevron.left.chevron.right"
+    static let chevron_right_dotted_chevron_right = "chevron.right.dotted.chevron.right"
+    static let chevron_up_2 = "chevron.up.2"
+    static let chevron_up_chevron_down_square = "chevron.up.chevron.down.square"
+    static let chevron_up_chevron_down_square_fill = "chevron.up.chevron.down.square.fill"
+    static let chevron_up_chevron_right_chevron_down_chevron_left = "chevron.up.chevron.right.chevron.down.chevron.left"
+    static let chevron_up_dotted_2 = "chevron.up.dotted.2"
+    static let chevron_up_forward_2 = "chevron.up.forward.2"
+    static let chevron_up_forward_dotted_2 = "chevron.up.forward.dotted.2"
+    static let chevron_up_right_2 = "chevron.up.right.2"
+    static let chevron_up_right_dotted_2 = "chevron.up.right.dotted.2"
+    static let chineseyuanrenminbisign_arrow_trianglehead_counterclockwise_rotate_90 = "chineseyuanrenminbisign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let chineseyuanrenminbisign_bank_building = "chineseyuanrenminbisign.bank.building"
+    static let chineseyuanrenminbisign_bank_building_fill = "chineseyuanrenminbisign.bank.building.fill"
+    static let chineseyuanrenminbisign_gauge_chart_lefthalf_righthalf = "chineseyuanrenminbisign.gauge.chart.lefthalf.righthalf"
+    static let chineseyuanrenminbisign_gauge_chart_leftthird_topthird_rightthird = "chineseyuanrenminbisign.gauge.chart.leftthird.topthird.rightthird"
+    static let chineseyuanrenminbisign_ring = "chineseyuanrenminbisign.ring"
+    static let chineseyuanrenminbisign_ring_dashed = "chineseyuanrenminbisign.ring.dashed"
+    static let circle_bottomrighthalf_pattern_checkered = "circle.bottomrighthalf.pattern.checkered"
+    static let clock_arrow_trianglehead_2_counterclockwise_rotate_90 = "clock.arrow.trianglehead.2.counterclockwise.rotate.90"
+    static let clock_arrow_trianglehead_counterclockwise_rotate_90 = "clock.arrow.trianglehead.counterclockwise.rotate.90"
+    static let cloud_rainbow_crop = "cloud.rainbow.crop"
+    static let cloud_rainbow_crop_fill = "cloud.rainbow.crop.fill"
+    static let coat = "coat"
+    static let coat_fill = "coat.fill"
+    static let coloncurrencysign_arrow_trianglehead_counterclockwise_rotate_90 = "coloncurrencysign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let coloncurrencysign_bank_building = "coloncurrencysign.bank.building"
+    static let coloncurrencysign_bank_building_fill = "coloncurrencysign.bank.building.fill"
+    static let coloncurrencysign_gauge_chart_lefthalf_righthalf = "coloncurrencysign.gauge.chart.lefthalf.righthalf"
+    static let coloncurrencysign_gauge_chart_leftthird_topthird_rightthird = "coloncurrencysign.gauge.chart.leftthird.topthird.rightthird"
+    static let coloncurrencysign_ring = "coloncurrencysign.ring"
+    static let coloncurrencysign_ring_dashed = "coloncurrencysign.ring.dashed"
+    static let convertible_side = "convertible.side"
+    static let convertible_side_air_circulate = "convertible.side.air.circulate"
+    static let convertible_side_air_circulate_fill = "convertible.side.air.circulate.fill"
+    static let convertible_side_air_fresh = "convertible.side.air.fresh"
+    static let convertible_side_air_fresh_fill = "convertible.side.air.fresh.fill"
+    static let convertible_side_and_exclamationmark = "convertible.side.and.exclamationmark"
+    static let convertible_side_and_exclamationmark_fill = "convertible.side.and.exclamationmark.fill"
+    static let convertible_side_arrow_trianglehead_backward = "convertible.side.arrow.trianglehead.backward"
+    static let convertible_side_arrow_trianglehead_backward_fill = "convertible.side.arrow.trianglehead.backward.fill"
+    static let convertible_side_arrow_trianglehead_forward = "convertible.side.arrow.trianglehead.forward"
+    static let convertible_side_arrow_trianglehead_forward_and_backward = "convertible.side.arrow.trianglehead.forward.and.backward"
+    static let convertible_side_arrow_trianglehead_forward_and_backward_fill = "convertible.side.arrow.trianglehead.forward.and.backward.fill"
+    static let convertible_side_arrow_trianglehead_forward_fill = "convertible.side.arrow.trianglehead.forward.fill"
+    static let convertible_side_arrowtriangle_down = "convertible.side.arrowtriangle.down"
+    static let convertible_side_arrowtriangle_down_fill = "convertible.side.arrowtriangle.down.fill"
+    static let convertible_side_arrowtriangle_up = "convertible.side.arrowtriangle.up"
+    static let convertible_side_arrowtriangle_up_arrowtriangle_down = "convertible.side.arrowtriangle.up.arrowtriangle.down"
+    static let convertible_side_arrowtriangle_up_arrowtriangle_down_fill = "convertible.side.arrowtriangle.up.arrowtriangle.down.fill"
+    static let convertible_side_arrowtriangle_up_fill = "convertible.side.arrowtriangle.up.fill"
+    static let convertible_side_fill = "convertible.side.fill"
+    static let convertible_side_front_open = "convertible.side.front.open"
+    static let convertible_side_front_open_crop = "convertible.side.front.open.crop"
+    static let convertible_side_front_open_crop_fill = "convertible.side.front.open.crop.fill"
+    static let convertible_side_front_open_fill = "convertible.side.front.open.fill"
+    static let convertible_side_hill_descent_control = "convertible.side.hill.descent.control"
+    static let convertible_side_hill_descent_control_fill = "convertible.side.hill.descent.control.fill"
+    static let convertible_side_hill_down = "convertible.side.hill.down"
+    static let convertible_side_hill_down_fill = "convertible.side.hill.down.fill"
+    static let convertible_side_hill_up = "convertible.side.hill.up"
+    static let convertible_side_hill_up_fill = "convertible.side.hill.up.fill"
+    static let convertible_side_lock = "convertible.side.lock"
+    static let convertible_side_lock_fill = "convertible.side.lock.fill"
+    static let convertible_side_lock_open = "convertible.side.lock.open"
+    static let convertible_side_lock_open_fill = "convertible.side.lock.open.fill"
+    static let cruzeirosign_arrow_trianglehead_counterclockwise_rotate_90 = "cruzeirosign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let cruzeirosign_bank_building = "cruzeirosign.bank.building"
+    static let cruzeirosign_bank_building_fill = "cruzeirosign.bank.building.fill"
+    static let cruzeirosign_gauge_chart_lefthalf_righthalf = "cruzeirosign.gauge.chart.lefthalf.righthalf"
+    static let cruzeirosign_gauge_chart_leftthird_topthird_rightthird = "cruzeirosign.gauge.chart.leftthird.topthird.rightthird"
+    static let cruzeirosign_ring = "cruzeirosign.ring"
+    static let cruzeirosign_ring_dashed = "cruzeirosign.ring.dashed"
+    static let cup_and_heat_waves = "cup.and.heat.waves"
+    static let cup_and_heat_waves_fill = "cup.and.heat.waves.fill"
+    static let danishkronesign_arrow_trianglehead_counterclockwise_rotate_90 = "danishkronesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let danishkronesign_bank_building = "danishkronesign.bank.building"
+    static let danishkronesign_bank_building_fill = "danishkronesign.bank.building.fill"
+    static let danishkronesign_gauge_chart_lefthalf_righthalf = "danishkronesign.gauge.chart.lefthalf.righthalf"
+    static let danishkronesign_gauge_chart_leftthird_topthird_rightthird = "danishkronesign.gauge.chart.leftthird.topthird.rightthird"
+    static let danishkronesign_ring = "danishkronesign.ring"
+    static let danishkronesign_ring_dashed = "danishkronesign.ring.dashed"
+    static let degreesign_celsius = "degreesign.celsius"
+    static let degreesign_fahrenheit = "degreesign.fahrenheit"
+    static let desktopcomputer_and_macbook = "desktopcomputer.and.macbook"
+    static let distribute_horizontal = "distribute.horizontal"
+    static let distribute_horizontal_fill = "distribute.horizontal.fill"
+    static let distribute_vertical = "distribute.vertical"
+    static let distribute_vertical_fill = "distribute.vertical.fill"
+    static let document = "document"
+    static let document_badge_arrow_up = "document.badge.arrow.up"
+    static let document_badge_arrow_up_fill = "document.badge.arrow.up.fill"
+    static let document_badge_clock = "document.badge.clock"
+    static let document_badge_clock_fill = "document.badge.clock.fill"
+    static let document_badge_ellipsis = "document.badge.ellipsis"
+    static let document_badge_ellipsis_fill = "document.badge.ellipsis.fill"
+    static let document_badge_gearshape = "document.badge.gearshape"
+    static let document_badge_gearshape_fill = "document.badge.gearshape.fill"
+    static let document_badge_plus = "document.badge.plus"
+    static let document_badge_plus_fill = "document.badge.plus.fill"
+    static let document_circle = "document.circle"
+    static let document_circle_fill = "document.circle.fill"
+    static let document_fill = "document.fill"
+    static let document_on_clipboard = "document.on.clipboard"
+    static let document_on_clipboard_fill = "document.on.clipboard.fill"
+    static let document_on_document = "document.on.document"
+    static let document_on_document_fill = "document.on.document.fill"
+    static let document_viewfinder = "document.viewfinder"
+    static let document_viewfinder_fill = "document.viewfinder.fill"
+    static let dollarsign_arrow_trianglehead_counterclockwise_rotate_90 = "dollarsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let dollarsign_bank_building = "dollarsign.bank.building"
+    static let dollarsign_bank_building_fill = "dollarsign.bank.building.fill"
+    static let dollarsign_gauge_chart_lefthalf_righthalf = "dollarsign.gauge.chart.lefthalf.righthalf"
+    static let dollarsign_gauge_chart_leftthird_topthird_rightthird = "dollarsign.gauge.chart.leftthird.topthird.rightthird"
+    static let dollarsign_ring = "dollarsign.ring"
+    static let dollarsign_ring_dashed = "dollarsign.ring.dashed"
+    static let dongsign_arrow_trianglehead_counterclockwise_rotate_90 = "dongsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let dongsign_bank_building = "dongsign.bank.building"
+    static let dongsign_bank_building_fill = "dongsign.bank.building.fill"
+    static let dongsign_gauge_chart_lefthalf_righthalf = "dongsign.gauge.chart.lefthalf.righthalf"
+    static let dongsign_gauge_chart_leftthird_topthird_rightthird = "dongsign.gauge.chart.leftthird.topthird.rightthird"
+    static let dongsign_ring = "dongsign.ring"
+    static let dongsign_ring_dashed = "dongsign.ring.dashed"
+    static let drone = "drone"
+    static let drone_fill = "drone.fill"
+    static let duffle_bag = "duffle.bag"
+    static let duffle_bag_fill = "duffle.bag.fill"
+    static let ecg_text_page = "ecg.text.page"
+    static let ecg_text_page_fill = "ecg.text.page.fill"
+    static let engine_emission_and_exclamationmark = "engine.emission.and.exclamationmark"
+    static let engine_emission_and_filter = "engine.emission.and.filter"
+    static let envelope_and_arrow_trianglehead_branch = "envelope.and.arrow.trianglehead.branch"
+    static let envelope_and_arrow_trianglehead_branch_fill = "envelope.and.arrow.trianglehead.branch.fill"
+    static let envelope_front = "envelope.front"
+    static let envelope_front_fill = "envelope.front.fill"
+    static let eurosign_arrow_trianglehead_counterclockwise_rotate_90 = "eurosign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let eurosign_bank_building = "eurosign.bank.building"
+    static let eurosign_bank_building_fill = "eurosign.bank.building.fill"
+    static let eurosign_gauge_chart_lefthalf_righthalf = "eurosign.gauge.chart.lefthalf.righthalf"
+    static let eurosign_gauge_chart_leftthird_topthird_rightthird = "eurosign.gauge.chart.leftthird.topthird.rightthird"
+    static let eurosign_ring = "eurosign.ring"
+    static let eurosign_ring_dashed = "eurosign.ring.dashed"
+    static let eurozonesign_arrow_trianglehead_counterclockwise_rotate_90 = "eurozonesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let eurozonesign_bank_building = "eurozonesign.bank.building"
+    static let eurozonesign_bank_building_fill = "eurozonesign.bank.building.fill"
+    static let eurozonesign_gauge_chart_lefthalf_righthalf = "eurozonesign.gauge.chart.lefthalf.righthalf"
+    static let eurozonesign_gauge_chart_leftthird_topthird_rightthird = "eurozonesign.gauge.chart.leftthird.topthird.rightthird"
+    static let eurozonesign_ring = "eurozonesign.ring"
+    static let eurozonesign_ring_dashed = "eurozonesign.ring.dashed"
+    static let exclamationmark_arrow_trianglehead_2_clockwise_rotate_90 = "exclamationmark.arrow.trianglehead.2.clockwise.rotate.90"
+    static let exclamationmark_arrow_trianglehead_counterclockwise_rotate_90 = "exclamationmark.arrow.trianglehead.counterclockwise.rotate.90"
+    static let figure_2_left_holdinghands = "figure.2.left.holdinghands"
+    static let figure_2_right_holdinghands = "figure.2.right.holdinghands"
+    static let figure_american_football_circle = "figure.american.football.circle"
+    static let figure_american_football_circle_fill = "figure.american.football.circle.fill"
+    static let figure_archery_circle = "figure.archery.circle"
+    static let figure_archery_circle_fill = "figure.archery.circle.fill"
+    static let figure_australian_football_circle = "figure.australian.football.circle"
+    static let figure_australian_football_circle_fill = "figure.australian.football.circle.fill"
+    static let figure_badminton_circle = "figure.badminton.circle"
+    static let figure_badminton_circle_fill = "figure.badminton.circle.fill"
+    static let figure_barre_circle = "figure.barre.circle"
+    static let figure_barre_circle_fill = "figure.barre.circle.fill"
+    static let figure_baseball_circle = "figure.baseball.circle"
+    static let figure_baseball_circle_fill = "figure.baseball.circle.fill"
+    static let figure_basketball_circle = "figure.basketball.circle"
+    static let figure_basketball_circle_fill = "figure.basketball.circle.fill"
+    static let figure_bowling_circle = "figure.bowling.circle"
+    static let figure_bowling_circle_fill = "figure.bowling.circle.fill"
+    static let figure_boxing_circle = "figure.boxing.circle"
+    static let figure_boxing_circle_fill = "figure.boxing.circle.fill"
+    static let figure_climbing_circle = "figure.climbing.circle"
+    static let figure_climbing_circle_fill = "figure.climbing.circle.fill"
+    static let figure_cooldown_circle = "figure.cooldown.circle"
+    static let figure_cooldown_circle_fill = "figure.cooldown.circle.fill"
+    static let figure_core_training_circle = "figure.core.training.circle"
+    static let figure_core_training_circle_fill = "figure.core.training.circle.fill"
+    static let figure_cricket_circle = "figure.cricket.circle"
+    static let figure_cricket_circle_fill = "figure.cricket.circle.fill"
+    static let figure_cross_training_circle = "figure.cross.training.circle"
+    static let figure_cross_training_circle_fill = "figure.cross.training.circle.fill"
+    static let figure_curling_circle = "figure.curling.circle"
+    static let figure_curling_circle_fill = "figure.curling.circle.fill"
+    static let figure_dance_circle = "figure.dance.circle"
+    static let figure_dance_circle_fill = "figure.dance.circle.fill"
+    static let figure_disc_sports_circle = "figure.disc.sports.circle"
+    static let figure_disc_sports_circle_fill = "figure.disc.sports.circle.fill"
+    static let figure_elliptical_circle = "figure.elliptical.circle"
+    static let figure_elliptical_circle_fill = "figure.elliptical.circle.fill"
+    static let figure_equestrian_sports_circle = "figure.equestrian.sports.circle"
+    static let figure_equestrian_sports_circle_fill = "figure.equestrian.sports.circle.fill"
+    static let figure_fencing_circle = "figure.fencing.circle"
+    static let figure_fencing_circle_fill = "figure.fencing.circle.fill"
+    static let figure_field_hockey = "figure.field.hockey"
+    static let figure_field_hockey_circle = "figure.field.hockey.circle"
+    static let figure_field_hockey_circle_fill = "figure.field.hockey.circle.fill"
+    static let figure_fishing_circle = "figure.fishing.circle"
+    static let figure_fishing_circle_fill = "figure.fishing.circle.fill"
+    static let figure_flexibility_circle = "figure.flexibility.circle"
+    static let figure_flexibility_circle_fill = "figure.flexibility.circle.fill"
+    static let figure_golf_circle = "figure.golf.circle"
+    static let figure_golf_circle_fill = "figure.golf.circle.fill"
+    static let figure_gymnastics_circle = "figure.gymnastics.circle"
+    static let figure_gymnastics_circle_fill = "figure.gymnastics.circle.fill"
+    static let figure_hand_cycling_circle = "figure.hand.cycling.circle"
+    static let figure_hand_cycling_circle_fill = "figure.hand.cycling.circle.fill"
+    static let figure_handball_circle = "figure.handball.circle"
+    static let figure_handball_circle_fill = "figure.handball.circle.fill"
+    static let figure_highintensity_intervaltraining_circle = "figure.highintensity.intervaltraining.circle"
+    static let figure_highintensity_intervaltraining_circle_fill = "figure.highintensity.intervaltraining.circle.fill"
+    static let figure_hiking_circle = "figure.hiking.circle"
+    static let figure_hiking_circle_fill = "figure.hiking.circle.fill"
+    static let figure_hockey_circle = "figure.hockey.circle"
+    static let figure_hockey_circle_fill = "figure.hockey.circle.fill"
+    static let figure_hunting_circle = "figure.hunting.circle"
+    static let figure_hunting_circle_fill = "figure.hunting.circle.fill"
+    static let figure_ice_hockey = "figure.ice.hockey"
+    static let figure_ice_hockey_circle = "figure.ice.hockey.circle"
+    static let figure_ice_hockey_circle_fill = "figure.ice.hockey.circle.fill"
+    static let figure_ice_skating = "figure.ice.skating"
+    static let figure_ice_skating_circle = "figure.ice.skating.circle"
+    static let figure_ice_skating_circle_fill = "figure.ice.skating.circle.fill"
+    static let figure_indoor_cycle_circle = "figure.indoor.cycle.circle"
+    static let figure_indoor_cycle_circle_fill = "figure.indoor.cycle.circle.fill"
+    static let figure_indoor_rowing = "figure.indoor.rowing"
+    static let figure_indoor_rowing_circle = "figure.indoor.rowing.circle"
+    static let figure_indoor_rowing_circle_fill = "figure.indoor.rowing.circle.fill"
+    static let figure_indoor_soccer = "figure.indoor.soccer"
+    static let figure_indoor_soccer_circle = "figure.indoor.soccer.circle"
+    static let figure_indoor_soccer_circle_fill = "figure.indoor.soccer.circle.fill"
+    static let figure_jumprope_circle = "figure.jumprope.circle"
+    static let figure_jumprope_circle_fill = "figure.jumprope.circle.fill"
+    static let figure_kickboxing_circle = "figure.kickboxing.circle"
+    static let figure_kickboxing_circle_fill = "figure.kickboxing.circle.fill"
+    static let figure_lacrosse_circle = "figure.lacrosse.circle"
+    static let figure_lacrosse_circle_fill = "figure.lacrosse.circle.fill"
+    static let figure_martial_arts_circle = "figure.martial.arts.circle"
+    static let figure_martial_arts_circle_fill = "figure.martial.arts.circle.fill"
+    static let figure_mind_and_body_circle = "figure.mind.and.body.circle"
+    static let figure_mind_and_body_circle_fill = "figure.mind.and.body.circle.fill"
+    static let figure_mixed_cardio_circle = "figure.mixed.cardio.circle"
+    static let figure_mixed_cardio_circle_fill = "figure.mixed.cardio.circle.fill"
+    static let figure_open_water_swim_circle = "figure.open.water.swim.circle"
+    static let figure_open_water_swim_circle_fill = "figure.open.water.swim.circle.fill"
+    static let figure_outdoor_cycle_circle = "figure.outdoor.cycle.circle"
+    static let figure_outdoor_cycle_circle_fill = "figure.outdoor.cycle.circle.fill"
+    static let figure_outdoor_rowing = "figure.outdoor.rowing"
+    static let figure_outdoor_rowing_circle = "figure.outdoor.rowing.circle"
+    static let figure_outdoor_rowing_circle_fill = "figure.outdoor.rowing.circle.fill"
+    static let figure_outdoor_soccer = "figure.outdoor.soccer"
+    static let figure_outdoor_soccer_circle = "figure.outdoor.soccer.circle"
+    static let figure_outdoor_soccer_circle_fill = "figure.outdoor.soccer.circle.fill"
+    static let figure_pickleball_circle = "figure.pickleball.circle"
+    static let figure_pickleball_circle_fill = "figure.pickleball.circle.fill"
+    static let figure_pilates_circle = "figure.pilates.circle"
+    static let figure_pilates_circle_fill = "figure.pilates.circle.fill"
+    static let figure_play_circle = "figure.play.circle"
+    static let figure_play_circle_fill = "figure.play.circle.fill"
+    static let figure_pool_swim_circle = "figure.pool.swim.circle"
+    static let figure_pool_swim_circle_fill = "figure.pool.swim.circle.fill"
+    static let figure_racquetball_circle = "figure.racquetball.circle"
+    static let figure_racquetball_circle_fill = "figure.racquetball.circle.fill"
+    static let figure_roll_circle = "figure.roll.circle"
+    static let figure_roll_circle_fill = "figure.roll.circle.fill"
+    static let figure_roll_runningpace_circle = "figure.roll.runningpace.circle"
+    static let figure_roll_runningpace_circle_fill = "figure.roll.runningpace.circle.fill"
+    static let figure_rolling_circle = "figure.rolling.circle"
+    static let figure_rolling_circle_fill = "figure.rolling.circle.fill"
+    static let figure_rugby_circle = "figure.rugby.circle"
+    static let figure_rugby_circle_fill = "figure.rugby.circle.fill"
+    static let figure_run_treadmill = "figure.run.treadmill"
+    static let figure_run_treadmill_circle = "figure.run.treadmill.circle"
+    static let figure_run_treadmill_circle_fill = "figure.run.treadmill.circle.fill"
+    static let figure_sailing_circle = "figure.sailing.circle"
+    static let figure_sailing_circle_fill = "figure.sailing.circle.fill"
+    static let figure_seated_seatbelt_left_drive_seats_1 = "figure.seated.seatbelt.left.drive.seats.1"
+    static let figure_seated_seatbelt_left_drive_seats_1_1 = "figure.seated.seatbelt.left.drive.seats.1.1"
+    static let figure_seated_seatbelt_left_drive_seats_1_1_fill = "figure.seated.seatbelt.left.drive.seats.1.1.fill"
+    static let figure_seated_seatbelt_left_drive_seats_1_2 = "figure.seated.seatbelt.left.drive.seats.1.2"
+    static let figure_seated_seatbelt_left_drive_seats_1_2_fill = "figure.seated.seatbelt.left.drive.seats.1.2.fill"
+    static let figure_seated_seatbelt_left_drive_seats_1_fill = "figure.seated.seatbelt.left.drive.seats.1.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2 = "figure.seated.seatbelt.left.drive.seats.2"
+    static let figure_seated_seatbelt_left_drive_seats_2_2 = "figure.seated.seatbelt.left.drive.seats.2.2"
+    static let figure_seated_seatbelt_left_drive_seats_2_2_2 = "figure.seated.seatbelt.left.drive.seats.2.2.2"
+    static let figure_seated_seatbelt_left_drive_seats_2_2_2_fill = "figure.seated.seatbelt.left.drive.seats.2.2.2.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2_2_3 = "figure.seated.seatbelt.left.drive.seats.2.2.3"
+    static let figure_seated_seatbelt_left_drive_seats_2_2_3_fill = "figure.seated.seatbelt.left.drive.seats.2.2.3.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2_2_fill = "figure.seated.seatbelt.left.drive.seats.2.2.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2_3 = "figure.seated.seatbelt.left.drive.seats.2.3"
+    static let figure_seated_seatbelt_left_drive_seats_2_3_2 = "figure.seated.seatbelt.left.drive.seats.2.3.2"
+    static let figure_seated_seatbelt_left_drive_seats_2_3_2_fill = "figure.seated.seatbelt.left.drive.seats.2.3.2.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2_3_3 = "figure.seated.seatbelt.left.drive.seats.2.3.3"
+    static let figure_seated_seatbelt_left_drive_seats_2_3_3_fill = "figure.seated.seatbelt.left.drive.seats.2.3.3.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2_3_fill = "figure.seated.seatbelt.left.drive.seats.2.3.fill"
+    static let figure_seated_seatbelt_left_drive_seats_2_fill = "figure.seated.seatbelt.left.drive.seats.2.fill"
+    static let figure_seated_seatbelt_left_drive_seats_3 = "figure.seated.seatbelt.left.drive.seats.3"
+    static let figure_seated_seatbelt_left_drive_seats_3_3 = "figure.seated.seatbelt.left.drive.seats.3.3"
+    static let figure_seated_seatbelt_left_drive_seats_3_3_3 = "figure.seated.seatbelt.left.drive.seats.3.3.3"
+    static let figure_seated_seatbelt_left_drive_seats_3_3_3_fill = "figure.seated.seatbelt.left.drive.seats.3.3.3.fill"
+    static let figure_seated_seatbelt_left_drive_seats_3_3_fill = "figure.seated.seatbelt.left.drive.seats.3.3.fill"
+    static let figure_seated_seatbelt_left_drive_seats_3_fill = "figure.seated.seatbelt.left.drive.seats.3.fill"
+    static let figure_seated_side_left = "figure.seated.side.left"
+    static let figure_seated_side_left_air_distribution_lower = "figure.seated.side.left.air.distribution.lower"
+    static let figure_seated_side_left_air_distribution_middle = "figure.seated.side.left.air.distribution.middle"
+    static let figure_seated_side_left_air_distribution_middle_and_lower = "figure.seated.side.left.air.distribution.middle.and.lower"
+    static let figure_seated_side_left_air_distribution_middle_and_lower_angled = "figure.seated.side.left.air.distribution.middle.and.lower.angled"
+    static let figure_seated_side_left_air_distribution_upper = "figure.seated.side.left.air.distribution.upper"
+    static let figure_seated_side_left_air_distribution_upper_angled_and_lower_angled = "figure.seated.side.left.air.distribution.upper.angled.and.lower.angled"
+    static let figure_seated_side_left_air_distribution_upper_angled_and_middle = "figure.seated.side.left.air.distribution.upper.angled.and.middle"
+    static let figure_seated_side_left_air_distribution_upper_angled_and_middle_and_lower_angled = "figure.seated.side.left.air.distribution.upper.angled.and.middle.and.lower.angled"
+    static let figure_seated_side_left_airbag_off = "figure.seated.side.left.airbag.off"
+    static let figure_seated_side_left_airbag_off_2 = "figure.seated.side.left.airbag.off.2"
+    static let figure_seated_side_left_airbag_on = "figure.seated.side.left.airbag.on"
+    static let figure_seated_side_left_airbag_on_2 = "figure.seated.side.left.airbag.on.2"
+    static let figure_seated_side_left_automatic = "figure.seated.side.left.automatic"
+    static let figure_seated_side_left_fan = "figure.seated.side.left.fan"
+    static let figure_seated_side_left_steeringwheel = "figure.seated.side.left.steeringwheel"
+    static let figure_seated_side_left_windshield_front_and_heat_waves = "figure.seated.side.left.windshield.front.and.heat.waves"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_lower = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.lower"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.middle"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle_and_lower = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.middle.and.lower"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_lower = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.lower"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.middle"
+    static let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower = "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower"
+    static let figure_seated_side_right = "figure.seated.side.right"
+    static let figure_seated_side_right_air_distribution_lower = "figure.seated.side.right.air.distribution.lower"
+    static let figure_seated_side_right_air_distribution_middle = "figure.seated.side.right.air.distribution.middle"
+    static let figure_seated_side_right_air_distribution_middle_and_lower = "figure.seated.side.right.air.distribution.middle.and.lower"
+    static let figure_seated_side_right_air_distribution_middle_and_lower_angled = "figure.seated.side.right.air.distribution.middle.and.lower.angled"
+    static let figure_seated_side_right_air_distribution_upper = "figure.seated.side.right.air.distribution.upper"
+    static let figure_seated_side_right_air_distribution_upper_angled_and_lower_angled = "figure.seated.side.right.air.distribution.upper.angled.and.lower.angled"
+    static let figure_seated_side_right_air_distribution_upper_angled_and_middle = "figure.seated.side.right.air.distribution.upper.angled.and.middle"
+    static let figure_seated_side_right_air_distribution_upper_angled_and_middle_and_lower_angled = "figure.seated.side.right.air.distribution.upper.angled.and.middle.and.lower.angled"
+    static let figure_seated_side_right_airbag_off = "figure.seated.side.right.airbag.off"
+    static let figure_seated_side_right_airbag_off_2 = "figure.seated.side.right.airbag.off.2"
+    static let figure_seated_side_right_airbag_on = "figure.seated.side.right.airbag.on"
+    static let figure_seated_side_right_airbag_on_2 = "figure.seated.side.right.airbag.on.2"
+    static let figure_seated_side_right_automatic = "figure.seated.side.right.automatic"
+    static let figure_seated_side_right_fan = "figure.seated.side.right.fan"
+    static let figure_seated_side_right_steeringwheel = "figure.seated.side.right.steeringwheel"
+    static let figure_seated_side_right_windshield_front_and_heat_waves = "figure.seated.side.right.windshield.front.and.heat.waves"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_lower = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.lower"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.middle"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle_and_lower = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.middle.and.lower"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_lower = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.lower"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.middle"
+    static let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower = "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower"
+    static let figure_skateboarding = "figure.skateboarding"
+    static let figure_skateboarding_circle = "figure.skateboarding.circle"
+    static let figure_skateboarding_circle_fill = "figure.skateboarding.circle.fill"
+    static let figure_skiing_crosscountry_circle = "figure.skiing.crosscountry.circle"
+    static let figure_skiing_crosscountry_circle_fill = "figure.skiing.crosscountry.circle.fill"
+    static let figure_skiing_downhill_circle = "figure.skiing.downhill.circle"
+    static let figure_skiing_downhill_circle_fill = "figure.skiing.downhill.circle.fill"
+    static let figure_snowboarding_circle = "figure.snowboarding.circle"
+    static let figure_snowboarding_circle_fill = "figure.snowboarding.circle.fill"
+    static let figure_socialdance_circle = "figure.socialdance.circle"
+    static let figure_socialdance_circle_fill = "figure.socialdance.circle.fill"
+    static let figure_softball_circle = "figure.softball.circle"
+    static let figure_softball_circle_fill = "figure.softball.circle.fill"
+    static let figure_squash_circle = "figure.squash.circle"
+    static let figure_squash_circle_fill = "figure.squash.circle.fill"
+    static let figure_stair_stepper_circle = "figure.stair.stepper.circle"
+    static let figure_stair_stepper_circle_fill = "figure.stair.stepper.circle.fill"
+    static let figure_stairs_circle = "figure.stairs.circle"
+    static let figure_stairs_circle_fill = "figure.stairs.circle.fill"
+    static let figure_stand_dress = "figure.stand.dress"
+    static let figure_stand_dress_line_vertical_figure = "figure.stand.dress.line.vertical.figure"
+    static let figure_step_training_circle = "figure.step.training.circle"
+    static let figure_step_training_circle_fill = "figure.step.training.circle.fill"
+    static let figure_strengthtraining_functional_circle = "figure.strengthtraining.functional.circle"
+    static let figure_strengthtraining_functional_circle_fill = "figure.strengthtraining.functional.circle.fill"
+    static let figure_strengthtraining_traditional_circle = "figure.strengthtraining.traditional.circle"
+    static let figure_strengthtraining_traditional_circle_fill = "figure.strengthtraining.traditional.circle.fill"
+    static let figure_surfing_circle = "figure.surfing.circle"
+    static let figure_surfing_circle_fill = "figure.surfing.circle.fill"
+    static let figure_table_tennis_circle = "figure.table.tennis.circle"
+    static let figure_table_tennis_circle_fill = "figure.table.tennis.circle.fill"
+    static let figure_taichi_circle = "figure.taichi.circle"
+    static let figure_taichi_circle_fill = "figure.taichi.circle.fill"
+    static let figure_tennis_circle = "figure.tennis.circle"
+    static let figure_tennis_circle_fill = "figure.tennis.circle.fill"
+    static let figure_track_and_field_circle = "figure.track.and.field.circle"
+    static let figure_track_and_field_circle_fill = "figure.track.and.field.circle.fill"
+    static let figure_volleyball_circle = "figure.volleyball.circle"
+    static let figure_volleyball_circle_fill = "figure.volleyball.circle.fill"
+    static let figure_walk_treadmill = "figure.walk.treadmill"
+    static let figure_walk_treadmill_circle = "figure.walk.treadmill.circle"
+    static let figure_walk_treadmill_circle_fill = "figure.walk.treadmill.circle.fill"
+    static let figure_walk_triangle = "figure.walk.triangle"
+    static let figure_walk_triangle_fill = "figure.walk.triangle.fill"
+    static let figure_water_fitness_circle = "figure.water.fitness.circle"
+    static let figure_water_fitness_circle_fill = "figure.water.fitness.circle.fill"
+    static let figure_waterpolo_circle = "figure.waterpolo.circle"
+    static let figure_waterpolo_circle_fill = "figure.waterpolo.circle.fill"
+    static let figure_wrestling_circle = "figure.wrestling.circle"
+    static let figure_wrestling_circle_fill = "figure.wrestling.circle.fill"
+    static let figure_yoga_circle = "figure.yoga.circle"
+    static let figure_yoga_circle_fill = "figure.yoga.circle.fill"
+    static let fire_extinguisher = "fire.extinguisher"
+    static let fire_extinguisher_fill = "fire.extinguisher.fill"
+    static let flag_pattern_checkered = "flag.pattern.checkered"
+    static let flag_pattern_checkered_2_crossed = "flag.pattern.checkered.2.crossed"
+    static let flag_pattern_checkered_circle = "flag.pattern.checkered.circle"
+    static let flag_pattern_checkered_circle_fill = "flag.pattern.checkered.circle.fill"
+    static let florinsign_arrow_trianglehead_counterclockwise_rotate_90 = "florinsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let florinsign_bank_building = "florinsign.bank.building"
+    static let florinsign_bank_building_fill = "florinsign.bank.building.fill"
+    static let florinsign_gauge_chart_lefthalf_righthalf = "florinsign.gauge.chart.lefthalf.righthalf"
+    static let florinsign_gauge_chart_leftthird_topthird_rightthird = "florinsign.gauge.chart.leftthird.topthird.rightthird"
+    static let florinsign_ring = "florinsign.ring"
+    static let florinsign_ring_dashed = "florinsign.ring.dashed"
+    static let fluid_batteryblock = "fluid.batteryblock"
+    static let fluid_coolant = "fluid.coolant"
+    static let formfitting_gamecontroller = "formfitting.gamecontroller"
+    static let formfitting_gamecontroller_fill = "formfitting.gamecontroller.fill"
+    static let francsign_arrow_trianglehead_counterclockwise_rotate_90 = "francsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let francsign_bank_building = "francsign.bank.building"
+    static let francsign_bank_building_fill = "francsign.bank.building.fill"
+    static let francsign_gauge_chart_lefthalf_righthalf = "francsign.gauge.chart.lefthalf.righthalf"
+    static let francsign_gauge_chart_leftthird_topthird_rightthird = "francsign.gauge.chart.leftthird.topthird.rightthird"
+    static let francsign_ring = "francsign.ring"
+    static let francsign_ring_dashed = "francsign.ring.dashed"
+    static let fuelpump_and_filter = "fuelpump.and.filter"
+    static let gamecontroller_circle = "gamecontroller.circle"
+    static let gamecontroller_circle_fill = "gamecontroller.circle.fill"
+    static let gauge_open_with_lines_needle_33percent_and_arrow_trianglehead_from_0percent_to_50percent = "gauge.open.with.lines.needle.33percent.and.arrow.trianglehead.from.0percent.to.50percent"
+    static let gearshape_arrow_trianglehead_2_clockwise_rotate_90 = "gearshape.arrow.trianglehead.2.clockwise.rotate.90"
+    static let greaterthanorequalto = "greaterthanorequalto"
+    static let greaterthanorequalto_circle = "greaterthanorequalto.circle"
+    static let greaterthanorequalto_circle_fill = "greaterthanorequalto.circle.fill"
+    static let greaterthanorequalto_square = "greaterthanorequalto.square"
+    static let greaterthanorequalto_square_fill = "greaterthanorequalto.square.fill"
+    static let guaranisign_arrow_trianglehead_counterclockwise_rotate_90 = "guaranisign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let guaranisign_bank_building = "guaranisign.bank.building"
+    static let guaranisign_bank_building_fill = "guaranisign.bank.building.fill"
+    static let guaranisign_gauge_chart_lefthalf_righthalf = "guaranisign.gauge.chart.lefthalf.righthalf"
+    static let guaranisign_gauge_chart_leftthird_topthird_rightthird = "guaranisign.gauge.chart.leftthird.topthird.rightthird"
+    static let guaranisign_ring = "guaranisign.ring"
+    static let guaranisign_ring_dashed = "guaranisign.ring.dashed"
+    static let hand_draw_badge_ellipsis = "hand.draw.badge.ellipsis"
+    static let hand_draw_badge_ellipsis_fill = "hand.draw.badge.ellipsis.fill"
+    static let hand_palm_facing = "hand.palm.facing"
+    static let hand_palm_facing_fill = "hand.palm.facing.fill"
+    static let hand_pinch = "hand.pinch"
+    static let hand_pinch_fill = "hand.pinch.fill"
+    static let hand_point_up_braille_badge_ellipsis = "hand.point.up.braille.badge.ellipsis"
+    static let hand_point_up_braille_badge_ellipsis_fill = "hand.point.up.braille.badge.ellipsis.fill"
+    static let hand_raised_palm_facing = "hand.raised.palm.facing"
+    static let hand_raised_palm_facing_fill = "hand.raised.palm.facing.fill"
+    static let hand_rays = "hand.rays"
+    static let hand_rays_fill = "hand.rays.fill"
+    static let hat_cap = "hat.cap"
+    static let hat_cap_fill = "hat.cap.fill"
+    static let hat_widebrim = "hat.widebrim"
+    static let hat_widebrim_fill = "hat.widebrim.fill"
+    static let head_profile_arrow_forward_and_vision_pro = "head.profile.arrow.forward.and.vision.pro"
+    static let headphones_slash = "headphones.slash"
+    static let headset = "headset"
+    static let headset_circle = "headset.circle"
+    static let headset_circle_fill = "headset.circle.fill"
+    static let heart_text_clipboard = "heart.text.clipboard"
+    static let heart_text_clipboard_fill = "heart.text.clipboard.fill"
+    static let heat_waves_and_fan = "heat.waves.and.fan"
+    static let helmet = "helmet"
+    static let helmet_fill = "helmet.fill"
+    static let hifispeaker_2_badge_minus = "hifispeaker.2.badge.minus"
+    static let hifispeaker_2_badge_minus_fill = "hifispeaker.2.badge.minus.fill"
+    static let hifispeaker_2_badge_plus = "hifispeaker.2.badge.plus"
+    static let hifispeaker_2_badge_plus_fill = "hifispeaker.2.badge.plus.fill"
+    static let hifispeaker_and_homepod_badge_minus = "hifispeaker.and.homepod.badge.minus"
+    static let hifispeaker_and_homepod_badge_minus_fill = "hifispeaker.and.homepod.badge.minus.fill"
+    static let hifispeaker_and_homepod_badge_plus = "hifispeaker.and.homepod.badge.plus"
+    static let hifispeaker_and_homepod_badge_plus_fill = "hifispeaker.and.homepod.badge.plus.fill"
+    static let hifispeaker_and_homepod_mini = "hifispeaker.and.homepod.mini"
+    static let hifispeaker_and_homepod_mini_badge_minus = "hifispeaker.and.homepod.mini.badge.minus"
+    static let hifispeaker_and_homepod_mini_badge_minus_fill = "hifispeaker.and.homepod.mini.badge.minus.fill"
+    static let hifispeaker_and_homepod_mini_badge_plus = "hifispeaker.and.homepod.mini.badge.plus"
+    static let hifispeaker_and_homepod_mini_badge_plus_fill = "hifispeaker.and.homepod.mini.badge.plus.fill"
+    static let hifispeaker_and_homepod_mini_fill = "hifispeaker.and.homepod.mini.fill"
+    static let hifispeaker_arrow_forward = "hifispeaker.arrow.forward"
+    static let hifispeaker_arrow_forward_fill = "hifispeaker.arrow.forward.fill"
+    static let hifispeaker_badge_minus = "hifispeaker.badge.minus"
+    static let hifispeaker_badge_minus_fill = "hifispeaker.badge.minus.fill"
+    static let hifispeaker_badge_plus = "hifispeaker.badge.plus"
+    static let hifispeaker_badge_plus_fill = "hifispeaker.badge.plus.fill"
+    static let homepod_2_badge_minus = "homepod.2.badge.minus"
+    static let homepod_2_badge_minus_fill = "homepod.2.badge.minus.fill"
+    static let homepod_2_badge_plus = "homepod.2.badge.plus"
+    static let homepod_2_badge_plus_fill = "homepod.2.badge.plus.fill"
+    static let homepod_and_homepod_mini = "homepod.and.homepod.mini"
+    static let homepod_and_homepod_mini_badge_minus = "homepod.and.homepod.mini.badge.minus"
+    static let homepod_and_homepod_mini_badge_minus_fill = "homepod.and.homepod.mini.badge.minus.fill"
+    static let homepod_and_homepod_mini_badge_plus = "homepod.and.homepod.mini.badge.plus"
+    static let homepod_and_homepod_mini_badge_plus_fill = "homepod.and.homepod.mini.badge.plus.fill"
+    static let homepod_and_homepod_mini_fill = "homepod.and.homepod.mini.fill"
+    static let homepod_arrow_forward = "homepod.arrow.forward"
+    static let homepod_arrow_forward_fill = "homepod.arrow.forward.fill"
+    static let homepod_badge_minus = "homepod.badge.minus"
+    static let homepod_badge_minus_fill = "homepod.badge.minus.fill"
+    static let homepod_badge_plus = "homepod.badge.plus"
+    static let homepod_badge_plus_fill = "homepod.badge.plus.fill"
+    static let homepod_mini = "homepod.mini"
+    static let homepod_mini_2 = "homepod.mini.2"
+    static let homepod_mini_2_badge_minus = "homepod.mini.2.badge.minus"
+    static let homepod_mini_2_badge_minus_fill = "homepod.mini.2.badge.minus.fill"
+    static let homepod_mini_2_badge_plus = "homepod.mini.2.badge.plus"
+    static let homepod_mini_2_badge_plus_fill = "homepod.mini.2.badge.plus.fill"
+    static let homepod_mini_2_fill = "homepod.mini.2.fill"
+    static let homepod_mini_arrow_forward = "homepod.mini.arrow.forward"
+    static let homepod_mini_arrow_forward_fill = "homepod.mini.arrow.forward.fill"
+    static let homepod_mini_badge_minus = "homepod.mini.badge.minus"
+    static let homepod_mini_badge_minus_fill = "homepod.mini.badge.minus.fill"
+    static let homepod_mini_badge_plus = "homepod.mini.badge.plus"
+    static let homepod_mini_badge_plus_fill = "homepod.mini.badge.plus.fill"
+    static let homepod_mini_fill = "homepod.mini.fill"
+    static let hourglass_badge_eye = "hourglass.badge.eye"
+    static let house_badge_exclamationmark = "house.badge.exclamationmark"
+    static let house_badge_exclamationmark_fill = "house.badge.exclamationmark.fill"
+    static let house_badge_wifi = "house.badge.wifi"
+    static let house_badge_wifi_fill = "house.badge.wifi.fill"
+    static let house_slash = "house.slash"
+    static let house_slash_fill = "house.slash.fill"
+    static let hryvniasign_arrow_trianglehead_counterclockwise_rotate_90 = "hryvniasign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let hryvniasign_bank_building = "hryvniasign.bank.building"
+    static let hryvniasign_bank_building_fill = "hryvniasign.bank.building.fill"
+    static let hryvniasign_gauge_chart_lefthalf_righthalf = "hryvniasign.gauge.chart.lefthalf.righthalf"
+    static let hryvniasign_gauge_chart_leftthird_topthird_rightthird = "hryvniasign.gauge.chart.leftthird.topthird.rightthird"
+    static let hryvniasign_ring = "hryvniasign.ring"
+    static let hryvniasign_ring_dashed = "hryvniasign.ring.dashed"
+    static let indianrupeesign_arrow_trianglehead_counterclockwise_rotate_90 = "indianrupeesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let indianrupeesign_bank_building = "indianrupeesign.bank.building"
+    static let indianrupeesign_bank_building_fill = "indianrupeesign.bank.building.fill"
+    static let indianrupeesign_gauge_chart_lefthalf_righthalf = "indianrupeesign.gauge.chart.lefthalf.righthalf"
+    static let indianrupeesign_gauge_chart_leftthird_topthird_rightthird = "indianrupeesign.gauge.chart.leftthird.topthird.rightthird"
+    static let indianrupeesign_ring = "indianrupeesign.ring"
+    static let indianrupeesign_ring_dashed = "indianrupeesign.ring.dashed"
+    static let inhaler = "inhaler"
+    static let inhaler_fill = "inhaler.fill"
+    static let inset_filled_applewatch_case = "inset.filled.applewatch.case"
+    static let inset_filled_bottomhalf_rectangle = "inset.filled.bottomhalf.rectangle"
+    static let inset_filled_bottomhalf_rectangle_portrait = "inset.filled.bottomhalf.rectangle.portrait"
+    static let inset_filled_bottomhalf_tophalf_rectangle = "inset.filled.bottomhalf.tophalf.rectangle"
+    static let inset_filled_bottomleading_rectangle = "inset.filled.bottomleading.rectangle"
+    static let inset_filled_bottomleading_rectangle_portrait = "inset.filled.bottomleading.rectangle.portrait"
+    static let inset_filled_bottomleft_rectangle = "inset.filled.bottomleft.rectangle"
+    static let inset_filled_bottomleft_rectangle_portrait = "inset.filled.bottomleft.rectangle.portrait"
+    static let inset_filled_bottomright_rectangle = "inset.filled.bottomright.rectangle"
+    static let inset_filled_bottomright_rectangle_portrait = "inset.filled.bottomright.rectangle.portrait"
+    static let inset_filled_bottomthird_rectangle = "inset.filled.bottomthird.rectangle"
+    static let inset_filled_bottomthird_rectangle_portrait = "inset.filled.bottomthird.rectangle.portrait"
+    static let inset_filled_bottomthird_square = "inset.filled.bottomthird.square"
+    static let inset_filled_bottomtrailing_rectangle = "inset.filled.bottomtrailing.rectangle"
+    static let inset_filled_bottomtrailing_rectangle_portrait = "inset.filled.bottomtrailing.rectangle.portrait"
+    static let inset_filled_capsule = "inset.filled.capsule"
+    static let inset_filled_capsule_portrait = "inset.filled.capsule.portrait"
+    static let inset_filled_center_rectangle = "inset.filled.center.rectangle"
+    static let inset_filled_center_rectangle_badge_plus = "inset.filled.center.rectangle.badge.plus"
+    static let inset_filled_center_rectangle_portrait = "inset.filled.center.rectangle.portrait"
+    static let inset_filled_circle = "inset.filled.circle"
+    static let inset_filled_circle_dashed = "inset.filled.circle.dashed"
+    static let inset_filled_diamond = "inset.filled.diamond"
+    static let inset_filled_leadinghalf_arrow_leading_rectangle = "inset.filled.leadinghalf.arrow.leading.rectangle"
+    static let inset_filled_leadinghalf_rectangle = "inset.filled.leadinghalf.rectangle"
+    static let inset_filled_leadinghalf_rectangle_portrait = "inset.filled.leadinghalf.rectangle.portrait"
+    static let inset_filled_leadinghalf_toptrailing_bottomtrailing_rectangle = "inset.filled.leadinghalf.toptrailing.bottomtrailing.rectangle"
+    static let inset_filled_leadinghalf_trailinghalf_rectangle = "inset.filled.leadinghalf.trailinghalf.rectangle"
+    static let inset_filled_leadingthird_rectangle = "inset.filled.leadingthird.rectangle"
+    static let inset_filled_leadingthird_rectangle_portrait = "inset.filled.leadingthird.rectangle.portrait"
+    static let inset_filled_leadingthird_square = "inset.filled.leadingthird.square"
+    static let inset_filled_lefthalf_arrow_left_rectangle = "inset.filled.lefthalf.arrow.left.rectangle"
+    static let inset_filled_lefthalf_rectangle = "inset.filled.lefthalf.rectangle"
+    static let inset_filled_lefthalf_rectangle_portrait = "inset.filled.lefthalf.rectangle.portrait"
+    static let inset_filled_lefthalf_righthalf_rectangle = "inset.filled.lefthalf.righthalf.rectangle"
+    static let inset_filled_lefthalf_topright_bottomright_rectangle = "inset.filled.lefthalf.topright.bottomright.rectangle"
+    static let inset_filled_leftthird_rectangle = "inset.filled.leftthird.rectangle"
+    static let inset_filled_leftthird_rectangle_portrait = "inset.filled.leftthird.rectangle.portrait"
+    static let inset_filled_leftthird_square = "inset.filled.leftthird.square"
+    static let inset_filled_oval = "inset.filled.oval"
+    static let inset_filled_oval_portrait = "inset.filled.oval.portrait"
+    static let inset_filled_rectangle = "inset.filled.rectangle"
+    static let inset_filled_rectangle_and_cursorarrow = "inset.filled.rectangle.and.cursorarrow"
+    static let inset_filled_rectangle_and_person_filled = "inset.filled.rectangle.and.person.filled"
+    static let inset_filled_rectangle_badge_record = "inset.filled.rectangle.badge.record"
+    static let inset_filled_rectangle_on_rectangle = "inset.filled.rectangle.on.rectangle"
+    static let inset_filled_rectangle_portrait = "inset.filled.rectangle.portrait"
+    static let inset_filled_righthalf_arrow_right_rectangle = "inset.filled.righthalf.arrow.right.rectangle"
+    static let inset_filled_righthalf_lefthalf_rectangle = "inset.filled.righthalf.lefthalf.rectangle"
+    static let inset_filled_righthalf_rectangle = "inset.filled.righthalf.rectangle"
+    static let inset_filled_righthalf_rectangle_portrait = "inset.filled.righthalf.rectangle.portrait"
+    static let inset_filled_rightthird_rectangle = "inset.filled.rightthird.rectangle"
+    static let inset_filled_rightthird_rectangle_portrait = "inset.filled.rightthird.rectangle.portrait"
+    static let inset_filled_rightthird_square = "inset.filled.rightthird.square"
+    static let inset_filled_square = "inset.filled.square"
+    static let inset_filled_square_dashed = "inset.filled.square.dashed"
+    static let inset_filled_tophalf_bottomhalf_rectangle = "inset.filled.tophalf.bottomhalf.rectangle"
+    static let inset_filled_tophalf_bottomleft_bottomright_rectangle = "inset.filled.tophalf.bottomleft.bottomright.rectangle"
+    static let inset_filled_tophalf_rectangle = "inset.filled.tophalf.rectangle"
+    static let inset_filled_tophalf_rectangle_portrait = "inset.filled.tophalf.rectangle.portrait"
+    static let inset_filled_topleading_bottomleading_trailinghalf_rectangle = "inset.filled.topleading.bottomleading.trailinghalf.rectangle"
+    static let inset_filled_topleading_rectangle = "inset.filled.topleading.rectangle"
+    static let inset_filled_topleading_rectangle_portrait = "inset.filled.topleading.rectangle.portrait"
+    static let inset_filled_topleft_bottomleft_righthalf_rectangle = "inset.filled.topleft.bottomleft.righthalf.rectangle"
+    static let inset_filled_topleft_rectangle = "inset.filled.topleft.rectangle"
+    static let inset_filled_topleft_rectangle_portrait = "inset.filled.topleft.rectangle.portrait"
+    static let inset_filled_topleft_topright_bottomhalf_rectangle = "inset.filled.topleft.topright.bottomhalf.rectangle"
+    static let inset_filled_topleft_topright_bottomleft_bottomright_rectangle = "inset.filled.topleft.topright.bottomleft.bottomright.rectangle"
+    static let inset_filled_topright_rectangle = "inset.filled.topright.rectangle"
+    static let inset_filled_topright_rectangle_portrait = "inset.filled.topright.rectangle.portrait"
+    static let inset_filled_topthird_rectangle = "inset.filled.topthird.rectangle"
+    static let inset_filled_topthird_rectangle_portrait = "inset.filled.topthird.rectangle.portrait"
+    static let inset_filled_topthird_square = "inset.filled.topthird.square"
+    static let inset_filled_toptrailing_rectangle = "inset.filled.toptrailing.rectangle"
+    static let inset_filled_toptrailing_rectangle_portrait = "inset.filled.toptrailing.rectangle.portrait"
+    static let inset_filled_trailinghalf_arrow_trailing_rectangle = "inset.filled.trailinghalf.arrow.trailing.rectangle"
+    static let inset_filled_trailinghalf_leadinghalf_rectangle = "inset.filled.trailinghalf.leadinghalf.rectangle"
+    static let inset_filled_trailinghalf_rectangle = "inset.filled.trailinghalf.rectangle"
+    static let inset_filled_trailinghalf_rectangle_portrait = "inset.filled.trailinghalf.rectangle.portrait"
+    static let inset_filled_trailingthird_rectangle = "inset.filled.trailingthird.rectangle"
+    static let inset_filled_trailingthird_rectangle_portrait = "inset.filled.trailingthird.rectangle.portrait"
+    static let inset_filled_trailingthird_square = "inset.filled.trailingthird.square"
+    static let inset_filled_triangle = "inset.filled.triangle"
+    static let inset_filled_tv = "inset.filled.tv"
+    static let ipad_badge_location = "ipad.badge.location"
+    static let ipad_gen1_badge_location = "ipad.gen1.badge.location"
+    static let ipad_gen1_landscape_badge_location = "ipad.gen1.landscape.badge.location"
+    static let ipad_gen1_landscape_slash = "ipad.gen1.landscape.slash"
+    static let ipad_gen1_slash = "ipad.gen1.slash"
+    static let ipad_gen2_badge_location = "ipad.gen2.badge.location"
+    static let ipad_gen2_landscape_badge_location = "ipad.gen2.landscape.badge.location"
+    static let ipad_gen2_landscape_slash = "ipad.gen2.landscape.slash"
+    static let ipad_gen2_slash = "ipad.gen2.slash"
+    static let ipad_landscape_and_iphone = "ipad.landscape.and.iphone"
+    static let ipad_landscape_and_iphone_slash = "ipad.landscape.and.iphone.slash"
+    static let ipad_landscape_badge_location = "ipad.landscape.badge.location"
+    static let iphone_and_arrow_forward_inward = "iphone.and.arrow.forward.inward"
+    static let iphone_and_arrow_forward_outward = "iphone.and.arrow.forward.outward"
+    static let iphone_and_arrow_left_and_arrow_right_inward = "iphone.and.arrow.left.and.arrow.right.inward"
+    static let iphone_and_arrow_right_inward = "iphone.and.arrow.right.inward"
+    static let iphone_and_arrow_right_outward = "iphone.and.arrow.right.outward"
+    static let iphone_app_switcher = "iphone.app.switcher"
+    static let iphone_badge_location = "iphone.badge.location"
+    static let iphone_crop_circle = "iphone.crop.circle"
+    static let iphone_dock_motorized_viewfinder = "iphone.dock.motorized.viewfinder"
+    static let iphone_gen1_and_arrow_left = "iphone.gen1.and.arrow.left"
+    static let iphone_gen1_badge_location = "iphone.gen1.badge.location"
+    static let iphone_gen1_crop_circle = "iphone.gen1.crop.circle"
+    static let iphone_gen1_landscape_slash = "iphone.gen1.landscape.slash"
+    static let iphone_gen1_motion = "iphone.gen1.motion"
+    static let iphone_gen2_and_arrow_left_and_arrow_right_inward = "iphone.gen2.and.arrow.left.and.arrow.right.inward"
+    static let iphone_gen2_badge_location = "iphone.gen2.badge.location"
+    static let iphone_gen2_crop_circle = "iphone.gen2.crop.circle"
+    static let iphone_gen2_landscape_slash = "iphone.gen2.landscape.slash"
+    static let iphone_gen2_motion = "iphone.gen2.motion"
+    static let iphone_gen3_and_arrow_left_and_arrow_right_inward = "iphone.gen3.and.arrow.left.and.arrow.right.inward"
+    static let iphone_gen3_badge_location = "iphone.gen3.badge.location"
+    static let iphone_gen3_crop_circle = "iphone.gen3.crop.circle"
+    static let iphone_gen3_landscape_slash = "iphone.gen3.landscape.slash"
+    static let iphone_gen3_motion = "iphone.gen3.motion"
+    static let iphone_motion = "iphone.motion"
+    static let ipod_shuffle_gen1 = "ipod.shuffle.gen1"
+    static let ipod_shuffle_gen2 = "ipod.shuffle.gen2"
+    static let ipod_shuffle_gen3 = "ipod.shuffle.gen3"
+    static let ipod_shuffle_gen4 = "ipod.shuffle.gen4"
+    static let ipod_touch = "ipod.touch"
+    static let ipod_touch_landscape = "ipod.touch.landscape"
+    static let ipod_touch_slash = "ipod.touch.slash"
+    static let jacket = "jacket"
+    static let jacket_fill = "jacket.fill"
+    static let key_2_on_ring = "key.2.on.ring"
+    static let key_2_on_ring_fill = "key.2.on.ring.fill"
+    static let key_car_radiowaves_forward = "key.car.radiowaves.forward"
+    static let key_car_radiowaves_forward_fill = "key.car.radiowaves.forward.fill"
+    static let key_card = "key.card"
+    static let key_card_fill = "key.card.fill"
+    static let kipsign_arrow_trianglehead_counterclockwise_rotate_90 = "kipsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let kipsign_bank_building = "kipsign.bank.building"
+    static let kipsign_bank_building_fill = "kipsign.bank.building.fill"
+    static let kipsign_gauge_chart_lefthalf_righthalf = "kipsign.gauge.chart.lefthalf.righthalf"
+    static let kipsign_gauge_chart_leftthird_topthird_rightthird = "kipsign.gauge.chart.leftthird.topthird.rightthird"
+    static let kipsign_ring = "kipsign.ring"
+    static let kipsign_ring_dashed = "kipsign.ring.dashed"
+    static let ladybug_slash = "ladybug.slash"
+    static let ladybug_slash_circle = "ladybug.slash.circle"
+    static let ladybug_slash_circle_fill = "ladybug.slash.circle.fill"
+    static let ladybug_slash_fill = "ladybug.slash.fill"
+    static let larisign_arrow_trianglehead_counterclockwise_rotate_90 = "larisign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let larisign_bank_building = "larisign.bank.building"
+    static let larisign_bank_building_fill = "larisign.bank.building.fill"
+    static let larisign_gauge_chart_lefthalf_righthalf = "larisign.gauge.chart.lefthalf.righthalf"
+    static let larisign_gauge_chart_leftthird_topthird_rightthird = "larisign.gauge.chart.leftthird.topthird.rightthird"
+    static let larisign_ring = "larisign.ring"
+    static let larisign_ring_dashed = "larisign.ring.dashed"
+    static let leaf_arrow_trianglehead_clockwise = "leaf.arrow.trianglehead.clockwise"
+    static let lessthanorequalto = "lessthanorequalto"
+    static let lessthanorequalto_circle = "lessthanorequalto.circle"
+    static let lessthanorequalto_circle_fill = "lessthanorequalto.circle.fill"
+    static let lessthanorequalto_square = "lessthanorequalto.square"
+    static let lessthanorequalto_square_fill = "lessthanorequalto.square.fill"
+    static let lirasign_arrow_trianglehead_counterclockwise_rotate_90 = "lirasign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let lirasign_bank_building = "lirasign.bank.building"
+    static let lirasign_bank_building_fill = "lirasign.bank.building.fill"
+    static let lirasign_gauge_chart_lefthalf_righthalf = "lirasign.gauge.chart.lefthalf.righthalf"
+    static let lirasign_gauge_chart_leftthird_topthird_rightthird = "lirasign.gauge.chart.leftthird.topthird.rightthird"
+    static let lirasign_ring = "lirasign.ring"
+    static let lirasign_ring_dashed = "lirasign.ring.dashed"
+    static let location_app = "location.app"
+    static let location_app_fill = "location.app.fill"
+    static let lock_document = "lock.document"
+    static let lock_document_fill = "lock.document.fill"
+    static let lock_rectangle_on_rectangle_dashed = "lock.rectangle.on.rectangle.dashed"
+    static let macbook_and_applewatch = "macbook.and.applewatch"
+    static let macbook_and_vision_pro = "macbook.and.vision.pro"
+    static let macbook_slash = "macbook.slash"
+    static let malaysianringgitsign = "malaysianringgitsign"
+    static let malaysianringgitsign_arrow_trianglehead_counterclockwise_rotate_90 = "malaysianringgitsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let malaysianringgitsign_bank_building = "malaysianringgitsign.bank.building"
+    static let malaysianringgitsign_bank_building_fill = "malaysianringgitsign.bank.building.fill"
+    static let malaysianringgitsign_circle = "malaysianringgitsign.circle"
+    static let malaysianringgitsign_circle_fill = "malaysianringgitsign.circle.fill"
+    static let malaysianringgitsign_gauge_chart_lefthalf_righthalf = "malaysianringgitsign.gauge.chart.lefthalf.righthalf"
+    static let malaysianringgitsign_gauge_chart_leftthird_topthird_rightthird = "malaysianringgitsign.gauge.chart.leftthird.topthird.rightthird"
+    static let malaysianringgitsign_ring = "malaysianringgitsign.ring"
+    static let malaysianringgitsign_ring_dashed = "malaysianringgitsign.ring.dashed"
+    static let malaysianringgitsign_square = "malaysianringgitsign.square"
+    static let malaysianringgitsign_square_fill = "malaysianringgitsign.square.fill"
+    static let manatsign_arrow_trianglehead_counterclockwise_rotate_90 = "manatsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let manatsign_bank_building = "manatsign.bank.building"
+    static let manatsign_bank_building_fill = "manatsign.bank.building.fill"
+    static let manatsign_gauge_chart_lefthalf_righthalf = "manatsign.gauge.chart.lefthalf.righthalf"
+    static let manatsign_gauge_chart_leftthird_topthird_rightthird = "manatsign.gauge.chart.leftthird.topthird.rightthird"
+    static let manatsign_ring = "manatsign.ring"
+    static let manatsign_ring_dashed = "manatsign.ring.dashed"
+    static let matter_logo = "matter.logo"
+    static let mecca = "mecca"
+    static let microphone = "microphone"
+    static let microphone_and_signal_meter = "microphone.and.signal.meter"
+    static let microphone_and_signal_meter_fill = "microphone.and.signal.meter.fill"
+    static let microphone_badge_ellipsis = "microphone.badge.ellipsis"
+    static let microphone_badge_ellipsis_fill = "microphone.badge.ellipsis.fill"
+    static let microphone_badge_plus = "microphone.badge.plus"
+    static let microphone_badge_plus_fill = "microphone.badge.plus.fill"
+    static let microphone_badge_xmark = "microphone.badge.xmark"
+    static let microphone_badge_xmark_fill = "microphone.badge.xmark.fill"
+    static let microphone_circle = "microphone.circle"
+    static let microphone_circle_fill = "microphone.circle.fill"
+    static let microphone_fill = "microphone.fill"
+    static let microphone_slash = "microphone.slash"
+    static let microphone_slash_circle = "microphone.slash.circle"
+    static let microphone_slash_circle_fill = "microphone.slash.circle.fill"
+    static let microphone_slash_fill = "microphone.slash.fill"
+    static let microphone_square = "microphone.square"
+    static let microphone_square_fill = "microphone.square.fill"
+    static let millsign_arrow_trianglehead_counterclockwise_rotate_90 = "millsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let millsign_bank_building = "millsign.bank.building"
+    static let millsign_bank_building_fill = "millsign.bank.building.fill"
+    static let millsign_gauge_chart_lefthalf_righthalf = "millsign.gauge.chart.lefthalf.righthalf"
+    static let millsign_gauge_chart_leftthird_topthird_rightthird = "millsign.gauge.chart.leftthird.topthird.rightthird"
+    static let millsign_ring = "millsign.ring"
+    static let millsign_ring_dashed = "millsign.ring.dashed"
+    static let minus_arrow_trianglehead_counterclockwise = "minus.arrow.trianglehead.counterclockwise"
+    static let moon_road_lanes = "moon.road.lanes"
+    static let moped = "moped"
+    static let moped_fill = "moped.fill"
+    static let motorcycle = "motorcycle"
+    static let motorcycle_fill = "motorcycle.fill"
+    static let music_microphone = "music.microphone"
+    static let music_microphone_circle = "music.microphone.circle"
+    static let music_microphone_circle_fill = "music.microphone.circle.fill"
+    static let nairasign_arrow_trianglehead_counterclockwise_rotate_90 = "nairasign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let nairasign_bank_building = "nairasign.bank.building"
+    static let nairasign_bank_building_fill = "nairasign.bank.building.fill"
+    static let nairasign_gauge_chart_lefthalf_righthalf = "nairasign.gauge.chart.lefthalf.righthalf"
+    static let nairasign_gauge_chart_leftthird_topthird_rightthird = "nairasign.gauge.chart.leftthird.topthird.rightthird"
+    static let nairasign_ring = "nairasign.ring"
+    static let nairasign_ring_dashed = "nairasign.ring.dashed"
+    static let norwegiankronesign_arrow_trianglehead_counterclockwise_rotate_90 = "norwegiankronesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let norwegiankronesign_bank_building = "norwegiankronesign.bank.building"
+    static let norwegiankronesign_bank_building_fill = "norwegiankronesign.bank.building.fill"
+    static let norwegiankronesign_gauge_chart_lefthalf_righthalf = "norwegiankronesign.gauge.chart.lefthalf.righthalf"
+    static let norwegiankronesign_gauge_chart_leftthird_topthird_rightthird = "norwegiankronesign.gauge.chart.leftthird.topthird.rightthird"
+    static let norwegiankronesign_ring = "norwegiankronesign.ring"
+    static let norwegiankronesign_ring_dashed = "norwegiankronesign.ring.dashed"
+    static let notequal = "notequal"
+    static let notequal_circle = "notequal.circle"
+    static let notequal_circle_fill = "notequal.circle.fill"
+    static let notequal_square = "notequal.square"
+    static let notequal_square_fill = "notequal.square.fill"
+    static let numbers = "numbers"
+    static let numbers_rectangle = "numbers.rectangle"
+    static let numbers_rectangle_fill = "numbers.rectangle.fill"
+    static let oar_2_crossed_circle = "oar.2.crossed.circle"
+    static let oar_2_crossed_circle_fill = "oar.2.crossed.circle.fill"
+    static let oilcan_and_thermometer = "oilcan.and.thermometer"
+    static let oilcan_and_thermometer_fill = "oilcan.and.thermometer.fill"
+    static let parkingsign_radiowaves_down_right_off = "parkingsign.radiowaves.down.right.off"
+    static let parkingsign_radiowaves_left_and_right_slash = "parkingsign.radiowaves.left.and.right.slash"
+    static let parkingsign_square = "parkingsign.square"
+    static let parkingsign_square_fill = "parkingsign.square.fill"
+    static let person_2_arrow_trianglehead_counterclockwise = "person.2.arrow.trianglehead.counterclockwise"
+    static let person_2_badge_minus = "person.2.badge.minus"
+    static let person_2_badge_minus_fill = "person.2.badge.minus.fill"
+    static let person_2_badge_plus = "person.2.badge.plus"
+    static let person_2_badge_plus_fill = "person.2.badge.plus.fill"
+    static let person_and_arrow_left_and_arrow_right_outward = "person.and.arrow.left.and.arrow.right.outward"
+    static let person_badge_shield_exclamationmark = "person.badge.shield.exclamationmark"
+    static let person_badge_shield_exclamationmark_fill = "person.badge.shield.exclamationmark.fill"
+    static let person_crop_badge_magnifyingglass = "person.crop.badge.magnifyingglass"
+    static let person_crop_badge_magnifyingglass_fill = "person.crop.badge.magnifyingglass.fill"
+    static let person_crop_square_on_square_angled = "person.crop.square.on.square.angled"
+    static let person_crop_square_on_square_angled_fill = "person.crop.square.on.square.angled.fill"
+    static let person_fill_and_arrow_left_and_arrow_right_outward = "person.fill.and.arrow.left.and.arrow.right.outward"
+    static let personalhotspot_slash = "personalhotspot.slash"
+    static let peruviansolessign = "peruviansolessign"
+    static let peruviansolessign_arrow_trianglehead_counterclockwise_rotate_90 = "peruviansolessign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let peruviansolessign_bank_building = "peruviansolessign.bank.building"
+    static let peruviansolessign_bank_building_fill = "peruviansolessign.bank.building.fill"
+    static let peruviansolessign_circle = "peruviansolessign.circle"
+    static let peruviansolessign_circle_fill = "peruviansolessign.circle.fill"
+    static let peruviansolessign_gauge_chart_lefthalf_righthalf = "peruviansolessign.gauge.chart.lefthalf.righthalf"
+    static let peruviansolessign_gauge_chart_leftthird_topthird_rightthird = "peruviansolessign.gauge.chart.leftthird.topthird.rightthird"
+    static let peruviansolessign_ring = "peruviansolessign.ring"
+    static let peruviansolessign_ring_dashed = "peruviansolessign.ring.dashed"
+    static let peruviansolessign_square = "peruviansolessign.square"
+    static let peruviansolessign_square_fill = "peruviansolessign.square.fill"
+    static let pesetasign_arrow_trianglehead_counterclockwise_rotate_90 = "pesetasign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let pesetasign_bank_building = "pesetasign.bank.building"
+    static let pesetasign_bank_building_fill = "pesetasign.bank.building.fill"
+    static let pesetasign_gauge_chart_lefthalf_righthalf = "pesetasign.gauge.chart.lefthalf.righthalf"
+    static let pesetasign_gauge_chart_leftthird_topthird_rightthird = "pesetasign.gauge.chart.leftthird.topthird.rightthird"
+    static let pesetasign_ring = "pesetasign.ring"
+    static let pesetasign_ring_dashed = "pesetasign.ring.dashed"
+    static let pesosign_arrow_trianglehead_counterclockwise_rotate_90 = "pesosign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let pesosign_bank_building = "pesosign.bank.building"
+    static let pesosign_bank_building_fill = "pesosign.bank.building.fill"
+    static let pesosign_gauge_chart_lefthalf_righthalf = "pesosign.gauge.chart.lefthalf.righthalf"
+    static let pesosign_gauge_chart_leftthird_topthird_rightthird = "pesosign.gauge.chart.leftthird.topthird.rightthird"
+    static let pesosign_ring = "pesosign.ring"
+    static let pesosign_ring_dashed = "pesosign.ring.dashed"
+    static let phone_badge_clock = "phone.badge.clock"
+    static let phone_badge_clock_fill = "phone.badge.clock.fill"
+    static let photo_badge_exclamationmark = "photo.badge.exclamationmark"
+    static let photo_badge_exclamationmark_fill = "photo.badge.exclamationmark.fill"
+    static let photo_on_rectangle_angled_fill = "photo.on.rectangle.angled.fill"
+    static let plus_arrow_trianglehead_clockwise = "plus.arrow.trianglehead.clockwise"
+    static let point_bottomleft_forward_to_arrow_triangle_scurvepath = "point.bottomleft.forward.to.arrow.triangle.scurvepath"
+    static let point_bottomleft_forward_to_arrow_triangle_scurvepath_fill = "point.bottomleft.forward.to.arrow.triangle.scurvepath.fill"
+    static let point_bottomleft_forward_to_arrow_triangle_uturn_scurvepath = "point.bottomleft.forward.to.arrow.triangle.uturn.scurvepath"
+    static let point_bottomleft_forward_to_arrow_triangle_uturn_scurvepath_fill = "point.bottomleft.forward.to.arrow.triangle.uturn.scurvepath.fill"
+    static let point_topright_arrow_triangle_backward_to_point_bottomleft_filled_scurvepath = "point.topright.arrow.triangle.backward.to.point.bottomleft.filled.scurvepath"
+    static let point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath = "point.topright.arrow.triangle.backward.to.point.bottomleft.scurvepath"
+    static let point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath_fill = "point.topright.arrow.triangle.backward.to.point.bottomleft.scurvepath.fill"
+    static let point_topright_filled_arrow_triangle_backward_to_point_bottomleft_scurvepath = "point.topright.filled.arrow.triangle.backward.to.point.bottomleft.scurvepath"
+    static let polishzlotysign_arrow_trianglehead_counterclockwise_rotate_90 = "polishzlotysign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let polishzlotysign_bank_building = "polishzlotysign.bank.building"
+    static let polishzlotysign_bank_building_fill = "polishzlotysign.bank.building.fill"
+    static let polishzlotysign_gauge_chart_lefthalf_righthalf = "polishzlotysign.gauge.chart.lefthalf.righthalf"
+    static let polishzlotysign_gauge_chart_leftthird_topthird_rightthird = "polishzlotysign.gauge.chart.leftthird.topthird.rightthird"
+    static let polishzlotysign_ring = "polishzlotysign.ring"
+    static let polishzlotysign_ring_dashed = "polishzlotysign.ring.dashed"
+    static let powermeter = "powermeter"
+    static let powerplug_portrait = "powerplug.portrait"
+    static let powerplug_portrait_fill = "powerplug.portrait.fill"
+    static let printer_dotmatrix_filled_and_paper_inverse = "printer.dotmatrix.filled.and.paper.inverse"
+    static let printer_dotmatrix_inverse = "printer.dotmatrix.inverse"
+    static let printer_filled_and_paper_inverse = "printer.filled.and.paper.inverse"
+    static let printer_inverse = "printer.inverse"
+    static let progress_indicator = "progress.indicator"
+    static let questionmark_circle_dashed = "questionmark.circle.dashed"
+    static let questionmark_text_page = "questionmark.text.page"
+    static let questionmark_text_page_fill = "questionmark.text.page.fill"
+    static let rectangle_expand_diagonal = "rectangle.expand.diagonal"
+    static let rectangle_grid_3x3 = "rectangle.grid.3x3"
+    static let rectangle_grid_3x3_fill = "rectangle.grid.3x3.fill"
+    static let rectangle_on_rectangle_dashed = "rectangle.on.rectangle.dashed"
+    static let rectangle_pattern_checkered = "rectangle.pattern.checkered"
+    static let richtext_page = "richtext.page"
+    static let richtext_page_fill = "richtext.page.fill"
+    static let robotic_vacuum = "robotic.vacuum"
+    static let robotic_vacuum_fill = "robotic.vacuum.fill"
+    static let rublesign_arrow_trianglehead_counterclockwise_rotate_90 = "rublesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let rublesign_bank_building = "rublesign.bank.building"
+    static let rublesign_bank_building_fill = "rublesign.bank.building.fill"
+    static let rublesign_gauge_chart_lefthalf_righthalf = "rublesign.gauge.chart.lefthalf.righthalf"
+    static let rublesign_gauge_chart_leftthird_topthird_rightthird = "rublesign.gauge.chart.leftthird.topthird.rightthird"
+    static let rublesign_ring = "rublesign.ring"
+    static let rublesign_ring_dashed = "rublesign.ring.dashed"
+    static let rugbyball = "rugbyball"
+    static let rugbyball_circle = "rugbyball.circle"
+    static let rugbyball_circle_fill = "rugbyball.circle.fill"
+    static let rugbyball_fill = "rugbyball.fill"
+    static let rupeesign_arrow_trianglehead_counterclockwise_rotate_90 = "rupeesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let rupeesign_bank_building = "rupeesign.bank.building"
+    static let rupeesign_bank_building_fill = "rupeesign.bank.building.fill"
+    static let rupeesign_gauge_chart_lefthalf_righthalf = "rupeesign.gauge.chart.lefthalf.righthalf"
+    static let rupeesign_gauge_chart_leftthird_topthird_rightthird = "rupeesign.gauge.chart.leftthird.topthird.rightthird"
+    static let rupeesign_ring = "rupeesign.ring"
+    static let rupeesign_ring_dashed = "rupeesign.ring.dashed"
+    static let sharedwithyou = "sharedwithyou"
+    static let sharedwithyou_circle = "sharedwithyou.circle"
+    static let sharedwithyou_circle_fill = "sharedwithyou.circle.fill"
+    static let sharedwithyou_slash = "sharedwithyou.slash"
+    static let shekelsign_arrow_trianglehead_counterclockwise_rotate_90 = "shekelsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let shekelsign_bank_building = "shekelsign.bank.building"
+    static let shekelsign_bank_building_fill = "shekelsign.bank.building.fill"
+    static let shekelsign_gauge_chart_lefthalf_righthalf = "shekelsign.gauge.chart.lefthalf.righthalf"
+    static let shekelsign_gauge_chart_leftthird_topthird_rightthird = "shekelsign.gauge.chart.leftthird.topthird.rightthird"
+    static let shekelsign_ring = "shekelsign.ring"
+    static let shekelsign_ring_dashed = "shekelsign.ring.dashed"
+    static let shield_pattern_checkered = "shield.pattern.checkered"
+    static let singaporedollarsign = "singaporedollarsign"
+    static let singaporedollarsign_arrow_trianglehead_counterclockwise_rotate_90 = "singaporedollarsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let singaporedollarsign_bank_building = "singaporedollarsign.bank.building"
+    static let singaporedollarsign_bank_building_fill = "singaporedollarsign.bank.building.fill"
+    static let singaporedollarsign_circle = "singaporedollarsign.circle"
+    static let singaporedollarsign_circle_fill = "singaporedollarsign.circle.fill"
+    static let singaporedollarsign_gauge_chart_lefthalf_righthalf = "singaporedollarsign.gauge.chart.lefthalf.righthalf"
+    static let singaporedollarsign_gauge_chart_leftthird_topthird_rightthird = "singaporedollarsign.gauge.chart.leftthird.topthird.rightthird"
+    static let singaporedollarsign_ring = "singaporedollarsign.ring"
+    static let singaporedollarsign_ring_dashed = "singaporedollarsign.ring.dashed"
+    static let singaporedollarsign_square = "singaporedollarsign.square"
+    static let singaporedollarsign_square_fill = "singaporedollarsign.square.fill"
+    static let slider_horizontal_2_arrow_trianglehead_counterclockwise = "slider.horizontal.2.arrow.trianglehead.counterclockwise"
+    static let slider_horizontal_2_rectangle_and_arrow_trianglehead_2_clockwise_rotate_90 = "slider.horizontal.2.rectangle.and.arrow.trianglehead.2.clockwise.rotate.90"
+    static let speaker_wave_1_arrowtriangles_up_right_down_left = "speaker.wave.1.arrowtriangles.up.right.down.left"
+    static let square_and_arrow_down_badge_clock = "square.and.arrow.down.badge.clock"
+    static let square_and_arrow_down_badge_clock_fill = "square.and.arrow.down.badge.clock.fill"
+    static let square_and_arrow_up_trianglebadge_exclamationmark_fill = "square.and.arrow.up.trianglebadge.exclamationmark.fill"
+    static let square_grid_3x3_square_badge_ellipsis = "square.grid.3x3.square.badge.ellipsis"
+    static let squareroot = "squareroot"
+    static let steeringwheel_and_hands = "steeringwheel.and.hands"
+    static let steeringwheel_arrow_trianglehead_counterclockwise_and_clockwise = "steeringwheel.arrow.trianglehead.counterclockwise.and.clockwise"
+    static let sterlingsign_arrow_trianglehead_counterclockwise_rotate_90 = "sterlingsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let sterlingsign_bank_building = "sterlingsign.bank.building"
+    static let sterlingsign_bank_building_fill = "sterlingsign.bank.building.fill"
+    static let sterlingsign_gauge_chart_lefthalf_righthalf = "sterlingsign.gauge.chart.lefthalf.righthalf"
+    static let sterlingsign_gauge_chart_leftthird_topthird_rightthird = "sterlingsign.gauge.chart.leftthird.topthird.rightthird"
+    static let sterlingsign_ring = "sterlingsign.ring"
+    static let sterlingsign_ring_dashed = "sterlingsign.ring.dashed"
+    static let sun_lefthalf_filled = "sun.lefthalf.filled"
+    static let sun_righthalf_filled = "sun.righthalf.filled"
+    static let suspension_shock = "suspension.shock"
+    static let suv_side_front_open_crop = "suv.side.front.open.crop"
+    static let suv_side_front_open_crop_fill = "suv.side.front.open.crop.fill"
+    static let suv_side_hill_descent_control = "suv.side.hill.descent.control"
+    static let suv_side_hill_descent_control_fill = "suv.side.hill.descent.control.fill"
+    static let suv_side_rear_open_crop = "suv.side.rear.open.crop"
+    static let suv_side_rear_open_crop_fill = "suv.side.rear.open.crop.fill"
+    static let suv_side_roof_cargo_carrier = "suv.side.roof.cargo.carrier"
+    static let suv_side_roof_cargo_carrier_fill = "suv.side.roof.cargo.carrier.fill"
+    static let suv_side_roof_cargo_carrier_slash = "suv.side.roof.cargo.carrier.slash"
+    static let suv_side_roof_cargo_carrier_slash_fill = "suv.side.roof.cargo.carrier.slash.fill"
+    static let swedishkronasign_arrow_trianglehead_counterclockwise_rotate_90 = "swedishkronasign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let swedishkronasign_bank_building = "swedishkronasign.bank.building"
+    static let swedishkronasign_bank_building_fill = "swedishkronasign.bank.building.fill"
+    static let swedishkronasign_gauge_chart_lefthalf_righthalf = "swedishkronasign.gauge.chart.lefthalf.righthalf"
+    static let swedishkronasign_gauge_chart_leftthird_topthird_rightthird = "swedishkronasign.gauge.chart.leftthird.topthird.rightthird"
+    static let swedishkronasign_ring = "swedishkronasign.ring"
+    static let swedishkronasign_ring_dashed = "swedishkronasign.ring.dashed"
+    static let tachometer = "tachometer"
+    static let tengesign_arrow_trianglehead_counterclockwise_rotate_90 = "tengesign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let tengesign_bank_building = "tengesign.bank.building"
+    static let tengesign_bank_building_fill = "tengesign.bank.building.fill"
+    static let tengesign_gauge_chart_lefthalf_righthalf = "tengesign.gauge.chart.lefthalf.righthalf"
+    static let tengesign_gauge_chart_leftthird_topthird_rightthird = "tengesign.gauge.chart.leftthird.topthird.rightthird"
+    static let tengesign_ring = "tengesign.ring"
+    static let tengesign_ring_dashed = "tengesign.ring.dashed"
+    static let text_bubble_badge_clock = "text.bubble.badge.clock"
+    static let text_bubble_badge_clock_fill = "text.bubble.badge.clock.fill"
+    static let text_document = "text.document"
+    static let text_document_fill = "text.document.fill"
+    static let text_line_magnify = "text.line.magnify"
+    static let text_page = "text.page"
+    static let text_page_badge_magnifyingglass = "text.page.badge.magnifyingglass"
+    static let text_page_fill = "text.page.fill"
+    static let text_page_slash = "text.page.slash"
+    static let text_page_slash_fill = "text.page.slash.fill"
+    static let text_rectangle_page = "text.rectangle.page"
+    static let text_rectangle_page_fill = "text.rectangle.page.fill"
+    static let textformat_characters = "textformat.characters"
+    static let textformat_characters_arrow_left_and_right = "textformat.characters.arrow.left.and.right"
+    static let textformat_characters_dottedunderline = "textformat.characters.dottedunderline"
+    static let textformat_numbers = "textformat.numbers"
+    static let thermometer_and_liquid_waves_snowflake = "thermometer.and.liquid.waves.snowflake"
+    static let thermometer_and_liquid_waves_trianglebadge_exclamationmark = "thermometer.and.liquid.waves.trianglebadge.exclamationmark"
+    static let thermometer_variable = "thermometer.variable"
+    static let tire = "tire"
+    static let tire_badge_snowflake = "tire.badge.snowflake"
+    static let tow_hitch = "tow.hitch"
+    static let tow_hitch_exclamationmark = "tow.hitch.exclamationmark"
+    static let tow_hitch_exclamationmark_fill = "tow.hitch.exclamationmark.fill"
+    static let tow_hitch_fill = "tow.hitch.fill"
+    static let truck_pickup_side_front_open_crop = "truck.pickup.side.front.open.crop"
+    static let truck_pickup_side_front_open_crop_fill = "truck.pickup.side.front.open.crop.fill"
+    static let truck_side_hill_descent_control = "truck.side.hill.descent.control"
+    static let truck_side_hill_descent_control_fill = "truck.side.hill.descent.control.fill"
+    static let truck_side_roof_cargo_carrier = "truck.side.roof.cargo.carrier"
+    static let truck_side_roof_cargo_carrier_fill = "truck.side.roof.cargo.carrier.fill"
+    static let truck_side_roof_cargo_carrier_slash = "truck.side.roof.cargo.carrier.slash"
+    static let truck_side_roof_cargo_carrier_slash_fill = "truck.side.roof.cargo.carrier.slash.fill"
+    static let tsa = "tsa"
+    static let tsa_circle = "tsa.circle"
+    static let tsa_circle_fill = "tsa.circle.fill"
+    static let tsa_slash = "tsa.slash"
+    static let tugriksign_arrow_trianglehead_counterclockwise_rotate_90 = "tugriksign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let tugriksign_bank_building = "tugriksign.bank.building"
+    static let tugriksign_bank_building_fill = "tugriksign.bank.building.fill"
+    static let tugriksign_gauge_chart_lefthalf_righthalf = "tugriksign.gauge.chart.lefthalf.righthalf"
+    static let tugriksign_gauge_chart_leftthird_topthird_rightthird = "tugriksign.gauge.chart.leftthird.topthird.rightthird"
+    static let tugriksign_ring = "tugriksign.ring"
+    static let tugriksign_ring_dashed = "tugriksign.ring.dashed"
+    static let turkishlirasign_arrow_trianglehead_counterclockwise_rotate_90 = "turkishlirasign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let turkishlirasign_bank_building = "turkishlirasign.bank.building"
+    static let turkishlirasign_bank_building_fill = "turkishlirasign.bank.building.fill"
+    static let turkishlirasign_gauge_chart_lefthalf_righthalf = "turkishlirasign.gauge.chart.lefthalf.righthalf"
+    static let turkishlirasign_gauge_chart_leftthird_topthird_rightthird = "turkishlirasign.gauge.chart.leftthird.topthird.rightthird"
+    static let turkishlirasign_ring = "turkishlirasign.ring"
+    static let turkishlirasign_ring_dashed = "turkishlirasign.ring.dashed"
+    static let vision_pro = "vision.pro"
+    static let vision_pro_and_arrow_forward = "vision.pro.and.arrow.forward"
+    static let vision_pro_and_arrow_forward_fill = "vision.pro.and.arrow.forward.fill"
+    static let vision_pro_badge_exclamationmark = "vision.pro.badge.exclamationmark"
+    static let vision_pro_badge_exclamationmark_fill = "vision.pro.badge.exclamationmark.fill"
+    static let vision_pro_badge_play = "vision.pro.badge.play"
+    static let vision_pro_badge_play_fill = "vision.pro.badge.play.fill"
+    static let vision_pro_circle = "vision.pro.circle"
+    static let vision_pro_circle_fill = "vision.pro.circle.fill"
+    static let vision_pro_fill = "vision.pro.fill"
+    static let vision_pro_slash = "vision.pro.slash"
+    static let vision_pro_slash_circle = "vision.pro.slash.circle"
+    static let vision_pro_slash_circle_fill = "vision.pro.slash.circle.fill"
+    static let vision_pro_slash_fill = "vision.pro.slash.fill"
+    static let vision_pro_trianglebadge_exclamationmark = "vision.pro.trianglebadge.exclamationmark"
+    static let vision_pro_trianglebadge_exclamationmark_fill = "vision.pro.trianglebadge.exclamationmark.fill"
+    static let wallet_bifold = "wallet.bifold"
+    static let wallet_bifold_fill = "wallet.bifold.fill"
+    static let wand_and_sparkles = "wand.and.sparkles"
+    static let wand_and_sparkles_inverse = "wand.and.sparkles.inverse"
+    static let water_waves_and_arrow_trianglehead_down = "water.waves.and.arrow.trianglehead.down"
+    static let water_waves_and_arrow_trianglehead_down_trianglebadge_exclamationmark = "water.waves.and.arrow.trianglehead.down.trianglebadge.exclamationmark"
+    static let water_waves_and_arrow_trianglehead_up = "water.waves.and.arrow.trianglehead.up"
+    static let wave_3_down = "wave.3.down"
+    static let wave_3_down_car_side = "wave.3.down.car.side"
+    static let wave_3_down_car_side_fill = "wave.3.down.car.side.fill"
+    static let wave_3_down_circle = "wave.3.down.circle"
+    static let wave_3_down_circle_fill = "wave.3.down.circle.fill"
+    static let wave_3_down_convertible_side = "wave.3.down.convertible.side"
+    static let wave_3_down_convertible_side_fill = "wave.3.down.convertible.side.fill"
+    static let wave_3_down_pickup_side = "wave.3.down.pickup.side"
+    static let wave_3_down_pickup_side_fill = "wave.3.down.pickup.side.fill"
+    static let wave_3_down_suv_side = "wave.3.down.suv.side"
+    static let wave_3_down_suv_side_fill = "wave.3.down.suv.side.fill"
+    static let wave_3_up = "wave.3.up"
+    static let wave_3_up_circle = "wave.3.up.circle"
+    static let wave_3_up_circle_fill = "wave.3.up.circle.fill"
+    static let waveform_badge_microphone = "waveform.badge.microphone"
+    static let wheelchair = "wheelchair"
+    static let widget_extralarge = "widget.extralarge"
+    static let widget_extralarge_badge_plus = "widget.extralarge.badge.plus"
+    static let widget_large = "widget.large"
+    static let widget_large_badge_plus = "widget.large.badge.plus"
+    static let widget_medium = "widget.medium"
+    static let widget_medium_badge_plus = "widget.medium.badge.plus"
+    static let widget_small = "widget.small"
+    static let widget_small_badge_plus = "widget.small.badge.plus"
+    static let wonsign_arrow_trianglehead_counterclockwise_rotate_90 = "wonsign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let wonsign_bank_building = "wonsign.bank.building"
+    static let wonsign_bank_building_fill = "wonsign.bank.building.fill"
+    static let wonsign_gauge_chart_lefthalf_righthalf = "wonsign.gauge.chart.lefthalf.righthalf"
+    static let wonsign_gauge_chart_leftthird_topthird_rightthird = "wonsign.gauge.chart.leftthird.topthird.rightthird"
+    static let wonsign_ring = "wonsign.ring"
+    static let wonsign_ring_dashed = "wonsign.ring.dashed"
+    static let xmark_triangle_circle_square = "xmark.triangle.circle.square"
+    static let xmark_triangle_circle_square_fill = "xmark.triangle.circle.square.fill"
+    static let yensign_arrow_trianglehead_counterclockwise_rotate_90 = "yensign.arrow.trianglehead.counterclockwise.rotate.90"
+    static let yensign_bank_building = "yensign.bank.building"
+    static let yensign_bank_building_fill = "yensign.bank.building.fill"
+    static let yensign_gauge_chart_lefthalf_righthalf = "yensign.gauge.chart.lefthalf.righthalf"
+    static let yensign_gauge_chart_leftthird_topthird_rightthird = "yensign.gauge.chart.leftthird.topthird.rightthird"
+    static let yensign_ring = "yensign.ring"
+    static let yensign_ring_dashed = "yensign.ring.dashed"
+    static let zipper_page = "zipper.page"
 }
