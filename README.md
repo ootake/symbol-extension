@@ -15,8 +15,8 @@ let icon2 = Image(systemName: "0.circle")
 
 With SymbolExtension it becomes
 ```swift
-let icon1 = Image(symbol: .circle)
-let icon2 = Image(symbol: ._0_circle)
+let icon1 = Image(S.circle)
+let icon2 = Image(S._0_circle)
 ```
 
 ## Installation
